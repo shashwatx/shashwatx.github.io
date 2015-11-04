@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Shashwat Mishra
+tagline:          La Di Da
+description:      "This is where I brag about myself. Albeit succinctly."
+url:              <someawesomedomainnamehere>
+baseurl:          /
+
+author:
+  name:           'Shashwat Mishra'
+  url:            Fuck Twitter and Facebook
+
+paginate:         4
+
+# Custom vars
+version:          1.0.0
+
+#github:
+#  repo:           https://github.com/shashwatx/shashwatx
