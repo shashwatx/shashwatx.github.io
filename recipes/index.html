@@ -1,51 +1,49 @@
 ---
 title: Maria's Recipes - Recipes
 ---
-  <div class="container">
-  </div>
+<div class="container">
+</div>
 
-  <div class="project-container">
-    <h1>Projects</h1>
-    <p>Voici vous pouvez trouve ma recettes.</p>
-    <br><center>
-  </div>
+<div class="project-container">
+	<h1>Recipe Gallery</h1>
+	<p>A selection of Indian and Spanish recettas (recipes). Don't forget to use the search box for quick-lookup.</p>
+	<br><center>
+</div>
 
-  <div class="container">
-	  <!-- Html Elements for Search -->
-	  <div id="search-container">
-		  <input type="text" id="search-input" placeholder="search...">
-		  <ul id="results-container"></ul>
-	  </div>	  
-	  
-	  
-<div class="project-box">
-      <div class="row">
-        <div class="col-md-3 project-image">
-          <img src="/images/maria.jpg">
-        </div>
+<div class="container">
+
+	<div id="search-container">
+		<input type="text" id="search-input" placeholder="search...">
+		<ul id="results-container"></ul>
+	</div>	  
 
 
+	<div class="project-box">
 
-	{% for post in site.posts %}
-		<!--{% if forloop.first %}
-			{% assign add_class = 'most-recent' %}
-			{% capture fresh_tag %}
-				&nbsp;<span class="badge"><smaller>FRESH</smaller></span>
-			{% endcapture %}
-		{% endif %}-->
-		<div class="col-md-9 project-post">
-			<h1>{{ post.title }}</h1><h4>subheading</h4>
-			<p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i>{{ post.date }}</small></p><hr/>
-			<div class="post">
-				alpha beta
+		<div class="row">
+
+			<div class="col-md-3 project-image">
+				<img src="/images/maria.jpg">
 			</div>
+
+			{% for post in site.posts %}
+				<!--{% if forloop.first %}
+					{% assign add_class = 'most-recent' %}
+					{% capture fresh_tag %}
+					&nbsp;<span class="badge"><smaller>FRESH</smaller></span>
+					{% endcapture %}
+				{% endif %}-->
+				<div class="col-md-9 project-post">
+					<h1>{{ post.title }}</h1><h4>subheading</h4>
+					<p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i>{{ post.date }}</small></p><hr/>
+					<div class="post">
+						   alpha beta
+					</div>
+				</div>
+			{% endfor %}
+
+
 		</div>
-	{% endfor %}
-
-
-
-
-      </div>
-    </div>
-  </div>
+	</div>
+</div>
 </div>
