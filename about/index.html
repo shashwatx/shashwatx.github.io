@@ -1,0 +1,34 @@
+---
+title: Maria's Recipes - About
+locations:
+ - Madrid 
+zoom: 4
+---
+<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="user-card">
+        <div class="row">
+          <div class="card col-md-3">
+            <img src="{{ site.baseurl }}/images/maria.jpg">
+          </div>
+          <div class="col-md-9">
+            <h1>"Me Gusta A Comer"</h1>
+            <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;45°10′00″N  5°43′00″W</p>
+            <p><i class="fa fa-envelope-o"></i>&nbsp;maria.silva1992[at]gmail.com </p>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 letter">
+		  <p>Hola ! Soy Maria de Madrid. Vivo en Francia. Tengo un novio Indio (si soy muy internacional jaja).</p>
+          </div>
+        </div>
+	<div class="row">
+		{% if page.locations %} 
+		<img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=400x100&scale=2&sensor=false&visual_refresh=true" alt="">
+		{% endif %}
+	</div>
+    </div>
+  </div>
+</div>

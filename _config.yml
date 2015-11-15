@@ -1,26 +1,31 @@
-# Site settings
-title: Maria's Recipes 
-email:
-description: > # this means to ignore newlines until "baseurl:"
-  An Homage To The Foodie Within Me. 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+name: Welcome
+author: Shashwat
+baseurl:
+description: Aqui hay un rincone para la comida 
+github: 
+twitter: 
+facebook: http://www.facebook.com
+linkedin: 
+email: maria.silva1992@gmail.com 
+location: 
+disqus: 
 
-# User setting
-owner: Maria Silva Fernandez
-email: maria.silva1992@gmail.com
-facebook_username: maria.silva.5851
-twitter_username:
-github_username:
-address:
-  - line:
-  - line:
-  # Feel free to add more lines here 
-telephone: +33 xx xx xx xx xx
-copyright:
+##Make sure to edit the above fields, especially for disqus.
 
-# API settings
-google_api_key:
 
-# Build settings
-markdown: kramdown
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
