@@ -1,6 +1,7 @@
 ---
 title: Bean Burgers
-date: 2015-11-08 19:55:16
+date: 2015-11-08
+eyecatcher: /images/frijol.jpg
 ---
 
 Ingredientes</br>

@@ -24,7 +24,7 @@ title: Maria's Recipes - Recipes
 				<div class="row row2">
 
 					<div class="col-md-3 project-image">
-						<img src="/images/maria.jpg">
+						<img src="{{post.eyecatcher}}">
 					</div>
 					<!--{% if forloop.first %}
 						{% assign add_class = 'most-recent' %}
@@ -34,7 +34,6 @@ title: Maria's Recipes - Recipes
 					{% endif %}-->
 					<div class="col-md-9 project-post">
 						<h3>{{ post.title }}</h3><h4><a href="{{post.url}}">Find out more</a></h4>
-						<p class="meta"><small>&nbsp;<i class="fa fa-calendar-o"></i>{{ post.date }}</small></p><hr/>
 					</div>
 				</div>
 			{% endfor %}
