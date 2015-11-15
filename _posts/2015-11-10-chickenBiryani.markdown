@@ -4,6 +4,8 @@ date: 2015-11-10
 eyecatcher: /images/biryani.jpg 
 ---
 
+<iframe width="420" height="315" src="http://www.youtube.com/embed/CUCZlemBcHk" frameborder="0" allowfullscreen></iframe>
+
 * **Ingredientes**, _para 8 personas_
  
  * 1 kg pollo, mejor muslos y contramuslos. Para marinar: 1/2 cup yogur (125g), 1/2 cucharadita de comino, 1/2 cdita cilantro molido, 1/4 cdita curcuma, 1/4 cdita chili molido (al gusto), sal, pimienta, 1/4 taza de cilantro fresco picado y 1/4 taza menta picada
@@ -34,5 +36,4 @@ _Servir con  una salsa de yogur y menta o con Raita de cilantro y menta._
 
 ![ChickenBiryani](/images/biryani.jpg)
 
-<iframe width="420" height="315" src="https://www.youtube.com/channel/UCJCfolIQjl0Z7_0Vj_4D1Pw" frameborder="0" allowfullscreen></iframe>
 
