@@ -138,8 +138,8 @@ p
 
 .sidebar-nav li a:hover
 {
-  color:#000;
-  background:#fff;
+  color:#d00;
+  #background:#fff;
   text-decoration:none;
   transition:all .8s ease 0
 }
@@ -237,14 +237,14 @@ pre
 
 #social-wrapper
 {
-  color:#5c646f;
+  color:#5c0000;
   padding:10px 0
 }
 
 #social-wrapper a
 {
   font-size:15px;
-  text-indent:20px
+  text-indent:15px
 }
 
 #social-wrapper li
@@ -256,8 +256,8 @@ pre
 
 #social-wrapper a:hover
 {
-  color:#2d1e18;
-  transition:all .3s ease 0
+  color:#d00;
+  transition:all 1s ease 0
 }
 
 .showcase-wrapper
