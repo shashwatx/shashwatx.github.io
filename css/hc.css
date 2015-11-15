@@ -585,6 +585,12 @@ margin-top:5px;
   margin-top:-10px
 }
 
+img.mariaImg{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
 .letter p
 {
   font-size:1.2em;
