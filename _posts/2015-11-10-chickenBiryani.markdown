@@ -1,7 +1,7 @@
 ---
 title: Chicken Biryani
 date: 2015-11-10
-eyecatcher: /images/biryani.jpg 
+eyecatcher: /images/coco1.jpg 
 ---
 Ingredientes para 8 personas</br>
 </br>
