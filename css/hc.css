@@ -478,16 +478,17 @@ margin-top:5px;
 
 .row2{
 	width:490px;
-	margin-left:10px;
+	margin-left:17px;
 	display:inline-block;
 	margin-bottom:10px;
-	margin-right:20px;
+	margin-right:22px;
 	margin-top:10px;
 
-	background-color:#5E5D5C;
-	#box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
-	#-moz-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
-	#-webkit-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
+	-webkit-box-shadow: 8px 7px 13px -8px rgba(209,107,120,1);
+	-moz-box-shadow: 8px 7px 13px -8px rgba(209,107,120,1);
+	box-shadow: 8px 7px 13px -8px rgba(209,107,120,1);
+
+	background-color:#CCC9C7;
 
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
@@ -502,6 +503,7 @@ margin-top:5px;
   box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   -moz-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
   -webkit-box-shadow:inset 0 -10px 5px -2px rgba(119,119,119,0.35);
+  
   border-bottom:solid 1px #fff;
   #background-image:url(http://lorempixel.com/900/200/);
   background-color:#222;
@@ -533,11 +535,15 @@ margin-top:5px;
 
 .project-box
 {
-  background-color:#aeaeae;
+  background-color:#F0F0F0;
   box-shadow:2px 2px 0 1px #e8e8e8;
   min-height:100px;
-  
-  border: 1px solid #222222;
+
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+ -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.51);
+
+  border: 1px solid #7F4531;
   border-radius: 20px 20px 20px 20px;
   -moz-border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
@@ -568,7 +574,7 @@ margin-top:5px;
 
 .project-post h3
 {
-	color:#eee; 
+	color:#a22; 
 }
 
 .project-post h4
