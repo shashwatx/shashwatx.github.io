@@ -1,5 +1,6 @@
 ---
 title: Coconut Biscuits
+permalink: cocoBiscuits
 date: 2015-11-10 19:55:16
 ---
 

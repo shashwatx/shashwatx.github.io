@@ -100,7 +100,7 @@ p
   margin-top:-4px;
   border-top:solid #d90006;
   border-right:solid #d90006;
-  transition:all .4s ease 0;
+  transition:all .8s ease 0;
   border-width:2px
 }
 
@@ -136,7 +136,7 @@ p
   color:#000;
   background:#fff;
   text-decoration:none;
-  transition:all .2s ease 0
+  transition:all .8s ease 0
 }
 
 .sidebar-nav li a:active,.sidebar-nav li a:focus
