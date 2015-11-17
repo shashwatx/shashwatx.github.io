@@ -37,4 +37,6 @@ eyecatcher: /images/channa_masala.jpg
   8. Añadir el zumo de limon, probar para ajustar la sal y especias. 
   9. Agregar las hojas de cilantro. Echar cebolla cruda por encima y servir con limon.
 
-_Lo ideal para la cebolla cruda es usar cebolla roja; si no disponeis, se puede dejar la cebolla picada unos 10 minutos en agua fria para que sea menos fuertear._
+_Lo ideal para la cebolla cruda es usar cebolla roja; si no disponeis, se puede dejar la cebolla picada unos 10 minutos en agua fria para que sea menos fuerte._
+
+![ChannaMasala](/images/channa_masala.jpg)
