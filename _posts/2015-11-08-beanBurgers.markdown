@@ -3,6 +3,8 @@ title: Bean Burgers
 date: 2015-11-08
 eyecatcher: /images/frijol.jpg
 ---
+<iframe width="420" height="315" src="http://www.youtube.com/embed/9PKf7sOLUK8" frameborder="0"
+allowfullscreen></iframe>
 
 * **Ingredientes**, _para 5 hamburguesas_
  * 500 g frijoles rojos
