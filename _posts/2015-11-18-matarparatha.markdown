@@ -1,6 +1,6 @@
 ---
 title: Matar Paratha
-permalink: Matar Paratha
+permalink: matarParatha
 date: 2015-11-18
 eyecatcher: /images/matar_paratha.jpg
 ---
