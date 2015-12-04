@@ -1,0 +1,31 @@
+---
+title: Plain dosa
+permalink: Plain dosa
+date: 2015-11-25
+eyecatcher: /images/dosa.jpg
+---
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/Y5M4OvTxpCU" frameborder="0"
+allowfullscreen></iframe>
+
+* **Ingredientes**
+  * 200 g arroz cocido 
+  * 50 g harina
+  * 50 g yogur
+  * Sal, al gusto (1/4 tsp)
+
+* **Elaboracion**
+  1. Poner todos los ingredientes en un recipiente. 
+  2. Agregar un poco de agua (1/4 cup) y batir. Agregar mas agua poco a poco.
+  3. Batir hasta obtener una masa homogenea y ligera, como de crepe. 
+  4. Dejar reposar unos 10 minutos. 
+  5. En una sarten antiadherente a fuego medio-alto con una pizca de aceite, verter un poco de masa. 
+  6. Voltear la sarten hacia los lados para que la masa se distribuya homogeneamente.
+  7. Dejar 1-2 minutos por ese lado y luego darle la vuelta con una espatula.
+    * _Hay que hacerlo con cuidado porque se rompen facilmente._ 
+    * _Si se rompiera, echar un poquito de masa en la grieta para que cuaje y la selle._
+  8. Cocinar por el otro lado otros dos minutos y poner en un plato. 
+
+Servir con chutney o con un relleno.
+
+![PlainDosa](/images/dosa.jpg)
