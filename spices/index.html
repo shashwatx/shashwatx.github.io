@@ -1,27 +1,27 @@
 ---
-title: Maria's Recipes - Recipes
+title: Maria's Recipes - Spices
 ---
 <div class="container">
 </div>
 
 <div class="project-container">
-	<h1>Recipe Gallery</h1>
-	<p>A selection of Indian and Spanish recetas (recipes). Don't forget to use the search box for quick-lookup.</p>
+	<h1>Spice Gallery</h1>
+    <p>My fascination with Indian food has led me on a journey where I discover new spices almost every week. It's amazing how a single country has such wide variety in a condiment often ignored ! I list below some of the spices used in Indian households on a daily basis, and some that are reserved for special occasions.</p>
 	<br><center>
 </div>
 
 <div class="container">
-
+    <!--
 	<div id="search-container">
 		<input type="text" id="search-input" placeholder="search...">
 		<ul id="results-container"></ul>
 	</div>	  
-
+    -->
 	<div class="project-box">
 
 
 			{% for post in site.posts %}
-                {% if post.spice == "" or post.spice == nil %}
+                {% if post.spice %}
                     <div class="row row2">
                             <div class="col-md-3 project-image">
                                 <img src="{{post.eyecatcher}}">
@@ -31,7 +31,7 @@ title: Maria's Recipes - Recipes
                                 {% capture fresh_tag %}
                                 &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
                                 {% endcapture %}
-                            {% endif %}-->
+                                {% endif %}-->
                             <div style="clear:left;" class="col-md-9 project-post">
                                 <h3>{{ post.title }}</h3><h4><a href="{{post.url}}">Find out more</a></h4>
                             </div>
