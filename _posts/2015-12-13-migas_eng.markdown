@@ -1,0 +1,26 @@
+---
+title: Chorizo Rice
+permalink: cauliflowerChorizo
+date: 2015-12-13
+type: english
+eyecatcher: /images/migas.jpg
+---
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/C7sNOnzwMXE" frameborder="0"
+allowfullscreen></iframe>
+
+* **Ingredients**, _for two_
+  * Half a cauliflower, prepared like you can see [here](http://maria.recipes/CauliflowerRice) 
+  * Once clove of garlic (or to taste)
+  * About 50 g of spicy chorizo, diced
+  * Salt, black pepper
+
+* **Process**
+  1. In a pan, put the garlic and the chorizo over medium high heat.. 
+  2. Once the garlic has browned on the chorizo's fat, add the cauliflower with salt to taste and pepper. 
+  3. Coook about 3-4 minutes until the cauliflower is no longer raw. 
+  4. Serve. 
+
+Very tasty. With the chorizo flavor, it's hard to telt it has cauliflower as a base!
+
+![CauliflowerChorizo](/images/migas.jpg)

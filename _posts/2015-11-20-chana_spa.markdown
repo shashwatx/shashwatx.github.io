@@ -1,6 +1,6 @@
 ---
 title: Chana Masala
-permalink: chanaMasala
+permalink: ChanaMasala
 date: 2015-11-20
 eyecatcher: /images/channa_masala.jpg
 ---
@@ -18,7 +18,7 @@ allowfullscreen></iframe>
   * 2 tsp pimienta negra
   * 1 tsp comino en grano
   * Rama de canela (4-5 cm)
-    * _Opcional: 1 cardamomo negro_
+     - _Opcional: 1 cardamomo negro_
   * 2 tsp comino tostado molido (tostar las semillas 5 minutos en una sarten y luego moler)
   * 2-3 hojas de laurel
   * 2-3 dientes de ajo picado
@@ -42,7 +42,7 @@ allowfullscreen></iframe>
   8. Añadir el zumo de limon, probar para ajustar la sal y especias. 
   9. Agregar las hojas de cilantro. Echar cebolla cruda por encima y servir con limon.
 
-_Lo ideal para la cebolla cruda es usar cebolla roja; si no disponeis, se puede dejar la cebolla picada unos 10 minutos en agua fria para que sea menos fuertear._
+_Lo ideal para la cebolla cruda es usar cebolla roja; si no disponeis, se puede dejar la cebolla picada unos 10 minutos en agua fria para que sea menos fuerte._
 
 
 ![ChanaMasala](/images/chana_masala.jpg)

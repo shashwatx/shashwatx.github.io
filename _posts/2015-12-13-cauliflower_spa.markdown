@@ -1,6 +1,6 @@
 ---
-title: Cauliflower "Rice"
-permalink: CauliflowerRice
+title: Arroz de coliflor
+permalink: arrozDeColiflor
 date: 2015-12-13
 eyecatcher: /images/cauliflower.jpg
 ---
@@ -15,4 +15,4 @@ allowfullscreen></iframe>
 _Se puede utilizar para sustituir arroz o couscous en muchas recetas; voy a ir subiendo aquellas que me gusta hacer a mi, pero me gustaria oir vuestras ideas!_
 
 
-![CauliflowerRice](/images/cauliflower.jpg)
+![ArrozDeColiflor](/images/cauliflower.jpg)

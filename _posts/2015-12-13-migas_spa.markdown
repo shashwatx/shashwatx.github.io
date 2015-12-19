@@ -1,6 +1,6 @@
 ---
-title: Chorizo "rice"
-permalink: CauliflowerChorizo
+title: Migas de coliflor
+permalink: migasDeColiflor
 date: 2015-12-13
 eyecatcher: /images/migas.jpg
 ---
@@ -8,10 +8,9 @@ eyecatcher: /images/migas.jpg
 <iframe width="420" height="315" src="http://www.youtube.com/embed/C7sNOnzwMXE" frameborder="0"
 allowfullscreen></iframe>
 
-**_Cauliflower Chorizo rice_ o, como a mi me gusta llamarlo: Migas manchegas de coliflor**
 
 * **Ingredientes**, _para 2 personas que coman mucho (como yo)_
-  * Media coliflor, preparada tal y como podeis ver aqui 
+  * Media coliflor, preparada tal y como podeis ver [aqui](http://maria.recipes/ArrozDeColiflor) 
   * Un diente de ajo (variar segun el gusto)
   * Unos 50 g de chorizo picante picado en cubitos
   * Sal, pimienta negra
@@ -24,4 +23,4 @@ allowfullscreen></iframe>
 
 Buenisimo. Con el sabor a chorizo, nadie podria decir que lo que en realidad se esconde detras es coliflor!
 
-![CauliflowerChorizo](/images/migas.jpg)
+![MigasDeColiflor](/images/migas.jpg)

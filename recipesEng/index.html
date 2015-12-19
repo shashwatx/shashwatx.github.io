@@ -6,7 +6,7 @@ title: Maria's Recipes - Recipes
 
 <div class="project-container">
 	<h1>Recipe Gallery</h1>
-	<p>A selection of Indian and Spanish recetas (recipes). Don't forget to use the search box for quick-lookup.</p>
+    <p>Description of recipes in english</p>
 	<br><center>
 </div>
 
@@ -21,13 +21,13 @@ title: Maria's Recipes - Recipes
 
 
 			{% for post in site.posts %}
-                {% if post.type == "" or post.type == nil %}
+                {% if post.type == "english" %}
                     <div class="row row2">
                             <div class="col-md-3 project-image">
                                 <img src="{{post.eyecatcher}}">
                             </div>
                             <div style="clear:left;" class="col-md-9 project-post">
-                                <h3>{{ post.title }}</h3><h4><a href="{{post.url}}">Leer mas</a></h4>
+                                <h3>{{ post.title }}</h3><h4><a href="{{post.url}}">Find out more</a></h4>
                             </div>
                     </div>
                 {% endif %}

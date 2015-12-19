@@ -10,7 +10,7 @@ eyecatcher: /images/dhokla.jpg
 
 * _Hoy vamos a hacer un aperitivo tipico de Gujrat: un bizcocho salado de garbanzos._
 
-* **Ingredientes**
+* **Ingredientes** para el bizcocho
   * 1 cup chana dal / garbanzos - remojados toda la noche
   * 3 tbsp yogur (mejor si yogur un poco ácido, que se haya quedado por la noche fuera del frigo)
   * 2 tsp de zumo de limón

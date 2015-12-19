@@ -11,14 +11,7 @@ title: Maria's Recipes - Spices
 </div>
 
 <div class="container">
-    <!--
-	<div id="search-container">
-		<input type="text" id="search-input" placeholder="search...">
-		<ul id="results-container"></ul>
-	</div>	  
-    -->
 	<div class="project-box">
-
 
 			{% for post in site.posts %}
                 {% if post.spice %}
@@ -26,12 +19,6 @@ title: Maria's Recipes - Spices
                             <div class="col-md-1 project-image">
                                 <img src="{{post.eyecatcher}}">
                             </div>
-                            <!--{% if forloop.first %}
-                                {% assign add_class = 'most-recent' %}
-                                {% capture fresh_tag %}
-                                &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
-                                {% endcapture %}
-                                {% endif %}-->
                             <div style="clear:left;" class="col-md-9 project-post">
                                 <h3>{{ post.title }}</h3><h4><input type="button" onclick="$(this).w2overlay($('#popup1 [rel=body]').html(), { css: { width: '600px', padding: '10px' } });" value="Find out more"></input></h4>
                             </div>

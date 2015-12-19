@@ -29,7 +29,4 @@ allowfullscreen></iframe>
 
 El resultado: unas galletas con textura de bizcocho. _**Buenisimas!**_
 
-
 ![GalletasCoco](/images/coco1.jpg)
-
-
