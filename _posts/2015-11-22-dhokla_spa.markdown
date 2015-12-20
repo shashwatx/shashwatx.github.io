@@ -47,4 +47,3 @@ eyecatcher: /images/dhokla.jpg
 
 * Servir cortado en cuadraditos, junto al chutney que prefirais (mint, tamarind o green chutney) 
 
-![KhamanDhokla](/images/dhokla.jpg)

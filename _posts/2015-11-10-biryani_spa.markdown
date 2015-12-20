@@ -1,10 +1,9 @@
 ---
 title: Biryani de Pollo
 date: 2015-11-10
+youtubeurl: http://www.youtube.com/embed/CUCZlemBcHk
 eyecatcher: /images/biryani.jpg 
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/CUCZlemBcHk" frameborder="0" allowfullscreen></iframe>
 
 * **Ingredientes**, _para 8 personas_
  
@@ -33,7 +32,4 @@ eyecatcher: /images/biryani.jpg
  8. Tapar la olla y dejar que se termine de cocinar todo junto durante unos 20 minutos, comprobando que el arroz y el pollo estan bien cocidos. 
 
 _Servir con  una salsa de yogur y menta o con Raita de cilantro y menta._
-
-![ChickenBiryani](/images/biryani.jpg)
-
 

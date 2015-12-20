@@ -3,11 +3,9 @@ title: Coconut Biscuits
 permalink: cocoBiscuits
 date: 2015-11-10
 type: english
+youtubeurl: http://www.youtube.com/embed/cUrGOKJRk8Q
 eyecatcher: /images/coco1.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/cUrGOKJRk8Q" frameborder="0"
-allowfullscreen></iframe>
 
 * **Ingredients**, _for 10 small or 5 big biscuits_
   * 1/3 cup + 1/4 flour
@@ -32,5 +30,3 @@ allowfullscreen></iframe>
 
 The result: spongy and sweet cookies. _**Delicious!**_
 
-
-![CocoBiscuits](/images/coco1.jpg)

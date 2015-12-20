@@ -2,12 +2,9 @@
 title: Pollo Tandoori 
 permalink: polloTandoori
 date: 2015-12-20
+youtubeurl: http://www.youtube.com/embed/MSUWnlApdxI
 eyecatcher: /images/tandoori.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/MSUWnlApdxI" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredientes**
 
@@ -33,7 +30,3 @@ allowfullscreen></iframe>
   7. Dejar reposar un par de minutos antes de servir.
 
 _Servir con **tomate en rodajas**, cebolla y cilantro fresco._
-
-![polloTandoori](/images/tandoori.jpg)
-
-

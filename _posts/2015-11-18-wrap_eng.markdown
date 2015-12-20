@@ -3,11 +3,9 @@ title: Vegan Wraps
 permalink: wraps
 date: 2015-11-27
 type: english
+youtubeurl: http://www.youtube.com/embed/s8VdRtZaoYw
 eyecatcher: /images/wrap.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/s8VdRtZaoYw" frameborder="0"
-allowfullscreen></iframe>
 
 * **Ingredients**
   * For the wraps - use what is available _(wheat tortillas, chapati, plain dosa)_ or prepare the crepes; I suggest two options
@@ -36,6 +34,3 @@ allowfullscreen></iframe>
 
 A perfect recipe for meatless days!
 
-
-
-![VegetarianWrap](/images/wrap.jpg)

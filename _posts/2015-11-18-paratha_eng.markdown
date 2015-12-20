@@ -3,12 +3,9 @@ title: Matar Paratha
 permalink: matarParathaEng
 date: 2015-11-18
 type: english
+youtubeurl: http://www.youtube.com/embed/DsRroao6hRg
 eyecatcher: /images/matar_paratha.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/DsRroao6hRg" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredients**
 
@@ -38,4 +35,3 @@ allowfullscreen></iframe>
   4. Cook in a pan or tawa over medium-high heat.
   5. Once cooked, spread some butter on top while it is still warm.
 
-![MatarParathaEng](/images/matar_paratha.jpg)

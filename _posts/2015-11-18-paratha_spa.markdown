@@ -2,12 +2,9 @@
 title: Paratha de Guisantes
 permalink: matarParatha
 date: 2015-11-18
+youtubeurl: http://www.youtube.com/embed/DsRroao6hRg
 eyecatcher: /images/matar_paratha.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/DsRroao6hRg" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredientes**
 
@@ -36,6 +33,4 @@ allowfullscreen></iframe>
     * Extender con un rodillo, harina y mucho amor.
   4. Cocinar en un tawa o en una sarten a fuego medio-alto.
   5. Extender un poco de mantequilla al sacar de la sarten, cuando este aun caliente.
-
-![MatarParatha](/images/matar_paratha.jpg)
 

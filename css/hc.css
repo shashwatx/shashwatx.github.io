@@ -19,7 +19,7 @@ h1,h2,h4,h5,h6
 h3{
     font-family:"Raleway",sans-serif;
     color:#d90006;
-    font-size:18px;
+    font-size:15px;
 }
 
 h4 a{
@@ -434,7 +434,27 @@ img
 
 .post
 {
-  padding-bottom:30px
+    width:100%;
+    padding-bottom:30px;
+    display:inline-block;
+}
+
+.leftHalfPost
+{
+  width:50%;
+  float:left;
+}
+
+.rightHalfPost
+{
+  width:50%;
+  float:right;
+}
+
+.videoContainer
+{
+  width:80%;
+  margin:0 auto;
 }
 
 .user-social

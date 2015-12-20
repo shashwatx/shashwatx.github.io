@@ -3,12 +3,9 @@ title: Bhindi Masala
 permalink: bhindiMasalaEng
 date: 2015-12-20
 type: english
+youtubeurl: http://www.youtube.com/embed/jsDCwWQqCk4
 eyecatcher: /images/bhindi.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/jsDCwWQqCk4" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredients**, _serves 3_
   * 250 g bhindi (Okra), chopped
@@ -40,8 +37,3 @@ allowfullscreen></iframe>
   8. Turn off the heat and sprinkle the fenugreek leaves, crushing them between your fingers first to release the aroma. 
 
 Serve with rice. Yummy!
-
-![bhindiMasalaEng](/images/bhindi.jpg)
-
-
-

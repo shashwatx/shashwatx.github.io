@@ -2,12 +2,9 @@
 title: Hamburguesas
 permalink: hamburFrijol
 date: 2015-11-08
+youtubeurl: http://www.youtube.com/embed/9PKf7sOLUK8
 eyecatcher: /images/frijol.jpg
 ---
-
-<iframe width="100%" height="315" src="http://www.youtube.com/embed/9PKf7sOLUK8" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredientes**, _para 5 hamburguesas_
   * 500 g frijoles rojos
@@ -32,5 +29,3 @@ allowfullscreen></iframe>
   4. Cocinar en una sarten con aceite a fuego medio-alto, no moviendolas los primeros minutos para que mantengan mejor su forma. 
 
 Servir con **aguacate**, salsa de chipotle, o con lo que mas te guste!
-
-<img src="/images/frijol.jpg" width="50%" />

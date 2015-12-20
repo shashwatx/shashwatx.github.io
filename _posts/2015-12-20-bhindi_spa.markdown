@@ -2,11 +2,9 @@
 title: Bhindi Masala
 permalink: bhindiMasala
 date: 2015-12-20
+youtubeurl: http://www.youtube.com/embed/jsDCwWQqCk4
 eyecatcher: /images/bhindi.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/jsDCwWQqCk4" frameborder="0"
-allowfullscreen></iframe>
 
 * **Ingredientes**, _para 3 personas_
   * 250 g bhindi (Okra), cortado
@@ -25,7 +23,7 @@ allowfullscreen></iframe>
   * _Opcional, pero da muy buen sabor: hojas de fenugreco seco_
 
 
-﻿* **Elaboración**
+* **Elaboración**
   1. En una sarten a fuego medio-alto, poner una cucharada de aceite y el chili verde.
   2. Una vez empiece a saltar un poco el chili, añadir la cebolla con un poco de sal y cocinar hasta que este blanda, unos 5 minutos.
   3. Ahora, agregar el ajo y jengibre y cocinar, removiendo, durante 1 minuto. 
@@ -39,5 +37,3 @@ allowfullscreen></iframe>
 
 
 Servir con arroz. Riquisimo.
-
-![bhindiMasala](/images/bhindi.jpg)

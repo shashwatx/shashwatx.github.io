@@ -3,12 +3,9 @@ title: Bean Burgers
 permalink: beanBurgers
 date: 2015-11-08
 type: english
+youtubeurl: http://www.youtube.com/embed/9PKf7sOLUK8
 eyecatcher: /images/frijol.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/9PKf7sOLUK8" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredients**, _for 5 burguers_
   * 500 g cooked red kidney beans
@@ -34,6 +31,3 @@ allowfullscreen></iframe>
 
 
 Serve with **avocado**, chipotle sauce, or whatever you like!
-
-
-![BeanBurgers](/images/frijol.jpg)

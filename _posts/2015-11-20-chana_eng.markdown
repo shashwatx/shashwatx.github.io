@@ -3,12 +3,9 @@ title: Chana Masala
 permalink: chanaMasalaEng
 date: 2015-11-20
 type: english
+youtubeurl: http://www.youtube.com/embed/DkoTdvNH6is
 eyecatcher: /images/channa_masala.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/DkoTdvNH6is" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredients**
 
@@ -44,5 +41,3 @@ allowfullscreen></iframe>
 
 _The best to use is red onion for the garnishing; if non available, I recommend leaving them in cold water for 10 minutes so their taste gets milder._
 
-
-![ChanaMasalaEng](/images/chana_masala.jpg)

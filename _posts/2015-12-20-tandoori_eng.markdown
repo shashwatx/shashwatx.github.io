@@ -3,12 +3,9 @@ title: Tandoori Chicken
 permalink: tandooriChicken
 date: 2015-12-20
 type: english
+youtubeurl: http://www.youtube.com/embed/MSUWnlApdxI
 eyecatcher: /images/tandoori.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/MSUWnlApdxI" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredients**
 
@@ -34,6 +31,4 @@ allowfullscreen></iframe>
   7. Let rest a couple of minutes before serving.
 
 _Serve with **fresh tomato**, onion and coriander._
-
-![tandooriChicken](/images/tandoori.jpg)
 

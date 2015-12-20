@@ -3,11 +3,9 @@ title: Dal
 permalink: dalEng
 date: 2015-11-25
 type: english
+youtubeurl: http://www.youtube.com/embed/CtuyWnof3eU
 eyecatcher: /images/dal.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/CtuyWnof3eU" frameborder="0"
-allowfullscreen></iframe>
 
 * **Ingredients**
   * 1 cup dal (dry lentils); I like using red lentils, which cook fast
@@ -41,4 +39,3 @@ allowfullscreen></iframe>
 
 Serve with a splash of lemon juice and some fresh coriander. 
 
-![DalEng](/images/dal.jpg)

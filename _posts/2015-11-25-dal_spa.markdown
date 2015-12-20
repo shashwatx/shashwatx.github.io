@@ -2,11 +2,9 @@
 title: Dal (Lentejas) 
 permalink: Dal
 date: 2015-12-10
+youtubeurl: http://www.youtube.com/embed/CtuyWnof3eU
 eyecatcher: /images/dal.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/CtuyWnof3eU" frameborder="0"
-allowfullscreen></iframe>
 
 * **Ingredientes**
   * 1 cup de dal seco (lentejas peladas); yo uso lentejas coral que se cocinan mas rapido
@@ -40,4 +38,3 @@ allowfullscreen></iframe>
 
 Servir con un chorro de zumo de limon y, si os gusta, con cilantro fresco. 
 
-![Dal](/images/dal.jpg)

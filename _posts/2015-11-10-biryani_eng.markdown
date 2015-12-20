@@ -3,12 +3,9 @@ title: Chicken Biryani
 permalink: chickenBiryaniEng
 date: 2015-11-10
 type: english
+youtubeurl: http://www.youtube.com/embed/CUCZlemBcHk
 eyecatcher: /images/biryani.jpg
 ---
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/CUCZlemBcHk" frameborder="0"
-allowfullscreen></iframe>
-
 
 * **Ingredients**, _for 8 people_
  
@@ -46,5 +43,3 @@ allowfullscreen></iframe>
   10. Check that the rice and chicken are properly cooked before serving.
 
 _Serve with yoghurt-mint sauce or with coriander-mint Raita._
-
-![ChickenBiryaniEng](/images/biryani.jpg)
