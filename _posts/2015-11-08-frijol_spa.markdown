@@ -5,7 +5,7 @@ date: 2015-11-08
 eyecatcher: /images/frijol.jpg
 ---
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/9PKf7sOLUK8" frameborder="0"
+<iframe width="100%" height="315" src="http://www.youtube.com/embed/9PKf7sOLUK8" frameborder="0"
 allowfullscreen></iframe>
 
 
@@ -33,5 +33,4 @@ allowfullscreen></iframe>
 
 Servir con **aguacate**, salsa de chipotle, o con lo que mas te guste!
 
-
-![HamburFrijol](/images/frijol.jpg)
+<img src="/images/frijol.jpg" width="50%" />
