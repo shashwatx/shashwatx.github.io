@@ -1,0 +1,10 @@
+---
+title: Kalonji
+spice: true
+divTitle: kalonji
+eyecatcher: /images/kalonji.jpg
+---
+
+* Tambien llamado comino negro. 
+* Tiene un sabor que, efectivamente, recuerda algo al comino, aunque con un toque muy peculiar. 
+* Está muy bueno en el biryani, o para añadirle por encima a los naan.

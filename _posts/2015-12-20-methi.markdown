@@ -1,9 +1,11 @@
 ---
 title: Methi / Fenugreco
 spice: true
+divTitle: methi
 eyecatcher: /images/methi.jpg
 ---
 
 * Se puede emplear molido o en grano. 
-* Da un sabor muy bueno si se emplea correctamente, pero si se quema se vuelve muy, muy amargo, y si se usan los granos enteros y no se cocinan durante mucho tiempo, quedan duros amargos.
+* Da un sabor muy bueno si se emplea correctamente, pero si se quema se vuelve muy, muy amargo.
+* Si se usan los granos enteros y no se cocinan durante mucho tiempo, quedan duros y amargos.
 

@@ -1,0 +1,10 @@
+---
+title: Comino
+spice: true
+divTitle: comino
+eyecatcher: /images/jeera.jpg
+---
+
+* Muy característico de toda la cocina oriental, también se emplea con frecuencia en el sur de España.
+* Puede usarse solo, en curries, en chilis, en estofados de garbanzos..., o formando parte de otros "masalas". 
+* Cuando se emplea entero (comino en grano o "whole cumin") se emplea al principio de la receta, para que se fría con el aceite (pero si se quema, se amarga mucho y hay que volver a empezar).

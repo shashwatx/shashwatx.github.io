@@ -1,0 +1,10 @@
+---
+title: Asafetida (hing)
+spice: true
+divTitle: hing
+eyecatcher: /images/hing.jpg
+---
+
+* Nombre raro donde los haya. Aunque llamándose así echa mucho para atrás, en realidad se trata de una especia que reduce los gases. 
+* Tiene un sabor muy particular, quizá entre la cebolla y el ajo, y CONTIENE GLUTEN. 
+* Puede resultar difícil de encontrar; por ello, puede ser sustituida por ajo o ser omitida, aunque el resultado no será el mismo.

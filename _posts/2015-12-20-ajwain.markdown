@@ -1,0 +1,9 @@
+---
+title: Ajwain
+spice: true
+divTitle: ajwai
+eyecatcher: /images/ajwain.jpg
+---
+
+* Una semilla mas utilizada en Europa del Este y en Asia, tiene un sabor algo similar al comino, pero mas profundo. 
+* Muy bueno en pan, y sobre todo en snacks salados como los _mathri_.
