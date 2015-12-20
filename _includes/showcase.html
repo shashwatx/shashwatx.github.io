@@ -4,8 +4,11 @@
     </style>
     <div class="showcase-wrapper sticky">
       <div class="showcase-text">
-          {% for post in site.posts limit: 1 %}
-          <span class="badge lazy"><smaller>Latest Entry !</smaller></span><br>{{ post.title }}<br><a href="{{ site.baseurl }}{{ post.url }}"><button type="button" class="btn btn-default showcase-button">Read More</button></a>
+          {% for post in site.posts %}
+              {% if post.spice == "" or post.spice == nil %}
+                  <span class="badge lazy"><smaller>Latest Entry !</smaller></span><br>{{ post.title }}<br><a href="{{ site.baseurl }}{{ post.url }}"><button type="button" class="btn btn-default showcase-button">Read More</button></a>
+                  {% break %} 
+              {% endif %}
           {% endfor %}
       </div>
     </div>
