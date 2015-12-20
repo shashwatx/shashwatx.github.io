@@ -10,10 +10,20 @@ body
   border-width:4px
 }
 
-h1,h2,h3,h4,h5,h6
+h1,h2,h4,h5,h6
 {
   font-family:"Helvetica Neue", helvetica, "Open Sans", sans-serif;
   color:#d90006
+}
+
+h3{
+    font-family:"Raleway",sans-serif;
+    color:#d90006;
+    font-size:15px;
+}
+
+h4 a{
+    font-family:"Raleway", sans-serif;
 }
 
 .hrRed
@@ -414,7 +424,9 @@ img
   margin-bottom:30px;
   background-color:#f9f9f9;
   box-shadow:1px 1px 0 1px #e8e8e8;
-  padding:10px 40px 0;
+  margin-left: 10px;
+  margin-top: 0px;
+  padding-left: 5px;
   border-radius:5px;
   border: 1px solid #140303;
 }
@@ -503,7 +515,7 @@ margin-top:5px;
 	-moz-box-shadow: 8px 7px 13px -8px rgba(109,107,120,1);
 	box-shadow: 8px 7px 13px -8px rgba(109,107,120,1);
 
-	background-color:#CCC9C7;
+	background-color:#DDD9D7;
 
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
@@ -596,14 +608,17 @@ margin-top:5px;
 .project-image hr
 {
   margin-top:5px;
-  margin-bottom:0;
+  margin-bottom:0px;
   display:none
 }
 
 .project-post
 {
-  cursor:auto;
-  width:300px;
+  border-top:1px solid;
+    cursor:auto;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .project-post h3
