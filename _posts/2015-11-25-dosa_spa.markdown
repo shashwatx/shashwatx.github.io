@@ -1,6 +1,6 @@
 ---
-title: Plain dosa
-permalink: Plain dosa
+title: Dosa de Arroz
+permalink: dosa
 date: 2015-11-25
 eyecatcher: /images/dosa.jpg
 ---

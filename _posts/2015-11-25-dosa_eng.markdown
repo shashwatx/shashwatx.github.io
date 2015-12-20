@@ -1,5 +1,5 @@
 ---
-title: Dosa (plain)
+title: Dosa
 permalink: dosa
 date: 2015-11-25
 type: english

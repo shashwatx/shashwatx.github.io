@@ -1,5 +1,5 @@
 ---
-title: Dal 
+title: Dal (Lentejas) 
 permalink: Dal
 date: 2015-12-10
 eyecatcher: /images/dal.jpg

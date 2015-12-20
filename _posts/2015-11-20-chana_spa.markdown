@@ -1,5 +1,5 @@
 ---
-title: Chana Masala
+title: Curry de Garbanzos
 permalink: ChanaMasala
 date: 2015-11-20
 eyecatcher: /images/channa_masala.jpg

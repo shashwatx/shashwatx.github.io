@@ -1,5 +1,5 @@
 ---
-title: Chicken Biryani
+title: Biryani de Pollo
 date: 2015-11-10
 eyecatcher: /images/biryani.jpg 
 ---
