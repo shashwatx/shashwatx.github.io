@@ -319,7 +319,8 @@ pre
 #welcome-greeting
 {
   width:100%;
-  padding-top:5px
+  padding-top:5px;
+  margin-left:15px;
 }
 
 #welcome-greeting > h1
@@ -469,7 +470,7 @@ time
 }
 
 #welcome-greeting h1{
-margin-top:5px;
+    margin-top:5px;
 }
 
 #self
