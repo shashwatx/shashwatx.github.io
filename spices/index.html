@@ -15,24 +15,27 @@ title: Maria's Recipes - Spices
 
 			{% for post in site.posts %}
                 {% if post.spice %}
-                    <div class="row row2">
+                    <div class="row rowSpice">
                             <div class="col-md-1 project-image">
                                 <img src="{{post.eyecatcher}}">
                             </div>
                             <div style="clear:left;" class="col-md-9 project-post">
-                                <h3>{{ post.title }}</h3><h4><input type="button" onclick="$(this).w2overlay($('#popup1 [rel=body]').html(), { css: { width: '600px', padding: '10px' } });" value="Find out more"></input></h4>
+                                <h3>{{ post.title }}</h3>
+                                <h4><input type="button" onclick="$('#popup1').w2popup();" value="More ?"></input></h4>
                             </div>
                     </div>
+                    
                     <div id="popup1" style="display: none; width: 650px; height: 400px; overflow: auto">
                         <div rel="title">
                             {{ post.title }}
                         </div>
                         <div rel="body">
-                            <div style="padding: 10; font-size: 11px; line-height: 150%;">
-                                Ajwain is good. 
+                            <div style="padding: 20; font-size: 15px; line-height: 150%;">
+                                {{ post.content }} 
                             </div>
                         </div>
                     </div>
+
                 {% endif %}
 			{% endfor %}
 
