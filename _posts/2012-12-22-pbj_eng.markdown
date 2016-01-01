@@ -1,6 +1,6 @@
 ---
-title: Galletas de cacahuete
-permalink: pbjSpa
+title: PB & J Cookies
+permalink: pbjEng
 date: 2015-12-22
 type: english
 youtubeurl: http://www.youtube.com/embed/YcmykHfzKW4
