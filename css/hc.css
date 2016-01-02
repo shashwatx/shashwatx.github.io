@@ -664,6 +664,12 @@ time
   text-align: center;
 }
 
+#recipeTree
+{
+    display:block;
+    margin: 0 auto;
+}
+
 .project-post h3
 {
 	color:#a22; 
@@ -904,6 +910,8 @@ img.mariaImg{
 
 }
 
+
+
 .node {
     cursor: pointer;
 }
@@ -915,7 +923,8 @@ img.mariaImg{
 }
 
 .node text {
-    font: 10px sans-serif;
+    font-size: 18px;
+    font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
 }
 
 .link {
