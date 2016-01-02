@@ -1,21 +1,16 @@
 ---
-title: Maria's Recipes - Recipes
+title: Maria's Recipes - Kitchen Tree
 ---
 <div class="container">
 </div>
 
 <div class="project-container">
 	<h1>Recipe Gallery</h1>
-	<p>A selection of Indian and Spanish recetas (recipes). Don't forget to use the search box for quick-lookup.</p>
+    <p>An attempt to generate collapsible, radial, Reignold-Tilford tree for easy navigation of recipes </p>
 	<br><center>
 </div>
 
 <div class="container">
-
-	<div id="search-container">
-		<input type="text" id="search-input" placeholder="search...">
-		<ul id="results-container"></ul>
-	</div>	  
 
 	<div class="project-box">
 
@@ -36,4 +31,5 @@ title: Maria's Recipes - Recipes
 			{% endfor %}
 
 	</div>
+</div>
 </div>
