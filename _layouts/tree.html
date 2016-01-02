@@ -40,7 +40,8 @@
                             "name": "Sin Carne",
                             "children": [
                                 {
-                                    "name": "dish3"
+                                    "name": "dish3",
+                                    "leaf": "true"
                                 },
                                 {
                                     "name": "dish4"
@@ -93,7 +94,7 @@
         var svg = d3.select("#treeBox").append("svg")
             .attr("width", width + margin.right + margin.left)
             .attr("height", height + margin.top + margin.bottom)
-            .attr("id","recipeTree")
+            .attr("id", "recipeTree")
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -122,7 +123,7 @@
                 .data(nodes, function (d) {
                     return d.id || (d.id = ++i);
                 });
-            
+
             /*
             nodes.forEach(function (d) {
                 if(d.id==1){
@@ -131,7 +132,7 @@
                 }
             });
             */
-            
+
             // Apply class, translate to parent's position.
             var nodeEnter = node.enter().append("g")
                 .attr("class", "node")
@@ -152,15 +153,26 @@
                 })
                 .attr("dy", "1.85em")
                 .attr("text-anchor", function (d) {
-                    return d.children || d._children ? "end" : "start";
+                    return d.children || d._children ? "end" : "end";
                 })
                 .text(function (d) {
                     return d.name;
                 })
                 .style("fill-opacity", 1e-6);
 
-            
-            
+            nodeEnter.append("a")
+                .attr("xlink:href", function (d) {
+                    return d.name;
+                })
+                .append("rect")
+                .attr("y", 40)
+                .attr("x", -20)
+                .attr("height", function(d){if(d.leaf)return "20px"; else return "0px";})
+                .attr("width", function(d){if(d.leaf)return "50px"; else return "0px";})
+                .style("fill", "red")
+                .style("fill-opacity", 1e-6);
+
+
             // Translate nodes to their position.
             var nodeUpdate = node.transition()
                 .duration(duration)
@@ -168,7 +180,7 @@
                     return "translate(" + d.x + "," + d.y + ")";
                 });
 
-            
+
             // circle, text  hidden -> visible
             nodeUpdate.select("circle")
                 .attr("r", 8)
@@ -179,10 +191,12 @@
             nodeUpdate.select("text")
                 .style("fill-opacity", 1);
 
+            nodeUpdate.select("a").select("rect")
+                .style("fill-opacity", 0.4);
             
-            
+
             // closing a node
-            
+
             // Translate children back to parent's position.
             var nodeExit = node.exit().transition()
                 .duration(duration)
@@ -197,6 +211,8 @@
             nodeExit.select("text")
                 .style("fill-opacity", 1e-6);
 
+            nodeExit.select("a").select("rect")
+                .style("fill-opacity", 1e-6);
             
             // Create links…
             var link = svg.selectAll("path.link")
@@ -256,7 +272,7 @@
             }
             update(d);
         }
-        
+
         function collapse(d) {
             if (d.children) {
                 d._children = d.children;
@@ -264,7 +280,6 @@
                 d.children = null;
             }
         }
-
     </script>
 </body>
 
