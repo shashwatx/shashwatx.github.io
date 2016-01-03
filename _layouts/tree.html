@@ -20,13 +20,13 @@
 
     <script type="text/javascript">
         var pubs = {
-            "name": "Food",
+            "name": "Hungry ?",
             "children": [
                 {
-                    "name": "Spanish",
+                    "name": "Sweet",
                     "children": [
                         {
-                            "name": "Carne",
+                            "name": "Indian",
                             "children": [
                                 {
                                     "name": "dish1"
@@ -118,20 +118,14 @@
                 d.y = d.depth * 80;
             });
 
+            
+            
+            
             // Create nodes…
             var node = svg.selectAll("g.node")
                 .data(nodes, function (d) {
                     return d.id || (d.id = ++i);
                 });
-
-            /*
-            nodes.forEach(function (d) {
-                if(d.id==1){
-                    d.y = 0;
-                    d.x = 0;
-                }
-            });
-            */
 
             // Apply class, translate to parent's position.
             var nodeEnter = node.enter().append("g")
@@ -141,17 +135,30 @@
                 })
                 .on("click", click);
 
+            /*
             nodeEnter.append("circle")
                 .attr("r", 1e-6)
                 .style("fill", function (d) {
                     return d._children ? "lightsteelblue" : "#fff";
                 });
-
+            */
+            
+            nodeEnter.append("svg")
+                .attr("width", 50)
+                .attr("height", 50)
+                .attr("y",-25)
+                .attr("x",-25)
+                .append("circle")
+                .attr("cx", 25)
+                .attr("cy", 25)
+                .attr("r", 1e-6)
+                .style("fill", "purple");
+            
             nodeEnter.append("text")
                 .attr("x", function (d) {
-                    return d.children || d._children ? 15 : 15;
+                    return d.children || d._children ? 40 : 40;
                 })
-                .attr("dy", "1.85em")
+                .attr("dy", "2.5em")
                 .attr("text-anchor", function (d) {
                     return d.children || d._children ? "end" : "end";
                 })
@@ -182,12 +189,19 @@
 
 
             // circle, text  hidden -> visible
+            /*
             nodeUpdate.select("circle")
                 .attr("r", 8)
                 .style("fill", function (d) {
                     return d._children ? "lightsteelblue" : "#fff";
                 });
-
+            */
+            nodeUpdate.select("svg").select("circle")
+                .attr("r", 20)
+                .style("fill", function (d) {
+                    return d._children ? "lightsteelblue" : "#fff";
+                });
+            
             nodeUpdate.select("text")
                 .style("fill-opacity", 1);
 
@@ -195,6 +209,8 @@
                 .style("fill-opacity", 0.4);
             
 
+            
+            
             // closing a node
 
             // Translate children back to parent's position.
@@ -204,15 +220,21 @@
                     return "translate(" + source.x + "," + source.y + ")";
                 })
                 .remove();
-
+            /*    
             nodeExit.select("circle")
                 .attr("r", 1e-6);
-
+            */
+            nodeExit.select("svg").select("circle")
+                .attr("r", 1e-6);
+            
             nodeExit.select("text")
                 .style("fill-opacity", 1e-6);
 
             nodeExit.select("a").select("rect")
                 .style("fill-opacity", 1e-6);
+            
+            
+            
             
             // Create links…
             var link = svg.selectAll("path.link")
@@ -239,6 +261,10 @@
                 .duration(duration)
                 .attr("d", diagonal);
 
+            
+            
+            
+            // Closing links
             // Transition exiting nodes to the parent's new position.
             link.exit().transition()
                 .duration(duration)
