@@ -174,53 +174,38 @@
             // Apply class, translate to parent's position.
             var nodeEnter = node.enter().append("g")
                 .attr("class", "node")
+                /*.attr("id", function (d) {
+                    return d.id;
+                })*/
                 .attr("transform", function (d) {
                     return "translate(" + source.x0 + "," + source.y0 + ")";
                 })
                 .on("click", click);
             
-            /*
-            nodeEnter.append("svg")
-                .attr("width", 50)
-                .attr("height", 50)
-                .attr("y", -25)
-                .attr("x", -25)
-                .append("circle")
-                .attr("cx", 25)
-                .attr("cy", 25)
-                .attr("r", 1e-6)
-                .style("fill", "purple");
-            */
-            /*
-            nodeEnter.append("svg")
-                .attr("width", 50)
-                .attr("height", 50)
-                .attr("y", -25)
-                .attr("x", -25)
-                .append("use")
-                .attr("xlink:href","#mushroom");
-            */
-            /*
-            nodeEnter.append("g")
-                .attr("transform", function(d) { return "translate(-25,-25)"; } )
-                .append("use")
-                .attr("xlink:href","#mushroom");
-            */
-            
             nodeEnter.append("use")
                 .attr("xlink:href","#mushroom")
                 .attr("scale", 5)
-                .attr("y", -25)
-                .attr("x", -25);
-                
+                .attr("y", function (d) {
+                    if(d.id==3) return -25;
+                    else return 0;
+                })
+                .attr("x", function (d) {
+                    if(d.id==3) return -25;
+                    else return -15;
+                });
             
             nodeEnter.append("text")
                 .attr("x", function (d) {
-                    return d.children || d._children ? 20 : 20;
+                    return ((-1*d.name.length)*3.5+"px");
                 })
-                .attr("dy", "1.5em")
+                .attr("dy", function (d) {
+                    if(d.id==3)
+                        return "25px";
+                else 
+                    return "55px";
+                })
                 .attr("text-anchor", function (d) {
-                    return d.children || d._children ? "end" : "end";
+                    return d.children || d._children ? "start" : "start";
                 })
                 .text(function (d) {
                     return d.name;
