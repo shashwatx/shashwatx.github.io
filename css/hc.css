@@ -916,10 +916,9 @@ img.mariaImg{
     cursor: pointer;
 }
 
-.node circle {
-    fill: #fff;
-    stroke: steelblue;
-    stroke-width: 1.5px;
+.nodeNonclickable text{
+    font-size: 15px;
+    font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
 }
 
 .node text {

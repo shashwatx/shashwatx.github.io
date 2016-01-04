@@ -6,7 +6,7 @@
 
     {% include header.html %}
 
-    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-25px" y="-55px" width="35.219px" height="35.219px" viewBox="0 0 35.219 35.219" style="enable-background:new 0 0 35.219 35.219;" xml:space="preserve">
+    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-25px" y="-55px" width="35.219px" height="35.219px" viewBox="0 0 35.219 35.219" style="enable-background:new 0 0 35.219 35.219;" xml:space="preserve" pointer-events="visibleFill">
         <defs>
             <g id="mushroom">
                 <path d="M30.462,3.368c-3.719-4.312-12.156-3.625-16.188-2.594C10.243,1.805,4.37,5.868,2.807,8.681S1.337,15.9,2.962,19.369
@@ -73,22 +73,28 @@
                             "name": "Indian",
                             "children": [
                                 {
-                                    "name": "dish1"
-                                },
-                                {
-                                    "name": "dish2"
-                                }
-                            ]
+                                    "name": "Kulfi",
+                                    "leaf": "true",
+                                    "url":  "/pistaKulfiEng/"
+                                }                            ]
                         },
                         {
-                            "name": "Sin Carne",
+                            "name": "Others",
                             "children": [
                                 {
-                                    "name": "dish3",
-                                    "leaf": "true"
+                                    "name": "PBJ Biscuits",
+                                    "leaf": "true",
+                                    "url" : "google.com"
                                 },
                                 {
-                                    "name": "dish4"
+                                    "name": "Coco Biscuits",
+                                    "leaf" : "true",
+                                    "url" : "yahoo.com"
+                                },
+                                {
+                                    "name": "Rafaello",
+                                    "leaf" : "true",
+                                    "url" : "satyam.com"
                                 }
                             ]
                         }
@@ -174,17 +180,19 @@
             // Apply class, translate to parent's position.
             var nodeEnter = node.enter().append("g")
                 .attr("class", "node")
-                /*.attr("id", function (d) {
-                    return d.id;
-                })*/
+                .attr("cursor", function (d) {
+                    if(d.children || d._children) return "pointer";
+                    else return "default";
+                })
                 .attr("transform", function (d) {
                     return "translate(" + source.x0 + "," + source.y0 + ")";
                 })
-                .on("click", click);
+                .on("click", function (d) {
+                    if(d.children || d._children) return click(d);
+                });
             
             nodeEnter.append("use")
                 .attr("xlink:href","#mushroom")
-                .attr("scale", 5)
                 .attr("y", function (d) {
                     if(d.id==3) return -25;
                     else return 0;
@@ -214,17 +222,20 @@
 
             nodeEnter.append("a")
                 .attr("xlink:href", function (d) {
-                    return d.name;
+                    if(d.leaf)
+                        return d.url;
                 })
                 .append("rect")
                 .attr("y", 40)
-                .attr("x", -20)
+                 .attr("x", function (d) {
+                    return ((-1*d.name.length)*3.5+"px");
+                })
                 .attr("height", function (d) {
                     if (d.leaf) return "20px";
                     else return "0px";
                 })
                 .attr("width", function (d) {
-                    if (d.leaf) return "50px";
+                    if (d.leaf) return d.name.length*9+"px";
                     else return "0px";
                 })
                 .style("fill", "red")
@@ -241,12 +252,6 @@
 
             // circle, text  hidden -> visible
             
-            nodeUpdate.select("svg").select("circle")
-                .attr("r", 20)
-                .style("fill", function (d) {
-                    return d._children ? "lightsteelblue" : "#fff";
-                });
-
             nodeUpdate.select("text")
                 .style("fill-opacity", 1);
 
@@ -266,9 +271,6 @@
                 })
                 .remove();
             
-            nodeExit.select("svg").select("circle")
-                .attr("r", 1e-6);
-
             nodeExit.select("text")
                 .style("fill-opacity", 1e-6);
 
