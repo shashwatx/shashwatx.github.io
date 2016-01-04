@@ -6,7 +6,8 @@
 
     {% include header.html %}
 
-    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-25px" y="-55px" width="35.219px" height="35.219px" viewBox="0 0 35.219 35.219" style="enable-background:new 0 0 35.219 35.219;" xml:space="preserve" pointer-events="visibleFill">
+    <!--<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-25px" y="-55px" width="35.219px" height="35.219px" viewBox="0 0 35.219 35.219" style="enable-background:new 0 0 35.219 35.219;" xml:space="preserve">-->
+     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="0px" height="0px" viewBox="0 0 0 0" style="display:none;" xml:space="preserve">
         <defs>
             <g id="mushroom">
                 <path d="M30.462,3.368c-3.719-4.312-12.156-3.625-16.188-2.594C10.243,1.805,4.37,5.868,2.807,8.681S1.337,15.9,2.962,19.369
@@ -67,7 +68,7 @@
             "name": "Hungry ?",
             "children": [
                 {
-                    "name": "Sweet",
+                    "name": "Sweet ?",
                     "children": [
                         {
                             "name": "Indian",
@@ -75,8 +76,8 @@
                                 {
                                     "name": "Kulfi",
                                     "leaf": "true",
-                                    "url":  "/pistaKulfiEng/"
-                                }                            ]
+                                    "url": "/pistaKulfiEng/"
+                                }]
                         },
                         {
                             "name": "Others",
@@ -84,36 +85,92 @@
                                 {
                                     "name": "PBJ Biscuits",
                                     "leaf": "true",
-                                    "url" : "google.com"
+                                    "url": "google.com"
                                 },
                                 {
                                     "name": "Coco Biscuits",
-                                    "leaf" : "true",
-                                    "url" : "yahoo.com"
+                                    "leaf": "true",
+                                    "url": "yahoo.com"
                                 },
                                 {
                                     "name": "Rafaello",
-                                    "leaf" : "true",
-                                    "url" : "satyam.com"
+                                    "leaf": "true",
+                                    "url": "satyam.com"
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "name": "Indian",
+                    "name": "Salty ?",
                     "children": [
                         {
-                            "name": "Quick",
+                            "name": "Indian",
                             "children": [
                                 {
-                                    "name": "dish1"
+                                    "name": "Easy",
+                                    "children": [
+                                        {
+                                            "name": "Matar Paratha",
+                                            "leaf": "true",
+                                            "url": "google.com"
+                                        },
+                                        {
+                                            "name": "Tandoori Chicken",
+                                            "leaf": "true",
+                                            "url": "yahoo.com"
+                                        },
+                                        {
+                                            "name": "Dal",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        },
+                                        {
+                                            "name": "Dosa",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "dish2"
+                                    "name": "Not so easy !",
+                                    "children": [
+                                        {
+                                            "name": "Bhindi",
+                                            "leaf": "true",
+                                            "url": "google.com"
+                                        },
+                                        {
+                                            "name": "Khaman Dhokla",
+                                            "leaf": "true",
+                                            "url": "yahoo.com"
+                                        },
+                                        {
+                                            "name": "Biryani",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        },
+                                        {
+                                            "name": "Chana Masala",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Others",
+                            "children": [
+                                {
+                                    "name": "5 min recipes"
+                                },
+                                {
+                                    "name": "What is this ?"
                                 }
                             ]
                         }
+
                     ]
                 }
             ]
@@ -181,36 +238,36 @@
             var nodeEnter = node.enter().append("g")
                 .attr("class", "node")
                 .attr("cursor", function (d) {
-                    if(d.children || d._children) return "pointer";
+                    if (d.children || d._children) return "pointer";
                     else return "default";
                 })
                 .attr("transform", function (d) {
                     return "translate(" + source.x0 + "," + source.y0 + ")";
                 })
                 .on("click", function (d) {
-                    if(d.children || d._children) return click(d);
+                    if (d.children || d._children) return click(d);
                 });
-            
+
             nodeEnter.append("use")
-                .attr("xlink:href","#mushroom")
+                .attr("xlink:href", "#mushroom")
                 .attr("y", function (d) {
-                    if(d.id==3) return -25;
+                    if (d.id == 3) return -25;
                     else return 0;
                 })
                 .attr("x", function (d) {
-                    if(d.id==3) return -25;
+                    if (d.id == 3) return -25;
                     else return -15;
                 });
-            
+
             nodeEnter.append("text")
                 .attr("x", function (d) {
-                    return ((-1*d.name.length)*3.5+"px");
+                    return ((-1 * d.name.length) * 3.5 + "px");
                 })
                 .attr("dy", function (d) {
-                    if(d.id==3)
+                    if (d.id == 3)
                         return "25px";
-                else 
-                    return "55px";
+                    else
+                        return "55px";
                 })
                 .attr("text-anchor", function (d) {
                     return d.children || d._children ? "start" : "start";
@@ -222,20 +279,20 @@
 
             nodeEnter.append("a")
                 .attr("xlink:href", function (d) {
-                    if(d.leaf)
+                    if (d.leaf)
                         return d.url;
                 })
                 .append("rect")
                 .attr("y", 40)
-                 .attr("x", function (d) {
-                    return ((-1*d.name.length)*3.5+"px");
+                .attr("x", function (d) {
+                    return ((-1 * d.name.length) * 3.5 + "px");
                 })
                 .attr("height", function (d) {
                     if (d.leaf) return "20px";
                     else return "0px";
                 })
                 .attr("width", function (d) {
-                    if (d.leaf) return d.name.length*9+"px";
+                    if (d.leaf) return d.name.length * 9 + "px";
                     else return "0px";
                 })
                 .style("fill", "red")
@@ -251,7 +308,7 @@
 
 
             // circle, text  hidden -> visible
-            
+
             nodeUpdate.select("text")
                 .style("fill-opacity", 1);
 
@@ -270,7 +327,7 @@
                     return "translate(" + source.x + "," + source.y + ")";
                 })
                 .remove();
-            
+
             nodeExit.select("text")
                 .style("fill-opacity", 1e-6);
 
