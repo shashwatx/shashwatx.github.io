@@ -7,10 +7,9 @@
 
     <!--<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-25px" y="-55px" width="35.219px" height="35.219px" viewBox="0 0 35.219 35.219" style="enable-background:new 0 0 35.219 35.219;" xml:space="preserve">-->
     
-    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="0px" height="0px" viewBox="0 0 0 0" style="display:none;" xml:space="preserve">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 36 36" style="display:none;" xml:space="preserve">
         <defs>
-            <g id="mushroom">
-                <path d="M30.462,3.368c-3.719-4.312-12.156-3.625-16.188-2.594C10.243,1.805,4.37,5.868,2.807,8.681S1.337,15.9,2.962,19.369
+            <path id="mushroom" d="M30.462,3.368c-3.719-4.312-12.156-3.625-16.188-2.594C10.243,1.805,4.37,5.868,2.807,8.681S1.337,15.9,2.962,19.369
 		c1.625,3.469,4.75,4.438,7.156,4.875c2.406,0.438,3.531-0.344,3.688-0.656c0.157-0.312,0.229-0.462,0.5-0.281
 		c0.281,0.188,0.562,1,0.375,1.812s0.969,0.938,1.438,0.938c0.469,0,0.469,1.75,0.531,3.312s-0.688,2.781,0.562,4.062
 		c1.25,1.28,3.281,2.625,7.438,1.125c4.157-1.5,4.47-3.72,4.75-4.938c0.281-1.22-0.219-2.22-0.812-2.938s-2.219-3.375-2.312-4
@@ -47,7 +46,6 @@
 		c0.218-1.187,1.312-3.031,2.5-3.719s2.469-1.218,1.594-2.155S8.37,7.368,7.182,8.618z M19.462,23.837
 		c-0.273-0.092-0.688,0.375-0.344,1.625c0.344,1.25,0.5,1.438,0.905,1.312c0.406-0.125,0.281-0.844,0.22-1.719
 		C20.181,24.18,19.745,23.932,19.462,23.837z" />
-            </g>
         </defs>
     </svg>
    
@@ -56,7 +54,7 @@
 <body>
     <div id="wrapper">
         {%include navigation.html %}
-        <div class="container">
+        <div class="container"> 
             {{ content }}
         </div>
     </div>
@@ -163,10 +161,58 @@
                             "name": "Others",
                             "children": [
                                 {
-                                    "name": "5 min recipes"
+                                    "name": "30-minute-or-less",
+                                    "children": [
+                                        {
+                                            "name": "Chorizo Rice",
+                                            "leaf": "true",
+                                            "url": "google.com"
+                                        },
+                                        {
+                                            "name": "Bean Burgers",
+                                            "leaf": "true",
+                                            "url": "yahoo.com"
+                                        },
+                                        {
+                                            "name": "Cauliflower Rice",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        },
+                                        {
+                                            "name": "Vietnamese Salad",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        },
+                                        {
+                                            "name": "Spiralized Carrots",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        },
+                                        {
+                                            "name": "Ham Rolls",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "What is this ?"
+                                    "name": "more-than-30-mins",
+                                    "children": [
+                                        {
+                                            "name": "Vegan Wraps",
+                                            "leaf": "true",
+                                            "url": "google.com"
+                                        },
+                                        {
+                                            "name": "Spinach Quiche",
+                                            "leaf": "true",
+                                            "url": "yahoo.com"
+                                        },
+                                        {
+                                            "name": "XYZ",
+                                            "leaf": "true",
+                                            "url": "satyam.com"
+                                        }                                    ]
                                 }
                             ]
                         }
@@ -183,8 +229,8 @@
                 bottom: 0,
                 left: 50
             },
-            width = 800 - margin.right - margin.left,
-            height = 800 - margin.top - margin.bottom;
+            width = 900 - margin.right - margin.left,
+            height = 900 - margin.top - margin.bottom;
 
         var i = 0,
             duration = 750,
