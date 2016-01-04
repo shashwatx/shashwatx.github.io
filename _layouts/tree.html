@@ -261,7 +261,7 @@
 
             nodeEnter.append("text")
                 .attr("x", function (d) {
-                    return ((-1 * d.name.length) * 3.5 + "px");
+                    return ((-1 * d.name.length) * 3 + "px");
                 })
                 .attr("dy", function (d) {
                     if (d.id == 3)
@@ -269,13 +269,24 @@
                     else
                         return "55px";
                 })
-                .attr("text-anchor", function (d) {
-                    return d.children || d._children ? "start" : "start";
+                .attr("text-anchor", "start")
+                .style("font-size", function (d) {
+                    if(d.leaf)
+                        return "15px";
+                    else
+                        return "18px";
+                })
+                .attr("color", function (d) {
+                    if(d.leaf)
+                        return "white";
+                    else
+                        return "black";
                 })
                 .text(function (d) {
                     return d.name;
                 })
                 .style("fill-opacity", 1e-6);
+                
 
             nodeEnter.append("a")
                 .attr("xlink:href", function (d) {
@@ -295,7 +306,7 @@
                     if (d.leaf) return d.name.length * 9 + "px";
                     else return "0px";
                 })
-                .style("fill", "red")
+                .style("fill", "none")
                 .style("fill-opacity", 1e-6);
 
 

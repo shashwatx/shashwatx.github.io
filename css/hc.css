@@ -916,11 +916,6 @@ img.mariaImg{
     cursor: pointer;
 }
 
-.nodeNonclickable text{
-    font-size: 15px;
-    font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
-}
-
 .node text {
     font-size: 18px;
     font-family:"Helvetica Neue", helvetica, "Open Sans",sans-serif;
