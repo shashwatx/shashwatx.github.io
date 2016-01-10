@@ -6,7 +6,7 @@
     {% include header.html %}
 
     <!--<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="-25px" y="-55px" width="35.219px" height="35.219px" viewBox="0 0 35.219 35.219" style="enable-background:new 0 0 35.219 35.219;" xml:space="preserve">-->
-    
+
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" viewBox="0 0 36 36" style="display:none;" xml:space="preserve">
         <defs>
             <path id="mushroom" d="M30.462,3.368c-3.719-4.312-12.156-3.625-16.188-2.594C10.243,1.805,4.37,5.868,2.807,8.681S1.337,15.9,2.962,19.369
@@ -48,13 +48,13 @@
 		C20.181,24.18,19.745,23.932,19.462,23.837z" />
         </defs>
     </svg>
-   
+
 </head>
 
 <body>
     <div id="wrapper">
         {%include navigation.html %}
-        <div class="container"> 
+        <div class="container">
             {{ content }}
         </div>
     </div>
@@ -212,7 +212,7 @@
                                             "name": "XYZ",
                                             "leaf": "true",
                                             "url": "satyam.com"
-                                        }                                    ]
+                                        }]
                                 }
                             ]
                         }
@@ -283,7 +283,7 @@
             // Apply class, translate to parent's position.
             var nodeEnter = node.enter().append("g")
                 .attr("class", "node")
-                .attr("cursor", function (d) {
+                .style("cursor", function (d) {
                     if (d.children || d._children) return "pointer";
                     else return "default";
                 })
@@ -317,13 +317,13 @@
                 })
                 .attr("text-anchor", "start")
                 .style("font-size", function (d) {
-                    if(d.leaf)
+                    if (d.leaf)
                         return "15px";
                     else
                         return "18px";
                 })
                 .attr("color", function (d) {
-                    if(d.leaf)
+                    if (d.leaf)
                         return "white";
                     else
                         return "black";
@@ -332,7 +332,6 @@
                     return d.name;
                 })
                 .style("fill-opacity", 1e-6);
-                
 
             nodeEnter.append("a")
                 .attr("xlink:href", function (d) {
@@ -354,7 +353,6 @@
                 })
                 .style("fill", "none")
                 .style("fill-opacity", 1e-6);
-
 
             // Translate nodes to their position.
             var nodeUpdate = node.transition()
