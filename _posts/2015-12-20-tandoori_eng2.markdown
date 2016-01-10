@@ -7,7 +7,7 @@ type: english
 eyecatcher: /images/tandoori2.jpg
 ---
 
-Tandoori chicken with easily available spices - you have no excuse not to make it now!
+Tandoori chicken with easily available spices - you have no excuse not to make it now, Marta !
 
 
 * **Ingredients**
