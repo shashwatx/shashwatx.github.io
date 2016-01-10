@@ -1,0 +1,34 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+      {% include header.html %}
+
+  </head>
+  <body>
+    <div id = "wrapper">
+      {%include navigation.html %}
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+    
+    {% include scripts.html %}
+    
+    <script type="text/javascript">
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '{{ site.baseurl }}/searchSpa.json',
+            searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+            noResultsText: 'No results found',
+            limit: 10,
+            fuzzy: false,
+            exclude: ['Welcome']
+        })
+    </script>
+    <!--{% include footer.html %}-->
+  </body>
+</html>

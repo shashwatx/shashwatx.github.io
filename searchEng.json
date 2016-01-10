@@ -1,0 +1,15 @@
+---
+layout: none
+---
+[
+    {% for post in site.posts %}
+        {% if post.type == "english" %}
+            {
+            "title"    : "{{ post.title | escape }}",
+            "url"      : "{{ site.baseurl }}{{ post.url }}",
+            "date"     : "{{ post.date }}"
+            }
+            {% unless forloop.last %},{% endunless %}
+        {% endif %}
+	{% endfor %}
+]

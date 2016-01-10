@@ -1,5 +1,5 @@
 ---
-title: Kulfi de pistachio
+title: Kulfi de pistacho
 permalink: pistaKulfi
 date: 2016-01-01
 youtubeurl: http://www.youtube.com/embed/P7BiDjCGBIo
@@ -20,4 +20,4 @@ eyecatcher: /images/kulfi.jpg
   3. Cuando la leche haya redicdo en volumen, apagar el calor y anadir los pistachios y el azafran; una vez haya enfriado un poco, verter en moldes.
   4. Congelar al menos 8 horas en moldes individuales.
 
-Servir con trozoas de pistacho, sirope de rosas o tmar tal cual!
+Servir con trozos de pistacho, sirope de rosas o tomar tal cual!
