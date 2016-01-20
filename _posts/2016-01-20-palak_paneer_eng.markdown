@@ -7,12 +7,13 @@ type: english
 eyecatcher: /images/palak_paneer.jpg
 ---
 
-One of my favourite vegetarian foods is palak paneer, a spinach and cheese curry. It has such a lovely contrast of colours, such a nice smell, and the fact that you get to much green stuff all packed up in a wonderful curry is wonderful. There is only one minor problem with it, and it is precisely one of its key ingredients...
-Paneer. 
-Don't get me wrong. I love it. But I cannot seem to be able to find it in stores, and trying to replace it with other cheeses has simply led to several tasty but weird-looking attempts at the recipe. 
-I then thought that I might as well just make it myself; get a bottle of milk whenever I want to make the dish, make the paneer first, and then cook the actual curry. But... has anyone tried to make paneer from scratch on a busy week?
+One of my favourite vegetarian foods is palak paneer, a spinach and cheese curry. There is only one minor problem with it, and it is precisely one of its key ingredients: Paneer.
+
+Don't get me wrong. I love it. But I cannot seem to be able to find it in stores, trying to replace it with other cheeses just leads to weird-looking attempts at the recipe, and making the paneer myself... well. has anyone tried to make paneer from scratch on a busy week?
 Um... not very practical. 
+
 So, the ultimate way to make palak paneer is to not make palak paneer at all, but to make palak TOFU. Yup, you read that right. Tofu actually has quite a neutral flavour that works very well with the spices of the dish, it holds its shape properly, gives nice texture and colour, and from a nutritional point of view, I quite prefer it to the paneer. 
+
 I know this may sound strange, but seriously: my lovely indian boyfriend enjoyed it a lot, and he was so impressed that I had actually taken the time to make the paneer from scratch... it was only after several times of making it that I told him it was tofu! 
 
 

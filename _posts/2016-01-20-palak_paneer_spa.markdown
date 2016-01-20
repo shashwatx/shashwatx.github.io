@@ -6,12 +6,13 @@ youtubeurl: http://www.youtube.com/embed/OKE6B0P1Lg0
 eyecatcher: /images/palak_paneer.jpg
 ---
 
-Una de mis comidas vegetarianas preferidas es Palak paneer, un curry de espinacas y paneer (un queso fresco indio). Tiene un contraste de colores precioso, un aroma irresistible, y el hecho de que se haga a base de espinacas me encanta. Sin embargo, tengo un pequeño problema con este curry; se trata de uno de sus dos ingredientes principales...
-El Paneer. 
-No me malinterpreteis. A mi me encanta. Pero parece que no hay forma de comprarlo hecho, y los intentos de reemplazarlo por otros tipos de queso han sido algo pasables de sabor, pero con una pinta muy poco tentadora! 
-Despues, se me ocurrio que, dispuestos a hacer este plato, podria hacerme directamente yo el paneer con un litro de leche el dia antes de preparar el curry. Pero... alguno ha intentado hacer paneer (que se hace de forma similar al requeson) en un dia normal entre semana?
+Una de mis comidas vegetarianas preferidas es Palak paneer, un curry de espinacas y paneer (un queso fresco indio). Sin embargo, tengo un pequeño problema con este curry; se trata de uno de sus dos ingredientes principales: El Paneer.
+
+No me malinterpreteis. A mi me encanta. Pero parece que no hay forma de comprarlo hecho, los intentos de reemplazarlo acaban solo resultan en curries de aspecto mas que dudoso, y la posibilidad de hacer el paneer yo misma... bueno;  alguno ha intentado hacer paneer (que se hace de forma similar al requeson) en un dia normal entre semana?
 Digamos que... no resultaba muy practico.
-Asi que la manera definitiva (en mi opinion) para hacer palak paneer es no hacer palak paneer, sino hacer palak TOFU. Si, en efecto!! El tofu funciona muy bien en este plato, por absorber muy bien el sabor, mantener bien la forma y dar buen sabor y textura; ademas, desde un punto de vista nutricional, me gusta mucho mas que el paneer. 
+
+Asi que la manera definitiva (en mi opinion) para hacer palak paneer es no hacer palak paneer, sino hacer palak TOFU. Si, en efecto!! El tofu absorbe todo el sabor de las especias y mantiene perfectamente su textura; ademas, desde un punto de vista nutricional, me gusta mucho mas que el paneer.
+
 Se que suena un poco raro, pero confiad en mi: mi querido novio, que es hindu, lo disfruto mucho, y se quedo impresionado con que yo hubiera sacado tiempo para preparar el paneer... 
 Despues de preparar el plato varias veces, acabe confesandole que no era paneer, sino tofu!
 
