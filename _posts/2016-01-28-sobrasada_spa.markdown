@@ -24,15 +24,20 @@ Esta es una de las dos recetas que utilizo, segun los ingredientes que tenga en 
 * **Elaboracion** 
 
   1. Hidratar durante 15 minutos los tomates junto a la avena con agua caliente (que no este hirviendo).
-![Sobrasada](/images/sobrasada1.jpg)
 
+    1. <img src="/images/sobrasada1.jpg" alt="Drawing" style="width: 350px;"/>
+<br>    
   2. Escurrir bien. 
-![Sobrasada](/images/sobrasada2.jpg)
 
+    2. <img src="/images/sobrasada2.jpg" alt="Drawing" style="width: 350px;"/>
+<br>  
   3. Triturar todos los ingredientes y reposar en la nevera antes de servir.
-![Sobrasada](/images/sobrasada3.jpg)
+
+    3. <img src="/images/sobrasada3.jpg" alt="Drawing" style="width: 350px;"/>
 
 
-Untalo con pan, haz sandwiches con queso... lo que mas te apetezca!
+
+
+**Untalo con pan, haz sandwiches con queso... lo que mas te apetezca!**
 
 ![Sobrasada](/images/sobrasada.jpg)
