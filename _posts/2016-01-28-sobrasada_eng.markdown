@@ -26,15 +26,17 @@ I use two different recipes depending on what I have available at home, this one
 * **Process** 
 
   1. Hydrate the tomatoes and oats in warm water (not boiling) for 15 minutes. 
-![Sobrasada](/images/sobrasada1.jpg =200)
-
+    
+    1. <img src="/images/sobrasada1.jpg" alt="Drawing" style="width: 350px;"/>
+<br>
   2. Drain very well.
-![Sobrasada](/images/sobrasada2.jpg)
-
+    
+    2. <img src="/images/sobrasada2.jpg" alt="Drawing" style="width: 350px;"/>
+<br>
   3. Process all the ingredients and let it cool down in the fridge beefore serving.
-![Sobrasada](/images/sobrasada3.jpg)
+    
+    3. <img src="/images/sobrasada3.jpg" alt="Drawing" style="width: 350px;"/>
 
-
-Spread it on bread, make sobrasada and cheese sandwiches... whatever you like most!
+**Spread it on bread, make sobrasada and cheese sandwiches... whatever you like most!**
 
 ![Sobrasada](/images/sobrasada.jpg)
