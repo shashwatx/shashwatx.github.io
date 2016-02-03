@@ -57,14 +57,14 @@ function loadPage(page, pageElement) {
 // Load regions
 
 function loadRegions(page, element) {
-
+    /*
 	$.getJSON('pages/'+page+'-regions.json').
 		done(function(data) {
 
 			$.each(data, function(key, region) {
 				addRegion(region, element);
 			});
-		});
+		});*/
 }
 
 // Add region
