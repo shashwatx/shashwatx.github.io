@@ -1,3 +1,4 @@
+
 p {
     text-align: center;
     line-height: 1.2;
@@ -25,9 +26,9 @@ p::first-letter {
     margin: 0px;
     /*background-color: black;
     color: lightgray;*/
-    font-family: 'Dancing Script', cursive;
-    font-size: 25px;
-    border-radius: 5px;
+    /*font-family: 'Dancing Script', cursive;*/
+    /*font-size: 25px;
+    border-radius: 5px;*/
 }
 
 .page {
@@ -45,14 +46,14 @@ p::first-letter {
 }
 
 .page.cover p::first-line {
+    font-family: 'Dancing Script', cursive;
     /*color: lightgray;*/
     /*text-align: center;
     margin: 0px;
     background-color: black;
     color: lightgray;
-    font-family: 'Dancing Script', cursive;
-    font-size: 20px;
-    border-radius: 5px;*/
+    font-family: 'Dancing Script', cursive;*/
+    font-size: 30px;
 }
 
 body {
