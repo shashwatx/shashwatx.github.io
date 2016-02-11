@@ -1,9 +1,9 @@
 ---
-title: Calabacin espiralizado 
+title: Calabacin con atun 
 permalink: zukiniTuna
 date: 2016-02-09
-youtubeurl: http://www.youtube.com/watch?v=ZgjB35tAjr8 
-eyecatcher: /images/aloomatar.jpg
+youtubeurl: http://www.youtube.com/embed/ZgjB35tAjr8 
+eyecatcher: /images/zucchini_tuna.jpg
 story: ninguna historia
 ---
 
