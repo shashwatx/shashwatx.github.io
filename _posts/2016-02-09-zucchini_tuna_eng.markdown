@@ -1,14 +1,15 @@
 ---
-title: Zuchini Tuna     
-permalink: zukiniTuna
+title: Tuna Zoodles 
+permalink: tunaZoodles
 date: 2016-02-09
-youtubeurl: http://www.youtube.com/watch?v=ZgjB35tAjr8 
-eyecatcher: /images/aloomatar.jpg
+youtubeurl: http://www.youtube.com/embed/ZgjB35tAjr8 
+eyecatcher: /images/zucchini_tuna.jpg
 type: english
 story: ninguna historia
 ---
 
-Ready in 10 minutes !
+
+Ready in 10 minutes, this is good in every sense of the word!
 
 * **Ingredients**, _serves one_
   * 1 medium zucchini, spiralized

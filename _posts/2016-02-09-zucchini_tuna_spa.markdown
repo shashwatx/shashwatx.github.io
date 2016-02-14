@@ -1,6 +1,6 @@
 ---
 title: Calabacin con atun 
-permalink: zukiniTuna
+permalink: calabacinAtun
 date: 2016-02-09
 youtubeurl: http://www.youtube.com/embed/ZgjB35tAjr8 
 eyecatcher: /images/zucchini_tuna.jpg
