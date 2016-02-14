@@ -22,6 +22,7 @@ layout: libro
         <div class="page">
             <p class="old">
             {{ post.title }}</br>
+            {{post.sections[0] | textilize}}</br>
             {{ post.content }}
             </p>
         </div>
