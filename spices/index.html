@@ -14,7 +14,7 @@ title: Maria's Recipes - Spices
 	<div class="project-box">
 
 			{% for post in site.posts %}
-                {% if post.spice %}
+                {% if post.type == 'spice' %}
                     <div class="row rowSpice">
                             <div class="col-md-1 project-image">
                                 <img src="{{post.eyecatcher}}">

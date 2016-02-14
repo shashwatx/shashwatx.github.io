@@ -1,6 +1,6 @@
 ---
 title: Garam Masala
-spice: true
+type: spice
 divTitle: garamMasala
 eyecatcher: /images/garam_masala.jpg
 ---

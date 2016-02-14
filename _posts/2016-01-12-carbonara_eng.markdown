@@ -3,7 +3,8 @@ title: Zucchini Carbonara
 permalink: carbonaraEng
 date: 2016-01-12
 youtubeurl: http://www.youtube.com/embed/EI0VG0Y70YI
-type: english
+type: recipe
+english: true
 eyecatcher: /images/carbonara.jpg
 ---
 

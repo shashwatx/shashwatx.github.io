@@ -3,6 +3,8 @@ title: Pho Espiralizado
 permalink: phoSpa
 date: 2016-01-17
 youtubeurl: http://www.youtube.com/embed/RUP5mxLs0NM
+type: recipe
+spanish: true
 eyecatcher: /images/pho.jpg
 ---
 

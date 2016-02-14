@@ -4,7 +4,8 @@ date: 2016-02-08
 youtubeurl: http://www.youtube.com/embed/_n_sYKReZME
 eyecatcher: /images/aloomatar.jpg
 permalink: alooMatar
-type: english
+type: recipe
+english: true
 story: no story
 ---
 * **Ingredients**, _serves 2_

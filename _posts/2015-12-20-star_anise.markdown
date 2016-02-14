@@ -1,6 +1,6 @@
 ---
 title: Anis estrellado
-spice: true
+type: spice
 divTitle: anise
 eyecatcher: /images/star_anise.jpg
 ---

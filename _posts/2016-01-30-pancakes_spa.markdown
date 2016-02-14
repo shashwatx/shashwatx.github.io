@@ -3,6 +3,8 @@ title: Tortitas 3 ingred.
 permalink: tortitas
 date: 2016-01-30
 youtubeurl: http://www.youtube.com/embed/_n_sYKReZME
+type: recipe
+spanish: true
 eyecatcher: /images/pancakes.jpg
 ---
 

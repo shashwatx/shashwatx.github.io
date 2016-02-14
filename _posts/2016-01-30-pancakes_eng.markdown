@@ -3,7 +3,8 @@ title: 3 ingredient pancakes
 permalink: pancakesEng
 date: 2016-01-30
 youtubeurl: http://www.youtube.com/embed/_n_sYKReZME
-type: english
+type: recipe
+english: true
 eyecatcher: /images/pancakes.jpg
 ---
 

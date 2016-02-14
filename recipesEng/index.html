@@ -22,7 +22,7 @@ layout: default_english
 
 
 			{% for post in site.posts %}
-                {% if post.type == "english" %}
+                {% if post.type == 'recipe' and post.english %}
                     <div class="row row2">
                             <div class="col-md-3 project-image">
                                 <img src="{{post.eyecatcher}}">

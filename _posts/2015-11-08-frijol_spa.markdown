@@ -2,6 +2,8 @@
 title: Hamburguesas
 permalink: hamburFrijol
 date: 2015-11-08
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/9PKf7sOLUK8
 eyecatcher: /images/frijol.jpg
 ---

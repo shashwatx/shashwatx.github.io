@@ -1,6 +1,6 @@
 ---
 title: Mací (mace)
-spice: true
+type: spice
 divTitle: mace
 eyecatcher: /images/mace.jpg
 ---

@@ -1,6 +1,8 @@
 ---
 title: Kulfi de pistacho
 permalink: pistaKulfi
+type: recipe
+spanish: true
 date: 2016-01-01
 youtubeurl: http://www.youtube.com/embed/P7BiDjCGBIo
 eyecatcher: /images/kulfi.jpg

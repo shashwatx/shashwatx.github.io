@@ -2,6 +2,8 @@
 title: Rollitos de jamon
 permalink: rollitosSpa
 date: 2016-01-16
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/BSFKHQ1pKHE
 eyecatcher: /images/rollitos2.jpg
 ---

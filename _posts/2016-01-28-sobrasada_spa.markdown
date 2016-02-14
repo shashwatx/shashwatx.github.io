@@ -2,6 +2,8 @@
 title: Sobrasada vegana
 permalink: sobrasada
 date: 2016-01-28
+type: recipe
+spanish: true
 eyecatcher: /images/sobrasada.jpg
 ---
 

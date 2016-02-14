@@ -2,6 +2,8 @@
 title: Zanahorias y Tofu
 permalink: SpiralizedCarrots
 date: 2015-12-21
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/pzS1axMCLtg
 eyecatcher: /images/carrot.jpg
 ---

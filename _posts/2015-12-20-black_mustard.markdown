@@ -1,6 +1,6 @@
 ---
 title: Mostaza negra
-spice: true
+type: spice
 divTitle: mostaza
 eyecatcher: /images/mustard.jpg
 ---

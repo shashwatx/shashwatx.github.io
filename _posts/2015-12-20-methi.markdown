@@ -1,6 +1,6 @@
 ---
 title: Methi / Fenugreco
-spice: true
+type: spice
 divTitle: methi
 eyecatcher: /images/methi.jpg
 ---

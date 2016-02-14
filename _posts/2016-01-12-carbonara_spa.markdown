@@ -2,6 +2,8 @@
 title: Calabacin Carbonara
 permalink: carbonaraSpa
 date: 2016-01-12
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/EI0VG0Y70YI
 eyecatcher: /images/carbonara.jpg
 ---

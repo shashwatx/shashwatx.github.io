@@ -2,6 +2,8 @@
 title: Bhindi Masala
 permalink: bhindiMasala
 date: 2015-12-20
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/jsDCwWQqCk4
 eyecatcher: /images/bhindi.jpg
 ---

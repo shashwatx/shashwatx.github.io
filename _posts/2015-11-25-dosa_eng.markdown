@@ -2,7 +2,8 @@
 title: Dosa
 permalink: dosa
 date: 2015-11-25
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/Y5M4OvTxpCU
 eyecatcher: /images/dosa.jpg
 ---

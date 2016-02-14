@@ -18,18 +18,13 @@ layout: libro
 </div>
 
 {% for post in site.posts %}
-    {% if post.forBook %}
+  {% if post.type == 'book' %}
         <div class="page">
             <p class="old">
-            {{ post.title }}</br>{{ post.story | textilize }}
-            </p>
-        </div>
-        <div class="page">
-            <p class="old">
+            {{ post.title }}</br>
             {{ post.content }}
             </p>
         </div>
-        {% break %}
-    {% endif %}
+  {% endif %}
 {% endfor %}
 </div>

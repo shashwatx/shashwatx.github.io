@@ -3,7 +3,8 @@ title: Kaddu Dal
 permalink: kadduDalEng
 date: 2016-01-04
 youtubeurl: http://www.youtube.com/embed/bq3P0MwS1a4
-type: english
+type: recipe
+english: true
 eyecatcher: /images/kaddu_dal.jpg
 ---
 

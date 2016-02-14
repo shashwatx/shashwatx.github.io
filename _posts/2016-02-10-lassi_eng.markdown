@@ -4,7 +4,8 @@ permalink: mangoLassiEng
 date: 2016-02-13
 youtubeurl: http://www.youtube.com/embed/pHx_Dnv14hs
 eyecatcher: /images/mango_lassi.jpg
-type: english
+type: recipe
+english: true
 story: ninguna historia
 ---
 

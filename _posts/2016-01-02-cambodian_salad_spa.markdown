@@ -2,6 +2,8 @@
 title: Ensalada vietnamita
 permalink: ensaladaVietnamita
 date: 2016-01-02
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/teTMLhTVswM
 eyecatcher: /images/goiga.jpg
 ---

@@ -3,7 +3,8 @@ title: Easy Palak Paneer
 permalink: palakPaneerEng
 date: 2016-01-20
 youtubeurl: http://www.youtube.com/embed/OKE6B0P1Lg0
-type: english
+type: recipe
+english: true
 eyecatcher: /images/palak_paneer.jpg
 ---
 

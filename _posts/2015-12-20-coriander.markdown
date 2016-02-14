@@ -1,6 +1,6 @@
 ---
 title: Cilantro (semilla)
-spice: true
+type: spice
 divTitle: cilantro
 eyecatcher: /images/coriander.jpg
 ---

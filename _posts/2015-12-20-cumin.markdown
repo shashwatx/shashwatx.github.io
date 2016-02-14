@@ -1,6 +1,6 @@
 ---
 title: Comino
-spice: true
+type: spice
 divTitle: comino
 eyecatcher: /images/jeera.jpg
 ---

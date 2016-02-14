@@ -2,7 +2,8 @@
 title: Dal 
 permalink: dalEng
 date: 2015-11-25
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/CtuyWnof3eU
 eyecatcher: /images/dal.jpg
 ---

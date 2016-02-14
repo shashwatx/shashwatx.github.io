@@ -2,7 +2,8 @@
 title: Cauliflower Rice
 permalink: cauliflowerRice
 date: 2015-12-13
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/9_0ISDqD8W8
 eyecatcher: /images/cauliflower.jpg
 ---

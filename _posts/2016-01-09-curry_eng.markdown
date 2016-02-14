@@ -3,7 +3,8 @@ title: Curry stuffed pastries
 permalink: curryEng
 date: 2016-01-09
 youtubeurl: http://www.youtube.com/embed/HkmsNWtmC7k
-type: english
+type: recipe
+english: true
 eyecatcher: /images/curry.jpg
 ---
 

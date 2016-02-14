@@ -2,6 +2,8 @@
 title: Paratha de Guisantes
 permalink: matarParatha
 date: 2015-11-18
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/DsRroao6hRg
 eyecatcher: /images/matar_paratha.jpg
 ---

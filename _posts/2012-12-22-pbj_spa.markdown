@@ -2,6 +2,8 @@
 title: Galletas de cacahuete
 permalink: pbjSpa
 date: 2015-12-22
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/YcmykHfzKW4
 eyecatcher: /images/pbj.jpg
 ---

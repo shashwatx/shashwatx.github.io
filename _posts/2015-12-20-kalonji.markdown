@@ -1,6 +1,6 @@
 ---
 title: Kalonji
-spice: true
+type: spice
 divTitle: kalonji
 eyecatcher: /images/kalonji.jpg
 ---

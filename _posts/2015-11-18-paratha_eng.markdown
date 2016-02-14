@@ -2,7 +2,8 @@
 title: Matar Paratha
 permalink: matarParathaEng
 date: 2015-11-18
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/DsRroao6hRg
 eyecatcher: /images/matar_paratha.jpg
 ---

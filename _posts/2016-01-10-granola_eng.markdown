@@ -3,7 +3,8 @@ title: 10 minute Granola
 permalink: granolaEng
 date: 2016-01-10
 youtubeurl: http://www.youtube.com/embed/bUCa3NyF7uQ
-type: english
+type: recipe
+english: true
 eyecatcher: /images/granola.jpg
 ---
 

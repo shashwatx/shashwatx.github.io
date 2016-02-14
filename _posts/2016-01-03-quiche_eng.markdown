@@ -3,7 +3,8 @@ title: Spinach quiche
 permalink: quicheEng
 date: 2016-01-03
 youtubeurl: http://www.youtube.com/embed/0IMwRZo-7Vc
-type: english
+type: recipe
+english: true
 eyecatcher: /images/quiche.jpg
 ---
 

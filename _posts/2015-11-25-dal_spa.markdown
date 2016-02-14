@@ -2,6 +2,8 @@
 title: Dal (Lentejas) 
 permalink: Dal
 date: 2015-12-10
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/CtuyWnof3eU
 eyecatcher: /images/dal.jpg
 ---

@@ -2,6 +2,8 @@
 title: Arroz de coliflor
 permalink: arrozDeColiflor
 date: 2015-12-13
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/9_0ISDqD8W8
 eyecatcher: /images/cauliflower.jpg
 ---

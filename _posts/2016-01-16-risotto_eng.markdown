@@ -3,7 +3,8 @@ title: Butternut Risotto
 permalink: risottoEng
 date: 2016-01-16
 youtubeurl: http://www.youtube.com/embed/EEfJiH29gvw
-type: english
+type: recipe
+english: true
 eyecatcher: /images/risotto.jpg
 ---
 

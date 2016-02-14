@@ -2,7 +2,8 @@
 title: Coconut Biscuits
 permalink: cocoBiscuits
 date: 2015-11-10
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/cUrGOKJRk8Q
 eyecatcher: /images/coco1.jpg
 ---

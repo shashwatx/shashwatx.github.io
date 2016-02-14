@@ -2,6 +2,8 @@
 title: Risotto de calabaza
 permalink: risotto
 date: 2016-01-16
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/EEfJiH29gvw
 eyecatcher: /images/risotto.jpg
 ---

@@ -2,6 +2,8 @@
 title: Galletas de Coco
 permalink: cocoBiscuits
 date: 2015-11-10
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/cUrGOKJRk8Q
 eyecatcher: /images/coco1.jpg
 ---

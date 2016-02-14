@@ -1,6 +1,6 @@
 ---
 title: Ajwain
-spice: true
+type: spice
 divTitle: ajwai
 eyecatcher: /images/ajwain.jpg
 ---

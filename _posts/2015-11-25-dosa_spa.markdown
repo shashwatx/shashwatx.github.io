@@ -2,6 +2,8 @@
 title: Dosa de Arroz
 permalink: dosa
 date: 2015-11-25
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/Y5M4OvTxpCU
 eyecatcher: /images/dosa.jpg
 ---

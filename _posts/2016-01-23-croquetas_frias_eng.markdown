@@ -3,7 +3,8 @@ title: Cold Croquetas
 permalink: coldCroquetas
 date: 2016-01-23
 youtubeurl: http://www.youtube.com/embed/RTxDmdeskUU
-type: english
+type: recipe
+english: true
 eyecatcher: /images/croquetas_frias.jpg
 ---
 

@@ -2,6 +2,8 @@
 title: Momo achar
 permalink: achar
 date: 2016-01-28
+type: recipe
+spanish: true
 eyecatcher: /images/achar.jpg
 ---
 

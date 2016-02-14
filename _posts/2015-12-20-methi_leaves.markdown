@@ -1,6 +1,6 @@
 ---
 title: Hojas de fenugreco
-spice: true
+type: spice
 divTitle: fenugreek
 eyecatcher: /images/methi_leaves.jpg
 ---

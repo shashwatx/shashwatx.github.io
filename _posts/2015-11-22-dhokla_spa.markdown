@@ -1,6 +1,8 @@
 ---
 title: Khaman Dhokla
 permalink: khamanDhokla
+type: recipe
+spanish: true
 date: 2015-11-22
 eyecatcher: /images/dhokla.jpg
 ---

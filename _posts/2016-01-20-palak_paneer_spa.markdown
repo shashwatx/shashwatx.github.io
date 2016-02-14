@@ -2,6 +2,8 @@
 title: Palak Paneer, facil
 permalink: palakPaneerSpa
 date: 2016-01-20
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/OKE6B0P1Lg0
 eyecatcher: /images/palak_paneer.jpg
 ---

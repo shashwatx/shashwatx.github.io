@@ -1,6 +1,8 @@
 ---
 title: Biryani de Pollo
 date: 2015-11-10
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/CUCZlemBcHk
 eyecatcher: /images/biryani.jpg 
 ---

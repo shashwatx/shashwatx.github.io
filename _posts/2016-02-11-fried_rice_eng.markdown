@@ -4,7 +4,8 @@ permalink: friedRice
 date: 2016-02-14
 youtubeurl: http://www.youtube.com/embed/wsRF5ZZdjNA
 eyecatcher: /images/fried_rice.jpg
-type: english
+type: recipe
+english: true
 story: ninguna story
 ---
 

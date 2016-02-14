@@ -4,6 +4,8 @@ permalink: alooMatarSpa
 date: 2016-02-08
 youtubeurl: http://www.youtube.com/embed/_n_sYKReZME
 eyecatcher: /images/aloomatar.jpg
+type: recipe
+spanish: true
 story: ninguna historia
 ---
 

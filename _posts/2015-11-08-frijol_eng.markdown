@@ -2,7 +2,8 @@
 title: Bean Burgers
 permalink: beanBurgers
 date: 2015-11-08
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/9PKf7sOLUK8
 eyecatcher: /images/frijol.jpg
 ---

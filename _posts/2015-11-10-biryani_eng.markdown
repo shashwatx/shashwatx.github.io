@@ -2,7 +2,8 @@
 title: Chicken Biryani
 permalink: chickenBiryaniEng
 date: 2015-11-10
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/CUCZlemBcHk
 eyecatcher: /images/biryani.jpg
 ---

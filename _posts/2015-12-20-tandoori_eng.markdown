@@ -2,7 +2,8 @@
 title: Tandoori Chicken 
 permalink: tandooriChicken
 date: 2015-12-20
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/MSUWnlApdxI
 eyecatcher: /images/tandoori.jpg
 ---

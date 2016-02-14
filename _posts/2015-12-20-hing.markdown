@@ -1,6 +1,6 @@
 ---
 title: Asafetida (hing)
-spice: true
+type: spice
 divTitle: hing
 eyecatcher: /images/hing.jpg
 ---

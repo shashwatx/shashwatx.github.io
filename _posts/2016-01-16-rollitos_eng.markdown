@@ -3,7 +3,8 @@ title: Ham wheels
 permalink: wheelsEng
 date: 2016-01-16
 youtubeurl: http://www.youtube.com/embed/BSFKHQ1pKHE
-type: english
+type: recipe
+english: true
 eyecatcher: /images/rollitos2.jpg
 ---
 

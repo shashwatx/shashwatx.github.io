@@ -3,7 +3,8 @@ title: Easy Tandoori Chicken
 permalink: tandooriChicken2
 date: 2016-01-10
 youtubeurl: http://www.youtube.com/embed/MSUWnlApdxI
-type: english
+type: recipe
+english: true
 eyecatcher: /images/tandoori2.jpg
 ---
 

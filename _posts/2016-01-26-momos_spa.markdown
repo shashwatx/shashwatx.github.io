@@ -3,6 +3,8 @@ title: Chicken momo
 permalink: momo
 date: 2016-01-25
 youtubeurl: http://www.youtube.com/embed/YdDXQSYDvo8
+type: recipe
+spanish: true
 eyecatcher: /images/momo.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Curcuma
-spice: true
+type: spice
 divTitle: curcuma
 eyecatcher: /images/turmeric.jpg
 ---

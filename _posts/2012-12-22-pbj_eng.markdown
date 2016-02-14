@@ -2,7 +2,8 @@
 title: PB & J Cookies
 permalink: pbjEng
 date: 2015-12-22
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/YcmykHfzKW4
 eyecatcher: /images/pbj.jpg
 ---

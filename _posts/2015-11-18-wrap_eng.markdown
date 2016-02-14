@@ -2,7 +2,8 @@
 title: Vegan Wraps
 permalink: wraps
 date: 2015-11-27
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/s8VdRtZaoYw
 eyecatcher: /images/wrap.jpg
 ---

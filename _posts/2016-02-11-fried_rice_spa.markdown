@@ -4,6 +4,8 @@ permalink: arrozTresDelicias
 date: 2016-02-14
 youtubeurl: http://www.youtube.com/embed/wsRF5ZZdjNA
 eyecatcher: /images/fried_rice.jpg
+type: recipe
+spanish: true
 story: ninguna historia
 ---
 

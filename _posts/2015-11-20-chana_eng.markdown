@@ -2,7 +2,8 @@
 title: Chana Masala
 permalink: chanaMasalaEng
 date: 2015-11-20
-type: english
+type: recipe
+english: true
 youtubeurl: http://www.youtube.com/embed/DkoTdvNH6is
 eyecatcher: /images/channa_masala.jpg
 ---

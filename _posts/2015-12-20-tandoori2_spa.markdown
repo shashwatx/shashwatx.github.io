@@ -2,6 +2,8 @@
 title: Pollo Tandoori Facil 
 permalink: polloTandoori2
 date: 2016-01-10
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/MSUWnlApdxI
 eyecatcher: /images/tandoori2.jpg
 ---

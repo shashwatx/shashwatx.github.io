@@ -2,6 +2,8 @@
 title: Granola en 10 min
 permalink: granola
 date: 2016-01-10
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/bUCa3NyF7uQ
 eyecatcher: /images/granola.jpg
 ---

@@ -3,7 +3,8 @@ title: Spiralized Pho
 permalink: phoEng
 date: 2016-01-17
 youtubeurl: http://www.youtube.com/embed/RUP5mxLs0NM
-type: english
+type: recipe
+english: true
 eyecatcher: /images/pho.jpg
 ---
 

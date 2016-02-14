@@ -1,6 +1,6 @@
 ---
 title: Mostaza amarilla
-spice: true
+type: spice
 divTitle: mustard
 eyecatcher: /images/mustard.jpg
 ---

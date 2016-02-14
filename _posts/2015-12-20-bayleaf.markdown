@@ -1,6 +1,6 @@
 ---
 title: Laurel indio
-spice: true
+type: spice
 divTitle: laurel
 eyecatcher: /images/bayleaf.jpg
 ---

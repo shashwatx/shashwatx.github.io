@@ -1,6 +1,6 @@
 ---
 title: Cardamomo negro
-spice: true
+type: spice
 divTitle: cardamom
 eyecatcher: /images/cardamom.jpg
 ---

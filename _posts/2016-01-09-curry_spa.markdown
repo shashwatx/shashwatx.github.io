@@ -3,6 +3,8 @@ title: Hojaldres de curry
 permalink: curry
 date: 2016-01-04
 youtubeurl: http://www.youtube.com/embed/HkmsNWtmC7k
+type: recipe
+spanish: true
 eyecatcher: /images/curry.jpg
 ---
 

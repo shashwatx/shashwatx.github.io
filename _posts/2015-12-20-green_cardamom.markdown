@@ -1,6 +1,6 @@
 ---
 title: Cardamomo verde
-spice: true
+type: spice
 divTitle: greenCardamom
 eyecatcher: /images/cardamom.jpg
 ---

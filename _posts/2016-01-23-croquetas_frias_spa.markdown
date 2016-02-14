@@ -2,6 +2,8 @@
 title: Croquetas Frias
 permalink: croquetasFrias
 date: 2016-01-23
+type: recipe
+spanish: true
 youtubeurl: http://www.youtube.com/embed/RTxDmdeskUU
 eyecatcher: /images/croquetas_frias.jpg
 ---

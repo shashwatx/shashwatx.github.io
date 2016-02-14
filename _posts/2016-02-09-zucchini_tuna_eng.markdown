@@ -4,7 +4,8 @@ permalink: tunaZoodles
 date: 2016-02-09
 youtubeurl: http://www.youtube.com/embed/ZgjB35tAjr8 
 eyecatcher: /images/zucchini_tuna.jpg
-type: english
+type: recipe
+english: true
 story: ninguna historia
 ---
 

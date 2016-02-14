@@ -3,7 +3,8 @@ title: Vietnamese salad
 permalink: asianSalad
 date: 2016-01-02
 youtubeurl: http://www.youtube.com/embed/teTMLhTVswM
-type: english
+type: recipe
+english: true
 eyecatcher: /images/goiga.jpg
 ---
 

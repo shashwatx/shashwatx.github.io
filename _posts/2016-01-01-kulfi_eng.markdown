@@ -3,7 +3,8 @@ title: Pista Kulfi
 permalink: pistaKulfiEng
 date: 2016-01-01
 youtubeurl: http://www.youtube.com/embed/P7BiDjCGBIo
-type: english
+type: recipe
+english: true
 eyecatcher: /images/kulfi.jpg
 ---
 

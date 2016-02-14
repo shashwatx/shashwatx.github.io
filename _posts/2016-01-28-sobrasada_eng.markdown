@@ -2,7 +2,8 @@
 title: Vegan spread
 permalink: sobrasadaEng
 date: 2016-01-28
-type: english
+type: recipe
+english: true
 eyecatcher: /images/sobrasada.jpg
 ---
 
