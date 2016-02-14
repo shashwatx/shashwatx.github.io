@@ -1,0 +1,12 @@
+---
+title: Introduction 
+permalink: bookIntro
+date: 2016-02-14
+eyecatcher: /images/masala.jpg
+forBook: true
+story: ninguna historia
+---
+
+I will suggest what I consider are the basic ingredients, as well as a couple of recipes to start with that will please all of the audiences. 
+
+No more excuses now: **it's masala time!**

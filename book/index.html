@@ -1,43 +1,35 @@
 ---
-title: Libro de Abuela
+title: Maria Recipes - 101
 layout: libro
 ---
 
+<div class="project-container">
+    <h1>Indian Cuisine 101</h1>
+    <p>A Brief Introduction to Indian Cuisine.</p>
+    <br><center>
+</div>
+
+
+<div class="magazine">
 <div class="page cover">
     <p>
-        Recetas de Maria 
+    Recetas de Maria
     </p>
 </div>
 
 {% for post in site.posts %}
-{% if post.type == "" or post.type == nil %}
-{% if post.spice == "" or post.spice == nil %}
-
-<div class="page">
-    <p class="old">
-    {{ post.title }}</br>{{ post.story | textilize }}
-    </p>
-    <div class="project-image-type2">    
-        <img src="{{post.eyecatcher}}">
-    </div>
-    <!--<div class="videoContainer">
-        <iframe width="80%" height="250px" src="{{ post.youtubeurl  }}" frameborder="0" allowfullscreen></iframe>
-        </div>-->
-</div>
-<div class="page">
-    <p class="old">
-    {{ post.content }}
-    </p>
-</div>
-
-{% break %}
-{% endif %}
-{% endif %}
+    {% if post.forBook %}
+        <div class="page">
+            <p class="old">
+            {{ post.title }}</br>{{ post.story | textilize }}
+            </p>
+        </div>
+        <div class="page">
+            <p class="old">
+            {{ post.content }}
+            </p>
+        </div>
+        {% break %}
+    {% endif %}
 {% endfor %}
-
-<!--
-<div class="page">
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in eros ac est feugiat feugiat a id diam. Pellentesque commodo neque eget odio consequat sagittis. Etiam lorem lectus, rutrum non ullamcorper in, gravida in purus. Sed at massa scelerisque, tristique justo in, tincidunt mi. In facilisis, justo et molestie vestibulum, enim nulla euismod ex, vel mattis nulla odio at elit. Integer risus nibh, viverra ac pharetra vel, mattis accumsan turpis. Donec at faucibus turpis. Sed tortor libero, scelerisque nec arcu eget, tincidunt hendrerit lectus. Ut et diam tempor, dignissim tellus sit amet, laoreet ipsum. Donec facilisis pulvinar sollicitudin. Fusce aliquet gravida dapibus. Curabitur pellentesque suscipit nulla at placerat. Nulla aliquam blandit lacinia. Integer laoreet lacus nec dapibus egestas. Curabitur pellentesque, est eu convallis molestie, ligula neque porta est, eu auctor risus orci vitae nibh. Fusce placerat laoreet elit, ut congue metus porta ut.
-    </p>
-    </div>-->
+</div>
