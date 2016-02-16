@@ -916,6 +916,12 @@ img.mariaImg{
   width:100%;
   float:left;
 }
+.videoContainer{
+    width:90%;
+}
+.videoContainer iframe{
+    height:200px;
+}
 
 .rightHalfPost
 {
