@@ -911,6 +911,17 @@ img.mariaImg{
 	border: 1px solid #212120;
 }
 
+.leftHalfPost
+{
+  width:100%;
+  float:left;
+}
+
+.rightHalfPost
+{
+  width:100%;
+  clear:left;
+}
 
 .inset {
   padding: 15px;
@@ -963,6 +974,17 @@ img.mariaImg{
 	border: 1px solid #212120;
 }
 
+.leftHalfPost
+{
+  width:100%;
+  float:left;
+}
+
+.rightHalfPost
+{
+  width:100%;
+  clear:left;
+}
 
 
 .showcase-wrapper {
