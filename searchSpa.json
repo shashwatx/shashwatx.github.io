@@ -4,8 +4,7 @@ layout: none
 [
     {% assign firstEntry = true %}
     {% for post in site.posts %}
-        {% if post.type == "" or post.type == nil %}
-            {% if post.spice == "" or post.spice == nil %}
+        {% if post.type == 'recipe' and post.spanish %}
                 {% if firstEntry  == false %},{% endif %}
                 {% if firstEntry  == true %}
                     {% assign firstEntry = false %}
@@ -16,7 +15,6 @@ layout: none
                 "url"      : "{{ site.baseurl }}{{ post.url }}",
                 "date"     : "{{ post.date }}"
                 }
-        {% endif %}
         {% endif %}
 	{% endfor %}
 ]
