@@ -15,6 +15,7 @@ disqus:
 
 highlighter: rouge
 markdown: kramdown
+encoding: utf-8
 redcarpet:
   extensions: ["tables"]
 
