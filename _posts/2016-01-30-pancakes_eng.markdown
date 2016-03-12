@@ -1,10 +1,12 @@
 ---
-title: 3 ingredient pancakes
-permalink: pancakesEng
+title: 3 Ingred Pancakes
+permalink: pancakes
 date: 2016-01-30
 youtubeurl: http://www.youtube.com/embed/_n_sYKReZME
-type: english
 eyecatcher: /images/pancakes.jpg
+type: recipe
+english: true
+story: ninguna story
 ---
 
 I love pancakes (who doesn't!?). But it's so annoying that it always needs so many ingredients and you end up making batter for a lot of people... 

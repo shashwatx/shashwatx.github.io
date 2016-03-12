@@ -1,9 +1,12 @@
 ---
-title: Tortitas de 3 ingredientes
+title: Tortitas Faciles
 permalink: tortitas
 date: 2016-01-30
 youtubeurl: http://www.youtube.com/embed/_n_sYKReZME
 eyecatcher: /images/pancakes.jpg
+type: recipe
+spanish: true
+story: ninguna story
 ---
 
 Me encantan las tortitas (a quien no?). Pero siempre que hago, me lleva muchisimo tiempo y encima me salen muchisimas, y acabo tomando tortitas toda la semana... 

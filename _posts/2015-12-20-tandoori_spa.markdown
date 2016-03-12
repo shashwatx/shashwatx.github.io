@@ -2,7 +2,7 @@
 title: Pollo Tandoori 
 permalink: polloTandoori
 type: recipe
-english: true
+spanish: true
 date: 2015-12-20
 youtubeurl: http://www.youtube.com/embed/MSUWnlApdxI
 eyecatcher: /images/tandoori.jpg
