@@ -1,6 +1,6 @@
 ---
 title: Steamed eggplant
-permalink: stamedEggplant
+permalink: steamedEggplant
 date: 2016-03-13
 eyecatcher: /images/eggplant.jpg
 type: recipe
