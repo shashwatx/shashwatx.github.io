@@ -10,7 +10,9 @@ eyecatcher: /images/sobrasada.jpg
 
 La sobrasada siempre ha sido una de mis debilidades. Asi que cuando vi que se podia hacer "sobrasada" vegana con tomates secos... me puse a ello!
 
-Esta es una de las dos recetas que utilizo, segun los ingredientes que tenga en casa. Espero que os guste!
+Esta es una de las dos recetas que utilizo, segun los ingredientes que tenga en casa. Espero que os guste! 
+
+La receta esta adaptada de [chezDashita](http://chezDashita.blogspot.com)
 
 
 * **Ingredientes**

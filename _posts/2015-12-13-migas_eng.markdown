@@ -2,9 +2,11 @@
 title: Chorizo Rice
 permalink: cauliflowerChorizo
 date: 2015-12-13
-type: english
-youtubeurl: http://www.youtube.com/embed/C7sNOnzwMXE
 eyecatcher: /images/migas.jpg
+youtubeurl: http://www.youtube.com/embed/C7sNOnzwMXE
+type: recipe
+english: true
+story: ninguna story
 ---
 
 * **Ingredients**, _for two_

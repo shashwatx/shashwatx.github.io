@@ -1,9 +1,12 @@
 ---
-title: Migas de coliflor
-permalink: migasDeColiflor
+title: Migas
+permalink: cauliflowerChorizo
 date: 2015-12-13
-youtubeurl: http://www.youtube.com/embed/C7sNOnzwMXE
 eyecatcher: /images/migas.jpg
+youtubeurl: http://www.youtube.com/embed/C7sNOnzwMXE
+type: recipe
+spanish: true
+story: ninguna story
 ---
 
 * **Ingredientes**, _para 2 personas que coman mucho (como yo)_
