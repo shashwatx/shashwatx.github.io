@@ -2,7 +2,7 @@
 title: Best spiralized recipe
 permalink: zoodles
 date: 2016-03-27
-youtubeurl: http://www.youtube.com/embed/WX87gOV-yhM
+youtubeurl: http://www.youtube.com/embed/WX87g0V-yhM
 eyecatcher: /images/zoodles.jpg
 type: recipe
 english: true

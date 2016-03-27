@@ -3,7 +3,7 @@ title: Tortitas de calabacin
 permalink: tortitasCalabacin
 date: 2016-03-26
 youtubeurl: http://www.youtube.com/embed/vLXRb6UhGaE
-eyecatcher: /images/pancakes.jpg
+eyecatcher: /images/zpancakes.jpg
 type: recipe
 spanish: true
 story: ninguna historia

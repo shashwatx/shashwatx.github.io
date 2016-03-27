@@ -3,7 +3,7 @@ title: Rollitos veganos
 permalink: rollitosRepollo
 date: 2016-03-22
 youtubeurl: http://www.youtube.com/embed/lZxrQ8bOTcI
-eyecatcher: /images/rolls.jpg
+eyecatcher: /images/cabbage_rolls.jpg
 type: recipe
 spanish: true
 story: ninguna story

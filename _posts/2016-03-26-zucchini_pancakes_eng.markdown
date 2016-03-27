@@ -3,7 +3,7 @@ title: Zucchini pancakes
 permalink: zuchPancakes
 date: 2016-03-26
 youtubeurl: http://www.youtube.com/embed/vLXRb6UhGaE
-eyecatcher: /images/pancakes.jpg
+eyecatcher: /images/zpancakes.jpg
 type: recipe
 english: true
 story: ninguna historia
