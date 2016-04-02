@@ -1,6 +1,6 @@
 ---
 title: Curry de Garbanzos
-permalink: ChanaMasala
+permalink: chanaMasala
 date: 2015-11-20
 type: recipe
 spanish: true
