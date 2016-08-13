@@ -2,7 +2,7 @@
 title: Protein Bars
 permalink: proteinBars
 date: 2016-08-07
-youtubeurl: ![barraProteinas](/images/proteinbars.jpg =250x)
+youtubeurl: 
 type: recipe
 english: true
 story: ninguna historia

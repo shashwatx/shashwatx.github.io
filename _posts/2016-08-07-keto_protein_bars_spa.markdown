@@ -2,7 +2,7 @@
 title: Barritas de proteínas
 permalink: barritasProteina
 date: 2016-08-07
-youtubeurl: ![barraProteinas](/images/proteinbars.jpg =250x)
+youtubeurl: 
 type: recipe
 spanish: true
 story: ninguna historia
