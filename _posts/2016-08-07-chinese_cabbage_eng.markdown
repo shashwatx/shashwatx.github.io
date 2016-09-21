@@ -1,5 +1,5 @@
 ---
-title: Chinese-style Cabbage
+title: Chinese Cabbage
 permalink: ketoCabbage
 date: 2016-08-07
 youtubeurl: https://www.youtube.com/embed/MPG4faxGapU
