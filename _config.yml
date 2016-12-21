@@ -72,3 +72,8 @@ markdown: kramdown
 sass:
   sass_dir: assets/partials
   style: compressed
+
+gems:
+   - generate_categories
+   - tag_gen
+   - gravatar
