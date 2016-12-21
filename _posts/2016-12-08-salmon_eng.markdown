@@ -6,27 +6,36 @@ type: recipe
 english: true
 youtubeurl: https://www.youtube.com/embed/7yMWjjgeknk
 eyecatcher: /images/salmon.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- fish
+category:
+- main
 ---
+
+<img src="https://farm1.staticflickr.com/769/31584141351_883e3468d6_o_d.jpg"/>
 
 A great, easy, tasty, keto recipe. My family adores it, it literally takes 10-15 minutes to make, and is super filling. You have to try it!
 
 Add more oil if you want it to be more filling, or accompany with a fatty vegetable side dish.
 
 
-* **Ingredients**, _serves 4_
-  - 2 salmon fillets, about 1 inch thick (14 oz in total)
-  - 1 tbsp coconut oil
-  - The green part of 3 leeks (cut out the ends) OR one whole leek (90g)
-  - 1 tsp fresh ginger paste
-  - 1/4 tsp salt  
-  - 1/4 tsp black pepper
-  - 1 tbsp soy sauce
-  - 3 tbsp water
-  - 2 tbsp lemon juice
-  - Stevia or sweetener to taste (equals 1-2 tsp sugar)
-  - 1/2 tbsp sesame oil
-  - Optional: coriander for garnishing
-
+<ul>
+  <li> 2 salmon fillets, about 1 inch thick (14 oz in total)</li>
+  <li> 1 tbsp coconut oil</li>
+  <li> The green part of 3 leeks (cut out the ends) OR one whole leek (90g)</li>
+  <li> 1 tsp fresh ginger paste</li>
+  <li> 1/4 tsp salt</li>  
+  <li> 1/4 tsp black pepper</li>
+  <li> 1 tbsp soy sauce</li>
+  <li> 3 tbsp water</li>
+  <li> 2 tbsp lemon juice</li>
+  <li> Stevia or sweetener to taste (equals 1-2 tsp sugar)</li>
+  <li> 1/2 tbsp sesame oil</li>
+  <li> Optional: coriander for garnishing</li>
+</ul>
 
 * **Process**
   1. Melt the coconut oil over high heat. Then fry the ginger for 2 minutes.

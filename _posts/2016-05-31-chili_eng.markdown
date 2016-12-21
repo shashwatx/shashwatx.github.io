@@ -7,7 +7,16 @@ eyecatcher: /images/chili.jpg
 type: recipe
 english: true
 story: ninguna historia
+author: maria
+layout: post
+tags:
+- vegan
+- vegetarian
+category:
+- main
 ---
+
+<img src="https://farm1.staticflickr.com/551/31326382390_388b0acfaa_o_d.jpg" />
 
 There are many vegetarian people in India, so traditional spanish cuisine (very often pork-based) is not very appropriate here, and on top of that, anything european is considered bland (because no chili, no taste, apparently!). So finding something to cook that they would like (that wasnt indian food!) seemed difficult.
 
@@ -16,19 +25,18 @@ So... chili to the rescue! I make my chili meatless and with loooooads of veggie
 For those who watch the videos: im so sorry about the terrible picture quality. But cooking in a new kitchen with limited resources and at 40 degrees temperature, being a good photographer was the least of my worries :)
 
 
-* **Ingredients**, _serves 6_
-  - 400 g cooked kidney beans (rajma), about 3 cups
-  - 2 cloves of garlic, very finely chopped
-  - 2 medium onions, finely chopped
-  - 3 red bell peppers, finely chopped (you can sub one for a different color pepper)
-  - 2 tomatoes, chopped 
-  - 300-400 g tomato puree
-  - 1 tbsp tomato paste
-  - Spices (adjust to your taste): 1/2-1 tsp cumin, _1/2 tsp oregano optional_, 1/4 tsp black pepper, _1/4 tsp cinnamon powder optional_, 1 tbsp cacao powder, 1-2 tbsp sugar, _10 g of dark cooking chocolate optional_, 1 tsp of chipotle paste
-   - _if you dont have chipotle (as was my case today), you can substitute it for 1 tsp of red chili powder and, if you want, cook the peppers on an open flame for a couple of minutes to get that smoky flavor one gets from the chipotle._
-  - _Optional: 1/2 cup of corn grains, raw_ 
-   - _If using cooked (canned) corn, add 5 minutes before serving._
-  - Salt
+<ul>
+  <li>400 g cooked kidney beans (rajma), about 3 cups</li>
+  <li>2 cloves of garlic, very finely chopped</li>
+  <li>2 medium onions, finely chopped</li>
+  <li>3 red bell peppers, finely chopped (you can sub one for a different color pepper)</li>
+  <li>2 tomatoes, chopped</li>
+  <li>300-400 g tomato puree</li>
+  <li>1 tbsp tomato paste</li>
+  <li>Spices (adjust to your taste): 1/2-1 tsp cumin, _1/2 tsp oregano optional_, 1/4 tsp black pepper, _1/4 tsp cinnamon powder optional_, 1 tbsp cacao powder, 1-2 tbsp sugar, _10 g of dark cooking chocolate optional_, 1 tsp of chipotle paste _(you can substitute it for 1 tsp of red chili powder and, if you want, cook the peppers on an open flame for a couple of minutes to get that smoky flavor one gets from the chipotle.)_</li>
+  <li>_Optional: 1/2 cup of corn grains, raw_</li> 
+  <li>Salt</li>
+</ul>
 
 * **Process**
   1. In a large pot or pan with 2-3 tbsp olive oil, add the onions and garlic with 1/4 tsp of salt. Cook on medium-low heat for about 20 minutes until nice and soft. 

@@ -6,24 +6,41 @@ type: recipe
 english: true
 youtubeurl: 
 eyecatcher: /images/seitansausage.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- vegan
+- vegetarian
+- soy
+- seitan
+category:
+- main
 ---
+
+<img src="https://farm1.staticflickr.com/268/31553354842_96c90f3f12_o_d.jpg" />
 
 This is one of these recipes that I make in bulk and then freeze for an easy lunch or dinner for another day. These sausages are fenomenal, very high protein and quite low-carb, so they make for a great dinner when combined with some cauli-rice, keto bbq sauce and salad. Hope you enjoy them!
 
 
-* **Ingredients**, _makes 12 sausages_
-  - 250 g vital wheat gluten
-  - 300 g tofu (best to use silken, but you can use firm if you want)
-  - _Optional: 1/2 cup nutritional yeast_
-  - Spices: 2 tbsp onion powder, 1/2 tsp black pepper, 2 tsp sweet paprika, 1 tsp smoked paprika, chili to taste, 1 tbsp ground mustard seeds
-  - 1 tsp salt
-  - Sweetener to taste (equals 1 tsp sugar)
-  - 3 garlic cloves
-  - 2 tbsp soy sauce
-  - 3 tsp liquid smoke
-  - 1 cup of water
-  - 2 tbsp olive oil
-
+<ul>
+  <li>250 g vital wheat gluten</li>
+  <li>300 g tofu (best to use silken, but you can use firm if you want)</li>
+  <li><i>Optional: 1/2 cup nutritional yeast</i></li>
+  <li>2 tbsp onion powder</li>
+  <li>1/2 tsp black pepper</li>
+  <li>2 tsp sweet paprika</li>
+  <li>1 tsp smoked paprika</li>
+  <li>chili to taste</li>
+  <li>1 tbsp ground mustard seeds</li>
+  <li>1 tsp salt</li>
+  <li>Sweetener to taste (equals 1 tsp sugar)</li>
+  <li>3 garlic cloves</li>
+  <li>2 tbsp soy sauce</li>
+  <li>3 tsp liquid smoke</li>
+  <li>1 cup of water</li>
+  <li>2 tbsp olive oil</li>
+</ul>
 
 * **Process**
   1. Blend the tofu, garlic, soy sauce, oliquid smoke, water and oil until smooth.

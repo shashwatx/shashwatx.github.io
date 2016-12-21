@@ -7,22 +7,34 @@ type: recipe
 spanish: true
 story: ninguna historia
 eyecatcher: /images/zucchiniTortillas.jpg
+author: maria
+layout: post
+tags:
+- bajo en hidratos
+- vegetariano
+- coco
+- calabacin
+- huevos
+category:
+- aperitivo
 ---
+
+<img src="https://farm1.staticflickr.com/557/31561188891_b3f75d92c1_o_d.jpg"/>
 
 Otra receta baja en hidratos de carbono que no requiere demasiados ingredientes, y está genial para cuando el calabacín está en oferta y te encuentras con el frigorífico lleno (como me pasa a mí!). 
 
 Estas tortillas son suaves y un poco dulces, geniales recién salidas del horno para fajitas, tacos o quesadillas, y aguantan bien 2-3 días en el frigorífico - caliéntalos unos segundos y ya está!
 
 
-* **Ingredientes**, _para 6 tortillas_
-  * 500 g calabacín, rallado (2,5 calabacín medianos)
-  * 3 tbsp (generosas) de harina de coco
-  * 1 huevo
-  * 1/2 tbsp pesto (opcional, puedes añadir un poco más o quitarlo)
-  * 1/2 tsp sal
-  * _Opcional: queso rallado; el mío tenía bastantes hidratos así que sólo puse 20 g, pero se puede usar parmesano o bien omitirlo_
+<ul>
+  <li>500 g calabacín, rallado (2,5 calabacín medianos)</li>
+  <li>3 tbsp (generosas) de harina de coco</li>
+  <li>1 huevo</li>
+  <li>1/2 tbsp pesto (opcional, puedes añadir un poco más o quitarlo)</li>
+  <li>1/2 tsp sal</li>
+  <li>Opcional: queso rallado</li>
+</ul>
 
-![zucchiniTortillas1](/images/tortillas1.jpg =250x)
 
 * **Elaboración**
   1. Precalienta el horno a 180C.
@@ -32,9 +44,9 @@ Estas tortillas son suaves y un poco dulces, geniales recién salidas del horno 
   5. Hornéalas 15-20 minutes hasta que se hayan secado un poco pero aún estén suaves. 
   6. Opcional: si quieres tortillas duras para tacos crujientes, déjalos que se sequen al horno poniéndolos colgando con forma de taco en la rejilla de hornear.
 
-![zucchiniTortillas2](/images/tortillas2.jpg =250x)
 
-* Información nutricional, por tortilla
+
+* **Información nutricional**, por tortilla (haciendo 6 tortillas)
   * 64 kCal
   * 5.1 g hidratos totales, 1.9 g fibra, 3.1 g hidratos de carbono netos
   * 3.5 g proteina

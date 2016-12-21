@@ -7,7 +7,20 @@ eyecatcher: /images/chowmein.jpg
 type: recipe
 spanish: true
 story: ninguna historia
+author: maria
+layout: post
+tags:
+- bajo en hidratos
+- vegano
+- vegetariano
+- soja
+- espiralizado
+- indio
+category:
+- principal
 ---
+
+<img src="https://farm1.staticflickr.com/608/31698792525_4c207670e9_o_d.jpg" />
 
 El chowmein es un plato indo-chino, muy típico en Nepal: streetfood que sirven en los sitios más cutres, pero que está buenísimo. 
 
@@ -17,22 +30,22 @@ Los más típicos son los Veg Chowmein (vegetariano) y el Chicken Chowmein (de p
 
 Es un plato muy fuerte y sabroso, con toques dulces y picantes. Espero que os guste.
 
-* **Ingredientes**, para 3-4 personas
-  - 3 nabos espiralizados _(sustituible por noodles de trigo integral)_
-  - 1/4 de repollo, cortado fino (puedes usar la espiralizadora para cortarlo!)
-  - 1 zanahoria pequeña, cortada en tiras
-  - 1/2 pimiento rojo, cortado en tiras
-  - 2 cebollas medianas o una grande (preferiblemente morada)
-  - Otras verduras, opcionales, por ejemplo un manojo de judías verdes hervidas
-  - _Opcional: 250 g de tofu_
-  - 2 dientes de ajo bien picados o bien 1 tsp de pasta de ajo (garlic paste)
-  - Unas tiras de jengibre fresco (que se echarían con las verduras picadas) o bien 2 tsp de pasta de jengibre (ginger paste, que se echaría con el ajo)
-  - _Opcional: 1 huevo_
-  - _Opcional: ajetes, para echar al final_
-  - Para la salsa: 4 tsp de salsa soja (se podría sustituir la mitad por salsa de ostras, en el caso de los no-vegetarianos), 1/2 tsp de comino, 1 tsp de pasta de chili rojo o bien chili en polvo (esto se debe adaptar al gusto; con 1 tsp queda bastante picante), sal (si la salsa soja es muy salada, quizá no la necesites). _Opcional: 2 tsp de vinagre de arroz, zumo de lima, o similar_
-  - 2 cucharadas de aceite vegetal neutro (por ejemplo, de girasol)
-  - Para servir: ketchup y salsa de chili (tipo Sriracha)
-
+<ul>
+  <li>3 nabos espiralizados (sustituible por noodles de trigo integral)</li>
+  <li>1/4 de repollo, cortado fino (puedes usar la espiralizadora para cortarlo!)</li>
+  <li>1 zanahoria pequeña, cortada en tiras</li>
+  <li>1/2 pimiento rojo, cortado en tiras</li>
+  <li>2 cebollas medianas o una grande (preferiblemente morada)</li>
+  <li>Otras verduras, opcionales, por ejemplo un manojo de judías verdes hervidas</li>
+  <li><i>Opcional: 250 g de tofu</i></li>
+  <li>2 dientes de ajo bien picados o bien 1 tsp de pasta de ajo (garlic paste)</li>
+  <li>Unas tiras de jengibre fresco (que se echarían con las verduras picadas) o bien 2 tsp de pasta de jengibre (ginger paste, que se echaría con el ajo)</li>
+  <li>Opcional: 1 huevo</li>
+  <li>Opcional: ajetes, para echar al final</li>
+  <li>Para la salsa: 4 tsp de salsa soja (se podría sustituir la mitad por salsa de ostras, en el caso de los no-vegetarianos), 1/2 tsp de comino, 1 tsp de pasta de chili rojo o bien chili en polvo (esto se debe adaptar al gusto; con 1 tsp queda bastante picante), sal (si la salsa soja es muy salada, quizá no la necesites). <i>Opcional: 2 tsp de vinagre de arroz, zumo de lima, o similar</i></li>
+  <li>2 cucharadas de aceite vegetal neutro (por ejemplo, de girasol)</li>
+  <li>Para servir: ketchup y salsa de chili (tipo Sriracha)</li>
+</ul>
 * **Elaboración**
   1. En una sartén suficientemente grande,  a fuego medio-alto, pon una cucharada de aceite y luego fríe el tofu cortado en cubos para que se dore. Tardará unos 5 minutos. Después, sácalo y resérvalo para después. 
   2. Echar el resto del aceite a la sartén y añadir la cebolla. Rehogar unos 5 minutos. Cuando empiece a ablandarse, añadir el resto de las verduras y cocinarlas hasta que estén blandas. 

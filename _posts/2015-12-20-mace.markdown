@@ -1,9 +1,0 @@
----
-title: Mací (mace)
-type: spice
-divTitle: mace
-eyecatcher: /images/mace.jpg
----
-
-* Se trata de una especia poco conocida, al menos en España. Es simplemente la cáscara que recubre la nuez moscada, y tiene un sabor similar a esta, pero más suave. Se emplea en platos salados. 
-* Si no se dispone de ella se puede sustituir por nuez moscada, pero añadiendo muy poca puesto que ésta es más fuerte y si nos pasamos puede arruinar el plato.

@@ -6,7 +6,20 @@ type: recipe
 spanish: true
 youtubeurl: 
 eyecatcher: /images/ketogranola.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- vegan
+- vegetarian
+- cacao
+- sweet
+- almonds
+category:
+- breakfast
 ---
+
+<img src="https://farm1.staticflickr.com/741/31328471570_693ee2da8e_o_d.jpg" />
 
 Este es mi desayuno comodín junto a leche de coco o con yogur griego, y además es súper útil cuando viajo (simplemente me pido un yogur en una cafetería y lo echo encima!). Más que una receta, es una guía para hacer tu propia versión cetogénica de la granola, unos cereales crujientes bajos en hidratos que podéis adaptar a vuestro gusto. 
 

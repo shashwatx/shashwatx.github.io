@@ -7,7 +7,18 @@ type: recipe
 spanish: true
 story: ninguna historia
 eyecatcher: /images/col.jpg
+layout: post
+author: maria
+tags:
+- vegan
+- low-carb
+- vegetarian
+- cabbage
+- soy
+category: 
+- main
 ---
+<img src="https://farm1.staticflickr.com/701/30866637123_f211993d27_o_d.jpg" />
 
 Esta receta no es nada nuevo; solo he adaptado mis [rollitos de repollo](http://maria.recipes/rollitosRepollo) para que tengan menos hidratos, rellenándolos de  soja texturizada y semillas. Están tan buenos como mi receta original, y esta vez os he incluido un video sobre cómo enrollarlos. Espero que os guste.
 

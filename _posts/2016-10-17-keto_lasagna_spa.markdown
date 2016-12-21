@@ -6,7 +6,18 @@ type: recipe
 spanish: true
 youtubeurl: 
 eyecatcher: /images/lasagna.jpg
+layout: post
+author: maria
+tags:
+- vegan
+- low-carb
+- vegetarian
+- zucchini
+- soy
+category: 
+- main
 ---
+<img src="https://farm1.staticflickr.com/629/31639726906_1fce7b772e_o_d.jpg" />
 
 Estoy muy contenta con esta lasaña. Es vegetariana (y puede ser vegana si se utiliza leche vegetal y se omite la mozzarella) y baja en hidratos. Y no deja nada que desear respecto a una lasaña normal!
 

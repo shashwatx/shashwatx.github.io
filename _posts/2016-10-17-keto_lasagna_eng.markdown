@@ -1,31 +1,45 @@
 ---
+layout: post
 title: Keto Veggie Lasagna
 permalink: ketoLasagna
-date: 2016-10-17
+author: maria
+date: 2016-10-17 11:12
 type: recipe
 english: true
 youtubeurl: 
 eyecatcher: /images/lasagna.jpg
+tags:
+- vegan
+- low-carb
+- vegetarian
+- zucchini
+- soy
+category: 
+- main
 ---
+<img src="https://farm1.staticflickr.com/629/31639726906_1fce7b772e_o_d.jpg" />
 
 I am so happy about this lasagna! It is vegetarian (and can be vegan if you use a vegan milk and omit the mozzarella) and low-carb, and it is as good as the traditional one!
 
+For the sauce, you can combine milk and heavy cream as you want, and/or use vegetarian milks to lower the carb count. In my case, i used soy milk mixed with single cream.
 
-* **Ingredients**, _serves 4_
-  - 2 medium zucchini (400 g)
-  - 2/3 chopped onion (75 g)
-  - 1/2 tsp garlic powder
-  - 1/4 tsp dried oregano
-  - 2 tbsp tomato purée
-  - 2 tbsp olive oil
-  - 50 g soy granules
-  - 1 tbsp flax meal
-  - 1/2 cup of milk + 1/2 cup of heavy cream (you can combine these as you want; I like to use soy milk, which is lower in carbs)
-  - A pinch of nutmeg
-  - 1/2 tbsp psyllium powder
-  - 1/2 cup shredded mozzarella 
-  - Salt, black pepper
 
+<ul>
+    <li>2 medium zucchini (400 g)</li>
+    <li>2/3 chopped onion (75 g)</li>
+    <li>1/2 tsp garlic powder</li>
+    <li>1/4 tsp dried oregano</li>
+    <li>2 tbsp tomato purée</li>
+    <li>2 tbsp olive oil</li>
+    <li>50 g soy granules</li>
+    <li>1 tbsp flax meal</li>
+    <li>1/2 cup of milk + 1/2 cup of heavy cream</li>
+    <li>A pinch of nutmeg</li>
+    <li>1/2 tbsp psyllium powder</li>
+    <li>1/2 cup shredded mozzarella</li> 
+    <li>Salt</li>
+    <li>Black pepper</li>
+</ul>
 
 * **Process**
   1. Cut the zucchini in thin strips of about 2 mm thick. Then cook with a little bit of olive oil on a non-stick pan, in the microwave or steam them, until they are slightly softer but not completely mushy!  
@@ -36,8 +50,8 @@ I am so happy about this lasagna! It is vegetarian (and can be vegan if you use 
   6. Bake at 180-200C for 30 minutes, putting it under the broiler in the last 5 min. 
 
 
-* **Nutritional info**, per serving
+* **Nutritional info**, _for 1/4th recipe_
   - 310 kCal
-  - 14.6 g total carbs, 3.1 g fiber, 11.5 g net carbs
-  - 14 g protein
+  - 14.6 g total carbs, 3.1 g fiber, **11.5 g net carbs**
+  - **14 g protein**
   - 23.2 g fat

@@ -1,26 +1,38 @@
 ---
-title: Keto Bread (flax)
+layout: post
+title: "Keto Bread (flax)"
 permalink: ketoBread
-date: 2016-07-17
+author: maria
+date: 2016-07-17 14:10
 youtubeurl: 
 type: recipe
 english: true
-story: ninguna historia
 eyecatcher: /images/ketobread.jpg
+tags:
+- vegetarian
+- low-carb
+- flax
+- eggs
+- bread
+category: 
+- tea
 ---
 
+<img src="https://farm1.staticflickr.com/262/31698452985_05863d1d99_o_d.jpg" />
+
 Lately I have been experimenting with high-fat-low-carb cooking for my father, who is giving a go at the ketogenic diet. He has been doing pretty good, but was always complaining about not having bread to dip the sauce in... So I perfected an easy, microwave recipe for anybody in a similar situation in which they cannot eat bread: keto, paleo or gluten-free, you will like this! The flavor of flax is quite strong, but by using extra virgin olive oil, the final result tastes mostly like olive oil, and is very good with cheese, guacamole, egg, or even jam! 
+Just remember - when it comes to flax meal, it´s best if you grind it at home, so it doesn´t lose nutrients :)
 
-<img src="/images/ketobread1.jpg" alt="BreadInside" style="width: 250px;"/>
+<img src="https://farm1.staticflickr.com/288/31661818156_c5095f4e93_o_d.jpg" alt="BreadInside" style="width: 250px;"/>
 
-* **Ingredients**, _to make 3 small muffin-sized buns_
-  - 100 mL of flax meal (it´s best if you grind it at home, so it doesn´t lose nutrients)
-  - 1/2 tsp baking powder
-  - A pinch of salt
-  - 1 egg
-  - 1 tbsp extra virgin olive oil
-  - 2 tbsp water
-
+<ul>
+    <li>100 mL of flax meal</li>
+    <li>1/2 tsp baking powder</li>
+    <li>A pinch of salt</li>
+    <li>1 egg</li>
+    <li>1 tbsp extra virgin olive oil</li>
+    <li>2 tbsp water</li>
+</ul>
 
 * **Process**
   1. Blend the egg, oil and water until foamy. In a separate bowl, mix the flax meal, baking powder and salt.
@@ -29,7 +41,7 @@ Lately I have been experimenting with high-fat-low-carb cooking for my father, w
   4. Microwave on high for 2 minutes or until it sets. 
 
 
-* **Nutrition info**, _per bun_
+* **Nutrition info**, _per bun (makes 3)_
   - 107 kcal total calories
   - 7 g fat
   - 0.8 g net carbs

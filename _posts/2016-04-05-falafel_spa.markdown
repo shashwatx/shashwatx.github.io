@@ -7,7 +7,17 @@ eyecatcher: /images/falafel.jpg
 type: recipe
 spanish: true
 story: ninguna historia
+layout: post
+author: maria
+tags:
+- garbanzos
+- vegano
+- vegetariano
+category:
+- aperitivo
 ---
+
+<img src="https://farm1.staticflickr.com/366/30888724203_7b9d744d76_o_d.jpg" />
 
 
 Los falafel son una especie de albóndigas de garbanzos típicas de Oriente Medio. Tradicionalmente son veganos y se hacen friéndolos. 
@@ -19,17 +29,18 @@ Así que se me ocurrió usar harina de garbanzo y el resultado es muy bueno. La 
 Quedan falafel crujientitos y un poco húmedos por fuera, perfectos para lo que queráis.
 
 
-* **Ingredientes**, _para 16-20 falafel_
-  - 400 g de garbanzos cocidos y escurridos
-  - 1 cebolla pequeña
-  - 1 (o 2) diente de ajo
-  - Un manojo de perejil, aprox 1/2 cup (se puede sustituir la mitad o todo por cilantro)
-  - 4 cucharadas de harina de garbanzo
-  - 2 tsp de cilantro en polvo 
-  - 2 tsp de comino en polvo
-  - 1 tsp de sal
-  - 1/2 tsp de bicarbonato
-  - 3 cucharadas de aceite de oliva (se puede añadir un poco más si se quiere)
+<ul>
+  <li>400 g de garbanzos cocidos y escurridos</li>
+  <li>1 cebolla pequeña</li>
+  <li>1 (o 2) diente de ajo</li>
+  <li>Un manojo de perejil, aprox 1/2 cup (se puede sustituir la mitad o todo por cilantro)</li>
+  <li>4 cucharadas de harina de garbanzo</li>
+  <li>2 tsp de cilantro en polvo </li>
+  <li>2 tsp de comino en polvo</li>
+  <li>1 tsp de sal</li>
+  <li>1/2 tsp de bicarbonato</li>
+  <li>3 cucharadas de aceite de oliva (se puede añadir un poco más si se quiere)</li>
+</ul>
 
 * **Elaboración**
   1. Precalentar el horno a 180C

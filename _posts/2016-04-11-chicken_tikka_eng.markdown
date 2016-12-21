@@ -7,8 +7,16 @@ eyecatcher: /images/tikka.jpg
 type: recipe
 english: true
 story: ninguna historia
----
+layout: post
+author: maria
+tags:
+- chicken
+- indian
+category: 
+- snack
+--- 
 
+<img src="https://farm1.staticflickr.com/679/30857035844_7ab9ae46fa_o_d.jpg "/>
 
 Chicken tikka, that can also be made with paneer or tofu, is an easy to make appetizer, very versatile to add to other dishes, or to just eat it plain.
 

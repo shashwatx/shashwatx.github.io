@@ -6,7 +6,20 @@ type: recipe
 spanish: true
 youtubeurl: 
 eyecatcher: /images/chocolate.jpg
+layout: post
+author: maria
+tags:
+- low-carb
+- vegan
+- vegetarian
+- cacao
+- coconut
+- sweet
+category:
+- snack
 ---
+
+<img src="https://farm1.staticflickr.com/293/31676698135_795c1b0ace_o_d.jpg" />
 
 Esta es una receta sencillísima para hacer un chocolate sin azúcar y  sin edulcorantes extraños ni ingredientes impronunciables :) 
 

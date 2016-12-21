@@ -7,21 +7,30 @@ eyecatcher: /images/calabacin_vinagre.jpg
 type: recipe
 spanish: true
 story: ninguna historia
+author: maria
+layout: post
+tags:
+- calabacin
+- bajo en hidratos
+category:
+- aperitivo
 ---
+
+<img src="https://farm1.staticflickr.com/680/30888748853_b9eaa38845_o_d.jpg" />
 
 En mi familia gustan mucho los boquerones en vinagre. Pero a mí no me termina de convencer lo del pescado crudo, y dado que estoy intentando basar mi dieta en productos vegetales, recordé que había gente que hacía una versión vegana de los boquerones en vinagre pero con calabacín cortado muy finito... 
 
 Y sí! Sale bien y está muy buena!! Sobre todo en ensalada, pero también como aperitivo con una cerveza, es una manera estupenda de tomar algo fresco y sano en verano.
 
 
-* **Ingredientes**
-  - Calabacín
-  - Vinagre de vino blanco
-  - Aceite de oliva virgen extra
-  - Sal
-  - Ajo
-  - Perejil fresco
-
+<ul>
+  <li>Calabacín</li>
+  <li>Vinagre de vino blanco</li>
+  <li>Aceite de oliva virgen extra</li>
+  <li>Sal</li>
+  <li>Ajo</li>
+  <li>Perejil fresco</li>
+</ul>
 
 
 * **Elaboración**

@@ -6,7 +6,18 @@ type: recipe
 spanish: true
 youtubeurl: 
 eyecatcher: /images/veganpancakes.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- vegan
+- vegetarian
+- sweet
+category:
+- breakfast
 ---
+
+<img src="https://farm1.staticflickr.com/675/30859299594_d749cc678b_o_d.jpg" />
 
 Es súper difícil hacer pancakes cetogénicos veganos! La harina de coco hace cosas raras cuando no se usa con huevo... y al final acababa con una especie de flubber con sabor a vainilla! 
 

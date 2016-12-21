@@ -7,7 +7,16 @@ eyecatcher: /images/hummus_judias.jpg
 type: recipe
 english: true
 story: ninguna historia
+author: maria
+layout: post
+tags:
+- vegan
+- vegetarian
+category: 
+- snack
 ---
+
+<img src="https://farm1.staticflickr.com/311/30888708563_74b3abe168_o_d.jpg" />
 
 A delicious, spicy dip, with mexican flavours. Incredibly easy to make and so tasty that I eat it by the spoonful :D
 

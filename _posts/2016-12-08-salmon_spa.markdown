@@ -6,7 +6,17 @@ type: recipe
 spanish: true
 youtubeurl: https://www.youtube.com/embed/7yMWjjgeknk
 eyecatcher: /images/salmon.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- fish
+category:
+- main
 ---
+
+<img src="https://farm1.staticflickr.com/769/31584141351_883e3468d6_o_d.jpg"/>
+
 
 Una receta cetogénica facilísima y muy sabrosa. A mi familia le encanta, se tarda literalmente 10-15 minutos en prepararla, y es muy saciante. ¡Tienes que probarla!
 

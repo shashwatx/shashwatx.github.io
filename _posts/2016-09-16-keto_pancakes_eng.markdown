@@ -7,21 +7,31 @@ type: recipe
 english: true
 story: ninguna historia
 eyecatcher: /images/keto_pancakes.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- eggs
+- vegetarian
+- sweet
+category:
+- breakfast
 ---
+
+<img src="https://farm1.staticflickr.com/442/31327314580_6d51d7a9e7_o_d.jpg" />
 
 These pancakes are my new favorite! They are so thick and fluffy, are fast to make in the morning, and so delicious! I hope you enjoy them as much as me! 
 
 
-* **Ingredients**, _serves 1_
-  * 10 g of vanilla-flavored protein powder (1/3 of a serving)
-    - _I use decathlon's Soy and Oat protein powder. I know it's not strictly keto, but I like it!_
-  * 1 egg
-  * 1 tbsp flax meal
-  * A pinch of salt
-  * 2/3 tbsp of coconut oil or butter + 1/3 for cooking
-  * 1/2 tbsp vinegar
-  * 1/3 tsp baking soda
-
+<ul>
+  <li>10 g of vanilla-flavored protein powder (1/3 of a serving)</li>
+  <li>1 egg</li>
+  <li>1 tbsp flax meal</li>
+  <li>A pinch of salt</li>
+  <li>2/3 tbsp of coconut oil or butter + 1/3 for cooking</li>
+  <li>1/2 tbsp vinegar</li>
+  <li>1/3 tsp baking soda</li>
+</ul>
 
 * **Process**
   1. Melt the coconut oil or butter. Then mix with the egg and vinegar. 
@@ -32,7 +42,7 @@ These pancakes are my new favorite! They are so thick and fluffy, are fast to ma
   5. Serve with your favorite low-carb topping - in my case, low-carb blackberry jam <3
 
 
-* Nutritional info, per serving
+* Nutritional info, _per serving (serves 1)
   * 267 kCal
   * 3.8 g total carbs, 1.9 g fiber, 1.8 g net carbs
   * **14.8 g protein**

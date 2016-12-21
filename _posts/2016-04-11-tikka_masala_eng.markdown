@@ -7,7 +7,17 @@ eyecatcher: /images/tikkamasala.jpg
 type: recipe
 english: true
 story: ninguna historia
+layout: post
+author: maria
+tags:
+- chicken
+- indian
+- curry
+category:
+- main
 ---
+
+<img src="https://farm6.staticflickr.com/5583/31552267092_2b780b9375_o_d.jpg "/>
 
 Chicken Tikka Masala (that can also be made with paneer or tofu to keep it vegetarian) is one of the most typical dishes in indian restaurants. It has a thick onion and tomato sauce, spicy with a sweet touch, that is always a hit. 
 

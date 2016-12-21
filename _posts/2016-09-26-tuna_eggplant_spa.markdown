@@ -7,22 +7,34 @@ type: recipe
 spanish: true
 story: ninguna historia
 eyecatcher: /images/eggplant1.jpg
+layout: post
+author: maria
+tags:
+- berenjena
+- low-carb
+- pescado
+- huevos
+category: 
+- principal
 ---
+
+
+<img src="https://farm6.staticflickr.com/5589/31639725306_05b7b546eb_o_d.jpg" />
 
 Esta era una cena muy fácil de hacer que preparaba mucho mi madre cuando yo era pequeña. Era una de las pocas verduras que me gustaban! 
 
 La he cambiado un poquito para que tuviera menos hidratos y más grasa, y el resultado está buenísimo :D 
 
 
-* **Ingredientes**, _para 2_
-  * Una berenjena hermosa (550-600g)
-  * 150 g de atún (de lata, al natural)
-  * 2 huevos
-  * 2 tbsp aceite de oliva
-  * 1 tbsp concentrado de tomate
-  * 2/3 cup (40 g) parmesano
-  * 1/2 tsp oregano, un poco de chili al gusto, sal al gusto
+* Una berenjena hermosa (550-600g)
+* 150 g de atún (de lata, al natural)
+* 2 huevos
+* 2 tbsp aceite de oliva
+* 1 tbsp concentrado de tomate
+* 2/3 cup (40 g) parmesano
+* 1/2 tsp oregano, un poco de chili al gusto, sal al gusto
 
+<!-- -->
 
 * **Elaboración**
   1. Primero, cocinar la berenjena en dos mitades, ya sea a la plancha (a fuego bajo tapado en la sartén), al horno o en el microondas. 
@@ -31,6 +43,7 @@ La he cambiado un poquito para que tuviera menos hidratos y más grasa, y el res
   4. Rellenar las pieles de berenjena con el relleno y espolvorear con parmesano.
   5. Hacer que cuajen, ya sea en el microondas o en el horno. 
 
+<!-- -->
 
 * Información nutricional, por ración
   * 408 kCal

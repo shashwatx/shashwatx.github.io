@@ -6,7 +6,20 @@ type: recipe
 spanish: true
 youtubeurl: https://www.youtube.com/embed/Q7ZtV0Rd6OE
 eyecatcher: /images/coconutbread.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- huevos
+- vegetarian
+- coconut
+- pan
+category:
+- snack
 ---
+
+
+<img src="https://farm1.staticflickr.com/703/31327100090_7f14e5f2b4_o_d.jpg" />
 
 Este es mi pan bajo en hidratos preferido. Tiene casi textura de bizcocho, y es tan esponjoso que absorbe súper bien las salsas, y además queda muy bueno cuando se tuesta y también en sandwich :) 
 

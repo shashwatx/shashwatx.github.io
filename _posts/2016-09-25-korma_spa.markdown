@@ -7,7 +7,19 @@ type: recipe
 spanish: true
 story: ninguna historia
 eyecatcher: /images/korma.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- indian
+- curry
+- chicken
+- almonds
+category:
+- main
 ---
+
+<img src="https://farm1.staticflickr.com/683/30866633873_0e3e5dd382_o_d.jpg"/>
 
 Me encanta este curry, porque tiene una salsa muy densa y aromática que gusta a todo el mundo. La forma clásica de hacerlo lleva mucho tiempo, pero yo he tomado [esta](https://www.youtube.com/watch?v=We1qXKTbqOM) como referencia, porque es más fácil y "solo" se tarda en torno a una hora en hacerlo. 
 

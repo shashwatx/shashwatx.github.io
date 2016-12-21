@@ -7,23 +7,32 @@ type: recipe
 spanish: true
 story: ninguna historia
 eyecatcher: /images/pulao.jpg
+author: maria
+layout: post
+tags:
+- vegano
+- vegetariano
+- arroz
+- indio
+category:
+- principal
 ---
 
+<img src="https://farm1.staticflickr.com/316/31326178640_1525979703_o_d.jpg" />
 
 
 Esta es una de las especialidades de mi amiga de Bangalore: vegetable pulao. Un plato único que puede cambiarse de muchas formas para adaptarla a tu gusto, y siempre queda delicioso. 
 
-
-* **Ingredientes**, _para 4-5 personas_
-  * Verduras: 1 cebolla, 1 zanahoria, 1/2 pimiento verte, un puñado de judías verdes, chili verde al gusto (este día usamos 4; puedes quitarle las semillas para que sea menos picante) - picadas. Puedes usar las verduras que prefieras: guisantes, coliflor, patata, brócoli, coliflor, pimiento rojo...
-  * _Opcional, para que tenga más proteína: soja texturizada, remojada_
-  * Especias enteras: 4 hojas de laurel, 4 cardamomos verdes un poco abiertos, 2 cardamomos negros, 4-5 cm canela en rama, 10 clavos, 12 pimientas negras + 10 dientes de ajo pequeños, enteros
-  * Arroz basmati: aproximadamente una taza (más o menos el mismo volumen que de verdura), enjuagado
-  * especias en polvo: 1 tsp comino, 1 tsp cilantro, 1/4 tsp pimienta negra, chili rojo al gusto, 1/4 tsp hojas de fenugreco (opcional), azúcar al gusto
-  * 1/2 tsp cúrcuma
-  * 1-2 tsp sal, en total
-  * Opcional: yogur (muy bueno para los restos al día siguiente!), cilantro fresco (aprox 1/2 cup), zumo de limón para echar al gusto al final, menta (la menta suele usarse solo en los pulaos con carne)
-
+<ul>
+  <li>Verduras: 1 cebolla, 1 zanahoria, 1/2 pimiento verte, un puñado de judías verdes, chili verde al gusto (este día usamos 4; puedes quitarle las semillas para que sea menos picante) - picadas. Puedes usar las verduras que prefieras: guisantes, coliflor, patata, brócoli, coliflor, pimiento rojo...</li>
+  <li>Opcional, para que tenga más proteína: soja texturizada, remojada</li>
+  <li>Especias enteras: 4 hojas de laurel, 4 cardamomos verdes un poco abiertos, 2 cardamomos negros, 4-5 cm canela en rama, 10 clavos, 12 pimientas negras + 10 dientes de ajo pequeños, enteros</li>
+  <li>Arroz basmati: aproximadamente una taza (más o menos el mismo volumen que de verdura), enjuagado</li>
+  <li>Especias en polvo: 1 tsp comino, 1 tsp cilantro, 1/4 tsp pimienta negra, chili rojo al gusto, 1/4 tsp hojas de fenugreco (opcional), azúcar al gusto</li>
+  <li>1/2 tsp cúrcuma</li>
+  <li>1-2 tsp sal, en total</li>
+  <li>Opcional: yogur (muy bueno para los restos al día siguiente!), cilantro fresco (aprox 1/2 cup), zumo de limón para echar al gusto al final, menta (la menta suele usarse solo en los pulaos con carne)</li>
+</ul>
 * **Elaboración**
   1. En una sartén con 3-4 tbsp aceite (o menos si no quieres cocinar con mucha grasa), echa las especias enteras y dejar que se doren a fuego bajo.
   2. Añade la cebolla y cocinar 15-20 minutos, hasta que estén súper marrones y caramelizadas y riquísimas.

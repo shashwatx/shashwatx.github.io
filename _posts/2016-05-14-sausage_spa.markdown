@@ -7,7 +7,17 @@ eyecatcher: /images/sausage.jpg
 type: recipe
 spanish: true
 story: ninguna historia
+author: maria
+layout: post
+tags:
+- vegano
+- vegetariano
+- seitán
+category:
+- principal
 ---
+
+<img src="https://farm1.staticflickr.com/738/31326152400_e4b9f7eb3a_o_d.jpg" />
 
 
 Mi novio (que tan maravillosamente se encarga de esta página, y que es el responsable de que sea tan bonita) adora desayunar salchichas. A mí no me hace mucha gracia eso, porque se hincha de grasa y carne procesada. Pero el resto de cosas que le gusta desayunar suelen involucrar cocinar un buen rato, así que yo tenía mucho interés en encontrarle un desayuno salado, sin carne, y que fuera rápido de preparar. 
@@ -15,15 +25,15 @@ Mi novio (que tan maravillosamente se encarga de esta página, y que es el respo
 Y así, nacieron estas salchichas: especiadas, con buena textura, que requieren algo de tiempo para prepararlas pero después aguantan bien en el frigo (o congeladas), pudiendo servir como desayuno, pero también en relleno de pizzas y sandwiches. Si lo probáis, os encantará! De hecho, a mí me gusta más su sabor que el de las salchichas clásicas :)
 
 
-* **Ingredientes** _Medida usada para 1 cup: 250 mL_
-  - 1/2 cup garbanzos o judías blancas cocidas, aplastadas con un tenedor
-  - Esoecias: 1 tsp ajo en polvo, 1.5 tsp semillas de hinojo un poco machacadas (en la receta original sugería 1 tsp de hinojo molido como sustitución, pero creo que queda mejor con semillas enteras machacadas), 1 tsp pimentón picante, 1 tsp oregano, 1/2 tsp tomillo, 1/4 tsp pimienta negra molida
-  - 1/4 cup levadura de cerveza desamargada (opcional, pero da buen sabor)
-  - 1 tbsp concentrado de tomate
-  - 1 cup caldo de verduras (Yo uso aprox 1.5 tbsp de polvo de caldo de verduras y luego añado agua)
-  - 1+1/4 cups gluten
-  - 2 tbsp salsa soja
-
+<ul>
+  <li>1/2 cup (125 mL) garbanzos o judías blancas cocidas, aplastadas con un tenedor</li>
+  <li>Especias: 1 tsp ajo en polvo, 1.5 tsp semillas de hinojo un poco machacadas (en la receta original sugería 1 tsp de hinojo molido como sustitución, pero creo que queda mejor con semillas enteras machacadas), 1 tsp pimentón picante, 1 tsp oregano, 1/2 tsp tomillo, 1/4 tsp pimienta negra molida</li>
+  <li>1/4 cup levadura de cerveza desamargada (opcional, pero da buen sabor)</li>
+  <li>1 tbsp concentrado de tomate</li>
+  <li>1 cup caldo de verduras (Yo uso aprox 1.5 tbsp de polvo de caldo de verduras y luego añado agua)</li>
+  <li>1+1/4 cups gluten</li>
+  <li>2 tbsp salsa soja</li>
+</ul>
 * **Elaboración**
   1. Primero, ve preparando el agua en la olla donde vayas a cocinar al vapor.
   2. Mezcla en un bol la levadura y el gluten. En otro bol diferente, mezcla el resto de ingredientes. 

@@ -7,8 +7,17 @@ eyecatcher: /images/falafel.jpg
 type: recipe
 english: true
 story: ninguna historia
+layout: post
+author: maria
+tags:
+- chickpeas
+- vegan
+- vegetarian
+category:
+- snack
 ---
 
+<img src="https://farm1.staticflickr.com/366/30888724203_7b9d744d76_o_d.jpg" />
 
 Falafel are a sort of "meatball" made of chickpeas, typical from the Middle East. they are traditionally vegan and deep-fried. 
 

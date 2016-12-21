@@ -7,7 +7,20 @@ eyecatcher: /images/chowmein.jpg
 type: recipe
 english: true
 story: ninguna historia
+author: maria
+layout: post
+tags:
+- low-carb
+- vegan
+- vegetarian
+- soy
+- indian
+- spiralized
+category:
+- main
 ---
+
+<img src="https://farm1.staticflickr.com/608/31698792525_4c207670e9_o_d.jpg" />
 
 Chowmein is an indo-chinese dish, very typical from Nepal: streetfood served often in doubtious places, but delicious!  
 
@@ -15,23 +28,24 @@ Normally this would use whole-wheat noodles, but I decided to substitute them fo
 
 The most popular ones are Veg Chowmein (vegetarian) and Chicken Chowmein (chicken), although other types of meat can be used, or shrimp or egg. I sometimes make it using tofu (to have some protein but keep it vegan), but whoever wants to can add the meat or shrimp along with the vegetables so they fry together. And of course, quantities are just to orientate you, and can be adapted!
 
-This is a strong and tasty dish, spicy and slightly sweet. I hope you like it.
+This is a strong and tasty dish, spicy and slightly sweet, perfect for 3-4 people. I hope you like it.
 
-* **Ingredientes**, serves 3-4 people
-  - 3 spiralized turnips _(or you can substitute for whole-wheat noodles)_
-  - 1/4 cabbage, thinly sliced (you can use the spiralizer for this!)
-  - 1 small carrot, cut in strips
-  - 1/2 red bell pepper, cut in trips
-  - 2 medium onions or one big one (preferably purple onion)
-  - Other optional vegetables, such as a handful of boiled green beans
-  - _Optional: 250 g firm tofu_
-  - 2 garlic cloves very finely chopped or 1 tsp garlic paste
-  - Strips of fresh ginger (that should be added with theh other vegetables) or 2 tsp ginger paste (that would be added with the garlic)
-  - _Optional: 1 egg_
-  - _Optional: spring onions, for garnishing_
-  - For the sauce: 4 tsp soy sauce (half could be substituted for oyster sauce, for non-vegetarian people), 1/2 tsp cumin, 1 tsp red chili paste or red chili powder (this should be adapted to taste; 1 tsp is very spicy), salt. _Optional: 2 tsp rice vinager, lime juice, or something similar_
-  - 2 tbsp of vegetable oil (I use sunflower oil)
-  - To server: ketchup and chili sauce (such as Sriracha)
+<ul>
+  <li>3 spiralized turnips _(or you can substitute for whole-wheat noodles)_</li>
+  <li>1/4 cabbage, thinly sliced (you can use the spiralizer for this!)</li>
+  <li>1 small carrot, cut in strips</li>
+  <li>1/2 red bell pepper, cut in trips</li>
+  <li>2 medium onions or one big one (preferably purple onion)</li>
+  <li>Other optional vegetables, such as a handful of boiled green beans</li>
+  <li>_Optional: 250 g firm tofu_</li>
+  <li>2 garlic cloves very finely chopped or 1 tsp garlic paste</li>
+  <li>Strips of fresh ginger (that should be added with theh other vegetables) or 2 tsp ginger paste (that would be added with the garlic)</li>
+  <li>_Optional: 1 egg_</li>
+  <li>_Optional: spring onions, for garnishing_</li>
+  <li>For the sauce: 4 tsp soy sauce (half could be substituted for oyster sauce, for non-vegetarian people), 1/2 tsp cumin, 1 tsp red chili paste or red chili powder (this should be adapted to taste; 1 tsp is very spicy), salt. _Optional: 2 tsp rice vinager, lime juice, or something similar_</li>
+  <li>2 tbsp of vegetable oil (I use sunflower oil)</li>
+  <li>To serve: ketchup and chili sauce (such as Sriracha)</li>
+</ul>
 
 * **Process**
   1. In a big enough pan, over medium-high heat, put a tablespoon of oil and then fry the cubed tofu until golden, for about 5 minutes. Later, take it out and put aside for later. 

@@ -1,14 +1,36 @@
-<meta charset="utf-8">
-<title>{{ page.title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="{{ site.description }}">
-<meta name="p:domain_verify" content="d22bea8af2d42d0e9b1008a8470fea63"/>
-<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
-<link href="{{ site.baseurl }}/css/hc.css" rel="stylesheet">
-<link href="{{ site.baseurl }}/css/w2ui-1.4.3.css" rel="stylesheet">
-<!--<link href="{{ site.baseurl }}/css/magazine.css" rel="stylesheet">-->
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-<!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif] d-->
+<header class="header clear">
+    <div class="blog-info clear">
+        {% if site.logo %}
+        <a href="{{ site.baseurl }}" class="blog-logo">
+            <img src="{{ site.baseurl | prepend: site.url }}{{ site.logo }}" alt="{{ site.name }}" />
+        </a>
+        {% endif %}
+
+        <div class="blog-titles">
+            <strong><a href="{{ site.url }}/">{{ site.name }}</a></strong>
+            {% if site.description %}
+            <span>{{ site.description }}</span>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    {% include search.html %}
+
+    <nav role="navigation" class="mainmenu">
+        <ul class="clear">
+            <li><a href="{{ site.url }}/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+            {% if site.pages %}
+                {% for p in site.pages %}
+                    {% if p.layout == 'page' or p.layout == 'awesome' %}
+                        <li><a href="{{ p.url | prepend: site.baseurl | prepend: site.url }}" {% if p.url == page.url %}class="active"{% endif %}>{{ p.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        </ul>
+    </nav>
+
+    <div class="clr"></div>
+
+</header>

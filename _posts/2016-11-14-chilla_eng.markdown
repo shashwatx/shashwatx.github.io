@@ -6,22 +6,35 @@ type: recipe
 english: true
 youtubeurl: https://www.youtube.com/embed/8YfCOFfBatM
 eyecatcher: /images/chilla.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- vegan
+- vegetarian
+- indian
+category:
+- snack
 ---
+
+<img src="https://farm1.staticflickr.com/403/31699704665_590bb3e042_o_d.jpg" />
 
 This is an indian appetizer from the region of Gujarat: vegan savory pancakes made with moong lentils, and filled with anything you like. They can be had plain with chutney, or filled with paneer (like I did), tomato onion and coriander, or whatever you fancy. 
 They are usually had with tea in the afternoon, but I like them as a lunch or dinner appetizer: they are light, full of protein and everybody likes them, even the biggest of carnivores!
 
 
-* **Ingredients**, makes 4 chilla_
-  - 1/2 moong dal, preferibly peeled (100 g)
-  - 1/8 tsp baking soda
-  - 1/8 tsp asafoetida (you can substitute it with 1/2 clove of garlic, smashed into a paste)
-  - 1/4 tsp salt  
-  - Chilli to taste (preferibly green chili paste)
-  - A few drops of stevia (equivalent to 2 tsp sugar)
-  - FIlling to taste; in this case, 50 g paneer (or cottage cheese), 1/2 tsp Chaat masala (optional), 4 tbsp fresh coriander
-  - 2 tsp oil (for cooking)
-
+<ul>
+  <li>1/2 moong dal, preferibly peeled (100 g)</li>
+  <li>1/8 tsp baking soda</li>
+  <li>1/8 tsp asafoetida (you can substitute it with 1/2 clove of garlic, smashed into a paste)</li>
+  <li>1/4 tsp salt </li>
+  <li>Chilli to taste (preferibly green chili paste)</li>
+  <li>A few drops of stevia (equivalent to 2 tsp sugar)</li>
+  <li>50 g paneer (or cottage cheese)</li>
+  <li>1/2 tsp Chaat masala (optional)</li>
+  <li>4 tbsp fresh coriander</li>
+  <li>2 tsp oil (for cooking)</li>
+</ul>
 
 * **Process**
   1. Wash the lentils properly, then soak them for 3-4 hours. 
@@ -33,7 +46,7 @@ They are usually had with tea in the afternoon, but I like them as a lunch or di
   7. Serve them with more paneer, coriander, chaat masala, tomato and onion, or with your favorite chutney. 
 
 
-* **Nutritional info**, _per chilla_
+* **Nutritional info**, _per chilla (makes 4)_
   * 161 kCal
   * **8.8 g net carbs**, 7.6 g fiber, 16.4 g total carbs
   * **9.1 g protein**

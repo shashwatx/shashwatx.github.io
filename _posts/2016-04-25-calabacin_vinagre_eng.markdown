@@ -7,7 +7,16 @@ eyecatcher: /images/calabacin_vinagre.jpg
 type: recipe
 english: true
 story: ninguna historia
+author: maria
+layout: post
+tags:
+- zucchini
+- low-carb
+category:
+- snack
 ---
+
+<img src="https://farm1.staticflickr.com/680/30888748853_b9eaa38845_o_d.jpg" />
 
 In my family everybody loves "boquerones en vinagre", a typical spanish appetizer made of raw anchovies that are dipped in vinager until they change their texture, and then eaten with olive oil and garlic. However, I am not a big fan of raw fish, and since I am trying to base my eating in plants, I remembered I heard abuot vegans making "calabacín en vinagre", zucchini in vinager, so I thought I would give it a go. 
 

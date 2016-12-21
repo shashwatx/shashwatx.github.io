@@ -7,23 +7,33 @@ eyecatcher: /images/muesli.jpg
 type: recipe
 english: true
 story: ninguna historia
+layout: post
+author: maria
+tags:
+- oats
+- sweet
+category:
+- breakfast
 ---
 
-So this is not really a recipe... But I love to have it for breakfast, and it is so handy and so delicious and so filling that I thought I would share it! 
+<img src="https://farm1.staticflickr.com/693/30888683193_6e64b1ae30_o_d.jpg" />
+
+So this is not really a recipe... But I love to have it for breakfast, and it is so handy and so delicious and so filling that I thought I would share it! For seeds you can substitute for whichever you want, to have 1/2 cup of seeds in total.
 
 I personally love this with yoghurt or with applesauce, but anything goes!
 
 
 
-* **Ingredients**
-  - 1 cup rolled oats
-  - 1/4 cup of raisins or dried cranberries (or more, to taste; you can chop them if you want)
-  - 1/2 cup of whatever seeds you like. I recommend: sesame, flax, sunflower seeds, pumpkin seeds, buckwheat
+<ul>
+  <li>1 cup rolled oats</li>
+  <li>1/4 cup of raisins or dried cranberries (or more, to taste; you can chop them if you want)</li>
+  <li>1/2 cup of mixed sesame, flax, sunflower seeds, pumpkin seeds, buckwheat</li>
+</ul>
 
-![MuesliIngredients](/images/muesli1.jpg)
+
 
 * **Process**
   1. Mix everything and put it in a jar. 
   2. Have a delicious breakfast!
 
-![Muesli](/images/muesli.jpg)
+

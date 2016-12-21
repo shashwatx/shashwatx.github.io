@@ -6,7 +6,18 @@ type: recipe
 spanish: true
 youtubeurl: https://www.youtube.com/embed/M92d5PzvsYI
 eyecatcher: /images/burger.jpg
+layout: post
+author: maria
+tags:
+- vegan
+- low-carb
+- vegetarian
+- soy
+category: 
+- main course
 ---
+
+<img src="https://farm1.staticflickr.com/375/30866358133_6f78f79cac_o_d.jpg" />
 
 Una receta muy práctica para vegetarianos o veganos cetogénicos: 10 g de proteínas y solo 5.5 g de hidratos netos por hamburguesa. Y las podéis congelar, para tenerlas siempre a mano para una comida sencilla!
 (Una pequeña advertencia: NO pongáis las judías a brotar antes de usarlas. Cogen un sabor muy raro!)

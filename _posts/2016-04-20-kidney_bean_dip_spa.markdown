@@ -7,23 +7,32 @@ eyecatcher: /images/hummus_judias.jpg
 type: recipe
 spanish: true
 story: ninguna historia
+author: maria
+layout: post
+tags:
+- vegano
+- vegetariano
+category: 
+- aperitivo
 ---
+
+<img src="https://farm1.staticflickr.com/311/30888708563_74b3abe168_o_d.jpg" />
 
 Una salsa deliciosa, con sabores mejicanos. Facilísima de hacer y tan rica que me la como a cucharadas :D
 
 
-* **Ingredientes**
-  - 400 g judías rojas hervidas
-  - 1 tbsp concentrado de tomate
-  - 1-2 tbsp zumo de limón
-  - 1/4 tsp pimienta negra molida
-  - 1/4 tsp canela
-  - 1/2 tbsp cebolla en polvo
-  - 1/4 tsp ajo en polvo
-  - Sal, al gusto
-  - _Opcional: aceite de oliva virgen extra, al gusto._
-  - _Opcional: cilantro, para mezclar o para añadir al final._
-
+<ul>
+  <li>400 g judías rojas hervidas</li>
+  <li>1 tbsp concentrado de tomate</li>
+  <li>1-2 tbsp zumo de limón</li>
+  <li>1/4 tsp pimienta negra molida</li>
+  <li>1/4 tsp canela</li>
+  <li>1/2 tbsp cebolla en polvo</li>
+  <li>1/4 tsp ajo en polvo</li>
+  <li>Sal, al gusto</li>
+  <li><i>Opcional: aceite de oliva virgen extra, al gusto.</i></li>
+  <li><i>Opcional: cilantro, para mezclar o para añadir al final.</i></li>
+</ul>
 
 * **Elaboración**
   1. Escurrir las judías y enjuagarlas.

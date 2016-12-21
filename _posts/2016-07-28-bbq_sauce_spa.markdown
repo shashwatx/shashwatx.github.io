@@ -1,40 +1,56 @@
 ---
-title: Salsa barbacoa
+layout: post
+title: "Salsa BBQ ceto"
 permalink: bbqSpa
+author: maria
 date: 2016-07-28
+youtubeurl: 
 type: recipe
 spanish: true
-youtubeurl: 
+story: ninguna historia
 eyecatcher: /images/bbq.jpg
+tags: 
+- bajo en hidratos
+- vegano
+- vegetariano
+category:
+- bbq
 ---
-Estoy enamorada de esta salsa. Sin azúcar, baja en hidratos, perfecta para dieta cetogénica, 100% vegana y riquísisisima.
 
-Yo me la tomé con seitan troceado sobre mucha lechuga.
+<img src="https://farm1.staticflickr.com/598/31552506662_14d94c7ca3_o_d.jpg" />
 
-* **Ingredientes**, _para 1.5-2 tazas_
-  - 2 tbsp aceite de coco
-  - 1/3 de cebolla troceada
-  - 3 dientes de ajo troceados
-  - 1 lata de tomate triturado (425g)
-  - 1 tbsp concentrado de tomate
-  - 3 tsp aroma de humo (humo líquido)
-  - 1/2 tsp pimentón ahumado picante
-  - 1/4 tsp pasta de chili rojo o cualquier otro picante, al gusto
-  - 1 tsp salsa de soja
-  - 1/2 cup (125 mL) de vinagre de manzana
-  - 1/2 tsp sal
-  - 1/4 tsp pimienta negra molida
-  - Edulcorante, al gusto. Yo usé estevia. Si quieres una salsa dulzona, quizá sea conveniente usar dos tipos de endulzantes diferentes para que no dejen ningún regusto (cosa que puede pasar con la estevia si se usa mucha cantidad!)
+Estoy enamorada de esta salsa. Sin azúcar, baja en hidratos, perfecta para dieta cetogénica, 100% vegana y riquísisisima. </p>
 
-* **Elaboración**
-  1. En una cacerola a fuego medio, calienta el aceite y fríe la cebolla y ajo unos 10 minutos, hasta que estén bien blanditos.
-  2. Sepáralo del fuego, deja que enfríe un poco (para que no salte el aceite) y añade todos los ingredientes que quedan.
-  3. Déjalo hervir a fuego medio destapado unos 30 minutos.
-  4. Apaga el fuego, pruébalo por si necesita más sal, y añade el edulcorante que quieras según tu gusto.
-  5. Opcional: bate la salsa si quieres que no tenga tropezones.
+<p>Yo me la tomé con seitan troceado sobre mucha lechuga. &lt;3</p>
 
-* **Información nutricional**, por 1/3 de la receta
-  * 133 kCal
-  * 10.8 g hidratos de carbono totales, 2.6 g fibra, 8.2 g H de C netos
-  * 2.5 g proteina
-  * 9.4 g grasa
+<ul>
+<li><p><strong>Ingredientes</strong>, <em>para 1.5-2 tazas</em></p>
+
+<ul><li>2 tbsp aceite de coco</li>
+<li>1/3 de cebolla troceada</li>
+<li>3 dientes de ajo troceados</li>
+<li>1 lata de tomate triturado (425g)</li>
+<li>1 tbsp concentrado de tomate</li>
+<li>3 tsp aroma de humo (humo líquido)</li>
+<li>1/2 tsp pimentón ahumado picante </li>
+<li>1/4 tsp pasta de chili rojo o cualquier otro picante, al gusto</li>
+<li>1 tsp salsa de soja</li>
+<li>1/2 cup (125 mL) de vinagre de manzana </li>
+<li>1/2 tsp sal</li>
+<li>1/4 tsp pimienta negra molida</li>
+<li>Edulcorante, al gusto. Yo usé estevia. Si quieres una salsa dulzona, quizá sea conveniente usar dos tipos de endulzantes diferentes para que no dejen ningún regusto (cosa que puede pasar con la estevia si se usa mucha cantidad!)</li></ul></li>
+<li><p><strong>Elaboración</strong></p>
+
+<ol><li>En una cacerola a fuego medio, calienta el aceite y fríe la cebolla y ajo unos 10 minutos, hasta que estén bien blanditos.</li>
+<li>Sepáralo del fuego, deja que enfríe un poco (para que no salte el aceite) y añade todos los ingredientes que quedan. </li>
+<li>Déjalo hervir a fuego medio destapado unos 30 minutos.</li>
+<li>Apaga el fuego, pruébalo por si necesita más sal, y añade el edulcorante que quieras según tu gusto.</li>
+<li><em>Opcional: bate la salsa si quieres que no tenga tropezones.</em></li></ol></li>
+<li><p>Información nutricional, por 1/3 de la receta</p>
+
+<ul><li>133 kCal</li>
+<li>10.8 g hidratos de carbono totales, 2.6 g fibra, 8.2 g H de C netos</li>
+<li>2.5 g proteina</li>
+<li>9.4 g grasa</li></ul></li>
+</ul></div></body>
+</html>

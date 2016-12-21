@@ -6,7 +6,18 @@ type: recipe
 spanish: true
 youtubeurl: https://www.youtube.com/embed/8YfCOFfBatM
 eyecatcher: /images/chilla.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- vegan
+- vegetarian
+- indian
+category:
+- snack
 ---
+
+<img src="https://farm1.staticflickr.com/403/31699704665_590bb3e042_o_d.jpg" />
 
 Este es un aperitivo indio típico de Gujarat: unos pancakes veganos salados hechos de lentejas moong, y rellenos de lo que prefieras. Se pueden tomar solos con un chutney, o rellenarlos de paneer (como he hecho yo), de tomate, cebolla y cilantro, o de lo que más te apetezca. 
 Habitualmente se toma con el té de por la tarde, pero a mí me gusta mucho ponerlo como aperitivo: es ligero, tiene bastantes proteínas y gusta a todo el mundo, incluso a los más carnívoros!

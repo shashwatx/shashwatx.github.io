@@ -6,7 +6,18 @@ type: recipe
 spanish: true
 youtubeurl: 
 eyecatcher: /images/crust.jpg
+author: maria
+layout: post
+tags:
+- low-carb
+- vegan
+- vegetarian
+- flax
+category:
+- main
 ---
+
+<img src="https://farm1.staticflickr.com/591/31553200562_c11ef9c964_o_d.jpg" />
 
 Esta masa quebrada, basada en la receta de [healthfulpursuit](http://www.healthfulpursuit.com), lleva un poco de tiempo para hacerse, pero es sin gluten, sin huevo, baja en hidratos y tiene muy buen sabor :) 
 
