@@ -56,6 +56,10 @@ baseurl:
 
 # Includes
 include: ["_pages"]
+include: ["_data"]
+include: ["_includes"]
+include: ["_layouts"]
+include: ["_posts"]
 
 # Outputting
 permalink: /:categories/:title.html
