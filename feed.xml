@@ -1,30 +1,595 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title></title>
+    <description>Keto Enthusiast, Indian Food Lover</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 21 Dec 2016 14:11:43 +0530</pubDate>
+    <lastBuildDate>Wed, 21 Dec 2016 14:11:43 +0530</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Vegan Quiche</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/313/31662446346_b9070c8fa2_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A great recipe for all those vegan ketoers, or anyone who cannot eat eggs but still wants to eat some french amazingness. You can adapt this basic recipe to your taste, changing the vegetables and/or adding other ingredients, such as cheese or meat!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt; 1 &lt;a href=&quot;http://maria.recipes/ketoCrust&quot;&gt;low-carb crust&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt; 1.5 cups of chopped zucchini (180-200 g, one medium) &lt;/li&gt;
+  &lt;li&gt; One leek (80g) &lt;/li&gt;
+  &lt;li&gt; 2 tbsp olive oil&lt;/li&gt;
+  &lt;li&gt; 1/2 tsp salt&lt;/li&gt;
+  &lt;li&gt; 400 g firm tofu&lt;/li&gt;
+  &lt;li&gt; 3-4 tbsp water&lt;/li&gt;
+  &lt;li&gt; 1/4 tsp turmeric&lt;/li&gt;
+  &lt;li&gt; Black pepper to taste&lt;/li&gt;
+  &lt;li&gt; &lt;i&gt;Optional: 3 tbsp nutritional yeast&lt;/i&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Process&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Preheat the oven to 180C.&lt;/li&gt;
+      &lt;li&gt;Use the oil to fry your vegetables.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;em&gt;I added 1 tbsp of soy sauce to my vegetables to get some umami, as I didn’t have nutritional yeast!&lt;/em&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Blend the tofu with the water, turmeric, salt and pepper. You should get a dense batter.&lt;/li&gt;
+      &lt;li&gt;Add the cooked vegetables to the tofu mixture, then spoon over your crust.&lt;/li&gt;
+      &lt;li&gt;Bake for about 30 minutes or until the center is set. Let it cool for 5 minutes before cutting into it.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nutritional info&lt;/strong&gt;, &lt;em&gt;per slice (serves 5)&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;505 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;8.6 g net carbs&lt;/strong&gt;, 15.6 g fiber, 24.2 g total carbs&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;25.5 g protein&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;37.7 g fat&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 12 Dec 2016 10:10:00 +0530</pubDate>
+        <link>/veganQuiche</link>
+        <guid isPermaLink="true">/veganQuiche</guid>
+        
+        <category>low-carb</category>
+        
+        <category>vegan</category>
+        
+        <category>vegetarian</category>
+        
+        <category>zucchini</category>
+        
+        <category>flax</category>
+        
+        <category>soy</category>
+        
+        
+        <category>main</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Pan de Coco (keto)</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/703/31327100090_7f14e5f2b4_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Este es mi pan bajo en hidratos preferido. Tiene casi textura de bizcocho, y es tan esponjoso que absorbe súper bien las salsas, y además queda muy bueno cuando se tuesta y también en sandwich :)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ingredientes&lt;/strong&gt;, &lt;em&gt;para 20 rebanadas&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;3,5 tbsp psyllium molido (28g) + 3/4 tazas de agua&lt;/li&gt;
+      &lt;li&gt;6 huevos (o bien 2 huevos + 8 claras)&lt;/li&gt;
+      &lt;li&gt;1/2 taza de aceite de oliva&lt;/li&gt;
+      &lt;li&gt;1 tsp sal&lt;/li&gt;
+      &lt;li&gt;2 tazas de agua&lt;/li&gt;
+      &lt;li&gt;1 taza de harina de coco (120g)&lt;/li&gt;
+      &lt;li&gt;1/2 tbsp vinagre de manzana&lt;/li&gt;
+      &lt;li&gt;2/3 tsp bicarbonato&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Elaboración&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Precalienta el horno a 180C.&lt;/li&gt;
+      &lt;li&gt;Mezcla el psyllium con el agua y dejalo reposar 5 minutos.&lt;/li&gt;
+      &lt;li&gt;En una batidora bate la mezcla anterior con los huevos y el aceite hasta que quede sin grumos.&lt;/li&gt;
+      &lt;li&gt;Añade el resto de ingredientes y bátelo bien. Debe quedar una mezcla bastante espesa.&lt;/li&gt;
+      &lt;li&gt;Vierte la mezcla en un molde y dale forma de pan.&lt;/li&gt;
+      &lt;li&gt;Hornéalo durante 60-75 minutos. Deja que enfríe en una rejilla antes de cortarlo.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Información nutricional&lt;/strong&gt;, &lt;em&gt;para 1 rebanada&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;92 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;0.88 g H de C netos&lt;/strong&gt;, 2.1 g fibra, 3 g H de C totales&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;3 g proteina&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;7.7 g grasa&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 11 Dec 2016 00:00:00 +0530</pubDate>
+        <link>/panCoco</link>
+        <guid isPermaLink="true">/panCoco</guid>
+        
+        <category>low-carb</category>
+        
+        <category>huevos</category>
+        
+        <category>vegetarian</category>
+        
+        <category>coconut</category>
+        
+        <category>pan</category>
+        
+        
+        <category>snack</category>
+        
+      </item>
+    
+      <item>
+        <title>Keto Bread (coconut)</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/703/31327100090_7f14e5f2b4_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is my favorite low-carb bread. It has a spongy texture, great for dipping, and makes great toasts and sandwiches :)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;3,5 tbsp psyllium husk powder (28g) + 3/4 cup water&lt;/li&gt;
+  &lt;li&gt;6 eggs (or 2 eggs + 8 egg whites)&lt;/li&gt;
+  &lt;li&gt;1/2 cup olive oil&lt;/li&gt;
+  &lt;li&gt;1 tsp salt&lt;/li&gt;
+  &lt;li&gt;2 cups of water&lt;/li&gt;
+  &lt;li&gt;1 cup coconut flour (120g)&lt;/li&gt;
+  &lt;li&gt;1/2 tbsp apple cider vinegar&lt;/li&gt;
+  &lt;li&gt;2/3 tsp baking soda&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Process&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Preheat the oven to 180C.&lt;/li&gt;
+      &lt;li&gt;Mix the psyllium husk and water and let it sit for 5 minutes.&lt;/li&gt;
+      &lt;li&gt;Blend the previous mixture with the eggs and oil until very smooth.&lt;/li&gt;
+      &lt;li&gt;Add the other ingredients and blend. The mixture should be quite thick.&lt;/li&gt;
+      &lt;li&gt;Pour into a loaf pan and shape.&lt;/li&gt;
+      &lt;li&gt;Bake for 60-75 minutes. Let it cool down in a rack before you cut into it.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nutritional info&lt;/strong&gt;, &lt;em&gt;per slice (makes 20 slices)&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;92 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;0.88 g net carbs&lt;/strong&gt;, 2.1 g fiber, 3 g total carbs&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;3 g protein&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;7.7 g fat&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 11 Dec 2016 00:00:00 +0530</pubDate>
+        <link>/coconutBread</link>
+        <guid isPermaLink="true">/coconutBread</guid>
+        
+        <category>low-carb</category>
+        
+        <category>eggs</category>
+        
+        <category>vegetarian</category>
+        
+        <category>coconut</category>
+        
+        <category>bread</category>
+        
+        
+        <category>snack</category>
+        
+      </item>
+    
+      <item>
+        <title>Masa Pastel (keto)</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/591/31553200562_c11ef9c964_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Esta masa quebrada, basada en la receta de &lt;a href=&quot;http://www.healthfulpursuit.com&quot;&gt;healthfulpursuit&lt;/a&gt;, lleva un poco de tiempo para hacerse, pero es sin gluten, sin huevo, baja en hidratos y tiene muy buen sabor :)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ingredientes&lt;/strong&gt;, &lt;em&gt;para un pastel&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;1 + 1/4 cups lino molido&lt;/li&gt;
+      &lt;li&gt;1/4 cup semillas de girasol, molidas después&lt;/li&gt;
+      &lt;li&gt;80-100 g cebolla (una pequeña)&lt;/li&gt;
+      &lt;li&gt;1/3 tsp sal&lt;/li&gt;
+      &lt;li&gt;2 tbsp aceite de oliva&lt;/li&gt;
+      &lt;li&gt;1/2 tbsp vinagre de manzana&lt;/li&gt;
+      &lt;li&gt;1/2 tsp bicarbonato&lt;/li&gt;
+      &lt;li&gt;Otros ingredientes al gusto, como un diente de ajo&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Elaboración&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Precalienta el horno a 110C.&lt;/li&gt;
+      &lt;li&gt;Bate la cebolla con el vinagre y el aceite.&lt;/li&gt;
+      &lt;li&gt;En otro bol mezcla los ingredientes secos, después añade la mezcla de cebolla. Deberías obtener una masa moldeable pero que no se desmorone; si es demasiado seca, añade un poco de agua.&lt;/li&gt;
+      &lt;li&gt;Engrasa tu molde muy bien (o mejor aún, pon papel de horno en el fondo) y echa la masa. Después, con una cuchara o las manos, dale forma. Usa tus manos mojadas para que quede lisa.&lt;/li&gt;
+      &lt;li&gt;Hornéala durante 90 minutos hasta que esté seca y crujiente. Después, sácala y rellénala con lo que quieras.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Información nutricional&lt;/strong&gt;, &lt;em&gt;para 1/5 de la base&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;294 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;2.4 g H de C netos&lt;/strong&gt;, 11.1 g fibra, 13.5 g H de C totales&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;8.5 g proteina&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;24.8 g grasa&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Dec 2016 00:00:00 +0530</pubDate>
+        <link>/masaKeto</link>
+        <guid isPermaLink="true">/masaKeto</guid>
+        
+        <category>low-carb</category>
+        
+        <category>vegan</category>
+        
+        <category>vegetarian</category>
+        
+        <category>flax</category>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+      <item>
+        <title>Keto Vegan Crust</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/591/31553200562_c11ef9c964_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This crust, based on the recipe from &lt;a href=&quot;http://www.healthfulpursuit.com&quot;&gt;healthfulpursuit&lt;/a&gt;, takes a while to make, but is gluten-free, egg-free, vegan, low carb, and has a great flavor!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 + 1/4 cups ground flax&lt;/li&gt;
+  &lt;li&gt;1/4 sunflower seeds, ground&lt;/li&gt;
+  &lt;li&gt;80-100 g onion (one small)&lt;/li&gt;
+  &lt;li&gt;1/3 tsp salt&lt;/li&gt;
+  &lt;li&gt;2 tbsp olive oil&lt;/li&gt;
+  &lt;li&gt;1/2 tbsp apple cider vinegar&lt;/li&gt;
+  &lt;li&gt;1/2 tsp baking powder&lt;/li&gt;
+  &lt;li&gt;Other ingredients to taste, for example one clove of garlic (minced)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Process&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Warm up the oven to 110C.&lt;/li&gt;
+      &lt;li&gt;Blend the onion with the oil and vinegar.&lt;/li&gt;
+      &lt;li&gt;In a separate bowl mix the other ingredients, then add the onion mixture. You should get a thick paste, dry but not crumbly. If it crumbles, add some water.&lt;/li&gt;
+      &lt;li&gt;Grease your quiche mold very well (or even better, put a circle of parchment paper in the bottom) and put the mixture inside. Then use a spoon or your hands to form the crust. Water your hands to smooth it out.&lt;/li&gt;
+      &lt;li&gt;Bake for 90 minutes until it is dry and crunchy. Then, take it out and add the filling of choice,&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nutritional info&lt;/strong&gt;, &lt;em&gt;for 1/5 crust&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;294 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;2.4 g net carbs&lt;/strong&gt;, 11.1 g fiber, 13.5 g total carbs&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;8.5 g protein&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;24.8 g fat&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 10 Dec 2016 00:00:00 +0530</pubDate>
+        <link>/ketoCrust</link>
+        <guid isPermaLink="true">/ketoCrust</guid>
+        
+        <category>low-carb</category>
+        
+        <category>vegan</category>
+        
+        <category>vegetarian</category>
+        
+        <category>flax</category>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+      <item>
+        <title>Salmón en salsa soja</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/769/31584141351_883e3468d6_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Una receta cetogénica facilísima y muy sabrosa. A mi familia le encanta, se tarda literalmente 10-15 minutos en prepararla, y es muy saciante. ¡Tienes que probarla!&lt;/p&gt;
+
+&lt;p&gt;Añade más aceite para llenarte más, o acompáñala de una ensalada o de alguna verdura.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ingredientes&lt;/strong&gt;, &lt;em&gt;para 4&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;2 rodajas de salmón, de aprox 1,5 cm de grosor (400 g)&lt;/li&gt;
+      &lt;li&gt;1 cucharada de aceite de coco&lt;/li&gt;
+      &lt;li&gt;La parte verde de tres puerros picados (tira la parte final) O un puerro entero (90g)&lt;/li&gt;
+      &lt;li&gt;1 cdita de jengibre fresco&lt;/li&gt;
+      &lt;li&gt;1/4 tsp sal&lt;/li&gt;
+      &lt;li&gt;1/4 tsp pimienta negra&lt;/li&gt;
+      &lt;li&gt;1 cda salsa soja&lt;/li&gt;
+      &lt;li&gt;3 cda agua&lt;/li&gt;
+      &lt;li&gt;2 cdas zumo de limón&lt;/li&gt;
+      &lt;li&gt;Estevia o edulcorante al gusto (equivalente a 1-2 cditas azúcar)&lt;/li&gt;
+      &lt;li&gt;1/2 cda aceite de sésamo&lt;/li&gt;
+      &lt;li&gt;Opcional: cilantro para servir&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Elaboración&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Derrite el aceite a fuego alto. Después fríe el jengibre 2 minutos.&lt;/li&gt;
+      &lt;li&gt;Añade el puerro, sal y pimienta. Cocina removiendo a menudo durante unos 5 minutos, hasta que esté blando.&lt;/li&gt;
+      &lt;li&gt;Añade el salmón y cocina a fuego alto 2 minutos por lado.&lt;/li&gt;
+      &lt;li&gt;Añade la salsa soja y el agua, cocínalo 30 segundos. Luego tápalo y deja que se haga por dentro a fuego bajo.&lt;/li&gt;
+      &lt;li&gt;Una vez cocinado, echa el zumo de limón, estevia y aceite de sésamo, mézclalo bien y sírvelo.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Información nutritional&lt;/strong&gt;, &lt;em&gt;por ración&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;207 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;3.4 g H de C netobs&lt;/strong&gt;, 0.5 g fibra, 3.9 g H de C totales&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;22.3 g proteina&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;11.1 g grasa&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2016 00:00:00 +0530</pubDate>
+        <link>/salmonSpa</link>
+        <guid isPermaLink="true">/salmonSpa</guid>
+        
+        <category>low-carb</category>
+        
+        <category>fish</category>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+      <item>
+        <title>Salmon in soy sauce</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/769/31584141351_883e3468d6_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A great, easy, tasty, keto recipe. My family adores it, it literally takes 10-15 minutes to make, and is super filling. You have to try it!&lt;/p&gt;
+
+&lt;p&gt;Add more oil if you want it to be more filling, or accompany with a fatty vegetable side dish.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt; 2 salmon fillets, about 1 inch thick (14 oz in total)&lt;/li&gt;
+  &lt;li&gt; 1 tbsp coconut oil&lt;/li&gt;
+  &lt;li&gt; The green part of 3 leeks (cut out the ends) OR one whole leek (90g)&lt;/li&gt;
+  &lt;li&gt; 1 tsp fresh ginger paste&lt;/li&gt;
+  &lt;li&gt; 1/4 tsp salt&lt;/li&gt;  
+  &lt;li&gt; 1/4 tsp black pepper&lt;/li&gt;
+  &lt;li&gt; 1 tbsp soy sauce&lt;/li&gt;
+  &lt;li&gt; 3 tbsp water&lt;/li&gt;
+  &lt;li&gt; 2 tbsp lemon juice&lt;/li&gt;
+  &lt;li&gt; Stevia or sweetener to taste (equals 1-2 tsp sugar)&lt;/li&gt;
+  &lt;li&gt; 1/2 tbsp sesame oil&lt;/li&gt;
+  &lt;li&gt; Optional: coriander for garnishing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Process&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Melt the coconut oil over high heat. Then fry the ginger for 2 minutes.&lt;/li&gt;
+      &lt;li&gt;Add the leeks, salt and pepper. Cook stirring frequently for about 5 minutes, until soft.&lt;/li&gt;
+      &lt;li&gt;Add the salmon and cook on high for 2 minutes on each side.&lt;/li&gt;
+      &lt;li&gt;Add the soy sauce and water, cook for 30 seconds, then cover and reduce to low heat until the salmon is cooked through.&lt;/li&gt;
+      &lt;li&gt;Once cooked, add the lemon juice, stevia and sesame oil, mix well and serve.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nutritional info&lt;/strong&gt;, &lt;em&gt;per serving&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;207 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;3.4 g net carbs&lt;/strong&gt;, 0.5 g fiber, 3.9 g total carbs&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;22.3 g protein&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;11.1 g fat&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2016 00:00:00 +0530</pubDate>
+        <link>/salmon</link>
+        <guid isPermaLink="true">/salmon</guid>
+        
+        <category>low-carb</category>
+        
+        <category>fish</category>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+      <item>
+        <title>Curry de calabaza</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5564/31662699386_64cef758be_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;¡Hacía mucho que no publicaba nada de comida india! Este es uno de mis curries de verdura favoritos. Tiene un sabor más bien dulce, con un toque de ácido del polvo de mango (que se puede sustituir por el limón), y está riquísimo acompañado de dal y de arroz o de roti.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ingredientes&lt;/strong&gt;, &lt;em&gt;para 4&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;500 g de calabaza&lt;/li&gt;
+      &lt;li&gt;Chili rojo seco al gusto (1-2)&lt;/li&gt;
+      &lt;li&gt;100 g de cebolla&lt;/li&gt;
+      &lt;li&gt;1 cdita de jengibre fresco&lt;/li&gt;
+      &lt;li&gt;1/4 cdita de asafétida (sustituible por 1/2 cdita de pasta de ajo, que se usaría junto al jengibre)&lt;/li&gt;
+      &lt;li&gt;1/4 cdita de semillas de fenugreco (methi)&lt;/li&gt;
+      &lt;li&gt;1/4 cdita de garam masala&lt;/li&gt;
+      &lt;li&gt;1/4 cdita cúrcuma&lt;/li&gt;
+      &lt;li&gt;Cilantro fresco, para servir&lt;/li&gt;
+      &lt;li&gt;1 cda de aceite (de mostaza o de coco)&lt;/li&gt;
+      &lt;li&gt;1/2 tsp mango en polvo (amchoor) o 1 cda zumo de limón&lt;/li&gt;
+      &lt;li&gt;Estevia o edulcorante al gusto (equivalente a 1 cdita azúcar)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Elaboración&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Derrite el aceite a fuego alto. Después fríe las semillas de fenugreco, el chili y la asafétida unos 2 minutos (¡¡que no se quemen!!).&lt;/li&gt;
+      &lt;li&gt;Añade el jengibre. Cocínalo 1 minuto y echa la cebolla. Cocínala unos 10 minutos hasta que esté bien pochada.&lt;/li&gt;
+      &lt;li&gt;Echa la calabaza junto a las especias (escepto el amchoor) y algo más de sal. Cocínalo removiendo unos 2 minutos. Después, añade 1/4 de taza de agua y tápalo.&lt;/li&gt;
+      &lt;li&gt;Deja que se cocine a fuego lento. Cuando la calabaza esté blanda, añade el resto de los ingredientes, mezcla bien y sírvelo.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Información nutritional&lt;/strong&gt;, &lt;em&gt;por ración&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;100 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;14 g H de C netos&lt;/strong&gt;, 3.2 g fibra, 17.2 g H de C totales&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;1.6 g proteina&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;3.6 g grasa&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2016 00:00:00 +0530</pubDate>
+        <link>/curryCalabaza</link>
+        <guid isPermaLink="true">/curryCalabaza</guid>
+        
+        <category>low-carb</category>
+        
+        <category>vegan</category>
+        
+        <category>vegetarian</category>
+        
+        <category>pumpkin</category>
+        
+        <category>curry</category>
+        
+        <category>indian</category>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+      <item>
+        <title>Pumpkin Curry</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5564/31662699386_64cef758be_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It had been so long since I published any indian food! This is one of my favorite veg curries. It is sweet with a slightly acid touch thanks to the mango powder (that can be substituted for lemon), and is awesome with some dal and rice or roti.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;500 g pumpkin or butternut squash&lt;/li&gt;
+  &lt;li&gt;Dried red chili (1-2)&lt;/li&gt;
+  &lt;li&gt;100 g onion&lt;/li&gt;
+  &lt;li&gt;1 tsp ginger paste&lt;/li&gt;
+  &lt;li&gt;1/4 tsp asafoetida (can be subbed for 1/2 tsp garlic paste, that would be used with the ginger)&lt;/li&gt;
+  &lt;li&gt;1/4 tsp fenugreek seeds (methi)&lt;/li&gt;
+  &lt;li&gt;1/4 tsp garam masala&lt;/li&gt;
+  &lt;li&gt;1/4 tsp turmeric&lt;/li&gt;
+  &lt;li&gt;Fresh coriander, to serve&lt;/li&gt;
+  &lt;li&gt;1 tbsp oil (mustard or coconut)&lt;/li&gt;
+  &lt;li&gt;1/2 tsp mango powder (amchoor) or 1 tbsp lemon juice&lt;/li&gt;
+  &lt;li&gt;Stevia or sweetener to taste (equivalent to 1 tsp sugar)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Process&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Heat up the oil. Fry the fenugreek seeds, chili and asafoetida for 2 minutes (don’t burn them!!!).&lt;/li&gt;
+      &lt;li&gt;Add the ginger. Cook for 1 minute, then add the onion and salt. Cook on slow heat for about 10 minutes, until it is brown and soft.&lt;/li&gt;
+      &lt;li&gt;Add the pumpkin and spices (except amchoor) and some more salt. Cook for 2 minutes, stirring. Then, pour 1/4 cup water and cover.&lt;/li&gt;
+      &lt;li&gt;Cook on low heat. Once the pumpkin is soft, add the rest of the ingredients, mix and serve.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Nutritional info&lt;/strong&gt;, &lt;em&gt;per serving, using butternut squash (serves 4)&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;100 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;14 g net carbs&lt;/strong&gt;, 3.2 g fiber, 17.2 g total carbs&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;1.6 g protein&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;3.6 g fat&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2016 00:00:00 +0530</pubDate>
+        <link>/pumpkinCurry</link>
+        <guid isPermaLink="true">/pumpkinCurry</guid>
+        
+        <category>low-carb</category>
+        
+        <category>vegan</category>
+        
+        <category>vegetarian</category>
+        
+        <category>pumpkin</category>
+        
+        <category>curry</category>
+        
+        <category>indian</category>
+        
+        
+        <category>main</category>
+        
+      </item>
+    
+      <item>
+        <title>Chilla (tortitas saladas)</title>
+        <description>&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/403/31699704665_590bb3e042_o_d.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Este es un aperitivo indio típico de Gujarat: unos pancakes veganos salados hechos de lentejas moong, y rellenos de lo que prefieras. Se pueden tomar solos con un chutney, o rellenarlos de paneer (como he hecho yo), de tomate, cebolla y cilantro, o de lo que más te apetezca. 
+Habitualmente se toma con el té de por la tarde, pero a mí me gusta mucho ponerlo como aperitivo: es ligero, tiene bastantes proteínas y gusta a todo el mundo, incluso a los más carnívoros!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ingredientes&lt;/strong&gt;, &lt;em&gt;para 4 chilla&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;1/2 taza de lentejas moong dal, preferiblemente peladas (100 g)&lt;/li&gt;
+      &lt;li&gt;1/8 cdita de bicarbonato&lt;/li&gt;
+      &lt;li&gt;1/8 tsp asafétida (se puede sustituir por medio diente de ajo hecho pasta)&lt;/li&gt;
+      &lt;li&gt;1/4 cdita de sal&lt;/li&gt;
+      &lt;li&gt;Chili al gusto (preferiblemente pasta de chili verde)&lt;/li&gt;
+      &lt;li&gt;Unas gotas de estevia (equivalente a 2 cditas de azúcar)&lt;/li&gt;
+      &lt;li&gt;Relleno al gusto; en este caso, 50 g de paneer (requesón), 1/2 cdita Chaat masala (opcional), 4 cucharadas de cilantro fresco&lt;/li&gt;
+      &lt;li&gt;2 cditas de aceite (para cocinarlo)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Elaboración&lt;/strong&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Lava bien las lentejas y luego remójalas durante 3 ó 4 horas.&lt;/li&gt;
+      &lt;li&gt;Escúrrelas, añade 3 cucharadas de agua y bátelas hasta obtener una masa homogénea. Si es necesario puedes añadir un poco más de agua, pero lo ideal es que quede una textura de masa de pancakes.&lt;/li&gt;
+      &lt;li&gt;Añade la sal, bicarbonato, asafétida y estevia y mézclalo bien.&lt;/li&gt;
+      &lt;li&gt;Engrasa una sartén (con 1/2 cdita de aceite por chilla suele ser suficiente) y caliéntala a fuego medio-alto. Echa un cuarto de la masa y extiéndela con la espátula para que tenga un grosor de unos 2-3 mm.&lt;/li&gt;
+      &lt;li&gt;Echa el relleno que quieras mientras se va cocinando. En este caso, el queso, cilantro y un poco de chaat masala.&lt;/li&gt;
+      &lt;li&gt;Cuando empiece a estar seca la masa por arriba (tras unos 2-3 minutos), dale la vuelta al chilla, cocínalo un minuto más, vuelve a darle la vuelta, dóblalo para que el relleno quede dentro y sácalo de la sartén.&lt;/li&gt;
+      &lt;li&gt;Sírvelos con más paneer, cilantro, chaat masala, tomate y cebolla, o con el chutney que te guste.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Información nutricional&lt;/strong&gt;, &lt;em&gt;por chilla&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;161 kCal&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;8.8 g hidratos de carbono netos&lt;/strong&gt;, 7.6 g fibra, 16.4 g H de C totales&lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;9.1 g proteina&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;6.5 g grasa&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 14 Nov 2016 00:00:00 +0530</pubDate>
+        <link>/chillaSpa</link>
+        <guid isPermaLink="true">/chillaSpa</guid>
+        
+        <category>low-carb</category>
+        
+        <category>vegan</category>
+        
+        <category>vegetarian</category>
+        
+        <category>indian</category>
+        
+        
+        <category>snack</category>
+        
+      </item>
+    
   </channel>
 </rss>
