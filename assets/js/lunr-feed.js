@@ -750,7 +750,7 @@ var index = lunr(function () {
 
 var store = [{
     "title": "Masala Omelet",
-    "link": "/masalaOmelet",
+    "link": "/masalaOmelete",
     "image": null,
     "date": "22 Dec, 2016",
     "category": ["desayuno"],
