@@ -10,13 +10,6 @@ jQuery(document).ready( function() {
 		});
 	/**/
 
-	// Automatically sets the first post image as a featured image on Facebook and Twitter.
-	var firstImg = jQuery('.post.single .post-content').find('img:first-of-type');
-	var firstImgSrc = firstImg.attr('src');
-	if (typeof firstImgSrc !== 'undefined') {
-		jQuery('meta[property="og:image"]').attr('content', firstImgSrc);
-		jQuery('meta[name="twitter:image"]').attr('content', firstImgSrc);
-	}
 
 	/* Fires fitVids plugin. */
         jQuery(".delicious main").fitVids();
@@ -73,6 +66,11 @@ jQuery(document).ready( function() {
 		getFirstUnList.find('li').on('click', function() {
             jQuery(this).toggleClass('selected');
 		});
+	/**/
+	
+	/* Nutritional Info Box */ 
+		var nutriBox = jQuery('.post-content').find('ul:first').children(':first-child').next();
+		nutriBox.addClass('nutri-box').attr('id', 'nutri-box');
 	/**/
 
 	/* Hides search results box. */
