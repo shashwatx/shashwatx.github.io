@@ -11,7 +11,7 @@ jQuery(document).ready( function() {
 	/**/
 
 	// Automatically sets the first post image as a featured image on Facebook and Twitter.
-	var firstImg = jQuery('.post.single').find('img:first-of-type');
+	var firstImg = jQuery('.post.single .post-content').find('img:first-of-type');
 	var firstImgSrc = firstImg.attr('src');
 	if (typeof firstImgSrc !== 'undefined') {
 		jQuery('meta[property="og:image"]').attr('content', firstImgSrc);
