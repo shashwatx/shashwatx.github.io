@@ -281,9 +281,9 @@ var index = lunr(function () {
 
     index.add({
         title: "Pan de Coco (keto)",
-        category: ["snack"],
+        category: ["aperitivo"],
         content: "\n\nEste es mi pan bajo en hidratos preferido. Tiene casi textura de bizcocho, y es tan esponjoso que absorbe súper bien las salsas, y además queda muy bueno cuando se tuesta y también en sandwich :)\n\n\n  3,5 tbsp psyllium molido (28g) + 3/4 tazas de agua\n  6 huevos (o bien 2 huevos + 8 claras)\n  1/2 taza de aceite de oliva\n  1 tsp sal\n  2 tazas de agua\n  1 taza de harina de coco (120g)\n  1/2 tbsp vinagre de manzana\n  2/3 tsp bicarbonato\n\n\n\n\n\n  Elaboración\n    \n      Precalienta el horno a 180C.\n      Mezcla el psyllium con el agua y dejalo reposar 5 minutos.\n      En una batidora bate la mezcla anterior con los huevos y el aceite hasta que quede sin grumos.\n      Añade el resto de ingredientes y bátelo bien. Debe quedar una mezcla bastante espesa.\n      Vierte la mezcla en un molde y dale forma de pan.\n      Hornéalo durante 60-75 minutos. Deja que enfríe en una rejilla antes de cortarlo.\n    \n  \n  Información nutricional, para 1 rebanada\n    \n      92 kCal\n      0.88 g H de C netos, 2.1 g fibra, 3 g H de C totales\n      3 g proteina\n      7.7 g grasa\n    \n  \n\n",
-        tags: ["low-carb","eggs","vegetarian","coconut","bread"],
+        tags: ["bajo en hidratos","huevos","vegetariano","coco","pan"],
         id: 30
     });
     
@@ -299,9 +299,9 @@ var index = lunr(function () {
 
     index.add({
         title: "Masa Pastel (keto)",
-        category: ["main"],
+        category: ["principal"],
         content: "\n\nEsta masa quebrada, basada en la receta de healthfulpursuit, lleva un poco de tiempo para hacerse, pero es sin gluten, sin huevo, baja en hidratos y tiene muy buen sabor :)\n\n\n  1 + 1/4 cups lino molido\n  1/4 cup semillas de girasol, molidas después\n  80-100 g cebolla (una pequeña)\n  1/3 tsp sal\n  2 tbsp aceite de oliva\n  1/2 tbsp vinagre de manzana\n  1/2 tsp bicarbonato\n  Otros ingredientes al gusto, como un diente de ajo\n\n\n\n\n\n  Elaboración\n    \n      Precalienta el horno a 110C.\n      Bate la cebolla con el vinagre y el aceite.\n      En otro bol mezcla los ingredientes secos, después añade la mezcla de cebolla. Deberías obtener una masa moldeable pero que no se desmorone; si es demasiado seca, añade un poco de agua.\n      Engrasa tu molde muy bien (o mejor aún, pon papel de horno en el fondo) y echa la masa. Después, con una cuchara o las manos, dale forma. Usa tus manos mojadas para que quede lisa.\n      Hornéala durante 90 minutos hasta que esté seca y crujiente. Después, sácala y rellénala con lo que quieras.\n    \n  \n  Información nutricional, para 1/5 de la base\n    \n      294 kCal\n      2.4 g H de C netos, 11.1 g fibra, 13.5 g H de C totales\n      8.5 g proteina\n      24.8 g grasa\n    \n  \n\n",
-        tags: ["low-carb","vegan","vegetarian","flax"],
+        tags: ["low-carb","vegan","vegetariano","flax"],
         id: 32
     });
     
@@ -1713,7 +1713,7 @@ var store = [{
     "link": "/panCoco",
     "image": null,
     "date": "11 Dec, 2016",
-    "category": ["snack"],
+    "category": ["aperitivo"],
     "content": "<p><img src=\"https://farm1.staticflickr.com/703/31327100090_7f14e5f2b4_o_d.jpg\" /></p>\n\n<p>Este es mi pan bajo en hidratos preferido. Tiene casi textura de bizcocho, y es tan esponjoso que absorbe súper bien las salsas, y además queda muy bueno cuando se tuesta y también en sandwich :)</p>\n\n<ul>\n  <li>3,5 tbsp psyllium molido (28g) + 3/4 tazas de agua</li>\n  <li>6 huevos (o bien 2 huevos + 8 claras)</li>\n  <li>1/2 taza de aceite de oliva</li>\n  <li>1 tsp sal</li>\n  <li>2 tazas de agua</li>\n  <li>1 taza de harina de coco (120g)</li>\n  <li>1/2 tbsp vinagre de manzana</li>\n  <li>2/3 tsp bicarbonato</li>\n</ul>\n\n<!-- -->\n\n<ul>\n  <li><strong>Elaboración</strong>\n    <ol>\n      <li>Precalienta el horno a 180C.</li>\n      <li>Mezcla el psyllium con el agua y dejalo reposar 5 minutos.</li>\n      <li>En una batidora bate la mezcla anterior con los huevos y el aceite hasta que quede sin grumos.</li>\n      <li>Añade el resto de ingredientes y bátelo bien. Debe quedar una mezcla bastante espesa.</li>\n      <li>Vierte la mezcla en un molde y dale forma de pan.</li>\n      <li>Hornéalo durante 60-75 minutos. Deja que enfríe en una rejilla antes de cortarlo.</li>\n    </ol>\n  </li>\n  <li><strong>Información nutricional</strong>, <em>para 1 rebanada</em>\n    <ul>\n      <li>92 kCal</li>\n      <li><strong>0.88 g H de C netos</strong>, 2.1 g fibra, 3 g H de C totales</li>\n      <li><strong>3 g proteina</strong></li>\n      <li>7.7 g grasa</li>\n    </ul>\n  </li>\n</ul>\n",
     "excerpt": "Este es mi pan bajo en hidratos preferido. Tiene casi textura de bizcocho, y es tan esponjoso que absorbe súper..."
 },{
@@ -1729,7 +1729,7 @@ var store = [{
     "link": "/masaKeto",
     "image": null,
     "date": "10 Dec, 2016",
-    "category": ["main"],
+    "category": ["principal"],
     "content": "<p><img src=\"https://farm1.staticflickr.com/591/31553200562_c11ef9c964_o_d.jpg\" /></p>\n\n<p>Esta masa quebrada, basada en la receta de <a href=\"http://www.healthfulpursuit.com\">healthfulpursuit</a>, lleva un poco de tiempo para hacerse, pero es sin gluten, sin huevo, baja en hidratos y tiene muy buen sabor :)</p>\n\n<ul>\n  <li>1 + 1/4 cups lino molido</li>\n  <li>1/4 cup semillas de girasol, molidas después</li>\n  <li>80-100 g cebolla (una pequeña)</li>\n  <li>1/3 tsp sal</li>\n  <li>2 tbsp aceite de oliva</li>\n  <li>1/2 tbsp vinagre de manzana</li>\n  <li>1/2 tsp bicarbonato</li>\n  <li>Otros ingredientes al gusto, como un diente de ajo</li>\n</ul>\n\n<!-- -->\n\n<ul>\n  <li><strong>Elaboración</strong>\n    <ol>\n      <li>Precalienta el horno a 110C.</li>\n      <li>Bate la cebolla con el vinagre y el aceite.</li>\n      <li>En otro bol mezcla los ingredientes secos, después añade la mezcla de cebolla. Deberías obtener una masa moldeable pero que no se desmorone; si es demasiado seca, añade un poco de agua.</li>\n      <li>Engrasa tu molde muy bien (o mejor aún, pon papel de horno en el fondo) y echa la masa. Después, con una cuchara o las manos, dale forma. Usa tus manos mojadas para que quede lisa.</li>\n      <li>Hornéala durante 90 minutos hasta que esté seca y crujiente. Después, sácala y rellénala con lo que quieras.</li>\n    </ol>\n  </li>\n  <li><strong>Información nutricional</strong>, <em>para 1/5 de la base</em>\n    <ul>\n      <li>294 kCal</li>\n      <li><strong>2.4 g H de C netos</strong>, 11.1 g fibra, 13.5 g H de C totales</li>\n      <li><strong>8.5 g proteina</strong></li>\n      <li>24.8 g grasa</li>\n    </ul>\n  </li>\n</ul>\n",
     "excerpt": "Esta masa quebrada, basada en la receta de healthfulpursuit, lleva un poco de tiempo para hacerse, pero es sin gluten,..."
 },{
