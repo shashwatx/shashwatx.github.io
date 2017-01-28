@@ -43,5 +43,8 @@ DEPENDENCIES
   jekyll (= 3.2.1)
   jekyll-paginate (~> 1.1.0)
 
+RUBY VERSION
+   ruby 2.1.9p490
+
 BUNDLED WITH
-   1.12.5
+   1.14.3
