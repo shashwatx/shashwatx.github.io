@@ -1,0 +1,44 @@
+---
+title: Tofunesa
+permalink: mayonesaTofu
+date: 2016-04-01
+youtubeurl: http://www.youtube.com/embed/SnYBSAN42Hc
+eyecatcher: /images/tofunesa.jpg
+type: recipe
+spanish: true
+story: ninguna historia
+author: maria
+layout: post
+tags: 
+- tofu
+- soja
+- vegano
+- vegetariano
+category: 
+- salsa
+---
+<img src="https://farm1.staticflickr.com/708/31583118171_f180f6a4f0_o_d.jpg" />
+Yo no soy una gran fan de la mayonesa, pero de vez en cuando sí me apetece; pero tiene tantísima grasa que casi nunca la compro.
+
+Hoy os traido una versión sana de la mayonesa, que a mí me gusta llamar "Tofunesa". Esta sansa sin huevo tiene una textura sedosa, un sabor muy bueno, y no requiere habilidades especiales para hacerla (no hay riesgo de que se corte como la mayonesa!). Además, es MUY baja en grasa y alta en proteínas.
+
+Es evidente que no sabe exactamente igual que la original. Pero la textura y el sabor son muy buenos, y estoy segura de que no echaréis de menos la mayonesa si tenéis tofunesa en casa!
+
+
+<ul>
+  <li>100 g tofu firme (yo uso el de mercadona)</li>
+  <li>40 g de yogur natural; utiliza yogur vegano para que tu tofunesa sea vegana</li>
+  <li>Pizca de sal</li>
+  <li>1/4 tsp mostaza de Dijon (yo utilizo 1/2 tsp, pero al final queda un sabor bastante fuerte)</li>
+  <li>1/2 tbsp aceite de oliva virgen extra</li>
+  <li>1/2 tbsp vinagre blanco</li>
+  <li>1/2 tbsp zumo de limón</li>
+</ul>
+
+* **Elaboración**
+  1. Batir hasta que esté bien suave. Probar por si necesitara más sal.
+  2. Comer.
+
+
+
+

@@ -1,0 +1,43 @@
+---
+title: Hamburguesas Mungo
+permalink: hamburguesasMungo
+date: 2016-12-27
+eyecatcher:
+youtubeurl: http://www.youtube.com/embed/rId6PKlDXeU
+type: recipe
+spanish: true
+story: ninguna story
+author: maria
+layout: post
+tags: 
+- vegano
+- vegetariano
+- soja
+- bajo en hidratos
+category: 
+- principal
+---
+<img src="https://farm1.staticflickr.com/283/31773130252_35eb530678_o_d.jpg" />
+Esta receta de hamburguesas utilizando judías mungo es una forma genial de tomar legumbres. Las judías mungo (soja verde) tienen muy buen sabor, y si las dejas brotar, su composición cambiará, por lo que tendrán menos hidratos de carbono y más proteína. Además, puedes echarle diferentes especias si quieres, para tener distintos sabores. 
+
+Es difícil saber con exactitud la información nutricional de esta receta puesto que depende mucho de cuánto broten las judías; yo he hecho una aproximación basada en dejarlas brotar unos 3-4 días. 
+
+<ul>
+  <li>1/2 taza (100g) de judías mungo (soja verde)</li>
+  <li>Opcional: 30 g de polvo de proteínas (yo utilicé proteína de guisante)</li>
+  <li>Sal</li>
+  <li>Pimienta negra</li>
+  <li>2 cucharadas de aceite de coco o de mantequilla o ghee</li>
+  <li>Otras especias al gusto</li>
+</ul>
+* **Elaboración**
+  1. Deja que las judías broten durante unos 3 ó 4 días hasta que tengan brotes de 1-2 cm. 
+  2. Batir todos los ingredientes hasta tener una masa espesa. 
+  3. Dividir la masa en cuatro y formar hamburguesas con las manos.  
+  4. Freír cada hamburguesa en 1/2 cucharada de aceite hasta que se dore por ambos lados (unos 2 minutos por lado). 
+
+* **Información nutricional**, por hamburguesa
+  - 149 kCal 
+  - **7 g H de C netos**, 3.1 g fibra, 10.1 g H de C totales
+  - **11 g de proteína**
+  - 7.9 g grasa

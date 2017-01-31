@@ -1,0 +1,45 @@
+---
+title: Pan cetogénico (lino)
+permalink: panLino
+date: 2016-07-17
+youtubeurl: https://www.youtube.com/embed/OpWO_byqSr8
+type: recipe
+spanish: true
+story: ninguna historia
+eyecatcher: /images/ketobread.jpg
+author: maria
+layout: post
+tags:
+- vegetariano
+- bajo en hidratos
+- lino
+- huevo
+category: 
+- pan
+---
+<img src="https://farm1.staticflickr.com/262/31698452985_05863d1d99_o_d.jpg" />
+
+Últimamente estoy experimentando con cocina alta en grasa y baja en hidratos de carbono, porque mi padre está intentando seguir una dieta cetogénica. De momento lo lleva bien, pero siempre se está quejando de que no puede mojar pan... Así que he logrado encontrar una receta fácil para hacer en el microondas para cualquiera quienes no puedan tomar pan: dietas paleo, cetogénicas o sin gluten. El sabor del lino es bastante fuerte, pero utilizando aceite de oliva virgen extra, el bollito tiene sabor principalmente a aceite, y está muy bueno con queso, guacamole, huevo, o incluso con mermelada!
+
+<img src="https://farm1.staticflickr.com/288/31661818156_c5095f4e93_o_d.jpg" alt="BreadInside" style="width: 250px;"/>
+
+<ul>
+  <li>100 mL de semillas de lino molido</li>
+  <li>1/2 tsp levadura química</li>
+  <li>Una pizca de sal</li>
+  <li>1 huevo</li>
+  <li>1 cucharada sopera de aceite de oliva virgen extra</li>
+  <li>2 cucharadas soperas de agua</li>
+</ul>
+
+* **Elaboración**
+  1. Bate el huevo, aceite y agua hasta que estén espumosos. En otro bol, mezcla el lino, la levadura y la sal. 
+  2. Añade los ingredientes húmedos a los secos, mézclalo bien y déjalo reposar 5-10 minutos. Al principio parecerá un poco líquido, pero espesa después del reposo. 
+  3. Divídelo en tres moldes; yo utilizo moldes de silicona de magdalenas. Puedes echar unas semillas de sésamo por encima si quieres. 
+  4. Mételo en el microondas a alta potencia durante 2 minutos o hasta que esté bien cuajado. 
+
+* **Información nutricional**, _por bollito (tres por receta)_
+  - 107 kcal totales
+  - 7 g de grasa
+  - 0.8 g de hidratos de carbono netos
+  - 4.72 g proteína

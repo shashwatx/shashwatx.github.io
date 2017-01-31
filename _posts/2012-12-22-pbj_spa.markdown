@@ -1,0 +1,44 @@
+---
+title: Galletas de cacahuete
+permalink: pbjSpa
+date: 2015-12-22
+type: recipe
+spanish: true
+youtubeurl: http://www.youtube.com/embed/YcmykHfzKW4
+eyecatcher: /images/pbj.jpg
+author: maria
+layout: post
+category: 
+- aperitivo
+tags: 
+- vegano
+- vegetariano
+- dulce
+---
+<img src="https://farm1.staticflickr.com/517/31583269961_c5dbbd787d_o_d.jpg" />
+<ul>
+  <li>1/3 cup + 1/4 harina (yo uso integral)</li>
+  <li>1/8 cup azucar (o mas, al gusto)</li>
+  <li>1/2 tsp azucar vainillado</li>
+  <li>1.5-2 tbsp mantequilla de cacahuete sin azucar</li>
+  <li>Pizca de sal</li>
+  <li>Una pizca de bicarbonato</li>
+  <li>2 cucharaditas de mermelada de fresa</li>
+  <li>1/2 tsp de maizena (almidon de maiz)</li>
+  <li>1-3 tbsp leche o agua</li>
+</ul>
+
+* **Elaboracion**
+  1. Mezclar primero la harina, bicarbonato y azucares. 
+  2. Agregar la mantequilla y mezclar bien con una cuchara para que quede bien distribuido (debe quedar una mezcla un poco arenosa)
+  3. Agregar 1 tbsp leche o agua y comenzar a mezclar. Echar mas poco a pocosegun absorba la harina, para que quede una mezcla pegajosa y humeda, como en la foto.
+  4. En un bol, poner la mermelada y calentar 5-10 seg en el microondas para que quede algo mas liquida; luego, mezclar con la maizena.
+  5. Formar las galletas sobre un plato engrasado o un plato con papel vegetal.
+     - _Para mas detalles sobre como formar las galletas, mirad el video a la derecha!_
+  7. Cocinar en el microondas unos 90 segundos - el tiempo depende de cada microondas.
+  8. Sacar del microondas y echar un poquito de la mezcla de mermelada en cada agujero. 
+  9. Volver a meter al microondas otros 20 segundos.
+     - _Si se hacen en exceso, quedaran secas y duras!_
+ 
+
+Dejar reposar al menos 15 minutos (lo ideal son 30 o incluso una hora). Riquisimas :)

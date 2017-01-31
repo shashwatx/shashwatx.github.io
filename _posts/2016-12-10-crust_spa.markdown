@@ -1,0 +1,48 @@
+---
+title: Masa Pastel (keto)
+permalink: masaKeto
+date: 2016-12-10
+type: recipe
+spanish: true
+youtubeurl: https://www.youtube.com/embed/omkRbY4uZ6E
+eyecatcher: /images/crust.jpg
+author: maria
+layout: post
+tags:
+- bajo en hidratos
+- vegano
+- vegetariano
+- lino
+category:
+- principal
+---
+
+<img src="https://farm1.staticflickr.com/591/31553200562_c11ef9c964_o_d.jpg" />
+
+Esta masa quebrada, basada en la receta de [healthfulpursuit](http://www.healthfulpursuit.com), lleva un poco de tiempo para hacerse, pero es sin gluten, sin huevo, baja en hidratos y tiene muy buen sabor :) 
+
+
+* 1 + 1/4 cups lino molido
+* 1/4 cup semillas de girasol, molidas después
+* 80-100 g cebolla (una pequeña)
+* 1/3 tsp sal
+* 2 tbsp aceite de oliva
+* 1/2 tbsp vinagre de manzana
+* 1/2 tsp bicarbonato
+* Otros ingredientes al gusto, como un diente de ajo
+
+<!-- -->
+
+* **Elaboración**
+  1. Precalienta el horno a 110C.
+  2. Bate la cebolla con el vinagre y el aceite. 
+  3. En otro bol mezcla los ingredientes secos, después añade la mezcla de cebolla. Deberías obtener una masa moldeable pero que no se desmorone; si es demasiado seca, añade un poco de agua.
+  4. Engrasa tu molde muy bien (o mejor aún, pon papel de horno en el fondo) y echa la masa. Después, con una cuchara o las manos, dale forma. Usa tus manos mojadas para que quede lisa.
+  5. Hornéala durante 90 minutos hasta que esté seca y crujiente. Después, sácala y rellénala con lo que quieras.
+
+
+* **Información nutricional**, _para 1/5 de la base_
+  * 294 kCal
+  * **2.4 g H de C netos**, 11.1 g fibra, 13.5 g H de C totales
+  * **8.5 g proteina**
+  * 24.8 g grasa

@@ -1,0 +1,51 @@
+---
+title: Chilla (tortitas saladas)
+permalink: chillaSpa
+date: 2016-11-14
+type: recipe
+spanish: true
+youtubeurl: https://www.youtube.com/embed/8YfCOFfBatM
+eyecatcher: /images/chilla.jpg
+author: maria
+layout: post
+tags:
+- bajo en hidratos
+- vegano
+- vegetariano
+- indio
+category:
+- aperitivo
+---
+
+<img src="https://farm1.staticflickr.com/403/31699704665_590bb3e042_o_d.jpg" />
+
+Este es un aperitivo indio típico de Gujarat: unos pancakes veganos salados hechos de lentejas moong, y rellenos de lo que prefieras. Se pueden tomar solos con un chutney, o rellenarlos de paneer (como he hecho yo), de tomate, cebolla y cilantro, o de lo que más te apetezca. 
+Habitualmente se toma con el té de por la tarde, pero a mí me gusta mucho ponerlo como aperitivo: es ligero, tiene bastantes proteínas y gusta a todo el mundo, incluso a los más carnívoros!
+
+
+* 1/2 taza de lentejas moong dal, preferiblemente peladas (100 g)
+* 1/8 cdita de bicarbonato
+* 1/8 tsp asafétida (se puede sustituir por medio diente de ajo hecho pasta)
+* 1/4 cdita de sal 
+* Chili al gusto (preferiblemente pasta de chili verde)
+* Unas gotas de estevia (equivalente a 2 cditas de azúcar)
+* Relleno al gusto; en este caso, 50 g de paneer (requesón), 1/2 cdita Chaat masala (opcional), 4 cucharadas de cilantro fresco
+* 2 cditas de aceite (para cocinarlo)
+
+<!-- -->
+
+* **Elaboración**
+  1. Lava bien las lentejas y luego remójalas durante 3 ó 4 horas. 
+  2. Escúrrelas, añade 3 cucharadas de agua y bátelas hasta obtener una masa homogénea. Si es necesario puedes añadir un poco más de agua, pero lo ideal es que quede una textura de masa de pancakes. 
+  3. Añade la sal, bicarbonato, asafétida y estevia y mézclalo bien. 
+  4. Engrasa una sartén (con 1/2 cdita de aceite por chilla suele ser suficiente) y caliéntala a fuego medio-alto. Echa un cuarto de la masa y extiéndela con la espátula para que tenga un grosor de unos 2-3 mm. 
+  5. Echa el relleno que quieras mientras se va cocinando. En este caso, el queso, cilantro y un poco de chaat masala. 
+  6. Cuando empiece a estar seca la masa por arriba (tras unos 2-3 minutos), dale la vuelta al chilla, cocínalo un minuto más, vuelve a darle la vuelta, dóblalo para que el relleno quede dentro y sácalo de la sartén.
+  7. Sírvelos con más paneer, cilantro, chaat masala, tomate y cebolla, o con el chutney que te guste. 
+
+
+* **Información nutricional**, _por chilla_
+  * 161 kCal
+  * **8.8 g hidratos de carbono netos**, 7.6 g fibra, 16.4 g H de C totales
+  * **9.1 g proteina**
+  * 6.5 g grasa

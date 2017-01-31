@@ -1,0 +1,42 @@
+---
+title: Hash Browns ceto
+permalink: hashSinHuevo
+date: 2017-01-22
+type: recipe
+spanish: true
+youtubeurl: https://www.youtube.com/embed/4otjr0g1f1w
+eyecatcher: 
+author: maria
+layout: post
+tags: 
+- vegetariano
+- indio
+- bajo en hidratos
+category: 
+- principal
+---
+<img src="https://farm1.staticflickr.com/595/32029061850_955f97973d_o_d.jpg" >
+
+Una receta sencilla para un desayuno lactovegetariano bajo en hidratos con una buena porción de verdura.
+
+<ul>
+  <li>100 g paneer, desgranado</li>
+  <li>1 huevo de lino: 1 tbsp lino molido + 3 tbsp agua tibia</li>
+  <li>1 cup (70g) repollo picado</li>
+  <li>2 tbsp ccebolleta verde picada</li>
+  <li>Sal y pimienta al gusto</li>
+  <li>1 tbsp aceite de coco</li>
+</ul>
+
+* **Elaboración**
+  1. Primero, prepara el "huevo" de lino y déjalo reposar unos 5 minutos.
+  2. Añade el paneer al huevo de lino y mezcla bien hasta tener una pasta pegajosa. Añade un poco de agua si hace falta. 
+  3. Echa sal, pimienta y la verdura y mezcla. Luego divídelo en tres.
+  4. Pon 1/3 tbsp de aceite en una sartén y úsala para freír uno de los hash browns, unos 3 minutos por un lado y 2 por el otro.
+  5. Haz lo mismo con los otros dos y sírvelo. 
+
+* **Información nutricional**, _por toda la receta_
+  * 478 kCal
+  * **6.3 g H de C netos**, 4 g fibra, 10.3 g H de C totales
+  * **22.4 g proteina**
+  * 40 g grasa

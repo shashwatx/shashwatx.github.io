@@ -1,0 +1,47 @@
+---
+title: Sobrasada vegana
+permalink: sobrasada
+date: 2016-01-28
+type: recipe
+spanish: true
+layout: post
+eyecatcher: /images/sobrasada.jpg
+author: spanish
+category: 
+- aperitivo
+tags: 
+- vegano
+- vegetariano
+- avena
+---
+<img src="https://farm1.staticflickr.com/506/31552274532_b98a39cdd5_o_d.jpg"/>
+
+La sobrasada siempre ha sido una de mis debilidades. Asi que cuando vi que se podia hacer "sobrasada" vegana con tomates secos... me puse a ello!
+
+Esta es una de las dos recetas que utilizo, segun los ingredientes que tenga en casa. Espero que os guste! 
+
+La receta esta adaptada de [chezDashita](http://chezDashita.blogspot.com)
+
+<ul>
+  <li>50 g tomate seco sin aceite</li>
+  <li>20 g copos de avena (1/4 cup)</li>
+  <li>1 cc de pimenton de la vera, dulce o picante segun el gusto</li>
+  <li>1/2 cdita ajo en polvo o medio diente de ajo</li>
+  <li>Opcional: aceite de oliva virgen extra</li>
+  <li>1/4 tsp oregano</li>
+  <li>Un pellizco de sal y un poco de pimienta negra</li> 
+</ul>
+
+* **Elaboracion** 
+
+  1. Hidratar durante 15 minutos los tomates junto a la avena con agua caliente (que no este hirviendo).
+  2. Escurrir bien. 
+  3. Triturar todos los ingredientes y reposar en la nevera antes de servir.
+
+
+
+
+
+Untalo con pan, haz sandwiches con queso... lo que mas te apetezca!
+
+

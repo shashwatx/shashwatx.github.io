@@ -1,0 +1,47 @@
+---
+title: Vegan Wraps
+permalink: wraps
+date: 2015-11-27
+type: recipe
+english: true
+youtubeurl: http://www.youtube.com/embed/s8VdRtZaoYw
+eyecatcher: /images/wrap.jpg
+author: maria
+layout: post
+tags: 
+- vegan
+- vegetarian
+category: 
+- main
+---
+<img src="https://farm1.staticflickr.com/730/31326293290_586f0622c3_o_d.jpg" />
+
+This is a great filling for a wrap. You can use a crepe-type wrap like I did, or other things like tortillas, chapati or dosa to keep it vegan.
+<ul>
+  <li>1 cup flour (whole wheat or all-purpose flour)</li>
+  <li>1/2 cup oats</li>
+  <li>1/4-1/2 tsp salt</li>
+  <li>1 egg</li>
+  <li>Three tomatos</li>
+  <li>Half an onion or one shalot, fresh parsley or coriander, salt</li>
+  <li>One avocado</li>
+  <li>400 g of cooked red kidney beans.</li>
+  <li>1-2 tbsp tomato paste, to taste. If not available, can be substituted for fresh tomato (but will require longer cooking time).</li>
+  <li>Salt, to taste (1/2 tsp)</li>
+  <li>Spices, to taste: 1 tsp coriander, 1 tsp cumin</li>
+  <li>Optional: 1/2 onion.</li>
+  <li>Chili, to taste. I use 3-4 fresh chilies, taking the seeds out.</li>
+</ul>
+* **Process**
+  1. To form the crepe mixture, mix the dry ingredients, add the egg, mix and then add the water (1-1.5 cups), a little bit at a time, until you get a thin consistency. Let it sit for 10-15 min. Then cook in a very lightly greased nonstick pan on medium-high heat.
+  2. For the tomato mixture, chop the tomatoes, half an onion, parsley or coriander and salt and mix; do not add the salt until the very end to prevent the tomato from releasing water.
+     - _If the raw onion flavour is too much, put the chopped onion in cold water for 10-15 min before using._
+  3. To prepare the avocado: slice it, add some lemon juice, salt and pepper and mix.
+  4. To prepare the filling: 
+     - Fry the onion, if using; then, add all the ingredients at the same time. 
+     - _I use the red kidney beans with the liquid from the jar too, but if you want to, you can substitute it for water._
+     - Cook on medium heat, stirring, until the mixture is quite thick.
+  6. Fill the crepes with the tomato, avocado and beans, wrap it up and eat! 
+
+A perfect recipe for meatless days!
+

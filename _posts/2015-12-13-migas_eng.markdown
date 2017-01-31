@@ -1,0 +1,38 @@
+---
+title: Chorizo Rice
+permalink: cauliflowerChorizo
+date: 2015-12-13
+eyecatcher: /images/migas.jpg
+youtubeurl: http://www.youtube.com/embed/C7sNOnzwMXE
+type: recipe
+english: true
+story: ninguna story
+author: maria
+layout: post
+tags: 
+- cauliflower
+- low-carb
+category: 
+- side
+---
+<img src="https://farm1.staticflickr.com/68/31583278081_fb98050dc9_k_d.jpg" />
+Very tasty. With the chorizo flavor, noone will tell it has cauliflower as a base!
+
+<ul>
+  <li>Half a cauliflower (300g), prepared like you can see <a href="http://maria.recipes/CauliflowerRice">here</a></li>
+  <li>One clove of garlic (or to taste)</li>
+  <li>60 g of spicy spanish style chorizo, diced</li>
+  <li>1 tbsp olive oil</li>
+  <li>Salt, black pepper</li>
+
+* **Process**
+  1. In a pan, put the garlic and the chorizo over medium high heat.. 
+  2. Once the garlic has browned on the chorizo's fat, add the cauliflower with salt to taste and pepper. 
+  3. Coook about 3-4 minutes until the cauliflower is no longer raw. 
+  4. Serve. 
+
+* **Nutritional information**, for half of the recipe
+  - 246 kCal
+  - 6.4 g net carbs**, 3.8 g fiber, 10.2 g total carbs
+  - 10.8 g protein
+  - 19 g fat

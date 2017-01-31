@@ -1,0 +1,46 @@
+---
+title: Wraps Veganos
+permalink: wraps
+date: 2015-11-27
+type: recipe
+spanish: true
+youtubeurl: http://www.youtube.com/embed/s8VdRtZaoYw
+eyecatcher: /images/wrap.jpg
+author: maria
+layout: post
+tags: 
+- vegano
+- vegetariano
+category: 
+- principal
+---
+<img src="https://farm1.staticflickr.com/730/31326293290_586f0622c3_o_d.jpg" />
+Este es un relleno genial para hacer wraps. Para envolverlo puedes usar lo que tengas - yo hice una especie de crepes, pero puedes utilizar tortillas de trigo, chapati o dosa para mantenerlo vegano.
+<ul>
+  <li>1 cup harina de trigo (integral o blanca)</li>
+  <li>1/2 cup avena</li>
+  <li>1/4-1/2 tsp sal, 1 huevo, agua 1-1.5 cup</li>
+  <li>Tres tomates</li>
+  <li>Media cebolla o una chalota</li>
+  <li>Perejil o cilantro fresco</li>
+  <li>Un aguacate</li>
+  <li>Bote de 400 g (peso escurrido) de judias/frijoles rojos</li>
+  <li>1-2 cdas de pasta de tomate, al gusto. Si no disponible, se puede sustituir por tomate natural (y cocinar mas tiempo)</li>
+  <li>Sal, al gusto (1/2 tsp)</li>
+  <li>Especias, al gusto: 1 tsp comino molido, 1 tsp cilantro molido.</li>
+  <li>Opcional: 1/2 cebolla. </li>
+  <li>Chili, al gusto. Yo uso 3-4 chilis frescos sin semillas</li>
+</ul>
+* **Elaboracion**
+  1. Para formar la masa de los crepes, agregar el agua (1-1.5 tazas) poco a poco hasta tener una masa ligera. Dejar reposar 10-15 min. Cocinar los crepes a fuego medio-alto en una sarten antiadherente con muy poco aceite.
+  2. Preparar la mezcla de tomate, picando la cebolla y tomate finamente y mezclar con sal y perejil o cilantro, sin echar la sal hasta justo antes de servir (para que el tomate no suelte agua mientras reposa).
+     - _Si el sabor de la cebolla es demasiado fuerte, se puede remojar 10-15 min en agua fria para que se vuelva mas suave._
+  3. Para preparar el aguacate: cortar en rodajas, agregar el limon, sal y pimienta y mezclar bien. 
+  4. Para preparar el relleno: 
+     - Sofreir la cebolla si se va a emplear; luego, agregar todos los ingredientes a la vez. 
+     - _Yo pongo las judias junto al liquido del bote, pero quien no quiera usarlo puede escurrirlas y agregar agua._
+     - Cocinar a fuego medio, removiendo, hasta tener una mezcla bastante espesa.
+  6. Rellenar los crepes con el tomate, aguacate y el relleno de judias, enrollar, y listo!
+
+Un plato perfecto para los dias sin carne!
+

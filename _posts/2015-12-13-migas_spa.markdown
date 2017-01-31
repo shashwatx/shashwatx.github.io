@@ -1,0 +1,39 @@
+---
+title: Migas
+permalink: migasColiflor
+date: 2015-12-13
+eyecatcher: /images/migas.jpg
+youtubeurl: http://www.youtube.com/embed/C7sNOnzwMXE
+type: recipe
+spanish: true
+story: ninguna story
+author: maria
+layout: post
+tags: 
+- coliflor
+- bajo en hidratos
+category: 
+- acompañamiento
+---
+<img src="https://farm1.staticflickr.com/68/31583278081_fb98050dc9_k_d.jpg" />
+Buenisimo. Con el sabor a chorizo, nadie podria decir que lo que en realidad se esconde detras es coliflor!
+
+<ul>
+  <li>Media coliflor (300g), preparada tal y como podeis ver <a href="http://maria.recipes/ArrozDeColiflor">aqui</a></li>
+  <li>Un diente de ajo (variar segun el gusto)</li>
+  <li>60 g de chorizo picante picado en cubitos</li>
+  <li>1 cucharada de aceite de oliva</li>
+  <li>Sal, pimienta negra</li>
+</ul>
+* **Elaboracion**
+  1. En una sarten, poner el ajo y el chorizo a fuego medio. 
+  2. Cuando el ajo haya empezado a dorarse gracias a la grasa del chorizo, agregar la coliflor junto a sal (segun gusto, pero suele hacer falta buena cantidad) y pimienta. 
+  3. Cocinar removiendo unos 3-4 minutos hasta que la coliflor este bien hecha. 
+  4. Servir. 
+
+
+* **Información nutricional**, por la mitad de la receta
+  - 246 kCal
+  - 6.4 g H de C netos**, 3.8 g fibra, 10.2 g H de C totales
+  - 10.8 g proteina
+  - 19 g grasa
