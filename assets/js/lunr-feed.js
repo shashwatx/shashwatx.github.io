@@ -37,7 +37,7 @@ var index = lunr(function () {
     
 
     index.add({
-        title: "Egg-free Low-carb Hash Browns",
+        title: "Egg-free LCHF Hash Browns",
         category: ["main"],
         content: "\n\nA simple recipe for a low-carb, lactovegetarian breakfast, for a good boost of fiber in the morning.\n\n\n  100 g paneer, crumbled\n  1 flax egg: 1 tbsp flax meal + 3 tbsp warm water\n  1 cup (70g) shredded cabbage\n  2 tbsp chopped green onions\n  Salt and pepper to taste\n  1 tbsp coconut oil\n\n\n\n  Process\n    \n      First, prepare your flax egg and let it sit for a couple of minutes.\n      Add the paneer to the flax egg and mix until you have a sticky paste. You can add a bit of water if needed.\n      Add salt, pepper and the vegetables and mix. Then divide into three.\n      Put 1/3 tbsp coconut oil in a pan and use it to fry one of the patties, about 3 minutes on the first side and 2 minutes after flipping.\n      Proceed with the other two parts of the mixture and serve.\n    \n  \n  Nutritional information, for the whole recipe\n    \n      478 kCal\n      6.3 g net carbs, 4 g fiber, 10.3 g total carbs\n      22.4 g protein\n      40 g fat\n    \n  \n\n",
         tags: ["vegetarian","indian","low-carb"],
@@ -1493,7 +1493,7 @@ var store = [{
     "content": "<p><img src=\"https://farm1.staticflickr.com/595/32029061850_955f97973d_o_d.jpg\" /></p>\n\n<p>Una receta sencilla para un desayuno lactovegetariano bajo en hidratos con una buena porción de verdura.</p>\n\n<ul>\n  <li>100 g paneer, desgranado</li>\n  <li>1 huevo de lino: 1 tbsp lino molido + 3 tbsp agua tibia</li>\n  <li>1 cup (70g) repollo picado</li>\n  <li>2 tbsp ccebolleta verde picada</li>\n  <li>Sal y pimienta al gusto</li>\n  <li>1 tbsp aceite de coco</li>\n</ul>\n\n<ul>\n  <li><strong>Elaboración</strong>\n    <ol>\n      <li>Primero, prepara el “huevo” de lino y déjalo reposar unos 5 minutos.</li>\n      <li>Añade el paneer al huevo de lino y mezcla bien hasta tener una pasta pegajosa. Añade un poco de agua si hace falta.</li>\n      <li>Echa sal, pimienta y la verdura y mezcla. Luego divídelo en tres.</li>\n      <li>Pon 1/3 tbsp de aceite en una sartén y úsala para freír uno de los hash browns, unos 3 minutos por un lado y 2 por el otro.</li>\n      <li>Haz lo mismo con los otros dos y sírvelo.</li>\n    </ol>\n  </li>\n  <li><strong>Información nutricional</strong>, <em>por toda la receta</em>\n    <ul>\n      <li>478 kCal</li>\n      <li><strong>6.3 g H de C netos</strong>, 4 g fibra, 10.3 g H de C totales</li>\n      <li><strong>22.4 g proteina</strong></li>\n      <li>40 g grasa</li>\n    </ul>\n  </li>\n</ul>\n",
     "excerpt": "Una receta sencilla para un desayuno lactovegetariano bajo en hidratos con una buena porción de verdura. 100 g paneer, desgranado..."
 },{
-    "title": "Egg-free Low-carb Hash Browns",
+    "title": "Egg-free LCHF Hash Browns",
     "link": "/eggfreeHash",
     "image": null,
     "date": "22 Jan, 2017",
