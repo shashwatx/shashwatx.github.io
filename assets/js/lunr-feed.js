@@ -10,11 +10,29 @@ var index = lunr(function () {
 
 
     index.add({
+        title: "Paratha queso-brocoli",
+        category: ["pan"],
+        content: "\n\nUna receta simple con solo 5 ingredientes para preparar parathas de brocoli rellenos de queso de untar. Son deliciosos para desayunar con una salsa india (pickle), y si eres vegano puedes usar la misma receta empleando queso de untar de almendra en lugar de queso de leche.\n\n\n  1/2 manojo de brocoli (250 g)\n  3,5 tbsp polvo de psyllium (28 g)\n  Un buen pellizco de sal\n  8 tbsp (120g) de queso de untar (lo puedes sustituir por paneer si quieres)\n  4 cucharaditas de ghee\n  Especias al gusto (opcional)\n\n\n\n  Elaboracion\n    \n      Cocina el brocoli (hirviendolo o al vapor) hasta que se pueda pinchar con un tenedor, sin sobrecocinar para que no pierda el color.\n      Batelo con 2 cucharadas de agua.\n      Agrega el psyllium y sal al pure de brocoli, junto a las especias que quieras (ajo y cebolla en polvo irian genial) y mezcla hasta tener una masa.\n      Divide la masa en 8 partes iguales.\n      Utilizando un rodillo o un chakla (yo cubro la superficie con film transparente para que no se pegue, mojando un poco la superficie antes para que luego el film no se mueva), forma un disco de aproximadamente 1 mm de grosor con cada trozo de masa.\n      Coge un disco, extiende dos cucharadas de queso por encima, pon otro disco encima y cierra los bordes.\n      Derrite 1 cucharadita de ghee en una sarten antiadherente a fuego medio-alto. Cocina el paratha unos 3-4 minutos por el primer lado hasta que este dorado, luego cocina el otro lado otros 2-3 minutos.\n      Cocina los cuatro parathas de esta manera y sirvelos con una salsa baja en hidratos.\n    \n  \n  Informacion nutricional, por paratha (la receta es para 4 parathas)\n    \n      144 kCal\n      4.2 g H de C netos, 6.8 g fibra, 11.1 g H de C totales\n      13.7 g grasa\n      4.2 g proteina\n    \n  \n\n",
+        tags: ["vegano","vegetariano","bajo en hidratos","indio"],
+        id: 0
+    });
+    
+
+    index.add({
+        title: "Broccoli Cheese Paratha",
+        category: ["bread"],
+        content: "\n\nA simple, 5 ingredient recipe to make broccoli parathas stuffed with cream cheese. They are amazing with some pickle for breakfast! And if you are vegan, you can use some almond cream cheese instead of regular cream cheese.\n\n\n  1/2 bunch of broccoli (250 g)\n  3,5 tbsp psyllium husk powder (28 g)\n  A big pinch of salt\n  8 tbsp (120g) cream cheese (you can substitute for paneer if you want)\n  4 tsp ghee\n  Spices to taste (optional)\n\n\n\n  Process\n    \n      Cook the broccoli (boil or steam) until fork tender, without overcooking so it doesnt lose the green color.\n      Blend the broccoli with 2 tbsp water.\n      Add the psyllium husk and salt to the broccoli puree, along with other spices if you want (some garlic powder and onion powder could be great!) and mix until you have a dough.\n      Divide the dough into 8 equal parts.\n      Using a chakla or a rolling pin (i like to cover my surface with plastic wrap to avoid any stickiness - by putting a bit of water on the surface first, the plastic wrap won’t move when you roll), roll each part into a very thin disk of about 1 mm thickness.\n      Take a disk, spread 2 tbsp cheese on it, then put another disk on top. Pinch the edges to seal.\n      Melt 1 tsp of ghee on a non stick pan over medium high heat. Cook the paratha for 3-4 minutes on one side until it is brown, then filp and cook further 2-3 minutes.\n      Cook all four parathas this way and serve with a low carb pickle.\n    \n  \n  Nutritional information, per paratha (recipe makes 4)\n    \n      144 kCal\n      4.2 g net carbs, 6.8 g fiber, 11.1 g total carbs\n      13.7 g fat\n      4.2 g protein\n    \n  \n\n",
+        tags: ["vegan","vegetarian","low-carb","indian"],
+        id: 1
+    });
+    
+
+    index.add({
         title: "Pimientos rellenos",
         category: ["principal"],
         content: "\n\nUna receta sencilla para pimientos rellenos de carne picada, que puedes variar incluyendo las especias que mas te gusten.\n\n\n  3 pimientos verdes grandes o bien 6 pimientos verdes italianos (500g)\n  400 g carne de ternera picada (20% grasa)\n  50 g cebolla (1/2 mediana)\n  1-2 dientes de ajo muy finamente picado\n  Sal, Pimienta negra molida, nuez moscada\n  2 cdas aceite de oliva virgen extra\n  1 huevo\n  Perejil fresco\n  1 taza de tomate triturado o bien un tomate grande (180g)\n  60 mL de vino blanco o bien la mitad de vino blanco y la otra mitad de jerez o similar\n\n\n\n  Elaboracion\n    \n      Mezcla todos los ingredientes del relleno y metelo en el frigo al menos 30 minutos: carne, huevo, sal, pimienta, nuez moscada, perejil, ajo y el vino que prefieras.\n      Precalienta el horno a 200C.\n      Abre los pimientos quitando solo la parte superior (como si fuese una tapa) y vacialos por dentro.\n      Usa la mezcla de carne picada para rellenar los pimientos.\n      Bate (o pica finamente) el tomate y la cebolla (puedes freir la cebolla usando la mitad del aceite de la receta) y viertelo por encima de los pimientos. Luego echa lo que quede de aceite y de vino blanco.\n      Hornea durante 40 minutos o hasta que el pimiento quede blando y la carne hecha.\n    \n  \n  Informacion nutricional, por racion (sirve 3)\n    \n      110 kCal\n      8.6 g H de C netos, 3.8 g fibra, 12.4 g H de C totales\n      27 g proteina\n      37.5 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","carne"],
-        id: 0
+        id: 2
     });
     
 
@@ -23,7 +41,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nA simple recipe for meat stuffed green peppers, that you can adapt to your taste by using different spices.\n\n\n  3 green bell peppers, big, or 6 small green peppers (500g)\n  400 g minced beef (20% fat)\n  50 g onion (1/2 medium)\n  1-2 garlic cloves very finely chopped\n  Salt, black pepper, nutmeg\n  2 tbsp extra virgin olive oil\n  1 egg\n  Fresh parsley\n  1 cup of tomato puree or one big tomato (180g)\n  60 mL white wine, or half white wine and half cherry or similar wine\n\n\n\n  Process\n    \n      Mix all the ingredients for the filling and keep in the fridge for at least 30 min: meat, egg, salt, pepper, nutmeg, parsley, garlic and white or cherry wine.\n      Preheat the oven to 200C.\n      Open the peppers on the top (creating a lid) and throw away the seeds inside.\n      Use the meat mixture to fill the peppers.\n      Blend (or finely chop) the tomato and onion (you can use half the oil in the recipe to fry the onion) and pour over the peppers. Then add the remaining oil and white wine.\n      Bake for about 40 minutes or until the pepper is tender and the meat is cooked through.\n    \n  \n  Nutritional information, per serving (serves 3)\n    \n      110 kCal\n      8.6 g net carbs, 3.8 g fiber, 12.4 g total carbs\n      27 g protein\n      37.5 g fat\n    \n  \n\n",
         tags: ["low-carb","meat"],
-        id: 1
+        id: 3
     });
     
 
@@ -32,7 +50,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nUn desayuno muy sencillo, ideal para los golosos.\n\n\n  1/2 aguacate (100 g)\n  Una dosis de polvo de proteinas (yo uso sabor chocolate)\n  Una pizca de sal\n  2/3 cda de cacao en polvo\n  1/2 cup (120 mL) de leche de almendra\n  Extracto de vainilla\n  Estevia u otro edulcorante al gusto\n  30 g avellanas tostados en trozos u otro fruto seco\n\n\n\n  Elaboracion\n    \n      Bate todos los ingredientes menos las avellanas (puedes batir la mitad de ellas si tienes una batidora potente que no deje grumos).\n      Probar la mezcla para ajustar (puedes echar mas cacao o mas edulcorante, asi como otras especias como canela si quieres).\n      Echale las avellanas por encima y a desayunar!\n    \n  \n  Informacion nutricional, por toda la receta\n    \n      474 kCal\n      8.8 g H de C netos, 11 g fibra, 19.8 g H de C totales\n      35.4 g grasa\n      27.7 g proteina\n    \n  \n\n",
         tags: ["bajo en hidratos","vegetariano","vegano","dulce"],
-        id: 2
+        id: 4
     });
     
 
@@ -41,7 +59,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\n\nA simple breakfast perfect for those with a sweet tooth.\n\n\n  1/2 avocado (100 g)\n  1 scoop of protein powder (I use chocolate flavor)\n  2/3 tbsp cacao powder\n  Pinch of salt\n  Vanilla Extract\n  1/2 cup (120 mL) almond milk\n  Stevia or other sweetener to taste\n  30 g toasted hazelnuts crumbled, or other nut to taste\n\n\n\n  Process\n    \n      Blend all the ingredients except the hazelnuts (if you have a good blender you can add half the hazelnuts as well).\n      Taste to adjust (you can add more cacao, sweetener and even spices like cinnamon).\n      Top with the hazelnuts and eat!\n    \n  \n  Nutritional information, for the whole recipe\n    \n      474 kCal\n      8.8 g net carbs, 11 g fiber, 19.8 g total carbs\n      35.4 g fat\n      27.7 g protein\n    \n  \n\n",
         tags: ["low-carb","vegetarian","vegan","sweet"],
-        id: 3
+        id: 5
     });
     
 
@@ -50,7 +68,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEl repollo crudo en ensalada es delicioso. Y si se combina con tofu salteado y un aliño de tahini da lugar a una comida riquisima. Incluso mi madre, siempre muy esceptica con el repollo, no hacia mas que decir lo bueno que estaba!\n\n\n  1 cup (1 taza, 250 mL) de repollo picado (70 g)\n  1/2 cup lombarda picada (35 g)\n  125 g tofu firme\n  1/8 tsp sal (o mas al gusto)\n  1/8 tsp sal negra (kala namak) (sustituir por sal normal si no disponible)\n  1 tbsp (1 cucharada) aceite de coco\n  1 tbsp aceite de oliva\n  1 tbsp zumo de limon\n  1/4 diente de ajo (o menos, al gusto)\n  1 tbsp tahini\n  Stevia u otro edulcorante al gusto\n  2-3 tbsp agua\n  Pimenton picante, pimienta negra\n\n\n\n  Elaboracion\n    \n      Derrite el aceite de coco en una sarten a fuego medio-alto. Echa el tofu cortado en cubos junto a la sal negra y algo de pimienta. Frielo unos 10-15 minutos hasta que este bien dorado y un poco crujiente por fuera.\n      Mientras tanto, pica el repollo.\n      Mezcla el resto de ingredientes excepto el pimenton para obtener un aliño. Si no te gusta mucho el ajo, puedes ponerlo en trozos grandes, dejar que infusione un poco y luego quitarlo.\n      Echa la mitad del aliño sobre el repollo y mezcla bien para que quede bien cubierto.\n      Una vez este bien hecho el tofu, echalo por encima, vierte el resto del aliño, echa un poco de pimenton por encima y sirvelo tibio.\n    \n  \n  Informacion nutricional, por toda la receta\n    \n      556 kCal\n      9.4 g H de C netos, 7.3 g fibra, 16.7 g H de C totales\n      46.9 g fat\n      25.2 g proteina\n    \n  \n\n",
         tags: ["bajo en hidratos","vegetariano","vegano","tofu","soja"],
-        id: 4
+        id: 6
     });
     
 
@@ -59,7 +77,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nRaw cabbage is delicious for salads. And when combined with sauteed tofu and a tahini dressing, it makes an amazing meal. Even my mom, who is a bit skeptical about cabbage, kept saying it was amazing!\n\n\n  1 cup shredded cabbage (70 g)\n  1/2 cup shredded purple cabbage (35 g)\n  125 g firm tofu\n  1/8 tsp salt (or more to taste)\n  1/8 tsp black salt (kala namak) (sub for regular salt if not available)\n  1 tbsp coconut oil\n  1 tbsp olive oil\n  1 tbsp lemon juice\n  1/4 garlic clove (or less, to taste)\n  1 tbsp tahini\n  Stevia or other sweetener to taste\n  2-3 tbsp water\n  Spicy Paprika, Black pepper\n\n\n\n  Process\n    \n      In a pan over medium-high heat, melt the coconut oil. Add the cubed tofu with the black salt and some black pepper, and fry for 10-15 minutes until it is golden and slightly crunchy.\n      Meanwhile, chop the cabbabe.\n      Mix all the other ingredients except the paprika to make the dressing. If you aren’t a big garlic fan, leave it in a big chunk and let it infuse, then take out before eating.\n      Add half of the dressing to the cabbage and mix well to cover it.\n      Once the tofu is done, serve on top of the cabbage, add the rest of the dressing and some paprika, and serve while it is still warm.\n    \n  \n  Nutritional information, for the whole recipe\n    \n      556 kCal\n      9.4 g net carbs, 7.3 g fiber, 16.7 g total carbs\n      46.9 g fat\n      25.2 g protein\n    \n  \n\n",
         tags: ["low-carb","vegetarian","vegan","tofu","soy"],
-        id: 5
+        id: 7
     });
     
 
@@ -68,7 +86,7 @@ var index = lunr(function () {
         category: ["info"],
         content: "Hay mucha confusion con respecto a las grasas en la dieta: si son o no son sanas, si hay que evitar o no la grasa saturada, si debemos elegir mantequilla o margarina…\n\nEn este video os explico los diferentes tipos de grasas que existen, y cuales se deben incorporar o evitar en una dieta saludable.\n\nMenciono diversos estudios en el video; aqui os dejo algunos links:\n\nMeta-análisis sobre la correlación entre el consumo de grasa saturada y la enfermedad cardiovascular.\n\nCardiotoxicidad inducida por aceite de girasol.\n\nEl uso de aceite de girasol en lugar de grasas saturadas como prevención secundaria tras un infarto de miocardio se asocia a un aumento de la mortalidad\n",
         tags: [],
-        id: 6
+        id: 8
     });
     
 
@@ -77,7 +95,7 @@ var index = lunr(function () {
         category: ["pan"],
         content: "\n\nLa mayoria de los panes bajos en hidratos utilizan huevos, y los veganos que he encontrado tienen gluten. A mi no me importa tomar gluten de vez en cuando, pero me gusta tener otras opciones.\n\nEsta receta es maravillosa. La textura de los bollos es super esponjosa. El unico problema es que el agar deja un poquito de sabor - es sutil, pero si no te gusta, es probable que puedas usar lino molido en lugar de agar, lo que disminuiria los hidratos de carbono de la receta. Yo no he podido probarlo aun, pero si lo haces, cuentame que tal te sale!\n\nUn pequeño truco: si el pan crece mucho en el horno pero despues se deshincha y se queda como vacio por dentro, reduce un poco el bicarbonato.\n\n\n  1 cup de harina de almendra (110 g)\n  4 tbsp polvo de psyllium husk (30 g)\n  2 tbsp agar agar + 6 tbsp agua hirviendo (se puede sustituir por 3 claras de huevo si no eres vegano)\n  1 tsp sal\n  1 y 1/4 tsp bicarbonato sodico\n  1,5 tbsp vinagre de manzana\n  2 cups (500 mL) de agua hirviendo\n\n\n\n  Elaboracion\n    \n      Precalienta el horno a 200C.\n      Mezcla el agar con las 6 cucharadas de agua. Si no se disuelve, ponlo en el m icroondas un minuto para que se disuelva y quede una mezcla espesa.\n      Mezcla los ingredientes secos. Ponlos en una batidora y echa el agar. Mezcla hasta tener una textura arenosa.\n      Añade 1,5 cups de agua y mezcla bien. Despues ve echando mas agua poco a poco hasta tener una masa pegajosa y firme.\n      Divide la masa en ocho trozos y forma pequeñas bolas con cada uno.\n      Ponlos en una bandeja de horno y hornea durante unos 40 minutos hasta que al golpearlos en la base suenen huecos.\n    \n  \n  Informacion nutricional, por bollito\n    \n      66 kCal\n      2.5 g H de C netos, 4 g fibra, 6.5 g H de C totales\n      1.9 g grasa\n      7.7 g proteina\n    \n  \n\n",
         tags: ["vegano","vegetariano","bajo en hidratos"],
-        id: 7
+        id: 9
     });
     
 
@@ -86,7 +104,7 @@ var index = lunr(function () {
         category: ["bread"],
         content: "\n\nMost low-carb breads use eggs, and the only vegan ones I have come across all contain vital wheat gluten. I don’t mind consuming gluten every now and then, but I like having some paleo vegan options available as well.\n\nThis recipe is a godsend. The texture of these breadbuns are amazing! The only issue with these in my opinion is that the agar gives a bit of an aftertaste - it is quite subtle, but if you find it very offputting, you can probably substitute the agar eggs for flax eggs instead, which would also decrease the carbcount significantly - I haven’t had a chance to try it yet, but if you do, let me know how it works out!\n\nLittle tip: if the bread seem to be puffing up a lot in the oven, but they deflate and end up being empty inside when they cool down, try reducing the baking powder a little bit.\n\n\n  1 cup of almond flour (110 g)\n  4 tbsp psyllium husk powder (30 g)\n  2 tbsp agar flakes + 6 tbsp boiling water (can be substituted for 3 egg whites if not vegan)\n  1 tsp salt\n  1 and 1/4 tsp baking powder\n  1,5 tbsp apple cider vinegar\n  2 cups of boiling water\n\n\n\n  Process\n    \n      Preheat the oven to 200C.\n      Mix the agar with the 6 tbsp water. If it doesn’t dissolve, put in the microwave for a minute until it is well dissolved and very thick.\n      Mix all the dry ingredients. Put them in a food processor and add the agar. Mix until you have a crumbly dough.\n      Add 1,5 cups of water and mix. Add the rest of the water as needed to get a sticky and firm dough.\n      Divide the dough into 8 equal pieces and form little balls with them.\n      Put in a baking tray and bake for 40 minutes or until when you tap the bottom, they sound hollow.\n    \n  \n  Nutritional information, per bun\n    \n      66 kCal\n      2.5 g net carbs, 4 g fiber, 6.5 g total carbs\n      1.9 g fat\n      7.7 g protein\n    \n  \n\n",
         tags: ["vegan","vegetarian","low-carb"],
-        id: 8
+        id: 10
     });
     
 
@@ -95,7 +113,7 @@ var index = lunr(function () {
         category: ["vegan"],
         content: "\n\nThis is the second part of a three-part Vegan Recipe roundup. Today I am sharing 33 recipes for vegan savory dishes, all of them vegan and low-carb. Some are side dishes, but most of them are full meals with a good amount of plant-based protein. I hope you like them!\n\nIf you want to see the first post of this roundup, check out 12 vegan keto breakfasts\n\nVegan paleo is possible!\n\nThese vegan cigofte look amazing!\n\n\nIf you like middle east food, try some moussaka. \n\n\nZodles are a favorite of mine. Check out these ones from KetoDietApp with avocado, or you can top your zoodles with this walnut bolognese.\n\n\nFor pizza, you can have a cauliflower crust, or use a flax crust.\n\n\nCauliflower can be used to make tabbouleh as well as a potato salad that isn’t!\n\n\nIf you like shirataki pasta, give a go to this creamy curry noodle bowl, or try this pad thai (you can substitute the peanut butter for cashew or almond butter).\n\n\nThis vegan loaf looks spectacular!\n\n\nAnd for some easier recipes, you can try this bok choy salad (replacing the honey with stevia) or these Collard green wraps. \n\n\nSoy can be a great source of protein\n\nYou can use it to make burgers with white soy beans or using mung sprouts. \n\n\nYou can use soy granules for lasagna, tacos or cabbage rolls. \n\n\nAnd edamame is great as a snack with some sesame and soy sauce, or as part of this keto lo mein.\n\n\nAnd of course, tofu is a real star for low-carb vegan protein\n\nThis kale salad with tahini dressing looks amazing. \n\n\nScrambled tofu is great for a quick, easy fix. \n\n\nIf you like indian food, you can try my tofu tikka, some spiralized chowmein, this palak paneer (which uses tofu instead of cheese), this healthy Indian Curry or some curry coconut milk soup.\n\n\nIf you are into thai food, you can try my thai-style curry or this thai coconut peanut curry. \n\n\nAnd you can try my soy-free tofu, made with flax and chickpea flour.\n\n\nAnd for those of you who can tolerate seitan\n\nYou can use it to make steaks (this is my favorite seitan recipe!), sausages or to make mock chicken.\n\n\n",
         tags: ["main"],
-        id: 9
+        id: 11
     });
     
 
@@ -104,7 +122,7 @@ var index = lunr(function () {
         category: ["info"],
         content: "A todos nos han metido desde chicos en la cabeza que para perder peso, hay que contar calorias: las calorias que entran (que se comen) se comparan con las que salen (las que se queman), y si el balance es negativo, entonces perderemos peso.\n\nSin embargo, nuestro cuerpo no es tan simple. Mirad estos videos para entender por que contar calorias no funciona, y que se puede hacer en su lugar.\n\n\n",
         tags: [],
-        id: 10
+        id: 12
     });
     
 
@@ -113,7 +131,7 @@ var index = lunr(function () {
         category: ["sopa"],
         content: "\n\nEsta era una de mis sopas favoritas para el invierno. Yo utilizaba solo calabaza, pero dado que tiene bastantes hidratos, ahora la mezclo con coliflor, y el resultado es estupendo. Espero que lo pruebes!\n\n\n  200 g (1,5 cups) calabaza en trozos\n  200 g (2 cups) coliflor en trozos\n  35 g cebolla\n  1/2 tsp ginger paste (jengibre)\n  1 tbsp aceite\n  2 tazas del caldo que prefieras\n  1/3 cup leche de coco\n  1 tsp curry en polvo\n\n\n\n  Elaboracion\n    \n      Calienta el aceite. Echa la cebolla y jengibre y frielas 2 minutos.\n      Agrega el resto de ingredientes. Hiervelo en una olla unos 20 minutos, o en una olla expres 8 minutos, hasta que las verduras esten blandas.\n      Batelo todo hasta tener una crema. Echa mas liquido si la quieres mas fina.\n      Sirvelo inmediatamente.\n    \n  \n  Informacion nutricional, por racion (4 raciones en total, una taza por racion aproximadamente)\n    \n      108 kCal\n      7.9 g H de C netos, 2.4 g fibra, 10.4 g H de C totales\n      2.1 g proteina\n      7.7 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","bajo en hidratos","currys"],
-        id: 11
+        id: 13
     });
     
 
@@ -122,7 +140,7 @@ var index = lunr(function () {
         category: ["soup"],
         content: "\n\nThis was one of my favorite winter soups before going low carb. I used to only use butternut squash, but since it is quite high in carbs, I decided to mix it with cauliflower to lower the carb count, and the final result is fantastic! Hope you give it a go!\n\n\n  200 g (1,5 cups) butternut squash, chopped\n  200 g (2 cups) cauliflower, chopped\n  35 g onion\n  1/2 tsp ginger paste\n  1 tbsp oil\n  2 cups of broth of choice\n  1/3 cup coconut milk\n  1 tsp curry powder\n\n\n\n  Process\n    \n      Warm up the oil. Add the onion and ginger and fry for 2 minutes.\n      Add the rest of ingredients. Boil in an open pot for about 20 minutes, or in a pressure cooker for 8 minutes, until the vegetables are soft.\n      Use a hand blender to smoothen it. Add more liquid if you like it thinner.\n      Serve inmediately.\n    \n  \n  Nutritional information, per serving (serves 4, about 1 cup of soup per serving)\n    \n      108 kCal\n      7.9 g net carbs, 2.4 g fiber, 10.4 g total carbs\n      2.1 g protein\n      7.7 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","low-carb","curry"],
-        id: 12
+        id: 14
     });
     
 
@@ -131,7 +149,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nLa soja es casi imprescindible para una dieta vegetariana, especialmente si se intenta seguir una alimentacion baja en hidratos. Pero muchas personas tienen alergia a la soja, en otras les causa disbalances hormonales o simplemente intolerancias de diferentes tipos, y otros como yo no quieren alimentarse a base de soja continuamente…\n\nPero ahora llega este tofu de garbanzos al rescate!\n\nLa receta original es de un tofu de harina de garbanzos tipica de Birmania, que aparentemente suele servirse tal cual, en tacos, en ensaladas. Yo la he modificado un poco, reduciendo mucho la harina de garbanzos e incorporando lino y polvo de proteinas para que tenga menos hidratos con mayor cantidad de proteinas.\n\nEl resultado son unos cubos de tofu de sabor y textura muy suaves, que pueden saltearse con aceite, quedando un poco crujientes por fuera pero que se deshacen en la boca por dentro. Un autentico manjar!\n\nMi forma preferida de tomarlos: salteados con aceite de coco y especias, servidos sobre ensalada y con algo de cilantro por encima. Riquisimo.\n\n\n  1/2 cup (60g) harina de garbanzos\n  50g de polvo de proteinas sin sabor (yo utilizo whey)\n  1/3 cup (50g) de lino molido\n  1/2-2/3 tsp sal\n  1/4-1/3 tsp curcuma\n  2 tazas de agua\n\n\n\n  Elaboracion\n    \n      Mezcla los ingredientes secos. Luego incorporalos a la mitad del agua hasta formar una pasta.\n      Lleva a ebullicion el resto del agua. Cuando empiece a hervir, vierte poco a poco la pasta que habias preparado, mientras bates con unas varillas.\n      Deja que siga hirviendo, sin aprar de batir, unos 8 minutos, hasta que sea tan espeso como arcilla. Puedes usar varillas al principio y luego cambiar a una espatula.\n      Viertelo en un molde ligeramente engrasado y deja que enfrie en la nevera al menos una hora.\n    \n  \n  Informacion nutricional, por 1/6 de la receta\n    \n      112 kCal\n      4.7 g H de C netos, 4 g fibra, 8.6 g H de C totales\n      11.3 g proteina\n      4.3 g grasa\n    \n  \n\n",
         tags: ["tofu","vegano","vegetariano","bajo en hidratos"],
-        id: 13
+        id: 15
     });
     
 
@@ -140,7 +158,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nSoy is almost unavoidable in a vegetarian diet, especially for lowcarbers. But a lot of people are alergic, others are intolerant, and other people like me don’t want to base all their nourishment on a single ingredient…\n\nBut here comes Chickpea Tofu to the rescue!\n\nThe original recipe is from Birmania: a tofu made from chickpea flour that is served as is in salads. I modified it a bit, reducing the amount of chickpea flour and incorporating some flax and protein powder to make it lower carb and higher protein.\n\nThe result are tofu cubes with a very delicate flavor and texture, that can be sauteed in oil, which makes them slightly crunchy on the outside but still pillowy in the inside. A real delicacy!\n\nMy favorite way of having them is sauteed with coconut oil and spices, served warm over salad with some fresh coriander. Yum.\n\n\n  1/2 cup (60g) chickpea flour\n  50g flavor free protein powder (I used whey)\n  1/3 cup (50g) flax meal\n  1/2-2/3 tsp salt\n  1/4-1/3 tsp turmeric\n  2 cups of water\n\n\n\n  Process\n    \n      Mix the dry ingredients. Then add one cup of the water and mix until you have a batter/paste.\n      Take the rest of the water to a boil. When it starts boiling, gently add in the batter while whisking.\n      Keep simmering while whisking for about 8 minutes, until it is as thick as clay. You can whisk in the beginning, then switch to a spatula when it gets thicker.\n      Pour in a lightly greased mold and let it cool down in the fridge for at least one hour.\n    \n  \n  Nutritional Information, for 1/6 of the recipe\n    \n      112 kCal\n      4.7 g net carbs, 4 g fiber, 8.6 g total carbs\n      11.3 g protein\n      4.3 g fat\n    \n  \n\n",
         tags: ["tofu","vegan","vegetarian","low-carb"],
-        id: 14
+        id: 16
     });
     
 
@@ -149,7 +167,7 @@ var index = lunr(function () {
         category: ["blog"],
         content: "\n\nEating vegetarian keto is quite difficult, but eating keto AND vegan seems almost impossible! So if you are vegan and are thinking of getting out of the high carb low fat funk, ori f you are an omnivore and want to introduce some more plant based protein in your diet, I am sure you will find some recipes here that will sound good!\n\nI have put together the best recipes I have found: some I have tried and loved, other ones are in my to-do list, buta ll of them seem amazing!\n\nThis is the first part of a three-part Vegan Recipe roundup. And to start it right… let´s talk breakfast! Keto Breakfast doesnt always have to be eggs and bacon. I´m sure you will find these plant-based recipes to be just as satisfying! \n\nBullet Proof coffee is okay, but rocket fuel latte is even better. Just use a vegan protein poder instead of collagen and you are good to go!\n\n\nThis no-bake Keto Granola can be customized whichever way you like, and is perfect for those who miss crunchy cereal in the morning!\n\n\nIf you like hemp hearts, these overnight “oats”will be a perfect way to start your day – no cooking required: \n\n\nSmoothies are great if you are in a rush: try it with berries, a chai-infused smoothie or go for a classic chocolate flavor. \n\n\nIf you like berries, this one is perfect for you! \n\n\nChia puddings are a classic.\n\n\nYou don´t have to miss out on the pancakes for Sunday morning!\n\n\nIf you prefer savory breakfasts, try this quiche, \n\n\nor prepare a delicious breakfast bowl.\n\n\nAnd this one is probably the easiest of all: instant “cereal” using coconut flout gives a great boost of protein in the morning!\n\n",
         tags: ["breakfast"],
-        id: 15
+        id: 17
     });
     
 
@@ -158,7 +176,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nCuando la gente piensa en comida india, no suelen pensar en platos de pescado, pero en zonas como Bengal o Mumbai, los currys de pescado son el plato de cada dia. Este en particular es mi favorito, ya que la leche de coco hace una salsa super cremosa.\n\n\n  500 g bacalao u otro pescado similar, en trozos\n  3 tbsp aceite de coco\n  1 chili rojo seco (o uno verde fresco picado, que se pondria junto al ajo y jengibre)\n  1 tsp semillas de mostaza\n  1/2 cebolla (50 g)\n  1 tomate pequeño (150 g)\n  1 tsp pasta de jengibre\n  2 tsp pasta de ajo o 4 dientes picados\n  1/2 tsp curcuma\n  1 tsp comino en polvo\n  1 tsp cilantro en polvo\n  1/2 tsp garam masala\n  Pimienta negra molida\n  Sal (aprox 1/2 tsp en total)\n  3/4 cups leche de coco\n  Opcional: 1-2 tbsp vinagre de manzana o zumo de limon\n  Cilantro fresco para servir\n\n\n\n  Elaboracion\n    \n      Calienta el aceite en una sarten a fuego medio alto. Frie las semillas de mostaza y el chili rojo seco.\n      Cuando las semillas empiecen a saltar, cocinalas un minuto. Luego incorpora el ajo, jengibre y cebolla y cocinalos 5-10 minutos con un poco de sal hasta que la cebolla quede traslucida.\n      Añade el tomate con sal y cocinalo 5 minutos hasta que se deshaga.\n      Añade el pescado con el resto de la sal.\n      Sube el fuego a alto y cocina el pescado unos 2 minutos. Luego echa las especias, mezcla y cocinalo 30 segundos. Despues incorpora la leche de coco.\n      Deja que hierva todo unos 5 minutos. Retira del fuego, añade el vinagre o limon, ponle cilantro por encima y sirvelo.\n    \n  \n  Informacion nutricional, por 1/3 de la receta\n    \n      392 kCal\n      5.8 g H de C netos, 1.4 g fibra, 7.2 g H de C totales\n      31.8 g proteina\n      26.9 g grasa\n    \n  \n\n",
         tags: ["pescado","currys","indio","bajo en hidratos"],
-        id: 16
+        id: 18
     });
     
 
@@ -167,7 +185,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nWhen people think of indian food, they very rarely think of fish dishes, but in certain parts of the country like Bengal or Mumbai, fish curries are a staple in every household. This one in particular is my favorite, as the coconut milk makes for a super creamy sauce.\n\n\n  500 g cod or other similar fish, cut in chunks\n  3 tbsp coconut oil\n  1 dried red chili (or one green chili chopped to be added with the garlic and ginger)\n  1 tsp mustard seeds\n  1/2 medium onion (50 g)\n  1 small tomato (150 g)\n  1 tsp ginger paste\n  2 tsp garlic paste or 4 cloves, minced\n  1/2 tsp turmeric\n  1 tsp powdered cumin\n  1 tsp powdered coriander\n  1/2 tsp garam masala\n  Ground black pepper\n  Salt (about 1/2 tsp in total)\n  3/4 cups coconut milk\n  Optional: 1-2 tbsp apple cider vinegar or lemon juice\n  Fresh coriander to garnish\n\n\n\n  Process\n    \n      Warm up the oil in a pan over medium high heat. Fry the mustard seeds and dried red chili.\n      When the seeds start to pop, wait about one minute, then add the garlic, ginger and onions with a bit of salt. Cook on medium heat for 5-10 minutes until they are translucent.\n      Add the chopped tomatoes with salt. Cook for 5 minutes until they break down.\n      Add the fish with the rest of the salt.\n      Turn up the stove to high heat to cook the fish for about 2 minutes. Add the spices. Mix and cook for 30 seconds, then add the coconut milk.\n      Let it simmer for about 5 minutes. Turn off the stove, add vinegar or lemon juice, garnish with coriander and serve.\n    \n  \n  Nutritional information, for 1/3 of the recipe\n    \n      392 kCal\n      5.8 g net carbs, 1.4 g fiber, 7.2 g total carbs\n      31.8 g protein\n      26.9 g fat\n    \n  \n\n",
         tags: ["fish","curry","indian","low-carb"],
-        id: 17
+        id: 19
     });
     
 
@@ -176,7 +194,7 @@ var index = lunr(function () {
         category: ["ACOMPAÑANTE"],
         content: "\n\nEl bhindi (okra) es una verdura deliciosa que merece mas fama de la que tiene. Solo tiene 4.3 g hidratos de carbono netos por cada 100 gramos y esta buenisimo! El unico inconveniente es que tiene una textura pegajosa por dentro, asi que hay que cocinarlo bien para librarse de ella.\n\n\n  2,5 tazas de bhindi/okra (250 g)\n  2 tbsp aceite: yo utilice 1 tbsp aceite de coco y 1 tbsp aceite de mostaza\n  Sal (aprox 1/2 tsp en total)\n  50 g cebolla (1/2 cebolla)\n  100 g tomate fresco (1/2 tomate)\n  1/2 tsp pasta de jengibre\n  1/2 tsp pasta de ajo\n  1/3 tsp semillas de comino\n  1 chili rojo seco, o bien un chili verde fresco (si se usa fresco, ponerlo picado a la vez que el ajo y jengibre)\n  Especias: 1/3 tsp curcuma, 1/4 tsp garam masala\n  Opcional: 1/4 tsp hojas de fenugreco secas\n  1 tbsp zumo de limon (opcional)\n  Cilantro fresco\n\n\n\n  Elaboracion\n    \n      Calienta el aceite de coco y utilizalo para freir el bhindi en trozos. Cocinalo al menos 15 minutos para que la textura pegajosa de dentro desaparezca - esto es super improtante porque si no el curry tendra una textura muy desagradable!\n      Saca el bhindi y reservalo para luego. Pon el resto del aceite (yo utilice de mostaza) y pon las semillas de comino y el chili rojo seco.\n      Cuando el comino empiece a saltar, cocinalo unos 30 segundos, luego echa la cebolla, ajo y jengibre con un poco de sal. Cocinalo 5-10 minutos hasta que este blando.\n      Incorpora los tomates y especias (excepto el fenugreco). Cocinalo 5 minutos hasta que el tomate se deshaga.\n      Ahora pon el bhindi de vuelta en la sarten, echa sal y 1&amp;2 taza de agua y cocinalo a fuego bajo, tapado, unos 5-10 minutos. Si hay demasiado liquido dejalo destapado.\n      Apaga el fuego, echa las hojas de fenugreco seco y el cilantro, asi como un poco de zumo de limon (opcional( y sirvelo.\n    \n  \n  Informacion nutricional, por 1/3 de la receta\n    \n      134 kCal\n      7.6 g H de C netos, 4.4 g fibra, 12 g H de C totales\n      2.6 g proteina\n      9.7 g grasa\n    \n  \n\n\n",
         tags: ["vegano","vegetariano","indio","currys","bajo en hidratos"],
-        id: 18
+        id: 20
     });
     
 
@@ -185,7 +203,7 @@ var index = lunr(function () {
         category: ["side"],
         content: "\n\nI don’t know why bhindi (okra) is not as popular as other low-carb vegetables. It has only 4.3 g net carbs for 100 grams and it  truly is delicious! The only thing you have to remember is to cook it properly to get rid of the slimy texture inside, so beware of that!\n\n\n  2,5 cups of bhindi/okra (250 g)\n  2 tbsp oil: I use 1 tbsp coconut oil and 1 tbsp mustard oil\n  Salt (about 1/2 tsp in total)\n  50 g onion (1/2 medium onion)\n  100 g fresh tomato (1/2 medium)\n  1/2 tsp ginger paste\n  1/2 tsp garlic paste\n  1/3 tsp whole cumin seeds\n  1 dried red chili, or one green chili (if using fresh: chop and add with the garlic and ginger)\n  Dried spices: 1/3 tsp turmeric, 1/4 tsp garam masala\n  Optional: 1/4 tsp dried fenugreek leaves\n  1 tbsp lemon juice (optional)\n  Fresh coriander\n\n\n\n  Process\n    \n      Warm up the coconut oil and use it to fry the chopped bhindi. This should take at least 15 minutes, until the slime disappears. It is a very important step, as otherwise you will end up with a slimy, gross curry!\n      Take out the bhindi and keep for later. Add the rest of the oil (I used mustard oil) and add the cumin and dried red chilli.\n      When the cumin starts to pop, cook for about 30 seconds, then add the onion, garlic and ginger, with a bit of salt. Cook for 5-10 minutes until it is soft.\n      Add the tomatoes and spices (except the fenugreek leaves). Cook for 5 minutes until the tomatoes are broken down.\n      Now put the bhindi back in the pan, add salt and 1/2 cup of water and cook covered on low heat for about 5-10 minutes. If there is too much liquid, cook it without the lid.\n      Turn off the stove, add the fenugreek leaves and coriander, as well as some lemon juice (optional) and serve.\n    \n  \n  Nutritional information, for 1/3 of the recipe\n    \n      134 kCal\n      7.6 g net carbs, 4.4 g fiber, 12 g total carbs\n      2.6 g protein\n      9.7 g fat\n    \n  \n\n\n",
         tags: ["vegan","vegetarian","indian","curry","low-carb"],
-        id: 19
+        id: 21
     });
     
 
@@ -194,7 +212,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nLa coliflor nunca decepciona! Esta receta la vi aquí. Es realmente fácil de hacer y muy sabrosa. Yo le añadí un poco de polvo de proteínas al guacamole para que sirviera de comida completa, pero puedes saltártelo si lo vas acompañar de carne o algo similar.\n\n\n  1/2 coliflor grande (600g)\n  3 cucharadas de aceite de oliva\n  Sal, pimienta\n  Optional: ajo en polvo, chili, pimentón\n  1 taza (110g) de queso rallado cheddar o edam\n  1/2 aguacate\n  1/2 dosis de proteína en polvo\n  1 cucharada de zumo de limón\n  Jalapeños en vinagre (unos 20 g)\n  35 g Cebolla\n  100 g Tomate fresco\n  Cilantro fresco\n\n\n\n  Elaboración\n    \n      Precalentar el horno a 220C.\n      Cortar la coliflor en “rodajas” de unos 1.5 cm de ancho. Yo prefiero quitarle los bordes porque se deshacen (los reservo para coli-arroz).\n      Poner la coliflor en una bandeja de horno, añadir aceite, sal, pimienta y especias al gusto. Mezclar bien  y distribuir en una sola capa.\n      Hornear la coliflor durante 30-40 minutos hasta que esté bien dorada.\n      Mientras tanto, preparar el guacamole (formar una pasta con el aguacate, proteínas, limón, 15 g de cebolla, cilantro, sal y pimienta) y la salsa (picar y mezclar el tomate, el resto de la cebolla, sal, pimienta y un poco de cilantro)\n      Cuando la coliflor esté dorada, sacar del horno, cubrir con el queso y volver a hornear unos 2 minutos hasta que el queso se derrita.\n      Sacar del horno, echarle la salsa, guacamole y jalapeños por encima y comer bien caliente.\n    \n  \n  Información nutricional, por 1/3 de la receta\n    \n      433 kCal\n      9.6 g H de C netos, 7 g fibra, 16.6 g H de C totales\n      19.4 g proteina\n      34 g grasa\n    \n  \n\n",
         tags: ["vegetariano","coliflor","bajo en hidratos"],
-        id: 20
+        id: 22
     });
     
 
@@ -203,7 +221,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nCauliflower never disappoints me! I saw this recipe here. It is very easy to make and very tasty. I added some protein powder to make it a full meal, but you can skip it and serve it as a side dish if you prefer.\n\n\n  1/2 big cauliflower (600g)\n  3 tbsp olive oil\n  Salt, pepper\n  Optional: garlic powder, chili, paprika\n  1 cup (110g) shredded cheddar or edam\n  1/2 avocado\n  1/2 scoop protein powder\n  1 tbsp lemon juice\n  Jalapenos in vinegar (about 20 g)\n  35 g onion\n  100 g fresh tomato\n  Fresh coriander\n\n\n\n  Process\n    \n      Heat up the oven to 220C.\n      Chop the cauliflower into “steaks” about 1.5 cm thick each. I prefer to discard the edges as they break apart easily, so I keep them for cauli-rice.\n      Put the cauliflower in a baking tray with salt, oil, pepper and spices to taste. Mix well, arrange in a single layer.\n      Bake the cauliflower for 30-40 minutes until it is golden.\n      Meanwhile, prepare the guacamole (mix the avocado, protein, lemon, 15 g onion, cilantro, salt and pepper) and the salsa (chop and mix the tomato, the rest of the onion, salt, pepper and some coriander).\n      Once the cauliflower is golden, take out of the oven, cover with cheese and bake further 2 minutes so it melts.\n      Take out of the oven, pour the salsa, guacamole and some jalapenos on top, and eat while it is still hot.\n    \n  \n  Nutritional information, for 1/3 of the recipe\n    \n      433 kCal\n      9.6 g net carbs, 7 g fiber, 16.6 g total carbs\n      19.4 g protein\n      34 g fat\n    \n  \n\n",
         tags: ["vegetarian","cauliflower","low-carb"],
-        id: 21
+        id: 23
     });
     
 
@@ -212,7 +230,7 @@ var index = lunr(function () {
         category: ["pan"],
         content: "\n\nNo es novedad que me gusta la comida india. Una de mis cosas favoritas son el roti y el naan - asi que sufro un poco en dieta cetogenica! Me ha costado encontrar una receta de pan indio sin huevo; mi receta de  roti de coco es genial pero la harina de coco es un poco cara. Asi que, aqui viene el lino al rescate! Estos roti solo tienen 1 g de hidratos netos cada uno (!!!), son super sauves, se hinchan cuando se cocinan como los de verdad, y se pueden usar para hacer parathas (la receta viene pronto!). Ademas puedes hacer muchas y congelarlas por separado. Perfecto :D\n\n\n  1 cup (150g) lino, molido\n  2.5 tbsp psyllium en polvo (20 g)\n  1/2-3/4 tsp sal (al gusto)\n  especias al gusto; a mi me gusta 1/4 tsp ajo en polvo y 1/4 tsp cebolla en polvo\n  1 cup agua\n  Unas 2 tsp aceite para cocinar\n  Opcional: unas 3 tbsp harina de coco para formarlos\n\n\n\n  Elaboracion\n    \n      Mezcla los ingredientes secos.\n      Echa agua hirviendo (empieza con 3/4 cup y luego ve echando mas si hace falta). Amasalo un poco para que sea bien homogeneo. deberias tener una masa dura pero un poco pegajosa.\n      Divide la masa en cinco partes. Forma un disco con cada trozo; si se ha quedado algo seco, echa un poco de agua y mezclalo con las manos.\n      Para formarlos, puedes echarles un poco de harina de coco y hacerlos como un roti normal (yo utilizo un chakla) o bien poner film de plastico encima y debajo y usar un rodillo o bien aplastarlo con una bandeja, para tener un roti de unos 2 mm de grosor.\n      Cocinalos a fuego medio-alto en una sarten o tawa un poco engrasada unos 2 minutos por lado.\n    \n  \n  Informacion nutricional, por roti\n    \n      179 kCal\n      1 g H de C netos, 11.1 g fibra, 12.1 g H de c totales\n      5.6 g proteina\n      14.5 g grasa\n    \n  \n\n",
         tags: ["vegetariano","vegano","pan","lino","bajo en hidratos"],
-        id: 22
+        id: 24
     });
     
 
@@ -221,7 +239,7 @@ var index = lunr(function () {
         category: ["bread"],
         content: "\n\nIt is no news that i love indian food. One of my favorite things about it is roti and naan - so of course i suffer their loss when i do keto. I have struggled to find good egg-free recipes for keto bread; my recipe for coconut roti is delicious but coconut flour is quite expensive. So - here comes flax roti to the rescue! These are only 1 g net carb per roti (!!!), they are super soft, they actually puff up a little bit when cooking them like real roti do, and they can be stuffed to make parathas (recipe coming soon). Also, you can make a big batch and freeze them individually. Awesome :D\n\n\n  1 cup (150g) flax, ground\n  2.5 tbsp pysllium husk powder (20 g)\n  1/2-3/4 tsp salt (to taste)\n  Spices to taste; I like 1/4 tsp garlic and 1/4 tsp onion\n  1 cup water\n  About 2 tsp olive oil to cook\n  Optional: about 3 tbsp coconut flour for rolling\n\n\n\n  Process\n    \n      Mix the dry ingredients.\n      Add boiling water (start with 3/4 cup of water and add more depending on how much is needed). Knead it a little with your hands to make sure it is even. You should have a very sticky but quite firm dough.\n      Divide the dough into five. Make a disk with each piece; if they dry up, wet them so it is easier to make the disk.\n      For forming them, you can either use coconut flour and form as you would a normal roti (i used a chakla) or you can put it between plastic wrap and use a rolling pin or press them down into a thin disk of about 2 mm thick.\n      Cook over medium-high heat on a lightly greased pan or tawa for about 2 minutes per side.\n    \n  \n  Nutritional information, per roti\n    \n      179 kCal\n      1 g net carbs, 11.1 g fiber, 12.1 g total carbs\n      5.6 g protein\n      14.5 g fat\n    \n  \n\n",
         tags: ["vegetarian","vegan","bread","flax","low-carb"],
-        id: 23
+        id: 25
     });
     
 
@@ -230,7 +248,7 @@ var index = lunr(function () {
         category: ["ACOMPAÑANTE"],
         content: "\n\nUn plato tipico del norte de España, y perfecto para todo tipo de dietas.\n\n\n  1/4 cabeza de repllo grande, picado, o bien 320 g\n  1/2 cda aceite de coco\n  3 dientes de ajo en rodajas\n  1/4 tsp sal\n  Pimienta negra molida\n  1.5 cdas aceite de oliva virgen extra\n  1/4 a 1/3 tsp pimenton (a mi me gusta picante)\n\n\n\n  Elaboracion\n    \n      Bring 1.5 liters of water to the boil. Add the shredded cabbage and cok for 3-5 minutes depending on how cooked you like your vegetables.\n      While it boils, fry the garlic with the coconut oil.\n      Once the cabbage is boiled, drain it, then add it to the golden garlic. Add the salt and some black pepper and cook for about 3 minutes.\n      Turn off the stove, add the olive oil and paprika, taste for seasoning, and serve.\n    \n  \n  Informacion nutricional, por racion (sirve 3)\n    \n      110 kCal\n      4.4 g H de C netos, 2.8 g fibra, 7.2 g H de C totales\n      1.6 g proteina\n      9.2 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","bajo en hidratos","repollo"],
-        id: 24
+        id: 26
     });
     
 
@@ -239,7 +257,7 @@ var index = lunr(function () {
         category: ["side"],
         content: "\n\nA very simple side dish suitable for all types of diet. It is a traditional style of cooking in spain, often made with cabbage with pieces of potatoes, or with cauliflower.\n\n\n  1/4 big head of cabbage, shredded, or 320 g cabbage\n  1/2 tbsp coconut oil\n  3 garlic cloves, sliced\n  1/4 tsp salt\n  Freshly ground black pepper\n  1.5 tbsp extra virgin olive oil\n  1/4 to 1/3 tsp paprika (I like spicy paprika)\n\n\n\n  Process\n    \n      Bring 1.5 liters of water to the boil. Add the shredded cabbage and cok for 3-5 minutes depending on how cooked you like your vegetables.\n      While it boils, fry the garlic with the coconut oil.\n      Once the cabbage is boiled, drain it, then add it to the golden garlic. Add the salt and some black pepper and cook for about 3 minutes.\n      Turn off the stove, add the olive oil and paprika, taste for seasoning, and serve.\n    \n  \n  Nutritional information, per serving (serves 3)\n    \n      110 kCal\n      4.4 g net carbs, 2.8 g fiber, 7.2 g total carbs\n      1.6 g protein\n      9.2 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","low-carb","cabbage"],
-        id: 25
+        id: 27
     });
     
 
@@ -248,7 +266,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta base de pizza es lo mejor, en serio. Utilicé esta receta pero quité el queso vegano y utilicé levadura nutricional, para tener un poco de sabor a queso. Esta base aguanta sin derrumbarse, tiene una textura genial, está salada y riquísima, es vegana, y sólo tiene 3.1 g de hidratos de carbono netos en media pizza!\n\n\n  85 g lino molido (1/2 cup + 1.5 tbsp)\n  4 tbsp psilio en polvo (32 g)\n  1 tsp levadura química\n  1/2 tsp sal\n  1/4 tsp ajo en polvo\n  1/4 tsp orégano seco\n  2-3 tbsp (6 g) levadura nutricional (la puedes omitir si quieres)\n  1 cup (250 mL) agua\n  Para la pizza margarita: 1 tbsp aceite de oliva, 1 taza (110 g) mozzarella rallada, 1/2 taza de tomate triturado, orégano seco, albahaca fresca.\n\n\n\n  Elaboración\n    \n      Precalentar el horno a 180C.\n      En un bol, mezcla todo menos el agua. Luego echa el agua poco a poco hasta que se forme una masa.\n      Coloca la masa sobre un papel vegetal para hornear, pon otro encima y usar un rodillo para farle forma y que quede de 2-3 mm de grosor. Una vez esté uniforme, recorta la forma que quieras (yo la hice redonda utilizando una tapa de sartén grande). Si se forma alguna grieta, aplástala un poco con el dedo húmedo.\n      Hornea durante 20-25 minutos hasta que esté un poco seca y dorada.\n      Pon los toppings que quieras y cocínalo otros 5-10 minutos. En este caso, pon el tomate mezclado con el aceite y orégano, echa la mozzarella por encima, hornéalo, y ponle la albahaca después de sacarlo del horno.\n    \n  \n  Información nutricional, por media base de pizza (la mitad de la receta) / por media pizza margarita\n    \n      241 kCal / 487 kCal\n      3.1 g H de C netos, 26.4 g H de C totales, 23.3 g fibra  / 7.7 g H de C netos, 24.3 g fibra\n      8.4 g proteina / 24.1 g proteina\n      18.1 g grasa / 36.3 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","bajo en hidratos"],
-        id: 26
+        id: 28
     });
     
 
@@ -257,7 +275,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis pizza base is seriously awesome. I used this recipe but omitted the vegan cheese and used some nutritional yeast instead to get some cheesy flavor. Seriously: this pizza holds its shape perfectly, is chewy and salty and delicious, vegan, and only 3.1 g net carbs for half a pizza crust!\n\n\n  85 g of flax meal (1/2 cup + 1.5 tbsp)\n  4 tbsp psyllium husk powder (32 g)\n  1 tsp of baking powder\n  1/2 tsp salt\n  1/2 tsp garlic powder\n  1/4 tsp dried oregano\n  2-3 tbsp (6 g) nutritional yeast (optional)\n  1 cup of water\n  For Margharita Pizzaa: 1 tbsp olive oil, 1 cup (110 g) shredded mozzarella (you can use vegan mozzarella, but it will change the macros), 1/2 cup tomato passata, some dried oregano, fresh basil\n\n\n\n  Process\n    \n      Preheat the oven to 180C.\n      In a bowl, mix everything except the water. Then add the water little by little until you form a dough.\n      Put the dough on a parchment paper, put another paper on top and then spread it out with a rolling pin until it is 2-3 mm thick. Once it is even, cut it out to whichever shape you want (I used a big lid to make it round). If it cracks, use your finger with a little bit of water to smooth it out.\n      Bake for 20-25 minutes until it’s slightly dry and golden.\n      Put whichever toppings you want and then bake for another 5-10 minutes.\n    \n  \n  Nutritional information, for half the base / for half a margharita pizza\n    \n      241 kCal / 487 kCal\n      3.1 g net carbs, 26.4 g total carbs, 23.3 g fiber  / 7.7 g net carbs, 24.3 g fiber\n      8.4 g protein / 24.1 g protein\n      18.1 g fat / 36.3 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","low-carb"],
-        id: 27
+        id: 29
     });
     
 
@@ -266,7 +284,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nUna receta sencilla para un desayuno lactovegetariano bajo en hidratos con una buena porción de verdura.\n\n\n  100 g paneer, desgranado\n  1 huevo de lino: 1 tbsp lino molido + 3 tbsp agua tibia\n  1 cup (70g) repollo picado\n  2 tbsp ccebolleta verde picada\n  Sal y pimienta al gusto\n  1 tbsp aceite de coco\n\n\n\n  Elaboración\n    \n      Primero, prepara el “huevo” de lino y déjalo reposar unos 5 minutos.\n      Añade el paneer al huevo de lino y mezcla bien hasta tener una pasta pegajosa. Añade un poco de agua si hace falta.\n      Echa sal, pimienta y la verdura y mezcla. Luego divídelo en tres.\n      Pon 1/3 tbsp de aceite en una sartén y úsala para freír uno de los hash browns, unos 3 minutos por un lado y 2 por el otro.\n      Haz lo mismo con los otros dos y sírvelo.\n    \n  \n  Información nutricional, por toda la receta\n    \n      478 kCal\n      6.3 g H de C netos, 4 g fibra, 10.3 g H de C totales\n      22.4 g proteina\n      40 g grasa\n    \n  \n\n",
         tags: ["vegetariano","indio","bajo en hidratos"],
-        id: 28
+        id: 30
     });
     
 
@@ -275,7 +293,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nA simple recipe for a low-carb, lactovegetarian breakfast, for a good boost of fiber in the morning.\n\n\n  100 g paneer, crumbled\n  1 flax egg: 1 tbsp flax meal + 3 tbsp warm water\n  1 cup (70g) shredded cabbage\n  2 tbsp chopped green onions\n  Salt and pepper to taste\n  1 tbsp coconut oil\n\n\n\n  Process\n    \n      First, prepare your flax egg and let it sit for a couple of minutes.\n      Add the paneer to the flax egg and mix until you have a sticky paste. You can add a bit of water if needed.\n      Add salt, pepper and the vegetables and mix. Then divide into three.\n      Put 1/3 tbsp coconut oil in a pan and use it to fry one of the patties, about 3 minutes on the first side and 2 minutes after flipping.\n      Proceed with the other two parts of the mixture and serve.\n    \n  \n  Nutritional information, for the whole recipe\n    \n      478 kCal\n      6.3 g net carbs, 4 g fiber, 10.3 g total carbs\n      22.4 g protein\n      40 g fat\n    \n  \n\n",
         tags: ["vegetarian","indian","low-carb"],
-        id: 29
+        id: 31
     });
     
 
@@ -284,7 +302,7 @@ var index = lunr(function () {
         category: ["sopa"],
         content: "\n\nCuando mi chico me regaló el libro de Maria Emmerich por navidad, lo llené de post-its con recetas que quería probar. La sopa de queso y brócoli estaba especialmente buena, así que la he adaptdo con algo menos de queso (era un poco pesada), utilizndo calabacín en vez de brócoli, y quitando el bacon, aunque se le puede poner un poco de bacon o de jamón serrano picado al final en lugar de las pipas de calabaza.\n\n\n  200 g zoodles o calabacín espiralizado (3 cups)\n  1 tbsp mantequilla\n  1 tsp ajo fresco picado (1 diente mediano)\n  1/2 cebolla epqueña (35 g)\n  1/4 cup queso de untar (60g)\n  2/3 cup cheddar o queso edam rallado (75g)\n  Salt and pepper\n  1/2 litro de caldo (o 1/2 litro de agua y un pastilla de avecrem) + 1/2 litro de agua\n  Opcional: 30 g  de pipas de calabaza (pepitas)\n\n\n\n  Elaboración\n    \n      Derrite 1/3 tbsp mantequilla en una cacerola. Añade los espaguetis de calabacín y cocínalos unos dos minutos con un poco de sal. No los cocines en exceso.\n      Saca el calabacín y resérvalo para después. Añade el resto de la mantequilla y fríe la cebolla y ajo unos 5 minutos hasta que esté bien pochdo (no lo quemes como hice yo!).\n      Añade el queso de untar, mezcla bien a fuego bajo, luego añade los líquidos, queso y pimienta negra.\n      Deja que llegue a hervir un par de minutos, después bátelo.\n      Vuelve a añadir el calabacín, caliéntalo todo, y sírvelo con las semillas por encima.\n    \n  \n  Información nutricional, por ración (3 en total)\n    \n      253 kCal\n      3.8 g H de C netos, 1.5 g fibra, 5.3 g H de C totles\n      11.2 g proteina\n      21.6 g grasa\n    \n  \n\n",
         tags: ["vegetariano","bajo en hidratos"],
-        id: 30
+        id: 32
     });
     
 
@@ -293,7 +311,7 @@ var index = lunr(function () {
         category: ["soup"],
         content: "\n\nWhen i got Maria Emmerich’s book as a christmas present from my wonderful boyfriend I marked a zillion recipes on my to-do list. The broccoli cheese noodle soup was particularly wonderful, so I adapted it with a little less cheese, using zoodles instead of broccoli, and skipping the bacon, but you can top the soup with fried bacon bits instead of pumpkin seeds if you like pork.\n\n\n  200 g zoodles (3 cups)\n  1 tbsp butter\n  1 tsp fresh garlic\n  1/2 small onion (35 g)\n  1/4 cup cream cheese (60g)\n  2/3 cup cheddar or edam cheese (75g)\n  Salt and pepper\n  1/2 liter of broth (or 1/2 liter of water and one bouillon cube) + 1/2 liter of water\n  Optional: 30 g pumpkin seeds (pepitas)\n\n\n\n  Process\n    \n      Melt 1/3 tbsp butter in a pot. Add the zoodles and cook for about two minutes with a pinch of salt. Don’t overcook them.\n      Take the zoodles out and save for later. Add in the rest of the butter and fry the onion and garlic bout 5 minutes until it is translucent (do not burnt like i did).\n      Add the cream cheese, mix well over low heat, then add the liquid, cheese and black pepper.\n      Bring to a boil. Let it boil a couple of minutes, then blend with a hand blender.\n      Add the zoodles back inside, bring up to temperature, serve and top with the pumpkin seeds.\n    \n  \n  Nutritional information, per serving (serves 3)\n    \n      253 kCal\n      3.8 g net carbs, 1.5 g fiber, 5.3 g total carbs\n      11.2 g protein\n      21.6 g fat\n    \n  \n\n",
         tags: ["vegetarian","low-carb"],
-        id: 31
+        id: 33
     });
     
 
@@ -302,7 +320,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta es una versión de revuelto hindú: paneer (requesón) desmenuzado con verduras y especias. Una comida muy saciante, llena de proteínas, que lleva 10 minutos de cocinar. Hay que probarlo!\n\n\n  250 g paneer, desmenuzado\n  50 g cebolla (1/2 mediana), picada\n  1 tomate pequeño (100g), picada\n  Otras verduras al gusto (como guisantes), opcional\n  1 cucharada de aceite de coco\n  1/4 cdita de comino entero\n  Chili en polvo al gusto\n  1/2 cidta de cúrcuma\n  1/8 cdita garam masala o más al gusto \n  Opcional: 1/4 cdita kasuri methi (hojas de fenugreco secas)  \n  Cilantro fresco\n  1/2 cda de zumo de limón\n\n\n\n  Elaboración\n    \n      Primero, si el paneer desmenuzado está demasiado seco, ponlo en remojo con agua tibia para rehidratarlo.\n      Derrite el aceite de coco a fuego medio-alto. Echa las semillas de comino hasta que empiecen a saltar. Luego echar la cebolla con sal y cocinar 5 minutos hasta que estén bien doradas.\n      Una vez la cebolla esté bien cocinada, echa el ajo y jengibre. Cocínalo un minuto.\n      Echa los tomates con sal. Cocínalo dos minutos hasta que esté blando, e incorpora las especias. Mézclalo bien.\n      Añade el paneer (escurrido si estaba en agua). Cocínalo 30-60 segundos. Añade el kasuri methi si lo tienes.\n      Sírvelo con zumo de limón y cilantro fresco.\n    \n  \n  Información nutricional, por una porción (sirve a 2 personas)\n    \n      466 kCal\n      8.3 g H de C netos, 2 g fibra, 10.2 g H de C totles\n      26 g proteina\n      36.6 g grasa\n    \n  \n\n",
         tags: ["vegetariano","indio","bajo en hidratos"],
-        id: 32
+        id: 34
     });
     
 
@@ -311,7 +329,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is the indian version of scrambled tofu: crumbled paneer with vegetables and spices. A very filling meal full of protein that takes 10 minutes from start to finish. A must try!\n\n\n  250 g paneer, crumbled\n  50 g onion (1/2 medium), chopped\n  1 small tomato (100g), chopped\n  Other vegetables to taste (like green peas), optional\n  1 tbsp coconut oil\n  1/4 tsp whole cumin\n  Red chili powder to taste\n  1/2 tsp turmeric\n  1/8 tsp garam masala or more to taste \n  Optional: 1/4 tsp kasuri methi (dried fenugreek leaves)  \n  Fresh coriander\n  1/2 tbsp lemon juice\n\n\n\n  Process\n    \n      First, if the crumbled paneer is too dry, add a little bit of warm water to rehydrate it.\n      Melt the coconut oil over medium-high heat. Add the cumin seeds until they start popping. Then, add the onion with some salt and cook for 5 minutes until they are brown.\n      Once the onion is cooked, add the ginger and garlic. Cook for a minute.\n      Add the tomatoes and salt. Cook for two minutes until they the tomatoes are soft, then add the other spices. Mix well.\n      Add the paneer (drained if you were soaking it). Cook for 30-60 seconds. Add the kasuri methi if you are using it.\n      Garnish with lemon juice and coriander.\n    \n  \n  Nutritional information, for a serving (recipe serves 2)\n    \n      466 kCal\n      8.3 g net carbs, 2 g fiber, 10.2 g total carbs\n      26 g protein\n      36.6 g fat\n    \n  \n\n",
         tags: ["vegetarian","indian","low-carb"],
-        id: 33
+        id: 35
     });
     
 
@@ -320,7 +338,7 @@ var index = lunr(function () {
         category: ["acompañante"],
         content: "\n\nParsley, garlic and olive oil are a classic combination in spanish cuisine, and they are often combined in a green sauce that is used for vegetables or fish.\n\nThis is an easy side dish for a weeknight dinner or for serving up to your guests.\n\n\n  200 g white button mushrooms, only caps\n  3 tbsp olive oil\n  1 small clove of garlic\n  Red chili powder to taste (optional)\n  1/4 tsp salt\n  1/8 tsp black pepper\n  1/2 tbsp lemon juice\n  1/2 tbsp apple cider vinegar\n  Fresh parsley: a handful (about 1/4 cup)\n\n\n\n  Elagboración\n    \n      Bate el aceite, especias, perejil, vinagre, limón y ajo hasta formar una sal (o utiliza el mortero).\n      Pon los champiñones a fuego medio-bajo en una sartén un poco engrasada. Cubre con una tapa y deja que se cocine unos 10 minutos, girándolo a mitad, hasta que estén blandos por dentro.\n      Sácalos de la sartén, échales un poco de sal y rellénalos con la salsa verde.\n    \n  \n  Información nutricional, para un cuarto de la receta\n    \n      104 kCal\n      1.7 g H de C netos, 0.7 g fibra, 2.4 g H de C totales\n      1.8 g proteina\n      10.3 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","bajo en hidratos"],
-        id: 34
+        id: 36
     });
     
 
@@ -329,7 +347,7 @@ var index = lunr(function () {
         category: ["side"],
         content: "\n\nParsley, garlic and olive oil are a classic combination in spanish cuisine, and they are often combined in a green sauce that is used for vegetables or fish.\n\nThis is an easy side dish for a weeknight dinner or for serving up to your guests.\n\n\n  200 g white button mushrooms, only caps\n  3 tbsp olive oil\n  1 small clove of garlic\n  Red chili powder to taste (optional)\n  1/4 tsp salt\n  1/8 tsp black pepper\n  1/2 tbsp lemon juice\n  1/2 tbsp apple cider vinegar\n  Fresh parsley: a handful (about 1/4 cup)\n\n\n\n  Process\n    \n      Blend the olive oil, garlic, spices, lemon juice, vinegar and parsley (traditionally, a morter and pestle should be used).\n      Put the mushrooms over medium-low on a lightly greased pan. Cover with a lid and cook for about 10 minutes turning them halfway through, until they are soft.\n      Take them out, sprinkle with a bit of salt and fill them with a bit of the green sauce.\n    \n  \n  Nutritional information, for 1/4 of the recipe\n    \n      104 kCal\n      1.7 g net carbs, 0.7 g fiber, 2.4 g total carbs\n      1.8 g protein\n      10.3 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","low-carb"],
-        id: 35
+        id: 37
     });
     
 
@@ -338,7 +356,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nMe encanta el tofu salteado; se queda con mucha textura y un poco crujiente por fuera, y al mezclarle especias está delicioso.\n\n\n  2 tazas (250 g) tofu firme en cubos O BIEN 200 g paneer (si se usa paneer, omitir la mayonesa)\n  3/4 tsp cúrcuma\n  1/4 tsp sal\n  Chili en polvo al gusto\n  1/8 tsp pimienta negra\n  1 tbsp aceite de coco\n  1/2 tbsp zumo de limón\n  4 tazas de espinacas frescas (120g) O 4 tazas de lechuga cortada (180g) \n  1 taza de pepino picado (130g) (Optional; omitir para menos hidratos)  \n  1/2 taza de pimiento rojo fresco (75g) (Optional; omitir para menos hidratos)  \n  1/2 taza de semillas de calabaza\n  2 cucharadas de mayonesa O BIEN 3/4 extra cucharadas de aceite de coco y 3/4 extra cucharada de aceite de oliva\n  1 cucharada de aceite de oliva virgen extra\n  1 tbsp zumo de limón\n  Cilantro frescor\n  Opcional: Chaat masala, al gusto\n\n\n\n  Elaboración\n    \n      En una sartén antiadherente, derrite el aceite de coco a fuego medio-alto. Echa el tofu con las especias y 1/2 cucharada de zumo de limón. Saltéalo unos 15-20 minutos hasta que esté muy dorado y firme.\n      Mezcla todos los ingredientes y sirve la ensalada mientras el tofu siga caliente. Si la vas a tomar más tarde, guarda el tofu por separado y caliéntalo antes de comer la ensalada.\n    \n  \n  Información nutricional, por ración (sirve 2)\n    \n      572 kCal\n      7.9 g H de C netos, 7.7 g fibra, 15.6 g H de C totales\n      28.6 g proteina\n      48.2 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","tofu","soja","bajo en hidratos"],
-        id: 36
+        id: 38
     });
     
 
@@ -347,7 +365,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nI love sautéed tofu; it gets very chewy and crunchy, and when mixed with spices it can be delicious.\n\n\n  2 cups (250 g) firm tofu, cubed OR 200 g paneer (if using paneer, omit mayonnaise)\n  3/4 tsp turmeric\n  1/4 tsp salt\n  Red chili powder to taste\n  1/8 tsp salt\n  1/8 tsp black pepper\n  1 tbsp coconut oil\n  1/2 tbsp lemon juice\n  4 cups of fresh spinach (120g) OR 4 cups shredded lettuce (180g) \n  1 cup of fresh cucumber (130g) (Optional; omit for fewer carbs)  \n  1/2 cup of fresh red bell pepper (75g) (Optional; omit for fewer carbs)  \n  1/2 cup pumpkin seeds\n  2 tbsp mayonnaise OR 3/4 extra tbsp coconut oil and 3/4 extra tbsp olive oil\n  1 tbsp extra virgin olive oil\n  1 tbsp lemon juice\n  Fresh coriander\n  Optional: Chaat masala, to taste\n\n\n\n  Process\n    \n      In a non-stick pan, melt the coconut oil over medium-high heat. Then add the tofu and all the spices along with 1/2 tbsp lemon juice. Sautée for 15-20 minutes until it is very golden and firm.\n      Mix all the other ingredients and serve while the tofu is still warm. If you are making this ahead of time, keep the tofu in a separate container and warm up before eating.\n    \n  \n  Nutritional information, for a serving (recipe serves 2)\n    \n      572 kCal\n      7.9 g net carbs, 7.7 g fiber, 15.6 g total carbs\n      28.6 g protein\n      48.2 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","tofu","soy","low-carb"],
-        id: 37
+        id: 39
     });
     
 
@@ -356,7 +374,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEl paneer es un queso indio tipo requesón, y una fuente de proteínas muy frecuente en currys vegetarianos. Puedes usarlo en bloques para brochetas o en currys con salsa, o bien deshacerlo en migas para hacer hash browns sin huevo o bhurji.\n\nLa información nutricional no es 100% segura, puesto que la he estimado a partir de paneer empaquetado. Cuanto mejor lo drenes, menos hidratos de carbono tendrá.\n\n\n  2 litros (8 tazas) de leche entera\n  1/4 taza de zumo de limón o vinagre de manzana\n  1/8 tsp sal\n\n\n\n  Elaboración\n    \n      Lleva la leche a ebullición en una cacerola de fondo grueso.\n      Reduce el fuego a bajo y echa el zumo de limón, removiendo constantemente hasta que empiece a cuajar.\n      Usando un colador muy fino o una tela de queso, separa el cuajo del suero (puedes guardar el suero para otras cosas; tiene proteínas, pero también hidratos de carbono, así que no es muy adecuado para dieta cetogénica).\n      Escurre el cuajo muy bien. Utilízalo fresco, o bien ponle un peso encima para formar un bloque firme.\n    \n  \n  Información nutricional, por 100g\n    \n      300 kCal\n      3.3 g H de C netos, 0 g fibra, 3.3 g H de C totales\n      20 g proteina\n      23.5 g grasa\n    \n  \n\n",
         tags: ["vegetariano","indio","bajo en hidratos"],
-        id: 38
+        id: 40
     });
     
 
@@ -365,7 +383,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nPaneer is indian cottage cheese, one of the basic protein sources for vegetarian curries. You can use it in blocks in tikka or gravies, or you can crumble it for egg-free hash browns or bhurji.\n\nThe nutritional info may not be 100% accurate as I estimated using packaged paneer. The more it is drained, the lower carb it will be.\n\n\n  2 L (8 cups) whole fat milk\n  1/4 cup lemon juice or apple cider vinegar\n  1/8 tsp salt\n\n\n\n  Process\n    \n      Bring the milk to a boil in a heavy bottom saucepan.\n      Reduce the heat to low and add the lemon juice, stirring constantly until it curdles and the whey has separated completely.\n      Using a very fine sieve or a cheese cloth, separate the curds from the whey. You can keep the whey for something different (it has some protein, but also carbs, so not keto-friendly!).\n      Drain the curd well and use it fresh, or put it with some weight on top to form a firm block.\n    \n  \n  Nutritional information, for 100g\n    \n      300 kCal\n      3.3 g net carbs, 0 g fiber, 3.3 g total carbs\n      20 g protein\n      23.5 g fat\n    \n  \n\n",
         tags: ["vegetarian","indian","low-carb"],
-        id: 39
+        id: 41
     });
     
 
@@ -374,7 +392,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nLa receta más sencilla para un sabroso Curry de pollo. No estará tan buena como un curry hecho con especias y mezclas indias de verdad… pero sigue estando súper bueno en cualquier caso :)\n\n\n  8 muslos de pollo, con hueso y piel (1 kg)\n  4 tbsp aceite de coco \n  1/2 cebolla grande o una mediana (110g)\n  1 tsp ginger paste o 3 cm jengirre\n  1 tsp garlic paste o un diente grande de ajo\n  2 tsp curry en polvo\n  1 cup (250ml) de leche de coco\n  1/4-1 cup de agua según cómo quieras la salsa\n  Opcional:cilantro para servir\n\n\n\n  Elaboración\n    \n      En una cacerola o una olla exprés, en dos tandas, dorar la carne con un poco de sal unos 3 minutos, usando 1 cucahrada de aceite por tanda. Después, reservarla.\n      Haz un puré con la cebolla, jengibre y ajo.\n      Calienta las 2 cucahradas de aceite restantes y úsalas para freír la pasta de cebolla a fuego medio unos 10 minutos, junto a sal y pimienta, hasta que huela un poco dulce.\n      Añade el curry. Cocínalo un minuto, después agrega la leche de coco y el agua (la cantidad de agua dependerá de cómo de espesa quieras la salsa; echa más agua si lo vas a cocinar en una cacerola). Mézclalo todo bien hasta que la salsa esté homogénea.\n      Cuando empiece a hervir, reincorporar el pollo. Ahora cocinar a fuego bajo destapado unos 45-600 minutos o bien en la olla exprés 20 minutos, hasta que la carne esté tierna.\n      Servir con cilantro por encima.\n    \n  \n  Información nutricional, por un muslo de pollo con 1/8 de la salsa\n    \n      333 kCal\n      2.1 g H de C netos, 0.4 g fibra, 2.5 g H de C totales\n      24.2 g proteinas\n      25.2 g grasa\n    \n  \n\n",
         tags: ["pollo","bajo en hidratos","currys","indio","coco"],
-        id: 40
+        id: 42
     });
     
 
@@ -383,7 +401,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nEasiest recipe for a delicious Chicken Curry. It won’t be as good as the recipes that use real indian spices and blends… but it is pretty darn good anyway :)\n\n\n  8 chicken drumsticks, with skin and bone (1 kg)\n  4 tbsp coconut oil\n  1/2 big onion or one medium (110g)\n  1 tsp ginger paste or 1 inch ginger\n  1 tsp garlic paste or one big clove of garlic\n  2 tsp curry powder\n  1 cup of coconut milk\n  1/4-1 cup of water depending on desired sauce\n  Optional:coriander to garnish\n\n\n\n  Process\n    \n      In a pot or a pressure cooker, in two batches, sear the meat (with some salt) for about 3 minutes, using 1 tbsp oil per batch. Set the seared drumsticks aside.\n      Purée the onion, ginger and garlic.\n      Heat up the other 2 tbsp oil and fry the onion paste, with salt and pepper, over medium heat for about 10 minutes until it smells sweet.\n      Add the curry powder. Cook for 60 seconds, then add the coconut milk and water (add water depending on how thick you want your sauce; add more water if you will be cooking on an open pot). Mix well until the sauce is even.\n      When it comes to a boil, add the chicken back in. Now cook on an open flame on low heat for about 45-60 minutes or in a pressure cooker for 20 minutes until the meat is tender.\n      Garnish with coriander and serve.\n    \n  \n  Nutritional information, for one drumstick with 1/8 of the sauce\n    \n      333 kCal\n      2.1 g net carbs, 0.4 g fiber, 2.5 g total carbs\n      24.2 g protein\n      25.3 g fat\n    \n  \n\n\n",
         tags: ["chicken","low-carb","indian","coconut"],
-        id: 41
+        id: 43
     });
     
 
@@ -392,7 +410,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nEsta es una forma súper original de tomar más verduras. ¡Incluso a mi familia, enemiga del brócoli, les han encantado!\n\n\n  250 g brócoli\n  3 huevos\n  3/4 taza de parmesano (45 g)\n  2 cucharadas de harina de coco (24g)\n  1/2 cucharada de vinagre\n  1/2 cdita de bicarbonato\n  Una pizca generosa de sal y pimienta negra\n  1/8 cdita de nuez moscada recién molida\n  1/4 taza de agua (o más si la necesitas)\n  Opcional: 1/2 ración de proteína en polvo (equivalente a 15 g proteina)\n  Opcional, para ponerle encima: 4 cucharadas de mantequilla, 6 cucharadas (180g) de queso de untar\n\n\n\n  Elaboración\n    \n      Cocina el brócoli al vapor hasta que esté blando (pero sin sobrecocinarlo para que no pierda el color verde). Lo puedes hacer en el microondas si quieres.\n      Bate el brócoli hasta formar un puré.\n      Añade el resto de ingredientes excepto la mantequilla y queso de untar.\n      Divide entre 9 moldes de muffin.\n      Hornéalos a 180C unos 20 minutes, O BIEN cocínalos en el microondas durante unos 4 minutos, o hasta que el centro haya cuajado.\n      Opcional: monta la mantequilla y el queso de untar con un poco de sal y pimienta para formar un buttercream; usalo como frosting, poniéndolo por encima de los muffins.\n    \n  \n  Información nutricional\n    \n      Por cupcake con frosting\n        \n          165 kCal\n          2.6 g H de C netos, 1.2 g fibra, 3.8 g H de C totales\n          8.2 g proteinas\n          14.2 g grasa\n        \n      \n      Por muffin sin frosting\n        \n          72 kCal\n          2 g H de C netos, 1.2 g fibra, 3.2 g H de C totales\n          6.7 g proteinas\n          3.5 g grasa\n        \n      \n    \n  \n\n\n",
         tags: ["brócoli","bajo en hidratos","huevos","vegetariano"],
-        id: 42
+        id: 44
     });
     
 
@@ -401,7 +419,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nThese are such a fun way to get more veggies in. Even my broccoli-hating family loved these!\n\n\n  250 g broccoli\n  3 large eggs\n  3/4 cup parmesan cheese (45 g)\n  2 heaping tbsp coconut flour (24g)\n  1/2 tbsp vinegar\n  1/2 tsp baking powder\n  A good pinch of salt and some black pepper\n  1/8 tsp freshly grated nutmeg\n  1/4 cup of water (or more if needed)\n  Optional: 1/2 serving of neutral flavor protein powder (equals 15 g protein)\n  Optional, for frosting: 4 tbsp butter, 6 tbsp cream cheese (180g)\n\n\n\n  Process\n    \n      Steam the broccoli just until it is tender (don’t overcook so it doesn’t lose the bright green color). You can do this in the microwave.\n      Purée the broccoli.\n      Add all the other ingredients except for the ones for the frosting.\n      Divide into 9 muffin molds.\n      Cook in the oven at 180C for 20 minutes, OR microwave for 4 minutes, or until the center has set.\n      Optional: whip the butter and cream cheese with a pinch of salt and pepper until you form a buttercream; use it to frost the muffins.\n    \n  \n  Nutritional information,\n    \n      Per cupcake with frosting\n        \n          165 kCal\n          2.6 g net carbs, 1.2 g fiber, 3.8 g total carbs\n          8.2 g protein\n          14.2 g fat\n        \n      \n      Per muffin without frosting\n        \n          72 kCal\n          2 g net carbs, 1.2 g fiber, 3.2 g total carbs\n          6.7 g protein\n          3.5 g fat\n        \n      \n    \n  \n\n\n",
         tags: ["broccoli","low-carb","eggs","vegetarian"],
-        id: 43
+        id: 45
     });
     
 
@@ -410,7 +428,7 @@ var index = lunr(function () {
         category: ["sopa"],
         content: "\n\nEsta sopa solo requiere unos 20 minutos en cocinar, está llena de proteínas y grasas saludables, y riquísima!\n\nSi tienes prisa puedes reducir el tiempo de cocinado del tofu y la cebolla a la mitad, pero a mí me encanta cuando el tofu está un poquito crujiente por encima.\n\n\n  250 g tofu firme\n  Una cebolla roja pequeña (70g), en trozos grandes\n  1/2 tsp ginger paste o 1.5 cm de jengibre picado\n  1 calabacín mediano (200g) espiralizado o dos troncos de brócoli (unos 140g) espiralizado (omitir para menos hidratos)\n  1/2 tsp garlic paste o un diente de ajo grande picado\n  100 g champiñones, en láminas\n  2/3 cup leche de coco\n  2 tazas (500 mL) de agua\n  Un cubo de Avecrem\n  2 tbsp aceite de coco\n  Cilantro fresco\n\n\n\n  Elaboración\n    \n      En una cacerola, echar la mitad del aceite y luego el ajo, jengibre y cebolla. Cocinar a fuego medio-bajo con sal unos 15-20 minutos.\n      Al mismo tiempo, en una sartén antiadherente, poner la otra mitad del aceite y echar el tofu en cubos hasta que esté bien dorado y seco, unos 15 minutos. Luego añade los champiñones, cocínalos unos 5 minutos. Al final, echa la verdura espiralizada y déjala un minuto.\n      Una vez la cebolla esté bien pochada, echar el polvo de curry, leche de coco, chili, agua y avecrem. Cuando empiece a hervir, quitarlo y después batirlo para quitar los grumos.\n      Añade el tofu, champiñones y la verdura espiralizada, y deja que se cocine 1-2 minutos todo junto.\n      Servir con cilantro.\n    \n  \n  Información Nutricional, por la mitad de la receta, usando calabacín\n    \n      503 kCal\n      11 g H de C netos, 5.5 g fibra, 15.8 g H de C totales\n      25.2 g proteina\n      41.8 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","tofu","currys","coco","bajo en hidratos"],
-        id: 44
+        id: 46
     });
     
 
@@ -419,7 +437,7 @@ var index = lunr(function () {
         category: ["soup"],
         content: "\nThis soup takes about 20 minutes to put together, is loaded with protein and healthy fats, and amazingly tasty!\n\nIf you are in a hurry you can cut the cooking time of the tofu and the onions by half, but I really love how the tofu gets a little bit crunchy on the outside.\n\n\n  250 g firm tofu\n  One small red onion (70g), coarsly chopped\n  1/2 tsp ginger paste or 1/2 inch ginger chopped\n  1 medium zucchini (200g) spiralized or two broccoli stalks (about 140g) spiralized (omit for fewer carbs)\n  1/2 tsp garlic paste or one big garlic clove chopped\n  100 g mushrooms, sliced\n  2/3 cup coconut milk\n  2 cups of water\n  One bouillon cube\n  2 tbsp coconut oil\n  Fresh coriander\n\n\n\n  Process\n    \n      In a non stick pot, put half the oil and add the onion, garlic and ginger. Cook ovver medium-low heat with a pinch of salt for about 15-20 minutes.\n      At the same time, in a non stick pan, add the other half of the oil, then cook the cubed tofu over high heat until it is very brown and dry, about 15 minutes. Then add the mushrooms, cook for about 5 minutes. Lastly, add the spiralized zucchini and cook for a minute.\n      Once the onion is very soft, add the curry powder, coconut milk, water, chili and bouillon cube. Bring to a boil, then use blend with a hand mixer.\n      Add the tofu, mushrooms and zoodles. Let it all boil together for 1-2 minutes.\n      Serve with coriander.\n    \n  \n  Nutritional information, for half the recipe, using zucchini\n    \n      503 kCal\n      11 gnet carbs, 5.5 g fiber, 15.8 g total carbs\n      25.2 g protein\n      41.8 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","tofu","curry","low-carb","coconut"],
-        id: 45
+        id: 47
     });
     
 
@@ -428,7 +446,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nHazlos ya. No te arrepentirás.\n\n\n  1 huevo\n  30 g queso de untar\n  1 tbsp harina de coco (8g)\n  0.5-1 tbsp eritritol\n  1/6 tsp levadura química\n  Piza de sal\n  Extracto de vainilla\n  1/4 tsp mantequilla para engrasar la gofrera\n\n\n\n  Elaboración\n    \n      Mezcla la harina de coco, sal y levadura.\n      Bate el huevo, queso y eritritol. Después incorpora la mezcla de la harina.\n        \n          Si estás preparando la masa la noche anterior, probablemente tengas que echar un poco de nata para que no se quede demasiado densa.\n        \n      \n      Engrasa la gofrera con mantequilla.\n      Echa toda la masa para un gofre y deja que se cocine.\n      Acompáñala del topping bajo en hidratos que prefieras!\n    \n  \n  Información nutricional, por gofre (la receta hace uno):\n    \n      180 kcal\n      2.4 g H de C netos, 1.7 g fibra, 4.1 g H de C totales\n      9.1 g proteina\n      15.2 g grasa\n    \n  \n\n",
         tags: ["dulce","vegetariano","bajo en hidratos","huevos"],
-        id: 46
+        id: 48
     });
     
 
@@ -437,7 +455,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\nStuff your face with these low carb waffles. You won’t regret it.\n\n\n  1 egg\n  30 g cream cheese\n  1 tbsp coconut flour (8g)\n  0.5-1 tbsp erythritol\n  1/6 tsp baking powder\n  Pinch of salt\n  Vanilla extract\n  1/4 tsp butter to grease the waffle maker\n\n\n\n  Process\n    \n      Mix the coconut flour, baking powder and salt.\n      Blend the egg, cream cheese and erythritol. Then add the coconut flour mixture.\n        \n          If you are making the batter the night before, you might have to add a splash of heavy whipping cream as it can get very dense otherwise\n        \n      \n      Grease the waffle maker with butter.\n      Pour all the batter for one waffle and cook.\n      Eat with your favorite low-carb topping!\n    \n  \n  Nutritional information, per serving (this recipe makes one waffle):\n    \n      180 kcal\n      2.4 g net carbs, 1.7 g fiber, 4.1 g total carbs\n      9.1 g protein\n      15.2 g fat\n    \n  \n\n",
         tags: ["sweet","vegetarian","low-carb","eggs"],
-        id: 47
+        id: 49
     });
     
 
@@ -446,7 +464,7 @@ var index = lunr(function () {
         category: ["pan"],
         content: "\n\nSi echas de menos tomar fajitas, o bien acompañar tus currys de chapati… esta receta es para tí! Conseguirás unas tortillas o chapati muy suaves, con un sabor a coco delicioso, que van bien con carnes y con verdura :)\n\n\n  1/2 taza (60g) de harina de coco\n  2 tbsp (16 g) de psyllium en polvo\n  1/3 cdita de sal (omitir si se usa caldo)\n  1 taza de agua o de caldo\n  1/4 taza (60g) de mantequilla o aceite de coco\n  Opcional: especias al gusto (yo uso 1/4 tsp ajo en polvo y 1/4 tsp cebolla en polvo\n  5 cucharaditas de aceite, para cocinar\n\n\n\n  Elaboración\n    \n      Derretir la mantequilla o el aceite de coco. Mezclar por separado la harina de coco, especias, psyllium y sal, y después incorporar la mantequilla.\n      Añadir el agua o caldo caliente (a punto de hervir) e incorporar. Debes obtener una masa bastante húmeda.\n      Ahora hay que trabajar rápido antes de que la masa empiece a secarse demasiado: divide la masa en cuatro bolas. Amasa un poco cada bola, ponla entre dos trozos de film de plástico, y utiliza un rodillo o una bandeja para aplastarla y hacer un disco de unos 2-3 mm de grosor. Después, utiliza una tapa de sartén o algo circular para recortarla.\n      Forma así las cuatro tortillas. Para la quinta, utiliza los recortes de las otras. Si prefieres, puedes dividir la masa en cinco y hacer cinco tortillas directamente, sin recortar (aunque no quedarán tan redondas).\n      Pon una cucharadita de aceite en una sartén a fuego fuerte. Fríe la tortilla unos 2 minutos por cada lado hasta que esté dorada.\n      Consérvalas en un trapo para que se mantengan calientes hasta el momento de consumirlas, o déjalas enfriar y después congélalas separadas por trozos de papel vegetal.\n    \n  \n  Información nutricional, por tortilla (haciendo 5 en total)\n    \n      189 kCal\n      1.9 g H de C netos, 4.6 g fibra, 6.5 g H de C totales\n      2.6 g de proteína\n      17.7 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","coco","bajo en hidratos"],
-        id: 48
+        id: 50
     });
     
 
@@ -455,7 +473,7 @@ var index = lunr(function () {
         category: ["bread"],
         content: "\n\nIf you miss eating fajitas, or having curry with chapati… this recipe is for you! You will get really soft tortillas/chapati, with a light coconut flavour, that pairs well both with meats and veggies :)\n\n\n  1/2 cup (60g) coconut flour\n  2 tbsp (16 g) psyllium husk powder\n  1/3 tsp salt (omit if using stock)\n  1 cup of water or stock\n  1/4 cup (60g) butter or coconut oil\n  Optional: spices to taste (I like to add 1/4 tsp garlic powder and 1/4 tsp onion powder)\n  5 tsp oil, for cooking\n\n\n\n  Process\n    \n      Melt the butter or coconut oil. Mix separately the coconut flour, psyllium husk powder, spices and salt, then incorporate the butter.\n      Add the water or stock, hot (almost boiling). Incorporate and mix until you have a sticky dough.\n      Now you have to act fast or else the dough will dry out: divide it into four balls. Knead each one a bit, then put in between two pieces of plastic wrap, and form a disk using a rolling pin or flattening it with a tray; it should be 2-3 mm thick. Then take something round (like the lid of a pan) and use it to cut the roti.\n      Proceed this way for four tortillas. For the fifth one, use the remaining pieces you cut out of the others. If you prefer, you can just divide the dough in five and make 5 roti from the beginning, without cutting them out (although they won’t be as round).\n      Put a teaspoon of oil in a pan over high heat. Fry the roti about 2 minutes per side until golden.\n      Keep in a cloth so they remain soft until you eat them, or let them cool down and freeze individually, separated by some parchment paper.\n    \n  \n  Nutritional information, per tortilla (makes 5 in total)\n    \n      189 kCal\n      1.9 g net carbs, 4.6 g fiber, 6.5 g total carbs\n      2.6 g de protein\n      17.7 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","coconut","low-carb"],
-        id: 49
+        id: 51
     });
     
 
@@ -464,7 +482,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\nEsta receta de hamburguesas utilizando judías mungo es una forma genial de tomar legumbres. Las judías mungo (soja verde) tienen muy buen sabor, y si las dejas brotar, su composición cambiará, por lo que tendrán menos hidratos de carbono y más proteína. Además, puedes echarle diferentes especias si quieres, para tener distintos sabores.\n\nEs difícil saber con exactitud la información nutricional de esta receta puesto que depende mucho de cuánto broten las judías; yo he hecho una aproximación basada en dejarlas brotar unos 3-4 días.\n\n\n  1/2 taza (100g) de judías mungo (soja verde)\n  Opcional: 30 g de polvo de proteínas (yo utilicé proteína de guisante)\n  Sal\n  Pimienta negra\n  2 cucharadas de aceite de coco o de mantequilla o ghee\n  Otras especias al gusto\n\n\n  Elaboración\n    \n      Deja que las judías broten durante unos 3 ó 4 días hasta que tengan brotes de 1-2 cm.\n      Batir todos los ingredientes hasta tener una masa espesa.\n      Dividir la masa en cuatro y formar hamburguesas con las manos.\n      Freír cada hamburguesa en 1/2 cucharada de aceite hasta que se dore por ambos lados (unos 2 minutos por lado).\n    \n  \n  Información nutricional, por hamburguesa\n    \n      149 kCal\n      7 g H de C netos, 3.1 g fibra, 10.1 g H de C totales\n      11 g de proteína\n      7.9 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","soja","bajo en hidratos"],
-        id: 50
+        id: 52
     });
     
 
@@ -473,7 +491,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis recipe for burger patties using mung beans is a great way to get some legumes in your diet. Mung beans (green soy) have a very nice flavor, and if you let them sprout, the carb count will be lower and they will have more protein. On top of that, you can add any spices you want to get different styles.\n\nIt is hard to know the exact nutritional information for this recipe as it depends on how long the beans sprout for; I estimated the data sprouting them for 3 or 4 days.\n\n\n  1/2 cup (100g) mung beans (green soy)\n  Optional: 30 g protein powder (I used green pea protein powder)\n  Salt\n  Black pepper\n  2 tbsp coconut oil or butter or ghee\n  Other spices to taste\n\n\n  Process\n    \n      Let the beans sprout for 3 or 4 days until they have roots of 1-2 cm.\n      Blend all the ingredients until you have a thick paste.\n      Divide into four and form patties using your hands.\n      Fry each patty with 1/2 tbsp oil until it is golden on both sides (about 2 minutes per side).\n    \n  \n  Nutritional information, per pattie\n    \n      149 kCal\n      7 g net carbs, 3.1 g fiber, 10.1 g total carbs\n      11 g de protein\n      7.9 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","soy","low-carb"],
-        id: 51
+        id: 53
     });
     
 
@@ -482,7 +500,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nUna receta fácil y rica, perfecta para los amantes de la comida india. Puedes doblar la cantidad de la receta para un desayuno de campeones!\n\n\n  2 huevos\n  1/2 cebolla pequeña (30g)\n  1/2 tomate (50g)\n  Sal y pimienta al gusto\n  Chili verde al gusto (yo utilizo jalapeño)\n  1 cda de cilantro fresco\n  1/2 cda aceite de coco\n\n\n  Elaboración\n    \n      Pica las verduras muy fino.\n      Bate los huevos con sal y pimienta. Después añade las verduras y el cilantro.\n      Calienta el aceite a fuego medio-alto en una sartén antiadherente. Después echa el huevo y cocínalo como una tortilla.\n    \n  \n  Información nutricional, por ración (toda la receta)\n    \n      245 kcal\n      3.9 g H de C netos, 1.1 g fibra, 5 g H de C totales\n      13,3 g proteina\n      18 g grasa\n    \n  \n\n\n",
         tags: ["bajo en hidratos","vegetariano","huevo","indio"],
-        id: 52
+        id: 54
     });
     
 
@@ -491,7 +509,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\n\nAn easy and tasty egg recipe perfect for all indian food lovers out there. You can double it up to have a breakfast fit for champions!\n\n\n  2 eggs\n  1/2 small onion\n  1/2 tomato (50g)\n  Salt and pepper to taste\n  Green chili to taste (I use jalapeno)\n  1 tbsp fresh coriander\n  1/2 tbsp of coconut oil\n\n\n  Process\n    \n      Chop the vegetables very finely.\n      Whisk the eggs with salt and pepper. Then add the vegetables and coriander.\n      Heat up the coconut oil over medium-high on a non-stick pan. Then, pour the batter. Cook like a normal omelet.\n    \n  \n  Nutritional information, per serving (the whole recipe)\n    \n      245 kcal\n      3.9 g net carbs, 1.1 g fiber, 5 g total carbs\n      13,3 g protein\n      18 g fat\n    \n  \n\n\n",
         tags: ["low-carb","vegetarian","eggs","indian"],
-        id: 53
+        id: 55
     });
     
 
@@ -500,7 +518,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nA great recipe for all those vegan ketoers, or anyone who cannot eat eggs but still wants to eat some french amazingness. You can adapt this basic recipe to your taste, changing the vegetables and/or adding other ingredients, such as cheese or meat!\n\n\n   1 low-carb crust \n   1.5 cups of chopped zucchini (180-200 g, one medium) \n   One leek (80g) \n   2 tbsp olive oil\n   1/2 tsp salt\n   400 g firm tofu\n   3-4 tbsp water\n   1/4 tsp turmeric\n   Black pepper to taste\n   Optional: 3 tbsp nutritional yeast \n\n\n\n  Process\n    \n      Preheat the oven to 180C.\n      Use the oil to fry your vegetables.\n        \n          I added 1 tbsp of soy sauce to my vegetables to get some umami, as I didn’t have nutritional yeast!\n        \n      \n      Blend the tofu with the water, turmeric, salt and pepper. You should get a dense batter.\n      Add the cooked vegetables to the tofu mixture, then spoon over your crust.\n      Bake for about 30 minutes or until the center is set. Let it cool for 5 minutes before cutting into it.\n    \n  \n  Nutritional info, per slice (serves 5)\n    \n      505 kCal\n      8.6 g net carbs, 15.6 g fiber, 24.2 g total carbs\n      25.5 g protein\n      37.7 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","zucchini","flax","soy"],
-        id: 54
+        id: 56
     });
     
 
@@ -509,7 +527,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nUna receta fantástica para cetogénicos veganos, o para cualquier persona que no coma huevo pero que quiera disfrutar de la comida francesa. Puedes adaptar esta receta básica según tu gusto, cambiando las verduras y/o añadiendo otros ingredientes, como queso y carne.\n\n\n  1 masa baja en hidratos\n  1,5 tazas de calabacín picado (180-200 g, uno mediano)\n  Un puerro (80g)\n  2 tbsp aceite de oliva\n  1/2 tsp sal\n  400 g tofu firme\n  3-4 tbsp agua\n  1/4 tsp cúrcuma\n  Pimienta negra al gusto\n  Opcional: 3 tbsp levadura nutricional\n\n\n  Elaboración\n    \n      Prealienta el horno a 180C.\n      Usa el aceite para freír las verduras.\n        \n          Yo añadí 1 tbsp de salsa de soja para tener un poco de umami, dado que no tenía levadura nutricional\n        \n      \n      Bate el tofu con el agua, sal, pimienta y cúrcuma hasta tener una mezcla densa.\n      Añade las verduras cocinadas a la mezcla de tofu, después extiéndela sobre la masa del quiche.\n      Hornéalo unos 30 minutos o hasta que el centro haya cuajado. Deja que enfríe 5 minutos antes de cortarlo.\n    \n  \n  Información nutricional, por trozo (5 en total)\n    \n      505 kCal\n      8.6 g H de C netos, 15.6 g fibra, 24.2 g H de C totales\n      25.5 g proteina\n      37.7 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","bajo en hidratos","soja","calabacin"],
-        id: 55
+        id: 57
     });
     
 
@@ -518,7 +536,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nEste es mi pan bajo en hidratos preferido. Tiene casi textura de bizcocho, y es tan esponjoso que absorbe súper bien las salsas, y además queda muy bueno cuando se tuesta y también en sandwich :)\n\n\n  3,5 tbsp psyllium molido (28g) + 3/4 tazas de agua\n  6 huevos (o bien 2 huevos + 8 claras)\n  1/2 taza de aceite de oliva\n  1 tsp sal\n  2 tazas de agua\n  1 taza de harina de coco (120g)\n  1/2 tbsp vinagre de manzana\n  2/3 tsp bicarbonato\n\n\n\n\n\n  Elaboración\n    \n      Precalienta el horno a 180C.\n      Mezcla el psyllium con el agua y dejalo reposar 5 minutos.\n      En una batidora bate la mezcla anterior con los huevos y el aceite hasta que quede sin grumos.\n      Añade el resto de ingredientes y bátelo bien. Debe quedar una mezcla bastante espesa.\n      Vierte la mezcla en un molde y dale forma de pan.\n      Hornéalo durante 60-75 minutos. Deja que enfríe en una rejilla antes de cortarlo.\n    \n  \n  Información nutricional, para 1 rebanada\n    \n      92 kCal\n      0.88 g H de C netos, 2.1 g fibra, 3 g H de C totales\n      3 g proteina\n      7.7 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","huevos","vegetariano","coco","pan"],
-        id: 56
+        id: 58
     });
     
 
@@ -527,7 +545,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nThis is my favorite low-carb bread. It has a spongy texture, great for dipping, and makes great toasts and sandwiches :)\n\n\n  3,5 tbsp psyllium husk powder (28g) + 3/4 cup water\n  6 eggs (or 2 eggs + 8 egg whites)\n  1/2 cup olive oil\n  1 tsp salt\n  2 cups of water\n  1 cup coconut flour (120g)\n  1/2 tbsp apple cider vinegar\n  2/3 tsp baking soda\n\n\n\n  Process\n    \n      Preheat the oven to 180C.\n      Mix the psyllium husk and water and let it sit for 5 minutes.\n      Blend the previous mixture with the eggs and oil until very smooth.\n      Add the other ingredients and blend. The mixture should be quite thick.\n      Pour into a loaf pan and shape.\n      Bake for 60-75 minutes. Let it cool down in a rack before you cut into it.\n    \n  \n  Nutritional info, per slice (makes 20 slices)\n    \n      92 kCal\n      0.88 g net carbs, 2.1 g fiber, 3 g total carbs\n      3 g protein\n      7.7 g fat\n    \n  \n\n",
         tags: ["low-carb","eggs","vegetarian","coconut","bread"],
-        id: 57
+        id: 59
     });
     
 
@@ -536,7 +554,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta masa quebrada, basada en la receta de healthfulpursuit, lleva un poco de tiempo para hacerse, pero es sin gluten, sin huevo, baja en hidratos y tiene muy buen sabor :)\n\n\n  1 + 1/4 cups lino molido\n  1/4 cup semillas de girasol, molidas después\n  80-100 g cebolla (una pequeña)\n  1/3 tsp sal\n  2 tbsp aceite de oliva\n  1/2 tbsp vinagre de manzana\n  1/2 tsp bicarbonato\n  Otros ingredientes al gusto, como un diente de ajo\n\n\n\n\n\n  Elaboración\n    \n      Precalienta el horno a 110C.\n      Bate la cebolla con el vinagre y el aceite.\n      En otro bol mezcla los ingredientes secos, después añade la mezcla de cebolla. Deberías obtener una masa moldeable pero que no se desmorone; si es demasiado seca, añade un poco de agua.\n      Engrasa tu molde muy bien (o mejor aún, pon papel de horno en el fondo) y echa la masa. Después, con una cuchara o las manos, dale forma. Usa tus manos mojadas para que quede lisa.\n      Hornéala durante 90 minutos hasta que esté seca y crujiente. Después, sácala y rellénala con lo que quieras.\n    \n  \n  Información nutricional, para 1/5 de la base\n    \n      294 kCal\n      2.4 g H de C netos, 11.1 g fibra, 13.5 g H de C totales\n      8.5 g proteina\n      24.8 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","lino"],
-        id: 58
+        id: 60
     });
     
 
@@ -545,7 +563,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis crust, based on the recipe from healthfulpursuit, takes a while to make, but is gluten-free, egg-free, vegan, low carb, and has a great flavor!\n\n\n  1 + 1/4 cups ground flax\n  1/4 sunflower seeds, ground\n  80-100 g onion (one small)\n  1/3 tsp salt\n  2 tbsp olive oil\n  1/2 tbsp apple cider vinegar\n  1/2 tsp baking powder\n  Other ingredients to taste, for example one clove of garlic (minced)\n\n\n\n  Process\n    \n      Warm up the oven to 110C.\n      Blend the onion with the oil and vinegar.\n      In a separate bowl mix the other ingredients, then add the onion mixture. You should get a thick paste, dry but not crumbly. If it crumbles, add some water.\n      Grease your quiche mold very well (or even better, put a circle of parchment paper in the bottom) and put the mixture inside. Then use a spoon or your hands to form the crust. Water your hands to smooth it out.\n      Bake for 90 minutes until it is dry and crunchy. Then, take it out and add the filling of choice,\n    \n  \n  Nutritional info, for 1/5 crust\n    \n      294 kCal\n      2.4 g net carbs, 11.1 g fiber, 13.5 g total carbs\n      8.5 g protein\n      24.8 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","flax"],
-        id: 59
+        id: 61
     });
     
 
@@ -554,7 +572,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nUna receta cetogénica facilísima y muy sabrosa. A mi familia le encanta, se tarda literalmente 10-15 minutos en prepararla, y es muy saciante. ¡Tienes que probarla!\n\nAñade más aceite para llenarte más, o acompáñala de una ensalada o de alguna verdura.\n\n\n  2 rodajas de salmón, de aprox 1,5 cm de grosor (400 g)\n  1 cucharada de aceite de coco\n  La parte verde de tres puerros picados (tira la parte final) O un puerro entero (90g)\n  1 cdita de jengibre fresco\n  1/4 tsp sal\n  1/4 tsp pimienta negra\n  1 cda salsa soja\n  3 cda agua\n  2 cdas zumo de limón\n  Estevia o edulcorante al gusto (equivalente a 1-2 cditas azúcar)\n  1/2 cda aceite de sésamo\n  Opcional: cilantro para servir\n\n\n\n\n\n  Elaboración\n    \n      Derrite el aceite a fuego alto. Después fríe el jengibre 2 minutos.\n      Añade el puerro, sal y pimienta. Cocina removiendo a menudo durante unos 5 minutos, hasta que esté blando.\n      Añade el salmón y cocina a fuego alto 2 minutos por lado.\n      Añade la salsa soja y el agua, cocínalo 30 segundos. Luego tápalo y deja que se haga por dentro a fuego bajo.\n      Una vez cocinado, echa el zumo de limón, estevia y aceite de sésamo, mézclalo bien y sírvelo.\n    \n  \n  Información nutritional, por ración\n    \n      207 kCal\n      3.4 g H de C netobs, 0.5 g fibra, 3.9 g H de C totales\n      22.3 g proteina\n      11.1 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","pescado"],
-        id: 60
+        id: 62
     });
     
 
@@ -563,7 +581,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nA great, easy, tasty, keto recipe. My family adores it, it literally takes 10-15 minutes to make, and is super filling. You have to try it!\n\nAdd more oil if you want it to be more filling, or accompany with a fatty vegetable side dish.\n\n\n   2 salmon fillets, about 1 inch thick (14 oz in total)\n   1 tbsp coconut oil\n   The green part of 3 leeks (cut out the ends) OR one whole leek (90g)\n   1 tsp fresh ginger paste\n   1/4 tsp salt  \n   1/4 tsp black pepper\n   1 tbsp soy sauce\n   3 tbsp water\n   2 tbsp lemon juice\n   Stevia or sweetener to taste (equals 1-2 tsp sugar)\n   1/2 tbsp sesame oil\n   Optional: coriander for garnishing\n\n\n\n  Process\n    \n      Melt the coconut oil over high heat. Then fry the ginger for 2 minutes.\n      Add the leeks, salt and pepper. Cook stirring frequently for about 5 minutes, until soft.\n      Add the salmon and cook on high for 2 minutes on each side.\n      Add the soy sauce and water, cook for 30 seconds, then cover and reduce to low heat until the salmon is cooked through.\n      Once cooked, add the lemon juice, stevia and sesame oil, mix well and serve.\n    \n  \n  Nutritional info, per serving\n    \n      207 kCal\n      3.4 g net carbs, 0.5 g fiber, 3.9 g total carbs\n      22.3 g protein\n      11.1 g fat\n    \n  \n\n",
         tags: ["low-carb","fish"],
-        id: 61
+        id: 63
     });
     
 
@@ -572,7 +590,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\n¡Hacía mucho que no publicaba nada de comida india! Este es uno de mis curries de verdura favoritos. Tiene un sabor más bien dulce, con un toque de ácido del polvo de mango (que se puede sustituir por el limón), y está riquísimo acompañado de dal y de arroz o de roti.\n\n\n  500 g de calabaza\n  Chili rojo seco al gusto (1-2)\n  100 g de cebolla\n  1 cdita de jengibre fresco\n  1/4 cdita de asafétida (sustituible por 1/2 cdita de pasta de ajo, que se usaría junto al jengibre)\n  1/4 cdita de semillas de fenugreco (methi)\n  1/4 cdita de garam masala\n  1/4 cdita cúrcuma\n  Cilantro fresco, para servir\n  1 cda de aceite (de mostaza o de coco)\n  1/2 tsp mango en polvo (amchoor) o 1 cda zumo de limón\n  Estevia o edulcorante al gusto (equivalente a 1 cdita azúcar)\n\n\n\n\n\n  Elaboración\n    \n      Derrite el aceite a fuego alto. Después fríe las semillas de fenugreco, el chili y la asafétida unos 2 minutos (¡¡que no se quemen!!).\n      Añade el jengibre. Cocínalo 1 minuto y echa la cebolla. Cocínala unos 10 minutos hasta que esté bien pochada.\n      Echa la calabaza junto a las especias (escepto el amchoor) y algo más de sal. Cocínalo removiendo unos 2 minutos. Después, añade 1/4 de taza de agua y tápalo.\n      Deja que se cocine a fuego lento. Cuando la calabaza esté blanda, añade el resto de los ingredientes, mezcla bien y sírvelo.\n    \n  \n  Información nutritional, por ración\n    \n      100 kCal\n      14 g H de C netos, 3.2 g fibra, 17.2 g H de C totales\n      1.6 g proteina\n      3.6 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","calabaza","currys","indio"],
-        id: 62
+        id: 64
     });
     
 
@@ -581,7 +599,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nIt had been so long since I published any indian food! This is one of my favorite veg curries. It is sweet with a slightly acid touch thanks to the mango powder (that can be substituted for lemon), and is awesome with some dal and rice or roti.\n\n\n  500 g pumpkin or butternut squash\n  Dried red chili (1-2)\n  100 g onion\n  1 tsp ginger paste\n  1/4 tsp asafoetida (can be subbed for 1/2 tsp garlic paste, that would be used with the ginger)\n  1/4 tsp fenugreek seeds (methi)\n  1/4 tsp garam masala\n  1/4 tsp turmeric\n  Fresh coriander, to serve\n  1 tbsp oil (mustard or coconut)\n  1/2 tsp mango powder (amchoor) or 1 tbsp lemon juice\n  Stevia or sweetener to taste (equivalent to 1 tsp sugar)\n\n\n\n  Process\n    \n      Heat up the oil. Fry the fenugreek seeds, chili and asafoetida for 2 minutes (don’t burn them!!!).\n      Add the ginger. Cook for 1 minute, then add the onion and salt. Cook on slow heat for about 10 minutes, until it is brown and soft.\n      Add the pumpkin and spices (except amchoor) and some more salt. Cook for 2 minutes, stirring. Then, pour 1/4 cup water and cover.\n      Cook on low heat. Once the pumpkin is soft, add the rest of the ingredients, mix and serve.\n    \n  \n  Nutritional info, per serving, using butternut squash (serves 4)\n    \n      100 kCal\n      14 g net carbs, 3.2 g fiber, 17.2 g total carbs\n      1.6 g protein\n      3.6 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","pumpkin","curry","indian"],
-        id: 63
+        id: 65
     });
     
 
@@ -590,7 +608,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nEste es un aperitivo indio típico de Gujarat: unos pancakes veganos salados hechos de lentejas moong, y rellenos de lo que prefieras. Se pueden tomar solos con un chutney, o rellenarlos de paneer (como he hecho yo), de tomate, cebolla y cilantro, o de lo que más te apetezca. \nHabitualmente se toma con el té de por la tarde, pero a mí me gusta mucho ponerlo como aperitivo: es ligero, tiene bastantes proteínas y gusta a todo el mundo, incluso a los más carnívoros!\n\n\n  1/2 taza de lentejas moong dal, preferiblemente peladas (100 g)\n  1/8 cdita de bicarbonato\n  1/8 tsp asafétida (se puede sustituir por medio diente de ajo hecho pasta)\n  1/4 cdita de sal\n  Chili al gusto (preferiblemente pasta de chili verde)\n  Unas gotas de estevia (equivalente a 2 cditas de azúcar)\n  Relleno al gusto; en este caso, 50 g de paneer (requesón), 1/2 cdita Chaat masala (opcional), 4 cucharadas de cilantro fresco\n  2 cditas de aceite (para cocinarlo)\n\n\n\n\n\n  Elaboración\n    \n      Lava bien las lentejas y luego remójalas durante 3 ó 4 horas.\n      Escúrrelas, añade 3 cucharadas de agua y bátelas hasta obtener una masa homogénea. Si es necesario puedes añadir un poco más de agua, pero lo ideal es que quede una textura de masa de pancakes.\n      Añade la sal, bicarbonato, asafétida y estevia y mézclalo bien.\n      Engrasa una sartén (con 1/2 cdita de aceite por chilla suele ser suficiente) y caliéntala a fuego medio-alto. Echa un cuarto de la masa y extiéndela con la espátula para que tenga un grosor de unos 2-3 mm.\n      Echa el relleno que quieras mientras se va cocinando. En este caso, el queso, cilantro y un poco de chaat masala.\n      Cuando empiece a estar seca la masa por arriba (tras unos 2-3 minutos), dale la vuelta al chilla, cocínalo un minuto más, vuelve a darle la vuelta, dóblalo para que el relleno quede dentro y sácalo de la sartén.\n      Sírvelos con más paneer, cilantro, chaat masala, tomate y cebolla, o con el chutney que te guste.\n    \n  \n  Información nutricional, por chilla\n    \n      161 kCal\n      8.8 g hidratos de carbono netos, 7.6 g fibra, 16.4 g H de C totales\n      9.1 g proteina\n      6.5 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","indio"],
-        id: 64
+        id: 66
     });
     
 
@@ -599,7 +617,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nThis is an indian appetizer from the region of Gujarat: vegan savory pancakes made with moong lentils, and filled with anything you like. They can be had plain with chutney, or filled with paneer (like I did), tomato onion and coriander, or whatever you fancy. \nThey are usually had with tea in the afternoon, but I like them as a lunch or dinner appetizer: they are light, full of protein and everybody likes them, even the biggest of carnivores!\n\n\n  1/2 moong dal, preferibly peeled (100 g)\n  1/8 tsp baking soda\n  1/8 tsp asafoetida (you can substitute it with 1/2 clove of garlic, smashed into a paste)\n  1/4 tsp salt \n  Chilli to taste (preferibly green chili paste)\n  A few drops of stevia (equivalent to 2 tsp sugar)\n  50 g paneer (or cottage cheese)\n  1/2 tsp Chaat masala (optional)\n  4 tbsp fresh coriander\n  2 tsp oil (for cooking)\n\n\n\n  Process\n    \n      Wash the lentils properly, then soak them for 3-4 hours.\n      Drain, add 3 tbsp water and grind into a fine paste. If necessary you can add more water. You should end up with a pancake-like batter.\n      Add the salt, baking soda, asafoetida and stevia and mix well.\n      Lightly grease a pan or tawa (with 1/2 tsp oil per chilla it is usually enough) and put it over medium-high heat. Pour 1/4 of the batter and use a spatula to make a thin disk of about 2-3 mm thick.\n      Put the filling on top while it cooks; in this case, paneer, coriander and a bit of chaat masala.\n      When the batter starts to dry in the top (about 2-3 minutes), flip it, cook another minute, flip again and fold it in half to keep the filling inside. Proceed with the other chilla.\n      Serve them with more paneer, coriander, chaat masala, tomato and onion, or with your favorite chutney.\n    \n  \n  Nutritional info, per chilla (makes 4)\n    \n      161 kCal\n      8.8 g net carbs, 7.6 g fiber, 16.4 g total carbs\n      9.1 g protein\n      6.5 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","indian"],
-        id: 65
+        id: 67
     });
     
 
@@ -608,7 +626,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta es una de esas recetas que se pueden hacer un día en gran cantidad y luego congelar para una comida o cena sencilla. Con esta receta se consiguen 12 salchichas riquísimas, que tienen muchas proteínas y son bastante bajas en hidratos, así que sirven para una cena fantástica acompañadas con un poco de coli-arroz, salsa barbacoa cetogénica y una ensalada. Espero que os gusten.\n\n\n  250 g gluten\n  300 g tofu (mejor si es tofu blando, pero el firme también sirve)\n  Opcional: 1/2 taza de levadura nutricional\n  2 cucharadas de cebolla en polvo\n  1/2 cdita de pimienta negra\n  2 cditas de pimentón dulce\n  1 cdita de pimentón ahumado\n  Chili al gusto\n  1 cda de mostaza molida (optional)\n  1 cdita de sal\n  Edulcorante al gusto (equivalente a una cucharadita de azúcar)\n  3 dientes de ajo\n  2 cdas de salsa soja\n  3 cditas de humo líquido\n  1 taza de agua\n  2 cdas de aceite de oliva\n\n\n\n  Elaboración\n    \n      Bate el tofu, salsa soja, aroma de humo y ajo hasta tener una mezcla homogénea.\n      Mezcla los ingredientes secos.\n      Añade la mezcla de tofu a los ingredientes secos.\n      Amásalo unos 5-10 minutos.\n      Divídelo en 12 partes iguales y forma cada parte en una salchicha, envuelta en papel de aluminio.\n      Cocínalas al vapor 30 minutos.\n      Deja que enfríen y consérvalas en el frigorífico o congelador. Cuando las quieras tomar, solo fríelas con un poco de aceite.\n    \n  \n  Información nutricional, por salchicha\n    \n      139 kCal\n      5 g hidratos de carbono netos, 1.5 g fibra, 6.5 g H de C totales\n      20.1 g proteina\n      4.2 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","soja","seitán"],
-        id: 66
+        id: 68
     });
     
 
@@ -617,7 +635,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is one of these recipes that I make in bulk and then freeze for an easy lunch or dinner for another day. These sausages are fenomenal, very high protein and quite low-carb, so they make for a great dinner when combined with some cauli-rice, keto bbq sauce and salad. Hope you enjoy them!\n\n\n  250 g vital wheat gluten\n  300 g tofu (best to use silken, but you can use firm if you want)\n  Optional: 1/2 cup nutritional yeast\n  2 tbsp onion powder\n  1/2 tsp black pepper\n  2 tsp sweet paprika\n  1 tsp smoked paprika\n  chili to taste\n  1 tbsp ground mustard seeds\n  1 tsp salt\n  Sweetener to taste (equals 1 tsp sugar)\n  3 garlic cloves\n  2 tbsp soy sauce\n  3 tsp liquid smoke\n  1 cup of water\n  2 tbsp olive oil\n\n\n\n  Process\n    \n      Blend the tofu, garlic, soy sauce, oliquid smoke, water and oil until smooth.\n      Mix all the dry ingredients.\n      Add the wet mixture into the dry and mix well.\n      Knead the dough for about 5-10 minutes.\n      Divide into 12 equal pieces and roll each piece in a sausage shape with some aluminum foil.\n      Steam for 30 minutes.\n      Let them cool down and keep in the fridge or freezer. When you want to eat them, just stir-fry them with some oil and enjoy!\n    \n  \n  Nutritional info, per serving\n    \n      139 kCal\n      5 g net carbs, 1.5 g fiber, 6.5 g total carbs\n      20.1 g protein\n      4.2 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","soy","seitan"],
-        id: 67
+        id: 69
     });
     
 
@@ -626,7 +644,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nEste es mi desayuno comodín junto a leche de coco o con yogur griego, y además es súper útil cuando viajo (simplemente me pido un yogur en una cafetería y lo echo encima!). Más que una receta, es una guía para hacer tu propia versión cetogénica de la granola, unos cereales crujientes bajos en hidratos que podéis adaptar a vuestro gusto.\n\n\n  3/4 taza (105 g) de semillas de cáñamo peladas\n    \n      Yo utilizo cañamones (semillas de cáñamo con cáscara) porque me gusta lo crujientes que son, son fáciles de encontrar, y añaden un extra de fibra. Si utilizas cañamones, mejor usa algo más de 3/4 taza\n    \n  \n  1,5 taza de frutos secos al gusto (¡excepto pistachos y anacardos!)\n    \n      Yo utilizo una taza de almendras y media de avellanas\n    \n  \n  1/4 taza de semillas de calabaza (30g)\n  1/3 taza de trocitos de cacao o nibs de cacao (40g)\n    \n      Este ingrediente es opcional; si lo quitas, réstale 0.8 g H de C netos a la información nutricional\n    \n  \n  4 cucharadas (12 g) de arándanos rojos secos picados\n    \n      Este ingrediente es opcional; si lo quitas, réstale 1 g H de C netos a la información nutricional\n    \n  \n  1/4 cdita de canela\n  1/8 cdita de sal\n  30 g aceite de coco\n  Edulcorante al gusto - 2-3 cucharadas de eritritol\n\n\n\n\n\n  Elaboración\n    \n      Tuesta los frutos secos (yo los compro ya tostados).\n      Mezcla los ingredientes secos.\n      Mezcla el eritritol con el aceite derretido, y luego échalo sobre los ingredientes secos y mezcla bien.\n      Deja que endurezca en el frigo. Después, sácalo y, con una cuchara, rómpelo en trozos más pequeños.\n      Guárdalo en el frigorífico hasta consumirlo. Dura unas 2 semanas\n    \n  \n  Información nutricional, por porción\n    \n      287 kCal\n      4.5 g hidratos de carbono netos, 4.1 g fibra, 8.6 g H de C totales\n      10.1 g proteina\n      25.7 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","cacao","dulce","almendras"],
-        id: 68
+        id: 70
     });
     
 
@@ -635,7 +653,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\n\nThis is my go-to keto breakfast with some coconut milk or greek yogurt, and it is also great when I am travelling (I just ask for some whole-fat yogurt and add my granola right there!). It is more of a guideline to make your own keto-fied granola, a low carb and extra crunchy cereal that you can customize to your own taste.\n\n\n  3/4 cup (105 g) of hemp hearts or seeds\n  1,5 cups of nuts of choice; I use 1 cup of almonds and 1/2 cup of hazelnuts\n  1/4 cup pepitas (30g)\n  1/3 cup cocoa nibs (40g)\n  4 tbsp (12 g) of chopped dried cranberries\n  1/4 tsp cinnamon\n  1/8 tsp salt\n  30 g extra virgin coconut oil\n  Sweetener to taste - 2-3 tbsp erythritol\n\n\n\n  Process\n    \n      Toast the nuts (unless you buy them toasted like i do).\n      Mix all the dry ingredients.\n      Mix the sweetener with the melted oil, than pour over the dry ingredients and mix well.\n      Let it set in the fridge. Then, take out and break it into smaller chunks.\n      Keep in the fridge until consumed. It lasts up to 2 weeks.\n    \n  \n  Nutritional info, per serving (serves 9)\n    \n      287 kCal\n      4.5 g net carbs, 4.1 g fiber, 8.6 g total carbs\n      Without cocoa nibs: 0.8 g net carbs less. Without the cranberries, 1 g net carbs less.\n      10.1 g protein\n      25.7 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","cacao","sweet","almonds"],
-        id: 69
+        id: 71
     });
     
 
@@ -644,7 +662,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nThis is a super easy recipe for no-sugar chocolate without any weird artificial sweeteners or additives :)\n\n\n    1/4 cup coconut oil or butter\n    1/4 cup peanut butter, almond butter, hazelnut butter, tahini...\n    A pinch of salt\n    1/3 cup cacao\n    Stevia or erythritol to taste\n\n\n\n  Process\n    \n      Melt the oil.\n      Mix all the ingredients. Taste to adjust sweetness.\n      Pour on a flat non-stick surface and put in the freezer until it hardens.\n      Divide into 9 pieces and keep in the fridge or freezer.\n    \n  \n  Nutritional info, per portion (makes 9 portions)\n    \n      95 kCal\n      3.1 g total carbs, 1.6 g fiber, 1.5 g net carbs\n      2.5 g protein\n      9.2 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","cacao","coconut","sweet"],
-        id: 70
+        id: 72
     });
     
 
@@ -653,7 +671,7 @@ var index = lunr(function () {
         category: ["main course"],
         content: "\n\nA very handy recipe for any low-carb vegetarians or vegans out there: 10 g protein and only 5.5 g of net carbs per pattie. And they can be frozen raw, to thaw and use for a quick simple meal!\n(Warning: do not sprout the soy beans for this recipe. They develop a very weird taste!). \nYou can change the spices according to your taste, to make different flavored burgers.\n\n\n    150 g soy beans\n    3 tbsp olive oil (you can use less if you prefer)\n    1/4 tsp salt\n    3 flax \"eggs\": 3 tbsp flax meal + 6 tbsp warm water\n    Black pepper to taste\n    1 tbsp tomato paste\n    2 tsp liquid smoke\n    1/4 tsp garlic powder\n\n\n\n  Process\n    \n      Soak the beans for 12 hours.\n      Boil the beans for about 45 minutes, or until they are softer but still have texture (if they get too mushy, the burgers won’t hold)\n      Prepare the flax eggs and let them rest 5 minutes.\n      Process the beans until you get a couscous texture. Then, mix with the rest of ingredients to form a dense mixture.\n      Divide into 6 and form the patties with your hands.\n      Cook with a teaspoon of olive oil over medium-high heat, about 2-3 minutes per side.\n    \n  \n  Nutritional info, per burger; makes 6 patties\n    \n      191 kCal\n      8.9 g total carbs, 3.3 g fiber, 5.5 g net carbs\n      9.8 g protein\n      13.2 g fat\n    \n  \n\n",
         tags: ["vegan","low-carb","vegetarian","soy"],
-        id: 71
+        id: 73
     });
     
 
@@ -662,7 +680,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nUna receta muy práctica para vegetarianos o veganos cetogénicos: 10 g de proteínas y solo 5.5 g de hidratos netos por hamburguesa. Y las podéis congelar, para tenerlas siempre a mano para una comida sencilla!\n(Una pequeña advertencia: NO pongáis las judías a brotar antes de usarlas. Cogen un sabor muy raro!)\n\n\n  150 g judías de soja\n  3 \"huevos\" de lino: 3 cucharadas de lino molido + 6 cucharadas de agua tibia\n  3 tbsp aceite de oliva (puedes usar menos si prefieres)\n  1/4 tsp sal\n  Pimienta negra al gusto\n  Especias al gusto. Yo utilizo: 1 tbsp concentrado de tomate, 2 tsp humo líquido, 1/4 tsp ajo en polvo\n\n\n\n  Elaboración\n    \n      Poner en remojo las judías 12 horas.\n      Hierve las judías unos 45 minutos, o hasta que estén más blandas pero todavía tengan un poco de mordida (si están demasiado blandas, las hamburguesas no mantendrán la forma).\n      Prepara los “huevos” de lino y déjalos reposar 5 minutos.\n      Pon las judías en una procesadora hasta obtener una textura de cuscús. Luego, mezcla los demás ingredientes para tener una masa densa.\n      Divídelo en 6 porciones y dales forma con las manos.\n      Cocínalos con una cucharadita de aceite a fuego medio-alto, unos 2-3 minutos por lado.\n    \n  \n  Información nutricional, por hamburguesa (6 en total)\n    \n      191 kCal\n      8.9 g hidratos totales, 3.3 g fibra, 5.5 g hidratos de carbono netos\n      9.8 g proteina\n      13.2 g grasa\n    \n  \n\n",
         tags: ["vegano","bajo en hidratos","vegetariano","soja"],
-        id: 72
+        id: 74
     });
     
 
@@ -671,7 +689,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nEsta es una receta sencillísima para hacer un chocolate sin azúcar y  sin edulcorantes extraños ni ingredientes impronunciables :)\n\n\n  1/4 taza de aceite de coco y mantequilla\n  1/4 mantequilla de cacahuetes, almendras, avellanas, tahini...\n  Una pizca de sal\n  1/3 taza de cacao en polvo\n  Estevia o eritritol al gusto\n\n\n\n  Elaboración\n    \n      Derrite el aceite.\n      Bate todos los ingredientes. Pruébalo para ajustar el dulzor.\n      Viértelo sobre una superficie plana antiadherente y mételo en el congelador hasta que endurezca.\n      Divídelo en 9 trozos y consérvalo en el frigorífico o congelador.\n    \n  \n  Información nutricional, por una porción (9 en total)\n    \n      95 kCal\n      3.1 g hidratos de carbono totales, 1.6 g fibra, 1.5 g hidratos de carbono netos\n      2.5 g proteina\n      9.2 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","cacao","coco","dulce"],
-        id: 73
+        id: 75
     });
     
 
@@ -680,7 +698,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nEs súper difícil hacer pancakes cetogénicos veganos! La harina de coco hace cosas raras cuando no se usa con huevo… y al final acababa con una especie de flubber con sabor a vainilla!\n\nDecidí adaptar mi otra receta de pancakes, pero aumentando el aceite para que tuviese una masa más consistente y así lograr hacer pancakes en vez de crepes.\n\nEstos pancakes no son súper esponjosos, pero necesitan muy pocos ingredientes, son fáciles de hacer y son un desayuno delicioso si se toman con un trozo de mi chocolate cetogénico!\n\n\n  1 huevo de lino: 1 tbsp lino molido + 3 tbsp agua. Deja reposar 5 min antes de usar.\n  1.5 tbsp aceite de coco\n  1 tbsp lino molido\n  1/2 ración de Polvos de Proteína sabor vainilla (2 tbsp)\n  Pizca de sal\n  1/4 tsp levadura química\n\n\n\n  Elaboración\n    \n      Mezcla el lino, los polvos de proteína, la sal y la levadura.\n      En otro bol, mezcla el huevo de lino con el aceite.\n      Añade los ingredientes húmedos a los secos y mezcla hasta tener una masa densa.\n      Calienta una sartén antiadherente un poco engrasada a fuego medio. Después, divide la masa en tres y echala en la sartén. Utiliza una cuchara húmeda para darle la forma y dejarlos en un grosor de medio centímetro.\n      Cocínalo 5 minutos en el primer lado, después gíralos y cocínalos 2 minutos más.\n    \n  \n  Información nutricional\n    \n      309 kCal\n      6 g hidratos de carbono totales, 3.8 g fibra, 2.2 g hidratos de carbono netos\n      13.4 g proteina\n      27.1 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","dulce"],
-        id: 74
+        id: 76
     });
     
 
@@ -689,7 +707,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\n\nIt is so difficult to make vegan keto pancakes!! Coconut flour gets really funky when not mixed with eggs… I always ended up having a blobby slimy mess!\n\nI decided to adapt my previos keto pancake recipe, increasing the oil to get a more consistent batter that wouldn’t end up making crepes rather than pancakes, and using a flax egg (remember to let it rest 5 minutes before using it!). I like to use vanilla protein powder: depending on the brand, you might have to adjust the liquid (add a bit less to the flax egg), and if you use unflavored protein, you might want to add 1/2 tsp vanilla extract and stevia to taste.\n\nThese are not super fluffy, but they require very few ingredients, they are easy to make and they make an awesome breakfast when topped with a piece of my keto chocolate!\n\n\n  1 flax egg: 1 tbsp flax meal + 3 tbsp water\n  1.5 tbsp coconut oil\n  1 tbsp flax meal\n  1/2 scoop of vanilla flavor vegan Protein Powder (2 tbsp)\n  Pinch of salt\n  1/4 tsp baking powder\n\n\n\n  Process\n    \n      Mix the flax, protein powder, salt and baking powder.\n      In a separate bowl, mix the flax egg with the oil.\n      Pour the wet ingredients into the dry and mix well. You should end up with a dense mixture.\n      Heat up a lightly greased non-stick pan over medium heat. Once hot, divide the pancake mixture into three and pour. You will need a slightly wet spoon to smooth out the pancakes so they are about 1/2 cm thick.\n      Cook 5 minutes on the first side until, then flip over and cook 2 more minutes.\n    \n  \n  Nutritional info, serves 1\n    \n      309 kCal kCal\n      6 g total carbs, 3.8 g fiber, 2.2 g net carbs\n      13.4 g protein\n      27.1 g grasa\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","sweet"],
-        id: 75
+        id: 77
     });
     
 
@@ -698,7 +716,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nI am so happy about this lasagna! It is vegetarian (and can be vegan if you use a vegan milk and omit the mozzarella) and low-carb, and it is as good as the traditional one!\n\nFor the sauce, you can combine milk and heavy cream as you want, and/or use vegetarian milks to lower the carb count. In my case, i used soy milk mixed with single cream.\n\n\n    2 medium zucchini (400 g)\n    2/3 chopped onion (75 g)\n    1/2 tsp garlic powder\n    1/4 tsp dried oregano\n    2 tbsp tomato purée\n    2 tbsp olive oil\n    50 g soy granules\n    1 tbsp flax meal\n    1/2 cup of milk + 1/2 cup of heavy cream\n    A pinch of nutmeg\n    1/2 tbsp psyllium powder\n    1/2 cup shredded mozzarella \n    Salt\n    Black pepper\n\n\n\n  Process\n    \n      Cut the zucchini in thin strips of about 2 mm thick. Then cook with a little bit of olive oil on a non-stick pan, in the microwave or steam them, until they are slightly softer but not completely mushy!\n      Hydrate the soy in salty water or in stock.\n      Fry the onion on medium heat about 10 minutes until it is soft. After, add the rest of ingredients and 1/2 cup of water and let everything boil until you have a nice thick sauce.\n      For the white sauce: warm up the water and cream with the nutmeg and some salt. Then add the psyllium and mix very well (you might need a hand mixer). Adjust the texture bu adding more psyllium or more milk.\n      Make the lasagna alternating layers of zucchini and soy mixture, and use the bechamel to cover everything. Then add the mozzarella on top.\n      Bake at 180-200C for 30 minutes, putting it under the broiler in the last 5 min.\n    \n  \n  Nutritional info, for 1/4th recipe\n    \n      310 kCal\n      14.6 g total carbs, 3.1 g fiber, 11.5 g net carbs\n      14 g protein\n      23.2 g fat\n    \n  \n\n",
         tags: ["vegan","low-carb","vegetarian","zucchini","soy"],
-        id: 76
+        id: 78
     });
     
 
@@ -707,7 +725,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEstoy muy contenta con esta lasaña. Es vegetariana (y puede ser vegana si se utiliza leche vegetal y se omite la mozzarella) y baja en hidratos. Y no deja nada que desear respecto a una lasaña normal!\n\n\n  2 calabacines medianos (400 g)\n  2/3 de cebolla troceada (75 g)\n  1/2 tsp ajo en polvo\n  1/4 tsp orégano en polvo\n  2 tbsp concentrado de tomate\n  2 cucharadas de aceite de oliva\n  50 g gránulos de soja\n  1 cucharada de lino molido\n  1/2 taza de leche + 1/2 taza de nata de montar (puedes combinar de diferentes formas)\n  Una pizca de nuez moscada\n  1/2 tbsp psyllium en polvo\n  1/2 taza de mozzarella rallada\n  Sal, pimienta negra molida\n\n\n\n  Elaboración\n    \n      Corta el calabacín en tiras finas de unos 2 mm de grosor. Después cocínalas a la plancha, al vapor o al microondas hasta que estén un poco más blandas pero sin que se deshaga.\n      Hidrata la soja en agua con sal o en caldo.\n      Fríe la cebolla a fuego medio durante unos 10 minutos hasta que esté bien pochada. Después, añade las especias, el tomate, la soja hidratada, el lino y 1/2 taza de agua. Deja que hierva todo junto hasta que se forme una salsa bastante espesa.\n      Para la bechamel: calienta la leche junto a la nata, una pizca de nuez moscada y sal. Después añade el psyllium y remuévelo bien (utiliza una batidora si hace falta). Ajusta añadiendo más psyllium o más leche para obtener la textura de bechamel que te guste.\n      Monta la lasaña alternando capas de calabacín y de relleno de soja y al final cúbrela con la bechamel y después echa el queso por encima.\n      Hornéala aproximadamente 30 minutos a 180-200C, poniéndola a gratinar los últimos 5 minutos.\n    \n  \n  Información nutricional, por 1/4 de la receta\n    \n      310 kCal\n      14.6 g hidratos de carbono totales, 3.1 g fibra, 11.5 g H de C netos\n      14 g proteina\n      23.2 g grasa\n    \n  \n\n",
         tags: ["vegano","bajo en hidratos","vegetariano","calabacin","soja"],
-        id: 77
+        id: 79
     });
     
 
@@ -716,7 +734,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is not really a new recipe; I just adapted my previous cabbage roll recipe to decrease the carbs, filling them with soy granules and seeds. They are as good as the original recipe, and this time I made a video on how to make the wraps. I hope you like them.\n\n\n    One whole cabbage head (we will use the 8 outer leaves, about 260 g)\n    70 g soy granules\n    1/2 cup of pumpkin seeds (65g), chopped\n    1 tbsp tomato paste (concentrate)\n    1/2 onion (80g)\n    2 tablespoons olive oil\n    2 garlic cloves\n    Spices: 1 tsp spicy paprika, \n    1 tsp cumin \n    2 tsp cinnamon\n    2 bay leaves \n    1/4 tsp chili powder \n    1 tbsp tomato paste (concentrate)\n    1.5 cups of tomato purée (passata) \n    6 cloves\n    1 tbsp olive oil \n    A pinch of salt \n    Some sugar or stevia (optional) \n\n\n\n  Process\n    \n      First, boil the whole cabbage. I made it in the pressure cooker for 10 minutes. Then, cool with water to stop any further cooking.\n      Hydrate the soy granules. Meanwhile, gently fry the onion with 2 cloves of garlic, chopped, and bay leaf.\n        \n          If you want the onion to be extra soft and sweet, you can make it like I did  in my other recipe\n        \n      \n      Once the onion is soft, add the spices and cook for a minute. Then, add the soy, seeds and tomato paste. Cook for 5 more minutes and then let it cool. You can add fresh parsley or coriander if you like it.\n      Take the 8 outer cabbage leaves. Put them flat over a surface and, with a knife, trim the stem without cutting all the way through.\n      Divide the soy mixture into eight, and put a portion onto each cabbage leaf. Then, wrap like I show in the video.\n      Put the rolls in a big pot in one or two layers, leaving little space between them. Mix the ingredients for the sauce (all the other ingredients) and pour over the rolls.\n      Let them boil for about 30 minutes.\n      Serve with flax bread, rice, salad…\n    \n  \n  Nutritional info, per serving (4 servings in total)\n    \n      295 kCal\n      21.5 g total carbs, 5.9 g fiber, 15.6 g net carbs\n      17.1 g protein\n      18.8 g fat\n    \n  \n\n",
         tags: ["vegan","low-carb","vegetarian","cabbage","soy"],
-        id: 78
+        id: 80
     });
     
 
@@ -725,7 +743,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta receta no es nada nuevo; solo he adaptado mis rollitos de repollo para que tengan menos hidratos, rellenándolos de  soja texturizada y semillas. Están tan buenos como mi receta original, y esta vez os he incluido un video sobre cómo enrollarlos. Espero que os guste.\n\n\n  Un repollo entero (utilizaremos las 8 hojas más grandes, unos 260 g)\n  70 g de soja texturizada\n  1/2 taza de semillas de calabaza (65g)\n  1 cucharada de concentrado de tomate\n  1/2 cebolla (80g)\n  2 cucharadas de aceite de oliva\n  2 dientes de ajo\n  Especias: 1 cucharadita de pimentón picante, 1 cucharadia de comino, 2 cucharaditas de canela, 2 hojas de laurel, 1/4 cucharadita de chili (o al gusto)\n  Para la salsa: 1 tbsp concentrado de tomate, 1.5 tazas de tomate triturado, 6 clavos, 1 cucharada de aceite de oliva, un poco de sal, un poco de azúcar o estevia (opcional)\n\n\n\n  Elaboración\n    \n      Primero, poner a hervir el repollo entero. Yo lo hice en la olla express durante 10 minutos. Después, enfriar con agua para que deje de cocinarse.\n      Hidratar la soja en agua. Mientras, pochar la cebolla junto al ajo picado y el laurel.\n        \n          Si queréis que la cebolla quede aún más dulce, la podéis hacer como en la otra receta\n        \n      \n      Cuando la cebolla esté bien blanda, añade las especias y cocina removiendo un minuto. Después, añade la soja, las semillas y el concentrado de tomate. Cocínalo todo 5 minutos más y déjalo enfriar. Puedes añadir perejil o cilantro fresco si te gusta.\n      Coger las ocho hojas más externas del repollo. Ponerlas sobre la mesa en plano y con un cuchillo, cortar longitudinalmente por el tallo de forma que quede más fino, sin llegar a cortarlo entero.\n      Dividir la mezcla de soja en ocho y echar una porción en una hoja de repollo, para enrollarlo tal y como se ve en el video.\n      Poner los rollitos en una olla grande formando una sola capa (o dos capas si la olla es pequeña), de forma que queden un poco apretados. Mezclar los ingredientes de la salsa por separado y después verter por encima.\n      Dejar hervir los rollitos en la salsa durante media hora.\n      Servir con pan de lino, arroz, ensalada…\n    \n  \n  Información nutricional, por 1/4 de la receta\n    \n      295 kCal\n      21.5 g hidratos de carbono totales, 5.9 g fibra, 15.6 g hidratos netos\n      17.1 g proteina\n      18.8 g grasa\n    \n  \n\n",
         tags: ["vegano","bajo en hidratos","vegetariano","repollo","soja"],
-        id: 79
+        id: 81
     });
     
 
@@ -734,7 +752,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is an easy week-night dinner that my mom would make quite often when I was a kid. It was one of the few vegetable dishes that I actually enjoyed!\n\nI tweaked it a little bit to make it lower carb and higher in fat, and the result is delicious :D\n\n\n    One big eggplant (550-600g)\n    50 g of tuna (canned in brine)\n    2 eggs\n    2 tbsp olive oil\n    1 tbsp tomato paste\n    2/3 cup (40 g) parmesan\n    1/2 tsp oregano\n    Pinch of chili to taste\n    Salt to taste\n\n\n\n  Process\n    \n      First, cut the eggplant lenthgwise and cook it until it is tender: you can cook it in the microwave, in the oven or in a pan.\n      Once cooked through, use a spoon to scoop out the flesh of the eggplant, leaving the skin and part of the flesh to stuff later.\n      In a bowl, chop the eggplant flesh finely, and then add all the other ingredients (leave some of the parmesan to use as topping) and mix.\n      Use the mixture to fill in the eggplant skins. Top with more cheese.\n      Warm up for the filling to set, either in the microwave or in the oven.\n    \n  \n  Nutritional info, per serving (serves 2)\n    \n      408 kCal\n      18.6 g total carbs, 8.6 g fiber, 10 g net carbs\n      31 g protein\n      24.7 g fat\n    \n  \n\n",
         tags: ["eggplant","low-carb","fish","eggs"],
-        id: 80
+        id: 82
     });
     
 
@@ -743,7 +761,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta era una cena muy fácil de hacer que preparaba mucho mi madre cuando yo era pequeña. Era una de las pocas verduras que me gustaban!\n\nLa he cambiado un poquito para que tuviera menos hidratos y más grasa, y el resultado está buenísimo :D\n\n\n  Una berenjena hermosa (550-600g)\n  150 g de atún (de lata, al natural)\n  2 huevos\n  2 tbsp aceite de oliva\n  1 tbsp concentrado de tomate\n  2/3 cup (40 g) parmesano\n  1/2 tsp oregano, un poco de chili al gusto, sal al gusto\n\n\n\n  Elaboración\n    \n      Primero, cocinar la berenjena en dos mitades, ya sea a la plancha (a fuego bajo tapado en la sartén), al horno o en el microondas.\n      Cuando la berenjena esté bien hecha por dentro, sacar parte de la carne con una cuchara respetando la piel.\n      Mezclar la carne de la berenjena con todos los ingredientes, dejando parte del parmesano para espolvorear al final.\n      Rellenar las pieles de berenjena con el relleno y espolvorear con parmesano.\n      Hacer que cuajen, ya sea en el microondas o en el horno.\n    \n  \n  Información nutricional, para la mitad de la receta\n    \n      408 kCal\n      18.6 g hidratos de carbono totales, 8.6 g fibra, 10 g hidratos netos\n      31 g proteina\n      24.7 g grasa\n    \n  \n\n",
         tags: ["berenjena","bajo en hidratos","pescado","huevo"],
-        id: 81
+        id: 83
     });
     
 
@@ -752,7 +770,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nMe encanta este curry, porque tiene una salsa muy densa y aromática que gusta a todo el mundo. La forma clásica de hacerlo lleva mucho tiempo, pero yo he tomado esta como referencia, porque es más fácil y “solo” se tarda en torno a una hora en hacerlo.\n\nPara la salsa puedes usar anacardos, lo que hace una salsa más cremosa, pero yo he usado almendras para que tenga menos hidratos de carbono.\n\nAcompáñalo de arroz, naan o, en mi caso, ensalada y coli-arroz :D\n\n\n  325 g de cebolla blanca\n  3 dientes de ajo\n  2 cm de jengibre o bien 1 tsp de pasta de jengibre\n  3 cucharadas de aceite (yo utilicé de mostaza)\n  420 g de pechuga de pollo (Puedes utilizar muslos; queda aún más bueno!)\n  Para la pasta de almendras: 30 almendras peladas (40-45g), remojadas en agua \n  3 cucharadas de leche de coco + 3 cucharadas de agua\n  3/4 taza de leche de coco\n  Especias enteras: 5 cm de canela en rama, 10 clavos, 10 cardamomos verdes\n  Especias en polvo: 3 cditas cilantro en polvo, 1/2 cdita de cúrcuma, 1/4 cdita chili\n  3/4 cucharadita de garam masala\n  1-1.5 cucharaditas de sal\n  Opcional: algo de azúcar o estevia.\n\n\n\n  Elaboración\n    \n      Primero, bate en una batidora los ingredientes de la pasta de cebolla: cebolla, jengibre, ajo. Debe quedar un puré sin grumos. Por separado, bate las almendras con las tres cucharadas de leche de coco y agua.\n      En una sartén, calienta el aceite y fríe las especias enteras 2 minutos, con cuidado de que no se quemen.\n      Añade la pasta de cebolla a la sartén con un poco de sal y cocínala removiendo a menudo durante 15 minutos, a fuego medio-alto. Cuidado que no se queme a la base de la sartén.\n      Mientras tanto, corta el pollo en trozos y bate los ingredientes de la pasta de almendras.\n      Cuando la cebolla haya formado una pasta muy seca, añade las especias en polvo, sepáralo del fuego y deja que se tuesten las especias un minuto. Después, echa el pollo algo de sal y dóralo 5 minutos, removiendo.\n      Cuando el pollo esté dorado, añade la leche de coco junto a media taza de agua. Remueve bien para que se quede una salsa homogénea. Baja el fuego y deja que hierva unos 15-20 minutos, o hasta que el pollo esté bien hecho por dentro y tierno.  Añade más agua si en algún momento se empieza a quedar seco.\n      Por último, añade la pasta de almendras junto al garam masala y remueve bien. Añade algo de agua si quieres, para ajustar la textura de la salsa. Deja que hierva todo junto un par de minutos y sírvelo.\n    \n  \n  Información nutricional, por ración (4 raciones en total)\n    \n      412 kCal\n      ** 9.4 g hidratos de carbono netos**, 12.4 g hidratos de carbono totales, 3 g fibra\n      26.3 g proteina\n      30.1 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","indio","currys","pollo","almendras"],
-        id: 82
+        id: 84
     });
     
 
@@ -761,7 +779,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nI love this curry and its aromatic, thick sauce. It’s a real crowd-pleaser. The traditional way of making it takes forever, but I used this one as reference, since it is easier and takes “only” one hour to make.\n\nFor the sauce you can use cashews, which make it creamier, but I used almonds to lower the carbs in the recipe.\n\nEat it with rice, naan or, in my case, salad and cauli-rice :D\n\n\n  325 g white onion\n  3 garlic cloves\n  2 cm ginger or 1 tsp ginger paste\n  3 tbsp oil (I used mustard oil)\n  420 g chicken breast (you could use drumsticks instead; it will be even better!)\n  30 whole, peeled almonds (40-45g), soaked in water for 24h\n  3 tbsp of coconut milk\n  3/4 cup coconut milk\n  5 cm cinnamon stick\n  10 cloves\n  10 green cardamom\n  3 tsp powdered coriander\n  1/2 tsp turmeric\n  1/4 tsp chili powder\n  3/4 tsp garam masala\n  1-1.5 tsp salt\n  Optional: some sugar or stevia, if you want the sauce to be sweet.\n\n\n\n  Process\n    \n      First, blend the ingredients for the onion purée until smooth: onions, garlic, ginger. Separately, form the almond paste, blending the almonds, 3 tbsp coconut milk and 3 tbsp water.\n      In a pan, heat up the oil and fry the whole spices (cardamom, cloves, cinnamon stick) 2 minutes, without burning them.\n      Add the onion purée and a bit of salt and cook, stirring often, for about 15 minutes on medium-high. Be careful not to let it stick to the bottom of the pan.\n      Meanwhile, cube the chicken (if using drumsticks, leave them whole) and blend the ingredients for the almond paste.\n      Once the onion has formed a pretty dry paste, take off the stove and add the ground spices. Cook for about a minute. Then, add in the chicken with some salt and brown for 5 minutes.\n      Pour the coconut milk and 3/4 cup of water and mix well to form a thick sauce. Lower the heat and let it simmer for 15-20 minutes, or until the chicken is tender. Add more water if it starts to get dry.\n      Finally, add the almond paste and the garam masala and mix. Add more water if you want a thinner sauce. Let everything boil for a couple of minutes and serve.\n    \n  \n  Nutritional info, per serving (serves 4)\n    \n      412 kCal\n      12.4 g total carbs, 3 g fiber, 9.4 g net carbs\n      26.3 g protein\n      30.1 g fat\n    \n  \n\n",
         tags: ["low-carb","indian","curry","chicken","almonds"],
-        id: 83
+        id: 85
     });
     
 
@@ -770,7 +788,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nEstas son las bombas de grasa más monas que he hecho! Con una base de almendras y mantequilla, y un relleno de limón y de maravilloso aceite de coco! Además son sin gluten y pueden ser libres de lácteos y veganos!\n\nSi quieres tener una tercera capa, echa una cucharada de gelatina de limón o de fresa encima. Así quedaría adorable!\n\n\n    1/2 taza de almendra molida (Yo utilicé almendras tostadas)\n    1/4 taza de lino molido\n    Una pizca de sal\n    Una pizca de estevia o eritritol (al gusto)\n    25 g mantequilla derretida o aceite de coco\n    5 tbsp aceite de coco, derretido\n    Ralladura de un limón\n    60 g queso crema de untar (sustituir por crema de coco para hacerlo sin lácteos)\n    1-2 tbsp cucharadas de zumo de limón (al gusto)\n    Estevia or eritritol, al gusto (yo utilicé 1 tbsp truvia)\n    Extracto de vainilla\n\n\n\n  Elaboración\n    \n      Mezcla los ingredientes secos de la base: almendra, lino, sal, estevia. Después añade la mantequilla y mézclalo bien hasta tener una masa que no se agrieta. Si hace falta, pon más mantequilla.\n      Bate los ingredientes del relleno: aceite de coco, ralladura de limon, queso, zumo de limon, vainilla y estevia.\n      Utilizando unos moldes pequeños (yo utilicé una cubitera), pon una capa de base y encima una capa de relleno. Yo hice 16 bombas pequeñas.\n      Deja que endurezcan en el frío (1-2 horas), después sácalas del molde. Mantén en el frigorífico hasta que las comas. Duran unos 4-5 días en el frigorífico en un tupper.\n    \n  \n  Información nutricional, por bomba (la receta hace 16)\n    \n      89 kCal\n      1.4 g hidratos de carbono totales, 0.96 g fibra, 0.48 g hidratos de carbono netos\n      1.4 g proteina\n      9.2 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","frutos secos","dulce"],
-        id: 84
+        id: 86
     });
     
 
@@ -779,7 +797,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nThese are the cutest little fat bombs I have made! They have an almond-butter crust and a creamy lemon filling, full of coconut oil goodness! They are also gluten-free and can be adapted for a dairy-free version, as well!\n\nIf you want to have a third layer, add a tablespoon of lemon or strawberry gellatin on top. That would be even lovelier!\n\n\n    1/2 cup almond meal (I used crushed roasted almonds)\n    1/4 cup flax meal\n    A pinch of salt\n    A pinch of stevia or erythritol (to taste; I used about 1/2 tsp of truvia)\n    25 g melted butter or coconut oil\n    5 tbsp coconut oil, melted\n    The zest of one lemon\n    60 g cream cheese (substitute for coconut cream for dairy-free)\n    1-2 tbsp lemon juice (to taste)\n    Stevia or erythritol, to taste (I used 1 tbsp truvia)\n    Vanilla extract\n\n\n\n  Process\n    \n      Mix the dry ingredients for the crust: almonds, flax, salt, pinch of stevia. Then add the butter and mix until you have a dough that doesn’t crumble. If necessary, add some more butter.\n      Blend all the ingredients for the cream: coconut oil, zest, cream cheese, lemon juice, sweetener and vanilla extract.\n      Using small molds (I used ice cream cubes), put a layer of the base and then a layer of the cream on top. I made 16 small fat bombs.\n      Let it harden in the fridge (1-2 hours), then take out of the mold. Keep in the fridge until consumed. They will last 4-5 days in the fridge in an air-tight container.\n    \n  \n  Nutritional info, per fat bomb (makes 16)\n    \n      89 kCal\n      1.4 g total carbs, 0.96 g fiber, 0.48 g net carbs\n      1.4 g protein\n      9.2 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","almond","sweet"],
-        id: 85
+        id: 87
     });
     
 
@@ -788,7 +806,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nEstos pancakes son mi nuevo desayuno favorito! Muy bajos en hidratos, sin gluten, super gorditos y esponjosos, fáciles de hacer y riquísimos! Espero que os gusten tanto como a mí!\n\n\n  10 g de polvos de proteína sabor vainilla (1/3 de ración normal)\n  1 huevo\n  1 cucharada de lino molido\n  Una pizca de sal\n  2/3 tbsp de aceite de coco o mantequilla + 1/3 para cocinar\n  1/2 cucharada vinagre\n  1/3 cucharadita de bicarbonato\n\n\n\n  Elaboración\n    \n      Derrite el coco o la mantequilla. Después añade el huevo y vinagre.\n      En otro bol, mezcla todos los ingredientes secos.\n      Incorpora los ingredientes secos a los húmedos.\n        \n          Si lo haces con antelación, yo creo que es mejor mezclar todo menos el bicarbonato, y añadir el bicarbonato justo antes de cocinar.\n        \n      \n      Calienta una sartén a fuego medio-alto con el aceite o mantequilla. Cuando esté caliente, echa la masa y cocínalo como pancakes normales: un minuto o minuto y medio en el primer lado, hasta que salgan burbujitas, y después otro minuto por el otro lado.\n      Tómalo con tu topping preferido - en mi caso, con mermelada sin azúcar &lt;3\n    \n  \n  Información nutricional, por ración (toda la receta)\n    \n      267 kCal\n      3.8 g hidratos de carbono totales, 1.9 g fibra, 1.8 g hidratos de carbono netos\n      14.8 g proteina\n      21.9 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","huevo","vegetariano","dulce"],
-        id: 86
+        id: 88
     });
     
 
@@ -797,7 +815,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\n\nThese pancakes are my new favorite! They are so thick and fluffy, are fast to make in the morning, and so delicious! I hope you enjoy them as much as me!\n\n\n  10 g of vanilla-flavored protein powder (1/3 of a serving)\n  1 egg\n  1 tbsp flax meal\n  A pinch of salt\n  2/3 tbsp of coconut oil or butter + 1/3 for cooking\n  1/2 tbsp vinegar\n  1/3 tsp baking soda\n\n\n\n  Process\n    \n      Melt the coconut oil or butter. Then mix with the egg and vinegar.\n      In a different bowl, mix all the dry ingredients.\n      Add the dry ingredients into the wet ones and mix.\n        \n          If I make it ahead of time, I mix everything except the baking soda, and then mix it in thoroughly right before cooking.\n        \n      \n      Heat up a non-stick pan with oil or butter on medium-high heat. Once hot, add the batter and cook like regular pancakes: about 1-1.5 minutes on the first side until you have bubbles on the surface, then flip and cook another minute on the other side.\n      Serve with your favorite low-carb topping - in my case, low-carb blackberry jam &lt;3\n    \n  \n  Nutritional info, _per serving (serves 1)\n    \n      267 kCal\n      3.8 g total carbs, 1.9 g fiber, 1.8 g net carbs\n      14.8 g protein\n      21.9 g fat\n    \n  \n\n",
         tags: ["low-carb","eggs","vegetarian","sweet"],
-        id: 87
+        id: 89
     });
     
 
@@ -806,7 +824,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEste es un plato italiano perfecto para los carnívoros, pero que también queda muy bien utilizando seitan en lugar de pollo (aunque entonces tendra mas hidratos). El resultado final es una salsa un poco espesa, con el ácido del limón y las alcaparras, y el sabor suave de la mantequilla… Perfecto para servir con ensalada, arroz o con “arroz” de coliflor!\n\nSi sigues una dieta cetogénica, no dudes en ponerle más mantequilla. Cuanta más, mejor :D\n\n\n  750 g de filetes de pechuga de pollo, o bien 6 filetes de seitán\n  1/3 cebolla mediana (60g), picada fina\n  2 dientes de ajo, picados finos\n  2 cucharadas de alcaparras\n  3 cucharadas de mantequilla\n  Dos cucharadas de aceite de oliva\n  Sal, pimienta negra molida\n  Un cubo de caldo (opcional)\n  1/2 taza (125 mL) de vino blanco\n  1/4 taza (60 mL) de zumo de limón\n  La ralladura de medio limón\n  Aprox. un cuarto de taza de perejil picado\n  1 cucharada de lino molido\n\n\n\n  Elaboración\n    \n      En una sartén, haz el pollo (salpimentado) a la plancha por tandas, a fuego medio-alto, utilizando parte de la mantequilla. Reserva los filetes dorados en un plato.\n      Echa el resto de mantequilla y el aceite en la sartén y fríe la cebolla y el ajo con un poco de sal a fuego medio-bajo durante 10-15 minutos, hasta que esté bien pochada.\n      Incorpora la carne y luego echa el vino. Deja que hierva unos 5 minutos para que se evapore el alcohol. Ve removiendo bien.\n      Después incorpora las alcaparras, algo de pimienta negra y la mitad del perejil. Remuevelo bien.\n      Por último, incorpora el lino (para espesarlo) y el zumo de limón. Apaga el fuego y sírvelo con el perejil y rodajas de limón por encima.\n    \n  \n  Información nutricional, por ración (6 en total)\n    \n      286 kCal\n      3.1 g hidratos de carbono totales, 0.66 g fibra, 2.5 g hidratos de carbono netos\n      27.3 g proteina\n      16 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","pollo"],
-        id: 88
+        id: 90
     });
     
 
@@ -815,7 +833,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is an italian dish perfect for carnivores, but it also works wonderfully using seitan instead of chicken (but if you are using seitan, the final carb count will be higher. The final result is a slightly thick sauce, acidic from the lemon and capers, and with smooth buttery texture… Perfect with salad, rice or cauli-rice!\n\nIf you follow a ketogenic diet, do not hesitate on adding more butter - the more, the better :D\n\n\n  750 g chicken breast fillets, or 6 seitan steaks\n  1/3 medium onion (60g), sliced finely\n  2 garlic cloves, thinly sliced\n  2 tbsp capers\n  3 tbsp butter\n  2 tbsp olive oil\n  Salt, black pepper\n  One chicken stock cube (optional)\n  1/2 cup (125 mL) white wine\n  1/4 cup (60 mL) lemon juice\n  The zest of half a lemon\n  About 1/4 cup of chopped parsley\n  1 tbsp flax meal\n\n\n\n  Process\n    \n      In a pan, brown the chicken (with some salt) using a bit of the butter over medium-high. Leave the browned pieces on the side for later.\n      Add the rest of butter and oil in the pan and fry the onion and garlic over medium-low for 10-15 minutes, until it’s brown and soft.\n      Add the meat back in and pour the wine. Let it simmer about 5 minutes for the alcohol to evaporate. Mix well.\n      After, add the capers, some black pepper and half the parsley. Mix well.\n      Finally, add the flax (to thicken the sauce) and the lemon juice. Turn off the stove and garnish with the rest of the parsley and some lemon slices.\n    \n  \n  Nutritional info, per serving (serves 6)\n    \n      286 kCal\n      3.1 g total carbs, 0.66 g fiber, 2.5 g net carbs\n      27.3 g protein\n      16 g fat\n    \n  \n\n",
         tags: ["low-carb","chicken"],
-        id: 89
+        id: 91
     });
     
 
@@ -824,7 +842,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nSoy bastante golosa, así que estoy continuamente intentando hacer dulces sin azúcar y bajos en hidratos. Y experimentando, de vez en cuando salen las cosas bien :)\n\nMe encanta esta receta porque es fácil, está buena, y se puede hacer en el microondas (Odio encender el horno en verano!). Hace unos brownies densos y chocolatosos, muy bajos en hidratos de carbono, y sin gluten ni lácteos. Además, las nueces dan un toque crujiente que me encanta!\n\nPara los veganos o aquellos que no tomen huevo, probablemente se pueda sustituir el huevo por un huevo de lino (1 cucharada de lino molido con dos de agua, dejándolo reposar unos 10 minutos) y añadiendo un poco de psilio en polvo (la harina de coco con el lino, sin psilio, probablemente no amalgame bien).\n\nEl sabor final cambia un poco según el sabor de las proteínas que useis, asi que usad unas que os gusten mucho!\n\n\n  45 g polvos de proteína sabor chocolate\n  15 g de cacao puro\n  1/4 tsp de sal\n  1/4 taza (30g) de harina de coco\n  1 tsp bicarbonato\n  Opcional: 1/4 tsp de café soluble en polvo, o canela\n  Opcional: eritritol o estevia en polvo, al gusto\n  1 tbsp vinagre blanco o zumo de limón\n  1 huevo\n  Un poco de extracto de vainilla (al gusto)\n  1/4 cup (55g) de aceite de coco, o el mismo volumen de mantequilla\n  3/4 cup (180 mL) agua (probablemente necesites más después)\n  Opcional: 30 g de nueces picadas (pero no ponerlas es un crimen!)\n\n\n\n  Elaboración\n    \n      En un bol, mezcla los polvos de proteína, el cacao, la harina, el bicarbonato, el café y la sal.\n      Mezcla por separado el vinagre, el huevo, el aceite, la vainilla y 3/4 de taza del agua.\n      Añade el líquido a la mezcla de harina y remueve bien. Añade más agua si se ha quedado muy seco. Una vez mezclado, puedes añadir las nueces picadas.\n      Hornealo 20-25 minutos a 180C, o bien cocínalo en el microondas a 800W durante unos 4 minutos, o hasta que al insertar un palillo en el centro, salga limpio. Si lo haces al microondas hay que vigilarlo de cerca, porque si nos pasamos de cocinar se quedará duro y seco!\n    \n  \n  Información nutricional, por trozo (6 en total)\n    \n      174 kCal\n      4.6 g hidratos totales, 2 g fibra, 2.5 g hidratos de carbono netos\n      8.4 g proteina\n      14.5 g grasa\n    \n  \n\n\n",
         tags: ["bajo en hidratos","vegetariano","cacao","coco","huevo","dulce"],
-        id: 90
+        id: 92
     });
     
 
@@ -833,7 +851,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\n\nI have a bit of a sweet tooth, so I try to bake sugar-free and no carb goods these days. And while experimenting, sometimes things work out :)\n\nI love this recipe because it is easy, tasty, and it can be made in the microwave (I hate turning on the oven in summer!). It makes for quite fudgy and chocolate-y brownies, very low-carb, as well as dairy and gluten-free. And I love the crunch from the walnuts :)\n\nFor vegans or those who don’t eat eggs, you can probably use a flax egg instead (1 tbsp flax meal with 2 tbsp of water) and add some psyllium husk powder (otherwise, the coconut flour with the flax might not form a proper batter).\n\nThe final flavor might change slightly depending on the protein powder you use, but if you like how your protein powder tastes, you will love these!\n\n\n  30 g coconut flour (1/4 cup)\n  45 g of your favorite chocolate-flavored protein powder\n  15 g cocoa powder\n  1 tsp baking soda\n  1/4 tsp salt\n  Optional: 1/4 tsp of coffee granules, or cinnamon\n  Optional: stevia or erythritol; I recommend trying the batter and adjusting to taste\n  1 tbsp apple cider vinegar\n  1/4 cup coconut oil (you can use butter instead)\n  1 egg\n  Vanilla extract\n  30 g chopped walnuts (optional, but... why wouldn't you use them!?)\n  3/4 cup of water (to start with; you will have to add more later)\n\n\n\n  Process\n    \n      Mix the dry ingredients in a bowl (first 7 ingredients) and the wet ingredients in a different one (all the others). Leave the walnuts on the side for now.\n      Add the wet ingredients into the dry and mix. Then, add water little by little to adjust the texture, until you get a batter similar to the one for a spongecake. You will probably need 1/2 extra cup of water.\n      Add the chopped walnuts into your batter and mix.\n      Pour the batter into a greased baking mold.\n      Bake at 180C for 25 minutes or in the microwave at 800W for about 4 minutes, or until a toothpick inserted in the middle comes out clean. The microwave cooking time varies a lot from one microwave to another, so keep a close eye on it to avoid overcooking and ending up with hard, dry brownies.\n    \n  \n  Nutritional info, per portion (makes 6)\n    \n      174 kCal\n      4.6 g total carbs, 2 g fiber, 2.5 g net carbs\n      8.4 g protein\n      14.5 g fat\n    \n  \n\n",
         tags: ["low-carb","vegetarian","cacao","coconut","eggs","sweet"],
-        id: 91
+        id: 93
     });
     
 
@@ -842,7 +860,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nOtra receta baja en hidratos de carbono que no requiere demasiados ingredientes, y está genial para cuando el calabacín está en oferta y te encuentras con el frigorífico lleno (como me pasa a mí!).\n\nEstas tortillas son suaves y un poco dulces, geniales recién salidas del horno para fajitas, tacos o quesadillas, y aguantan bien 2-3 días en el frigorífico - caliéntalos unos segundos y ya está!\n\n\n  500 g calabacín, rallado (2,5 calabacín medianos)\n  3 tbsp (generosas) de harina de coco\n  1 huevo\n  1/2 tbsp pesto (opcional, puedes añadir un poco más o quitarlo)\n  1/2 tsp sal\n  Opcional: queso rallado\n\n\n\n  Elaboración\n    \n      Precalienta el horno a 180C.\n      Escurre bien el calabacín, y luego escúrrelo aún más; debes acabar con una taza (250 mL) de calabacín. Puedes guardar el líquido para cocinar en lugar de agua.\n      Mezcla todos los ingredientes hasta formar una especie de masa.\n      Dividela en seis bolas, ponlas en un papel de horno y aplástalas con las manos para darles forma de tortilla y dejarlas de unos 2-3 mm de grosor.\n      Hornéalas 15-20 minutes hasta que se hayan secado un poco pero aún estén suaves.\n      Opcional: si quieres tortillas duras para tacos crujientes, déjalos que se sequen al horno poniéndolos colgando con forma de taco en la rejilla de hornear.\n    \n  \n  Información nutricional, por tortilla (haciendo 6 tortillas)\n    \n      64 kCal\n      5.1 g hidratos totales, 1.9 g fibra, 3.1 g hidratos de carbono netos\n      3.5 g proteina\n      3.2 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegetariano","coco","calabacin","huevos"],
-        id: 92
+        id: 94
     });
     
 
@@ -851,7 +869,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nAnother low-carb recipe that doesn’t require many ingredients and is great for when you buy zucchini in bulk (like me!).\n\nThese are soft, slightly sweet tortillas, that are great freshly made to make fajitas, tacos or quesadillas, and they hold pretty good in the fridge for 2-3 days - just heat them up for a few seconds and use!\n\n\n  500 g zucchini, grated (2,5 medium zucchini)\n  3 tbsp (heaping) coconut flour\n  1 egg\n  1/2 tbsp pesto (optional, you can add more or omit)\n  1/2 tsp salt\n  Optional: shredded cheese\n\n\n\n  Process\n    \n      Turn on the oven to 180C to preheat.\n      Squeeze that grated zucchini, and then squeeze some more. You should end up with about 1 cup of zucchini. You can keep the liquid for cooking instead of water.\n      Mix all the ingredients until you form a paste.\n      Divide it into six balls, then put them onto a non-stick tray or parchment paper. Using your hands, shape them into tortilllas, about 2-3 mm thick.\n      Cook in the oven for 15-20 minutes or until they are slightly dry, but are still soft.\n      Optional: if you want to make hard taco shells, put the tortillas hanging on the wire rack of the oven and cook them on low heat so they get dry and crispy.\n    \n  \n  Nutritional info, _per tortilla (makes 6)\n    \n      64 kCal\n      5.1 g total carbs, 1.9 g fiber, 3.1 g net carbs\n      3.5 g protein\n      3.2 g fat\n    \n  \n\n",
         tags: ["low-carb","vegetarian","coconut","zucchini","eggs"],
-        id: 93
+        id: 95
     });
     
 
@@ -860,7 +878,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta receta está genial para el día que te apetezcan tacos o fajitas, pero se puede adaptar a cualquier cosa en la que quieras sustituir carne picada - simplemente cambia las especias según lo que necesites!\n\nSi lo vas a usar para cocina mexicana, te recomiendo añadir un poco de chorivegano picado para tener aún más sabor. La receta vendrá pronto!\n\n\n  50 g soja texturizada\n  1/2 taza pepitas de calabaza\n  1/2 tsp comino en polvo\n  1/2 tsp pimentón\n  2 tbsp coincentrado de tomate\n  1 cup caldo vegetal\n  1/2 cebolla roja (30 g)\n  1 tbsp salsa soja (opcional)\n  1 tbsp zumo de limón\n  2 tbsp aceite de oliva\n  Opcional: cilantro fresco, para añadir al final\n\n\n\n  Elaboración\n    \n      Pica las semillas de calabaza. Pon la soja y las semillas a remojar 10-15 minutos con el caldo y la salsa soja.\n      Calienta el aceite y fríe la cebolla y el ajo unos 10 minutos a fuego medio-bajo hasta que estén blandos.\n      Añade las especias y el concentrado de tomate. Mézclalo y cocinalo un minuto.\n      Añade la soja y las semillas con su líquido y cocínalo unos minutos hasta que se caliente. Puedes dejar que se seque más o echar más agua, según tu gusto.\n      Apaga el fuego, añade el zumo de limón y el cilantro y sirve!\n    \n  \n  Información nutricional, por ración (sirve para 4)\n    \n      231 kCal\n      9.6 g hidratos totales, 1.9 g fibra, 7.7 g hidratos de carbono netos\n      13 g proteina\n      17.6 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","soja"],
-        id: 94
+        id: 96
     });
     
 
@@ -869,7 +887,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is super tasty for taco night, but will work for any recipe in which you want to substitute minced meat - just adapt the spices to the recipe you are using!\n\nIf you are using it for mexican food - I would recommend adding some minced vegan chorizo for a more intense flavor. A recipe will be coming up soon!\n\n\n   50 g textured soy protein\n   1/2 cup pumpkin seeds (pepitas)\n   1/2 tsp cumin powder\n   1/2 tsp paprika\n   2 tbsp tomato purée\n   1 cup vegetable stock\n   1/2 small red onion (30 g)\n   1 tbsp soy sauce (optional)\n   1 tbsp lemon juice, fresh\n   2 tbsp olive oil\n   Optional: fresh coriander, to garnish\n\n\n\n  Process\n    \n      Chop the pumpkin seeds roughly. Put the soy and the seeds in a bowl with the soy sauce and the stock for at least 10-15 minutes to hidrate.\n      Heat up the oil in a pan and add the chopped onion and garlic. Fry on medium-low heat for about 10 minutes until it looks soft.\n      Add the spices and the tomato purée. Mix and cook for about 1 minute.\n      Add the soy-seed mixture with its liquid and cook for a few minutes until it warms up. You can add more liquid if you want, or dry it out more to your liking.\n      Turn off the stove, add the lemon juice and coriander and eat!\n    \n  \n  Nutritional info, per serving (recipe makes 4)\n    \n      231 kCal\n      9.6 g total carbs, 1.9 g fiber, 7.7 g net carbs\n      13 g protein\n      17.6 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","soy"],
-        id: 95
+        id: 97
     });
     
 
@@ -878,7 +896,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nUna forma fácil de hacer barritas de proteínas, bajas en carbohidratos, veganas, y con solo cuatro ingredientes.\n\nEsta es mi versión, en la que utilizo mantequilla de semillas de girasol; sin embargo, según la receta original, se puede hacer con cualquier tipo de mantequilla de fruto seco o semilla, y se pueden adaptar un poco las cantidades según el gusto.\n\n\n  6 cucharadas (tbsp) de queso de untar\n  6 cucharadas de mantequilla de semillas de girasol (pipas), o de otra mantequilla de semilla o de fruto seco\n  80 g de polvos de proteínas (yo uso de soja y avena, sabor chocolate)\n  2 tbsp aceite de coco\n\n\n\n  Elaboración\n    \n      Mezclarlo todo menos el aceite con mucha paciencia. Si está muy seco, ir añadiendo el aceite poco a poco; yo necesité 2 tbsp. Debes conseguir una masa homogénea y dura, como plastilina.\n      Déjala enfriar en el frigorífico.\n      Córtala en 6 barritas iguales.\n    \n  \n  Información nutricional, por barrita (6 porciones)\n    \n      222 kCal\n      5.1 g hidratos de carbono totales, 1.3 g fibra, 3.9 g hidratos de carbono netos\n      13.7 g proteina\n      18.1 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","bajo en hidratos","frutos secos"],
-        id: 96
+        id: 98
     });
     
 
@@ -887,7 +905,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nAn easy way to make your own protein bars, low on carbs, vegan, and only four ingredients.\n\nThis is my version, where I am using sunbutter, but according to the original recipe, any type of nut or seed butter will work, and you can change the proportions to your liking.\n\n\n    6 tbsp cream cheese\n    6 tbsp sunbutter, or nut/seed butter of choice\n    80 g protein powder (I use chocolate flavor)\n    2 tbsp coconut oil\n\n\n\n  Process\n    \n      Mix everything except the oil with patience. If it is dry, add the oil a bit at a time; i needed 2 tbsp. You should end up with a firm dough, similar to play-doh.\n      Let it cool down in the fridge.\n      Cut in 6 equal pieces.\n    \n  \n\n\nNutritional information, per bar (makes 6)\n\n  222 kCal\n  5.1 g total carbs, 1.3 g fiber, 3.9 g net carbs\n  13.7 g protein\n  18.1 g fat\n\n",
         tags: ["vegan","vegetarian","low-carb","nuts"],
-        id: 97
+        id: 99
     });
     
 
@@ -896,7 +914,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\nEsta es una receta muy fácil con muy pocos ingredientes, mucha fibra, sana, y fantástica para una dieta cetogénica.\n\nYo no como carne así que utilizo seitán picado, pero para los omnívoros, podéis utilizar carne picada (mejor alguna con mucha grasa).\n\n\n  1/2 repollo, picado fino (400g)\n  1/6 cebolla roja (30 g), picado fino\n  80 g seitan picado, O carne picada\n  2 tbsp aceite de coco\n  1/2 o 1 diente de ajo, picado\n  1 tsp pasta de jengibre\n  3 tbsp salsa soja + 1/4 tsp kelp en polvo (opcional) O 1 tbsp salsa soja + 2 tbsp salsa de pescado (fish sauce)\n  1/2 tbsp pasta de tahini o mantequilla de cacahuete\n  1/4 tsp pimienta negra\n  1/4 tsp chili en polvo (o al gusto)\n  2 huevos\n  Para servir: zumo de limón, edulcorante al gusto (yo uso estevia)\n\n\n\n  Elaboración\n    \n      En una sartén, fríe el ajo y el jengibre en el aceite de coco unos 30 segundos.\n      Añade el repollo y cebolla. Cocínalo tapado a fuego mediof unos 5-10 minutos. Entretanto, mezcla la salsa soja, kelp, tahini, pimienta negra y chili.\n      Cuando el repollo empiece a reblandecerse, añade el seitan (o carne) y mézclalo. Cocínalo 2 minutos más.\n      Después, echa la salsa, mezcla bien y cocínalo un par de minutos.\n      Cuando el repollo está blando, echa los huevos y cocínalos como enseño en el vídeo: échalos crudos y mezcla muy rápido, para que cuajen sobre el repollo haciendo que se quede húmedo.\n    \n  \n  Informacion nutricional, por racion (3 raciones en total)\n    \n      223 kCal\n      12.1 g total Carbs, 3.9 g fiber, 8.2 g net carbs\n      14.6 g protein\n      14 g fat\n    \n  \n\n",
         tags: ["bajo en hidratos","huevo","vegetariano","repollo","seitán"],
-        id: 98
+        id: 100
     });
     
 
@@ -905,7 +923,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is a very easy dish with few ingredients, full of fiber, very healthy, and keto-friendly.\n\nI don’t eat meat so I’m using seitan that I minced, but for omnivores, you could use ground meat (preferably a very fatty one, which would make this higher in fat).\n\n\n    1/2 medium cabbage, thinly sliced (400g)\n    1/6 red onion (30 g), thinly sliced\n    80 g seitan minced, OR minced meat\n    2 tbsp coconut oil\n    1/2 or 1 whole garlic clove, minced\n    1 tsp ginger paste\n    3 tbsp soy sauce + 1/4 tsp kelp powder (optional) OR 1 tbsp soy sauce + 2 tbsp fish sauce\n    1/2 tbsp tahini paste or peanut butter\n    1/4 tsp pepper\n    1/4 tsp of red chili paste (or to taste)\n    2 eggs\n    Sweetener of choice - I used stevia\n    To serve: lemon juice\n\n\n\n  Process\n    \n      In a pan, fry the ginger and garlic on the oil for 30 seconds.\n      Add the cabbage and onion. Cook covered on medium heat for 5-10 minutes. Meanwhile, mix the soy sauce, kelp, tahini, black pepper and chili powder.\n      When it starts to soften, add the seitan (or meat)and mix. Cook for another 2 minutes.\n      Then,add the sauce, mix and cook for a couple of minutes.\n      When the cabbage is soft, add the eggs as shown in the video: add them raw and mix fast, so they cook covering the cabbage to make it moist.\n    \n  \n  Nutritional info, per serving (1/3 recipe)\n    \n      223 kCal\n      12.1 g total Carbs, 3.9 g fiber, 8.2 g net carbs\n      14.6 g protein\n      14 g fat\n    \n  \n\n",
         tags: ["low-carb","eggs","vegetarian","cabbage","seitan"],
-        id: 99
+        id: 101
     });
     
 
@@ -914,7 +932,7 @@ var index = lunr(function () {
         category: ["bbq"],
         content: "\n\nEstoy enamorada de esta salsa. Sin azúcar, baja en hidratos, perfecta para dieta cetogénica, 100% vegana y riquísisisima. Si quieres una salsa dulzona, quizá sea conveniente usar dos tipos de endulzantes diferentes para que no dejen ningún regusto (cosa que puede pasar con la estevia si se usa mucha cantidad!).\n\nYo me la tomé con seitan troceado sobre mucha lechuga :D\n\n\n2 tbsp aceite de coco\n1/3 de cebolla troceada\n3 dientes de ajo troceados\n1 lata de tomate triturado (425g)\n1 tbsp concentrado de tomate\n3 tsp aroma de humo (humo líquido)\n1/2 tsp pimentón ahumado picante \n1/4 tsp pasta de chili rojo o cualquier otro picante, al gusto\n1 tsp salsa de soja\n1/2 cup (125 mL) de vinagre de manzana \n1/2 tsp sal\n1/4 tsp pimienta negra molida\nEdulcorante, al gusto. Yo usé estevia\n\n\n\n  Process\n    \n      En una cacerola a fuego medio, calienta el aceite y fríe la cebolla y ajo unos 10 minutos, hasta que estén bien blanditos.\n      Sepáralo del fuego, deja que enfríe un poco (para que no salte el aceite) y añade todos los ingredientes que quedan.\n      Déjalo hervir a fuego medio destapado unos 30 minutos.\n      Apaga el fuego, pruébalo por si necesita más sal, y añade el edulcorante que quieras según tu gusto.\n      Opcional: bate la salsa si quieres que no tenga topezones.\n    \n  \n  Información nutricional\n    \n      133 kCal\n      10.8 g hidratos de carbono totales, 2.6 g fibra, 8.2 g H de C netos\n      2.5 g proteina\n      9.4 g grasa\n    \n  \n\n",
         tags: ["bajo en hidratos","vegano","vegetariano"],
-        id: 100
+        id: 102
     });
     
 
@@ -923,7 +941,7 @@ var index = lunr(function () {
         category: ["bbq"],
         content: "\n\nThis sauce is THE BOMB. Low-carb. Keto. Vegan. Delicious.\n\nI just had it with shredded seitan over some salad. Yum! &lt;3\n\n\n    1/3 onion, chopped\n    2 tbsp coconut oil\n    3 cloves garlic, chopped\n    1 can of tomato sauce (425 g)\n    3 tsp liquid smoke\n    1 tsp soy sauce\n    1/4 tsp of red chili paste (or to taste)\n    1/2 cup apple cider vinegar\n    1/2 tsp smoked spicy paprika\n    1 tbsp tomato paste\n    1/2 tsp salt (or more to taste)\n    1/4 tsp pepper\n    Sweetener of choice - I used stevia to taste\n\n\n\n  Process\n    \n      In a saucepan, warm up the oil and then fry the garlic and onion over low heat for about 10 minutes, until they are very soft.\n      Take it off the heat and once it cools down a bit (otherwise it will make a mess), add all the ingredients.\n      Simmer uncovered for 30 minutes.\n      Once it is done simmering, check for salt and add sweetener to taste.\n      Optional: blend the sauce for a smooth texture\n    \n  \n  Nutritional info, per 1/4 of the recipe\n    \n      133 kCal\n      10.8 g total Carbs, 2.6 g fiber, 8.2 g net carbs\n      2.5 g protein\n      9.4 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian"],
-        id: 101
+        id: 103
     });
     
 
@@ -932,7 +950,7 @@ var index = lunr(function () {
         category: ["principales"],
         content: "\n\nReceta facilísima y deliciosa. Puede ser vegana y sin gluten, y está llena de fibra, sabor y grasas saludables – perfecta para los cetogénicos! Sólo echa un poco más de grasa según lo que requieras.\n\nA mí me gusta tomarlo con un buen plato de ensalada verde y con un poco de pan cetogénico. Es genial para el tupper del trabajo!\n\n\n  1 tbsp aceite de sésamo\n  270 g tofu\n  1/3 taza de cebolla morada, en rodajas finas\n  1 cucharadita de pasta de jengibre\n  100 g de espinacas, cocidas (yo uso espinacas congeladas y las cocino en el microondas)\n  1/3 taza de leche de coco\n  Especias: ¼ tsp comino en polvo, 1 tsp cilantro en polvo, ¼ tsp chili en polvo (o más, al gusto), ¼ tsp de pimienta negra molida\n  2 hojas de albahaca opcional\n  Azúcar al gusto (yo usé estevia)\n  2 tbsp salsa soja (o 1 de soja + 1 de salsa de pescado)\n  Verduras, al gusto; yo usé 250 g de brócoli (que había hecho al vapor antes, aunque puedes usarlo crudo y añadirlo al principio para que se cocine) y 60 g de zanahoria\n  Opcional: cilantro fresco\n  Para servir: 30 g de almendras o cacahuetes tostados o fritos en trozos, lima\n\n\n  Elaboración\n    \n      Primero fríe la cebolla, jengibre y zanahorias a fuego medio.\n      Bate todos los ingredientes de la salsa: espinacas, leche de coco, especias, albahaca, estevia y salsa soja. Resérvala para luego.\n      Cuando la cebolla esté blanda, añade el tofu y cocínalo a fuego medio-alto hasta que esté un poco dorado.\n      Echa el resto de verdura y cocínalo hasta que esté blando (como mi brócoli ya estaba cocinado, sólo lo dejé 2 minutos).\n      Vierte la salsa por encima y cocínalo 2 minutos.\n      Apaga el fuego, echa por encima los frutos secos y sírvelo con la lima o limón.\n    \n  \n  Información nutricional por porción (4 raciones en total)\n    \n      258 kCal\n      8.1 g carbohidratos netos, 14 g carbohidratos totales, 5.8 g fibra\n      16.7 g proteina\n      17.8 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","tofu","soja","currys","bajo en hidratos"],
-        id: 102
+        id: 104
     });
     
 
@@ -941,7 +959,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nSuper easy and incredibly delicious recipe. Can be vegan and gluten-free, and is full of fiber, flavor, healthy fats – and great for keto-ers! Just add some more fat to fit your macros, and use whatever vegetables you prefer.\n\nI like to at it with a big green salad and some keto bread. Makes for an awesome meal to pack for work!\n\n\n    1 tbsp sesame oil\n    270 g tofu\n    1/3 of a purple onion, thinly sliced\n    1 tsp ginger paste\n    100 g spinach, cooked (I use frozen spinach that I then cook in the microwave!)\n    1/3 cup of coconut milk\n    1/4 tsp powdered cumin\n    1 tsp powdered coriander\n    1/4 tsp red chili powder (or more to taste)\n    1/4 tsp black pepper\n    2 basil leaves optional\n    Sugar to taste (I used stevia)\n    2 tbsp soy sauce (or 1 tbsp soy sauce + 1 tbsp fish sauce)\n    Half a bunch of broccoli (previously steamed, or it raw and let it cook longer)\n    60 g of carrot\n    _Optional: some fresh coriander_\n    To garnish: 30 g roasted or fried almonds or peanuts, chopped\n    To garnish: lime\n\n\n\n  Process\n    \n      Start by frying the onion, ginger and carrots over medium heat\n      In a blender, blend the ingredients for the sauce: spinach, coconut milk, cumin, coriander, chili, black pepper, basil, stevia, soy sauce. Set aside for later.\n      Once the onions are very soft, add the tofu and cook over medium-high until it gets golden.\n      Add the rest of the vegetables and cook until they are tender (I used steamed broccoli so I only cooked it for 2 minutes so it would warm up).\n      Add the sauce and cook for 2 minutes.\n      Turn of the heat, sprinkle with the chopped nuts and serve with some lemon or lime.\n    \n  \n  Nutritional info, per serving (serves 4)\n    \n      258 kCal\n      14 g total Carbs, 5.8 g fiber, 8.1 g net carbs\n      16.7 g protein\n      17.8 g fat\n    \n  \n\n\n",
         tags: ["vegan","vegetarian","tofu","soy","curry","low-carb"],
-        id: 103
+        id: 105
     });
     
 
@@ -950,7 +968,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\nLlevo un par de semanas dándole una oportunidad a la dieta cetogénica (baja en hidratos de carbono), y lo que más echo de menos es la comida india – sobre todo el dal-chawal (curry de lentejas con arroz)! Pero un buen sustituto es este curry de huevo, acompañado de ensalada y/o arroz de coliflor.\nMás que una receta es un patrón para hacer un curry fácil de huevo. Las especias las varío cada día, así que adáptalas a tu gusto, y añade lo que quieras – quizá amchoor, trozos de pimiento rojo… Experimenta!\n\n\n  12 huevos duros, pelados\n  500 g tomate, picado\n  1 tbsp concentrado de tomate\n  500 g cebolla, picada\n  4 dientes de ajo, picados\n  Dos cm de jengibre, picado (o 1 tsp pasta de jengibre)\n  2 tsp garam masala\n  1 tsp cúrcuma\n  1/2 tsp sal (o al gusto)\n  2 tbsp aceite (Yo uso aceite de mostaza)\n  Opcional: azúcar o endulzante al gusto\n  Optional: 125 g yogur griego o media taza de nata o de leche de coco\n \n\n  Elaboración\n    \n      Calienta el aceite en una olla, luego echa la cebolla. Cocínalas a fuego medio unos 10 minutos hasta que estén blandas.\n      Añade el ajo y el jengibre y cocínalo otros 2 minutos para que se le vaya el sabor a crudo.\n      Echa las especias y cocínalas un minuto. Si está muy seco y crees que se va a quemar, echa un poquito de agua.\n      Añade los tomates, sal y concentrado de tomate. Cúbrelo y cocina a fuego medio unos 10-15 minutos, hasta que los tomates estén bien blandos.\n      Opcional: puedes freir los huevos pelados un par de minutos en aceite, para que se queden crujientes por fuera.\n      Una vez los tomates estén blandos, echa el yogur y azúcar y usa la batidora para obtener una salsa bien lisa. Echa agua si está demasiado densa.\n      Pon la olla de nuevo al fuego, añade los huevos (enteros o cortados por la mitad), deja que hiervan juntos unos minutos y sírvelo con un poco de cilantro fresco.\n    \n  \n  Información nutricional, por ración (usando yogur griego, sin azúcar; 6 raciones en total)\n    \n      251 kCal\n      13.3. g carbohidratos totales, 2.5 g fibra, 10.8 g carbohidratos netos\n      14.3 g proteina\n      15.5 g grasa\n    \n  \n\n",
         tags: ["indio","bajo en hidratos","vegetariano","huevo","currys"],
-        id: 104
+        id: 106
     });
     
 
@@ -959,7 +977,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nSince going keto two weeks ago I have been craving good indian food. Unfortunately, dal chawal (lentil curry with rice) is not really keto-friendly, so an egg curry with some salad and/or cauli-rice seemed like a good enough substitute!\n\nThis is more of a pattern to make a very easy egg curry. I usually just add more or less spices depending on how I am feeling that day, so feel free to change the amounts and/or add other spices or ingredients - maybe amchoor, some chunks of red bell pepper… Experiment!\n\n \n    12 boiled eggs, peeled\n    500 g tomatoes, chopped\n    1 tbsp tomato paste\n    500 g onions, chopped\n    4 garlic cloves, chopped\n    An inch of ginger, chopped (or 1 tsp ginger paste)\n    2 tsp garam masala\n    1 tsp turmeric powder\n    1/2 tsp salt\n    2 tbsp oil (I am using mustard oil)\n    Optional: sugar or sweetener of choice \n    125 g greek yogurt (or half a cup of cream or coconut milk)\n\n\n\n  Process\n    \n      Heat the oil in a saucepan, then add the onions. Cook for 10 minutes on medium heat until they are quite soft.\n      Add the garlic and ginger and cook for 2 minutes for the raw smell to go away.\n      Add the spices and cook for 1 minute. If it’s too dry and you are scared they will burn, add some water.\n      Add the tomatoes, salt and tomato paste. Cover and cook on low for about 10-15 minutes, until the tomatoes are very soft.\n      Optional step: you can fry the peeled eggs for a couple of minutes with some oil; this gets them slightly crunchy outside.\n      Once the tomatoes are soft, blend the sauce and add the yogurt and sugar. Add some water if the sauce is too thick.\n      Put it back into the stove, add the eggs (whole or cut in half), let them boil together for a couple of minutes and serve with some fresh coriander.\n    \n  \n  Nutritional info, per serving (serves 6)\n    \n      251 kCal\n      13.3. g total carbs, 2.5 g fiber, 10.8 g net carbs\n      14.3 g protein\n      15.5 g fat\n    \n  \n\n",
         tags: ["indian","low-carb","vegetarian","eggs","curry"],
-        id: 105
+        id: 107
     });
     
 
@@ -968,7 +986,7 @@ var index = lunr(function () {
         category: ["bread"],
         content: "\n\nLately I have been experimenting with high-fat-low-carb cooking for my father, who is giving a go at the ketogenic diet. He has been doing pretty good, but was always complaining about not having bread to dip the sauce in… So I perfected an easy, microwave recipe for anybody in a similar situation in which they cannot eat bread: keto, paleo or gluten-free, you will like this! The flavor of flax is quite strong, but by using extra virgin olive oil, the final result tastes mostly like olive oil, and is very good with cheese, guacamole, egg, or even jam! \nJust remember - when it comes to flax meal, it´s best if you grind it at home, so it doesn´t lose nutrients :)\n\n\n\n\n    100 mL of flax meal\n    1/2 tsp baking powder\n    A pinch of salt\n    1 egg\n    1 tbsp extra virgin olive oil\n    2 tbsp water\n\n\n\n  Process\n    \n      Blend the egg, oil and water until foamy. In a separate bowl, mix the flax meal, baking powder and salt.\n      Incorporate the liquids into the flax mixture and mix well; let it rest for 5-10 min. It will look a bit runny in the beginning but the texture will thicken after it rests.\n      Divide into three separate molds; I use silicone muffin molds for this. You can sprinkle some sesame seeds on the top if you want.\n      Microwave on high for 2 minutes or until it sets.\n    \n  \n  Nutrition info, per bun (makes 3)\n    \n      107 kcal total calories\n      7 g fat\n      0.8 g net carbs\n      4.72 g protein\n    \n  \n\n",
         tags: ["vegetarian","low-carb","flax","eggs","bread"],
-        id: 106
+        id: 108
     });
     
 
@@ -977,7 +995,7 @@ var index = lunr(function () {
         category: ["pan"],
         content: "\n\nÚltimamente estoy experimentando con cocina alta en grasa y baja en hidratos de carbono, porque mi padre está intentando seguir una dieta cetogénica. De momento lo lleva bien, pero siempre se está quejando de que no puede mojar pan… Así que he logrado encontrar una receta fácil para hacer en el microondas para cualquiera quienes no puedan tomar pan: dietas paleo, cetogénicas o sin gluten. El sabor del lino es bastante fuerte, pero utilizando aceite de oliva virgen extra, el bollito tiene sabor principalmente a aceite, y está muy bueno con queso, guacamole, huevo, o incluso con mermelada!\n\n\n\n\n  100 mL de semillas de lino molido\n  1/2 tsp levadura química\n  Una pizca de sal\n  1 huevo\n  1 cucharada sopera de aceite de oliva virgen extra\n  2 cucharadas soperas de agua\n\n\n\n  Elaboración\n    \n      Bate el huevo, aceite y agua hasta que estén espumosos. En otro bol, mezcla el lino, la levadura y la sal.\n      Añade los ingredientes húmedos a los secos, mézclalo bien y déjalo reposar 5-10 minutos. Al principio parecerá un poco líquido, pero espesa después del reposo.\n      Divídelo en tres moldes; yo utilizo moldes de silicona de magdalenas. Puedes echar unas semillas de sésamo por encima si quieres.\n      Mételo en el microondas a alta potencia durante 2 minutos o hasta que esté bien cuajado.\n    \n  \n  Información nutricional, por bollito (tres por receta)\n    \n      107 kcal totales\n      7 g de grasa\n      0.8 g de hidratos de carbono netos\n      4.72 g proteína\n    \n  \n\n",
         tags: ["vegetariano","bajo en hidratos","lino","huevo"],
-        id: 107
+        id: 109
     });
     
 
@@ -986,7 +1004,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta es una de las especialidades de mi amiga de Bangalore: vegetable pulao. Un plato único que puede cambiarse de muchas formas para adaptarla a tu gusto, y siempre queda delicioso.\n\n\n  Verduras: 1 cebolla, 1 zanahoria, 1/2 pimiento verte, un puñado de judías verdes, chili verde al gusto (este día usamos 4; puedes quitarle las semillas para que sea menos picante) - picadas. Puedes usar las verduras que prefieras: guisantes, coliflor, patata, brócoli, coliflor, pimiento rojo...\n  Opcional, para que tenga más proteína: soja texturizada, remojada\n  Especias enteras: 4 hojas de laurel, 4 cardamomos verdes un poco abiertos, 2 cardamomos negros, 4-5 cm canela en rama, 10 clavos, 12 pimientas negras + 10 dientes de ajo pequeños, enteros\n  Arroz basmati: aproximadamente una taza (más o menos el mismo volumen que de verdura), enjuagado\n  Especias en polvo: 1 tsp comino, 1 tsp cilantro, 1/4 tsp pimienta negra, chili rojo al gusto, 1/4 tsp hojas de fenugreco (opcional), azúcar al gusto\n  1/2 tsp cúrcuma\n  1-2 tsp sal, en total\n  Opcional: yogur (muy bueno para los restos al día siguiente!), cilantro fresco (aprox 1/2 cup), zumo de limón para echar al gusto al final, menta (la menta suele usarse solo en los pulaos con carne)\n\n\n  Elaboración\n    \n      En una sartén con 3-4 tbsp aceite (o menos si no quieres cocinar con mucha grasa), echa las especias enteras y dejar que se doren a fuego bajo.\n      Añade la cebolla y cocinar 15-20 minutos, hasta que estén súper marrones y caramelizadas y riquísimas.\n      Añade la zanahoria y cocínala unos minutos para que no quede dura en la preparación final. Luego echa las demás verduras, tápalo y deja que se cocinen unos minutos a fuego bajo, hasta qeu estén casi blandas.\n      Echa la soja texturizada, sal y especias y mézclalo todo. Tras un par de minutos, agrega el arroz, mezcla todo, y luego echa la cúrcuma y remueve.\n      Ahora puedes, tras añadir agua y cilantro, cocinarlo abierto en la misma sartén o bien pasarlo a una olla express y dejar que pite 2 veces a fuego alto (unos 3-4 minutos).\n      Cuando el arroz esté blando, sepáralo un poco con un tenedor, echa un poco de cilantro por encima, y disfruta.\n    \n  \n\n",
         tags: ["vegano","vegetariano","arroz","indio"],
-        id: 108
+        id: 110
     });
     
 
@@ -995,7 +1013,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is one of my hostess’ specialty, vegetable pulao, for 4-5 people. An easy one-dish meal that can be slightly changed and always comes out equally delicious. You can use chatever vegetables you ike, such as green peas, broccoli cauliflower, potatoes, red capsisum…\n\n\n  Vegetables, chopped: 1 onion, 1 carrot, 1/2 green capsicum pepper, handful of green beans, green chili to taste.\n  _Optional, to add more protein: textured soy protein, soaked_\n  Whole masala: 4 bay leaves, 4 green cardamoms crushed, 2 black cardamom, 4-5 cm stick of cinnamon, 10 cloves, 12 black peppercorns + 10 small whole garlic cloves\n  Rice: about a cup (roughly the same volume as the vegetables), rinsed\n  1 tsp cumin\n  1 tsp coriander\n  1/4 tsp black pepper\n  Red chili to taste\n  1/4 tsp fenugreek leaves (optional)\n  Sugar to taste\n  1/2 tsp turmeric\n  1-2 tsp salt, in total\n  Optional: yoghurt or curd (especially good for leftovers!)\n   To garnish: coriander (about 1/2 cup), lemon juice, mint (usually saved for meat pulaos)\n\n\n\n  Process\n    \n      In a pan with 3-4 tbsp oil (or less, if you are fat-conscious), add the whole masala and brown them on low heat.\n      Add the onions and cook them for 15-20 minutes, until they are super brown and caramelised and delicious.\n      Add the carrots and cook them for a couple of minutes to avoid them being raw in the end. Then, add all the other veggies. Cook and cover until slightly soft, on low heat.\n      Add the soy meat, salt and spices and mix thoroughly. After a couple of minutes, add the rice, mix, add the turmeric, and mix again.\n      Now, you can either add some water and fresh coriander and cook it without a lid, or pressure cook it for 2 whistles on high flame.\n      Once the rice is cooked through, fluff up with a fork, garnish with some more coriander, and enjoy.\n    \n  \n\n",
         tags: ["vegan","vegetarian","rice","indian"],
-        id: 109
+        id: 111
     });
     
 
@@ -1004,7 +1022,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEn India estuve en Bangalore (en el sur). Los restaurantes indios europeos normalmente sirven comida del norte, pero la comida del sur es muy variada y usa sabores muy diferentes en comparacion!\n\nEn este caso, me mostraron la receta de Bisi Bele Bath, un plato del sur tipico de la epoca de lluvias: normalmente preparado en una sola olla, es la comida perfecta para cenar en familia.\n\nLa amiga que me mostro la receta la hace con algunas variaciones, mezclando diferentes tipos de dal (lentejas) y usando dos ollas en vez de una. Pero si quereis hacer la version tradicional, usad solo toor dal y arroz (cocinando ambos a la vez en la misma olla, porque el toor dal se cocina rapido), y saltaos el tadka; asi sera una comida facil y sin complicaciones.\n\n\n  2 cup de dal de diferentes tipos\n  3 puñados de arroz y 2 de granos de trigo cortados (puedes usar todo arroz para la version tradicional, aprox 1.5 cups)\n  2 zanahorias, cortadas\n  Opcional: 2 tomates, cortados\n  4-5 chalotas pequeñas, peladas y enteras, o unos trozos de pimiento verde\n  1/4 tsp asafetida \n  1/2 tsp curcuma\n  Sal al gusto\n  1/2-1 tbsp pasta de tamarindo (si no tienes, sustituyelo por zumo de limon)\n  5-6 tbsp de mezcla bisibelebath masala O BIEN: 1.5 tbsp cilantro en polvo, 2-3 tsp chili en polvo, 1-1.5 tsp comino en polvo, 1/2 tsp canela en polvo, 1/4-1/2 tsp fenugreco en polvo, 3-4 clavos y unas pocas hojas de curry mas\n  Para el tadka (opcional): pizca de asafetida, chilis rojos secos al gusto, un puñado de hojas de curry, 1 tsp semillas de mostaza negra, 1-2 tbsp garbanzos tostados (roasted bengal gram, opcional) o de anacardos, aceite vegetal\n  Opcional: jaggery o azucar moreno al gusto, anacardos (si no se han usado en el tadka)\n  Opcional: cilantro fresco para echar al final\n\n\n\n  Elaboracion\n    \n      Limpia y enjuaga bien el dal un par de veces, luego dejalo en remojo al menos 4 horas.\n      En una olla expres, echa el dal con el agua del remojo y añade sal, asafetida, curcuma, chalotas y zanahoria. Cierrala y deja que pite 3 veces o hasta que huela a lentejas bien cocidas.\n      Mientras tanto, enjuaga el arroz y el trigo. Luego, ponlos en otra olla con agua un poco salada y cocinalo hasta que este blando.\n      Ahora mezcla las lentejas y el arroz y echa los tomates.\n      Una vez los tomates esten blandos, añade el bisibelebath masala. Mezclalo bien y cocinalo un par de minutos; echa mas agua si esta demasiado espeso.\n      Añade el tamarindo y pruebalo para rectificar la sal y/o echar azucar.\n      Para terminar (opcional), prepara el tadka. Calienta 2-3 tbsp de aceite en una sarten pequeña y frie las especias hasta que doren, echandolas en este orden: asafetida, semillas de mostaza, chilis rojos, garbanzos y hojas de curry. Una vez doradas, echa la mezcla en la olla y pon una tapa para que se infusionen bien los aromas.\n      Mezcla todo bien  y sirvelo.\n    \n  \n\n",
         tags: ["arroz","vegano","vegetariano","indio"],
-        id: 110
+        id: 112
     });
     
 
@@ -1013,7 +1031,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nWhile in India I visited Bangalore. In indian restaurants in Europe the food that is mostly served is North Indian. However, south indian cuisine has so much variety and uses such different flavours when compared to North Indian!\n\nIn this case, I was taught how to make Bisi Bele Bath, a wonderful south indian dish for the rainy season. It is usually a one-pot meal, the perfect comfort food to have in a cozy evening, enough to serve 6 people.\n\nThe friend that taught this to me tweaks the recipe a little bit, mixing different dals and using two pots instead of one. However, if you want to go for the most traditional version, use only toor dal and rice (it can be cooked in the same pot and at the same time as the rice), and skip the tadka; this will make for an easier one-pot meal.\n\n\n  2 cup of mixed dal\n  3 fistfuls of rice and 2 of broken wheat (you can use all rice for the traditional version, about 1.5 cups)\n  2 carrots, chopped\n  _Optional: 2 tomatoes, chopped_\n  4-5 small shallots, peeled and whole, or a few pieces of green capsicum\n  _Optional: a few green beans, chopped_\n  1/4 tsp asafoetida\n  1/2 tsp turmeric\n  Salt to taste\n  1/2-1 tbsp tamarind paste (if you dont have any, you can use lemon juice instead)\n  5-6 tbsp of bisibelebath masala mixture OR: 1.5 tbsp coriander powder, 1 tbsp black gram dal powder, 2-3 tsp chili powder, 1-1.5 tsp cumin powder, 1/2 tsp cinnamon powder, 1/4-1/2 tsp fenugreek powder, 3-4 cloves and a few curry leaves\n  For the tadka (optional): pinch of asafoetida, dried red chilies to taste, a bunch of curry leaves, 1 tsp black mustard seeds, 1-2 tbsp roasted bengal gram (optional) or cashews, vegetable oil\n  _Optional: jaggery or sugar to taste, cashew nuts (if not used in tadka)_\n  _Optional: fresh coriander to garnish_\n\n\n\n  Process\n    \n      Wash and rinse the dal a couple of times. Tren, soak for at least 4 hours.\n      In a fast cooker,pour the dal with its soaking water, then add some salt, asafoetida, turmeric, shallots and carrots. Close the lid and let it whistle about 3 times or until it smells like the dal is cooked.\n      Meanwhile, rinse the rice and broken wheat properly. Then, put it in a pot with salted water and boil until cooked.\n      Now, mix the cooked dal and rice in the pot where you cooked the rice in and add the tomatoes.\n      Once the tomatoes are soft, add the bisibelebath masala. Mix well and cook together for a couple of minutes. Add water if it is too thick.\n      Add the tamarind into the mixture. Then, taste for salt and sweetness.\n      Finally (optionally), make the tadka. Heat up 2-3 tbsp of oil in a small pan and fry the whole spices until brown in this order: asafoetida, mustard seeds, chillies, bengal gram and curry leaves. Once it is done, add it into the pot and put a lid on it for the aromas to infuse.\n      Mix everything and serve.\n    \n  \n\n",
         tags: ["rice","vegan","vegetarian","indian"],
-        id: 111
+        id: 113
     });
     
 
@@ -1022,7 +1040,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEn India hay muchas personas vegetarianas, asi que la cocina tradicional de mi pais no suele ser muy adecuada (dado que solemos echarle jamon a todo), y ademas no les suele gustar mucho la comida europea por ser demasiado sosa (cualquier cosa que no lleve chili esta sosa para ellos!). Asi que encontrar algo que cocinar que les gustara y que no fuese comida india parecia que iba a ser complicado…\n\nPero entonces llego el chili al rescate! Un chili sin carne, con muuuucha verdura (mucha mas de la que suelen llevar los chilis en general) y con cacao, para darle un sabor mas profundo. Yo tuve que omitir algunas especias, pero os pongo la version que suelo hacer cuando tengo todos los ingredientes para que podais disfrutar de esta receta al maximo.\n\nPara quienes useis el video: siento mucho la mala calidad de las fotos, pero cocinando en una cocina ajena con recursos limitados y a 40 grados de temperatura, no estaba yo para ponerme en plan fotografa profesional :)\n\n\n  400 g frijoles cocidos (unas 3 cups)\n  2 dientes de ajo picados finos\n  2 cebollas medianas, picadas finas\n  2-3 pimientos rojos (se puede sustituir alguno por otro color)\n  2 tomates\n  300-400 mL tomate triturado\n  1 tbsp concentrado de tomate\n  1/2-1 tsp de comino\n  1/2 tsp oregano (opcional)\n  1/4 tsp pimienta negra\n  Opcional 1/4 tsp canela molida\n  1-2 tbsp azucar\n  1 tbsp de cacao\n  10 g de chocolate negro de reposteria opcional\n  1 tsp de pasta de chili chipotle (si no tienes, usa 1 tsp de chili molido en su lugar y antes de usar los pimientos ponlos directamente sobre la lumbre para que cojan un poco de sabor ahumado).\n  Opcional: 1/2 cup maiz en grano crudo\n  Sal\n  Para servir: arroz, cilantro, pico de gallo, queso cheddar, un poco de cebolla roja fresca... lo que prefieras\n\n\n\n  Elaboracion\n    \n      Poner 2-3 cucharadas de aceite de oliva en una sarten profunda o una cacerola a fuego medio-bajo y echar la cebolla y ajo, con 1/4 tsp de sal. Cocinar removiendo de vez en cuando unos 10 minutos, hasta que la cebolla este bien blanda.\n      Echar los pimientos, maiz y 1/4 tsp de sal. Tapar y dejar cocinar otros 5-10 minutos.\n      Cuando los pimientos empiecen a estar blandos, echa las especias (excepto el chocolate) y cocinalo uno-dos minutos. Despues, agrega el tomate, concentrado de tomate, tomate triturado, frijoles, 1/2 taza de agua (o de caldo) y aprox 1/4 tsp de sal, remueve bien y deja que hierva a fuego lento.\n      Tras unos 15-20 minutos el chili deberia haber comenzado a espesar. Debe hervir en torno a 20-30 minutos para que se infusionen los sabores; si esta quedando muy seco, echa un poco de agua.\n      Cuando le falten un par de minutos, agrega el chocolate y remueve bien para que se funda y mezcle bien. Despues, pruebalo para ver si necesita mas sal, mas chili o, incluso, mas chocolate si te gusta el sabor que da.\n      Sirvelo bien caliente. Lo que sobre puede aguantar unos 3-4 dias en la nevera, y cuanto mas tiempo pasa, mas bueno esta! Ademas, congela muy bien, asi que yo suelo hacer en gran cantidad y luego congelar una parte para tomar tras unas semanas.\n    \n  \n\n",
         tags: ["vegano","vegetariano"],
-        id: 112
+        id: 114
     });
     
 
@@ -1031,7 +1049,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThere are many vegetarian people in India, so traditional spanish cuisine (very often pork-based) is not very appropriate here, and on top of that, anything european is considered bland (because no chili, no taste, apparently!). So finding something to cook that they would like (that wasnt indian food!) seemed difficult.\n\nSo… chili to the rescue! I make my chili meatless and with loooooads of veggies (way more than the usual chili con carne have), and I like to add some cacao for a deeper, earthier flavor. I had to omit some spices, but I will transcribe the recipe I usually make so you can enjoy it to the fullest!\n\nFor those who watch the videos: im so sorry about the terrible picture quality. But cooking in a new kitchen with limited resources and at 40 degrees temperature, being a good photographer was the least of my worries :)\n\n\n  400 g cooked kidney beans (rajma), about 3 cups\n  2 cloves of garlic, very finely chopped\n  2 medium onions, finely chopped\n  3 red bell peppers, finely chopped (you can sub one for a different color pepper)\n  2 tomatoes, chopped\n  300-400 g tomato puree\n  1 tbsp tomato paste\n  Spices (adjust to your taste): 1/2-1 tsp cumin, _1/2 tsp oregano optional_, 1/4 tsp black pepper, _1/4 tsp cinnamon powder optional_, 1 tbsp cacao powder, 1-2 tbsp sugar, _10 g of dark cooking chocolate optional_, 1 tsp of chipotle paste _(you can substitute it for 1 tsp of red chili powder and, if you want, cook the peppers on an open flame for a couple of minutes to get that smoky flavor one gets from the chipotle.)_\n  _Optional: 1/2 cup of corn grains, raw_ \n  Salt\n\n\n\n  Process\n    \n      In a large pot or pan with 2-3 tbsp olive oil, add the onions and garlic with 1/4 tsp of salt. Cook on medium-low heat for about 20 minutes until nice and soft.\n      Add the peppers and corn with 1/4 tsp of salt and cook, covered, for about 10 minutes until the peppers start to soften.\n      Add the spices (except for the chocolate) and cook 1-2 minutes. Then, add the tomato paste, puree and the tomatoes chopped, along with 1/4 tsp salt and 1/2 cup of water and cook on a low heat, uncovered.\n      After 15-20 minutes it should start to be nice and thick. It should cook for at least 20-30 minutes, so add a bit of water if it is becoming too dry.\n      When there are only a couple of minutes left for it to finish, add the chocolate and mix it well so it melts. Then, taste and add salt, chili or even chocolate if you need it.\n      Serve nice and warm. It can stay in the fridge for 3-4 days, and it even gets better flavor! It is also freezer-friendly, so I usually make a huge batch and freeze some for another week.\n    \n  \n\n\n",
         tags: ["vegan","vegetarian"],
-        id: 113
+        id: 115
     });
     
 
@@ -1040,7 +1058,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nMi novio (que tan maravillosamente se encarga de esta página, y que es el responsable de que sea tan bonita) adora desayunar salchichas. A mí no me hace mucha gracia eso, porque se hincha de grasa y carne procesada. Pero el resto de cosas que le gusta desayunar suelen involucrar cocinar un buen rato, así que yo tenía mucho interés en encontrarle un desayuno salado, sin carne, y que fuera rápido de preparar.\n\nY así, nacieron estas salchichas: especiadas, con buena textura, que requieren algo de tiempo para prepararlas pero después aguantan bien en el frigo (o congeladas), pudiendo servir como desayuno, pero también en relleno de pizzas y sandwiches. Si lo probáis, os encantará! De hecho, a mí me gusta más su sabor que el de las salchichas clásicas :)\n\n\n  1/2 cup (125 mL) garbanzos o judías blancas cocidas, aplastadas con un tenedor\n  Especias: 1 tsp ajo en polvo, 1.5 tsp semillas de hinojo un poco machacadas (en la receta original sugería 1 tsp de hinojo molido como sustitución, pero creo que queda mejor con semillas enteras machacadas), 1 tsp pimentón picante, 1 tsp oregano, 1/2 tsp tomillo, 1/4 tsp pimienta negra molida\n  1/4 cup levadura de cerveza desamargada (opcional, pero da buen sabor)\n  1 tbsp concentrado de tomate\n  1 cup caldo de verduras (Yo uso aprox 1.5 tbsp de polvo de caldo de verduras y luego añado agua)\n  1+1/4 cups gluten\n  2 tbsp salsa soja\n\n\n  Elaboración\n    \n      Primero, ve preparando el agua en la olla donde vayas a cocinar al vapor.\n      Mezcla en un bol la levadura y el gluten. En otro bol diferente, mezcla el resto de ingredientes.\n      Echa los ingredientes húmedos en la mezcla de levadura y gluten y mézclalo bien, hasta tener una bola elástica que forma como “fibras” (que son las proteínas!)\n      Dale la forma que quieras: puedes hacer salchichas pequeñas o un gran tronco de embutido. Luego, envuelve cada trozo con tela de hacer queso.\n        \n          Si no tienes tela de este tipo, te recomiendo que uses gasas estériles (Si tienes algún médico en la familia, seguro que tienes gasas por tu casa!)\n        \n      \n      Ponlas sobre la bandeja para hacerlas al vapor y cocínalas unos 35 min para hacer salchicas, 50 min para hacer un embutido/salchichón grande. El tiempo depende muchísimo del tamaño de los trozos. Si te quedas con dudas, puedes cortarlas por la mitad: la textura debe cambiar, dejando de verse esa especie de fibras y pasando a ser compacta.\n      Cómelas tibias o resérvalas para después.\n    \n  \n\n\n",
         tags: ["vegano","vegetariano","seitán"],
-        id: 114
+        id: 116
     });
     
 
@@ -1049,7 +1067,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nMy boyfriend (who so lovingly codes everything for my website, and is the one responsible for the gorgeous look it has!) loves sausages for breakfast. It is one of the few things that I don’t like him eating, since it is very fatty, processed, unhealthy meat. The only other things he would like for breakfast usually involve a long time of cooking, so I have been trying to come up with a savory breakfast for him that does not include chicken and can be cooked fast in the morning.\n\nSo, these sausages came to be: meaty, spicy sausages, that take a little bit of prepping time but that can last in the fridge (or freezer) for a while, making for an easy breakfast, but also awesome in pizzas or sandwiches. You will be gladly surprised when you try it! In fact, I like these better than traditional sausages :)\n\n\n  1/2 cup cooked chickpeas or white beans, mashed with a fork\n  Spices: 1 tsp garlic powder, 1.5 tsp crushed fennel seeds (the recipe I used in the beginning suggested 1 tsp of ground fennel seed instead, but I rather prefer the crushed seed version), 1 tsp spicy paprika, 1 tsp oregano, 1/2 tsp thyme, 1/4 tsp black pepper\n  1/4 cup nutritional yeast (optional)\n  1 tbsp tomato paste\n  1 cup of vegetable broth\n  1+1/4 cups of vital wheat gluten\n  2 tbsp soy sauce\n\n\n\n  Process\n    \n      Firstly, prepare your water in the steamer.\n      Mix in a bowl the nutritional yeast and the wheat gluten. In a different bowl, mix all the other ingredients.\n      Pour the wet ingredients into the dry and mix thoroughly. You will end up with an elastic ball that forms “threads” (those are your proteins!).\n      Make the shape you want: either form small sausages or one big loaf. Cover each sausage/loaf with cheese cloth.\n        \n          If you don’t have any cheese cloth, I recommend using sterile gauze pads (If you have a doctor in the family, you will probably have some around the house!)\n        \n      \n      Place on your steamer and steam about 35 minutes if making small sausages, or about 50 min if making one big loaf. The cooking time depends a lot on the size of your sausages, so it can vary a lot. If in doubt, just cut it in half and check that the center has changed its texture, losing that “thready” property it had when raw.\n      Eat immediately or save for later.\n    \n  \n\n\n",
         tags: ["vegan","vegetarian","seitan"],
-        id: 115
+        id: 117
     });
     
 
@@ -1058,7 +1076,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEl chowmein es un plato indo-chino, muy típico en Nepal: streetfood que sirven en los sitios más cutres, pero que está buenísimo.\n\nNormalmente se hace con fideos hechos de harina de trigo integral, pero yo he decidido sustituirlos por verdura espiralizada. En este caso he usado nabos, pero también servirían otros tubérculos de color blanco, que no tengan sabor dulce.\n\nLos más típicos son los Veg Chowmein (vegetariano) y el Chicken Chowmein (de pollo), aunque también pueden llevar otras carnes, gambas o huevo. A veces yo lo hago con tofu (para tener algo de proteína manteniéndolo vegano), pero para quien quiera, se le puede añadir la carne o las gambas a la vez que las verduras para que se frían juntas. Y por supuesto, las cantidades de verdura son orientativas.\n\nEs un plato muy fuerte y sabroso, con toques dulces y picantes. Espero que os guste.\n\n\n  3 nabos espiralizados (360 g) (sustituible por noodles de trigo integral)\n  1/4 de repollo, cortado fino (300g) (puedes usar la espiralizadora para cortarlo!)\n  1/2 pimiento rojo, cortado en tiras (60g)\n  2 cebollas medianas o una grande (100g) (preferiblemente morada)\n  Otras verduras, opcionales, por ejemplo un manojo de judías verdes hervidas\n  Opcional: 250 g de tofu\n  2 dientes de ajo bien picados o bien 1 tsp de pasta de ajo (garlic paste)\n  Unas tiras de jengibre fresco (que se echarían con las verduras picadas) o bien 2 tsp de pasta de jengibre (ginger paste, que se echaría con el ajo)\n  Opcional: 1 huevo\n  Opcional: ajetes, para echar al final\n  4 tsp de salsa soja (se podría sustituir la mitad por salsa de ostras, en el caso de los no-vegetarianos)\n  1/2 tsp de comino\n  1 tsp de pasta de chili rojo o bien chili en polvo (esto se debe adaptar al gusto; con 1 tsp queda bastante picante)\n  sal (si la salsa soja es muy salada, quizá no la necesites)\n  Opcional: 2 tsp de vinagre de arroz, zumo de lima, o similar\n  2 cucharadas de aceite vegetal neutro (por ejemplo, de girasol)\n  Para servir: ketchup y salsa de chili (tipo Sriracha)\n\n\n\n  Elaboración\n    \n      En una sartén suficientemente grande,  a fuego medio-alto, pon una cucharada de aceite y luego fríe el tofu cortado en cubos para que se dore. Tardará unos 5 minutos. Después, sácalo y resérvalo para después.\n      Echar el resto del aceite a la sartén y añadir la cebolla. Rehogar unos 5 minutos. Cuando empiece a ablandarse, añadir el resto de las verduras y cocinarlas hasta que estén blandas.\n      Echar el ajo y el jengibre y cocinar unos 2-3 minutos para que pierdan el sabor a crudo.\n      Agregar los “noodles” de verdura (en este caso, nabo); remover bien y después echar la salsa por encima.\n      Cocinar unos 5 minutos o hasta que los “noodles” estén blandos. Probarlo por si necesitara sal.\n      Servir con un poco de kétchup y de salsa de chili por encima.\n    \n  \n\n\nInformación nutritional, por 1/3 receta\n\n  334 kCal\n  15.5 g H de C netos, 6.2 g fibra, 21.7 g H de C totales\n  16.4 g proteina\n  22.2 g grasa\n\n",
         tags: ["bajo en hidratos","vegano","vegetariano","soja","espiralizado","indio"],
-        id: 116
+        id: 118
     });
     
 
@@ -1067,7 +1085,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nChowmein is an indo-chinese dish, very typical from Nepal: streetfood served often in doubtious places, but delicious!\n\nNormally this would use whole-wheat noodles, but I decided to substitute them for spiralized vegetables. I am using turnips, but you could use other white vegetables. It also usually has carrot but I am avoiding it to keep it low-carb.\n\nThe most popular ones are Veg Chowmein (vegetarian) and Chicken Chowmein (chicken), although other types of meat can be used, or shrimp or egg. I sometimes make it using tofu (to have some protein but keep it vegan), but whoever wants to can add the meat or shrimp along with the vegetables so they fry together. And of course, quantities are just to orientate you, and can be adapted!\n\nThis is a strong and tasty dish, spicy and slightly sweet, perfect for 3-4 people. I hope you like it.\n\n\n  3 spiralized turnips, 360g (or you can substitute for whole-wheat noodles)\n  1/4 cabbage (300g), thinly sliced (you can use the spiralizer for this!)\n  1/2 red bell pepper (60g), cut in trips\n  1 medium red onion (100g)\n  Other optional vegetables, such as a handful of boiled green beans\n  250 g firm tofu (optional)\n  2 garlic cloves very finely chopped or 1 tsp garlic paste\n  Strips of fresh ginger (that should be added with the other vegetables) or 2 tsp ginger paste (that would be added with the garlic)\n  3 eggs (optional)\n  Optional: spring onions, for garnishing\n  4 tsp soy sauce (half could be substituted for oyster sauce, for non-vegetarian people)\n  1/2 tsp cumin\n  1 tsp red chili paste or red chili powder (this should be adapted to taste; 1 tsp is very spicy)\n  Salt. \n  Optional: 2 tsp rice vinager, lime juice, or something similar\n  3 tbsp of coconut oil\n  To serve: ketchup and chili sauce (such as Sriracha)\n\n\n\n  Process\n    \n      In a big enough pan, over medium-high heat, put a tablespoon of oil and then fry the cubed tofu until golden, for about 5 minutes. Later, take it out and put aside for later.\n      Pour the rest of the oil in the pan and add the onion. Let them cook for 5 minutes. When they start to turn translucent, add the rest of the vegetables and cook until tender.\n      Add the garlic and ginger and cook for 2-3 minutes so it loses the raw flavor.\n      Add the vegetable “noodles”, mix well and then pour the sauce over everything.\n      Cook for about 5 minutes or until the “noodles” are tender. Check for salt.\n      Serve with some kétchup and chili sauce on top.\n    \n  \n  Nutritional information, per 1/3 recipe\n    \n      334 kCal\n      15.5 g net carbs, 6.2 g fiber, 21.7 g total carbs**\n      16.4 g protein\n      22.2 g fat\n    \n  \n\n",
         tags: ["low-carb","vegan","vegetarian","soy","indian","spiralized"],
-        id: 117
+        id: 119
     });
     
 
@@ -1076,7 +1094,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nBueno, esto en realidad no es una receta… Pero me encanta tener esto para desayunar, está buenísimo, es súper práctico para tener en casa y me deja muy satisfecha… Así que he pensado en compartirlo!\n\nA mí me encanta tomar esto con yogur o con compota de manzana, pero todo vale!\n\n\n  1 vaso de avena\n  1/4 vaso de pasas o de arándanos secos, o más al gusto; las puedes cortar en trozos más pequeños si quieres\n  1/2 vaso de las semillas que quieras. Yo recomiendo: sésamo, lino, pipas de girasol, pipas de calabaza, trigo sarraceno\n\n\n\n  Elaboración\n    \n      Mezcla todo y ponlo en un bote.\n      Disfruta del desayuno!\n    \n  \n\n\n",
         tags: ["avena","dulce"],
-        id: 118
+        id: 120
     });
     
 
@@ -1085,7 +1103,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\n\nSo this is not really a recipe… But I love to have it for breakfast, and it is so handy and so delicious and so filling that I thought I would share it! For seeds you can substitute for whichever you want, to have 1/2 cup of seeds in total.\n\nI personally love this with yoghurt or with applesauce, but anything goes!\n\n\n  1 cup rolled oats\n  1/4 cup of raisins or dried cranberries (or more, to taste; you can chop them if you want)\n  1/2 cup of mixed sesame, flax, sunflower seeds, pumpkin seeds, buckwheat\n\n\n\n  Process\n    \n      Mix everything and put it in a jar.\n      Have a delicious breakfast!\n    \n  \n\n\n",
         tags: ["oats","sweet"],
-        id: 119
+        id: 121
     });
     
 
@@ -1094,7 +1112,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nEn mi familia gustan mucho los boquerones en vinagre. Pero a mí no me termina de convencer lo del pescado crudo, y dado que estoy intentando basar mi dieta en productos vegetales, recordé que había gente que hacía una versión vegana de los boquerones en vinagre pero con calabacín cortado muy finito…\n\nY sí! Sale bien y está muy buena!! Sobre todo en ensalada, pero también como aperitivo con una cerveza, es una manera estupenda de tomar algo fresco y sano en verano.\n\n\n  Calabacín\n  Vinagre de vino blanco\n  Aceite de oliva virgen extra\n  Sal\n  Ajo\n  Perejil fresco\n\n\n\n  Elaboración\n    \n      Cortar con un pela-patatas el calabacín, para formar tiritas muy finas. Echarles un poco de sal.\n      Poner el calabacín en un plato hondo o similar, cubrir con vinagre y dejar reposar en la nevera durante la noche (8 horas).\n        \n          Es mejor no dejarlo demasiado tiempo; si se deja 24 horas, queda muy vinagroso!\n        \n      \n      Sacar del frigorífico y escurrir bien.\n      Colocar por capas en un plato y cubrir con aceite de oliva virgen extra, ajo y perejil.\n      Dejar reposar al menos una hora con el aceite.\n      Listo.\n    \n  \n\n",
         tags: ["calabacin","bajo en hidratos"],
-        id: 120
+        id: 122
     });
     
 
@@ -1103,7 +1121,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nIn my family everybody loves “boquerones en vinagre”, a typical spanish appetizer made of raw anchovies that are dipped in vinager until they change their texture, and then eaten with olive oil and garlic. However, I am not a big fan of raw fish, and since I am trying to base my eating in plants, I remembered I heard abuot vegans making “calabacín en vinagre”, zucchini in vinager, so I thought I would give it a go.\n\nAnd yes, it was a great idea! The texture and flavor are perfect to eat as they are with some beer in summer, or in a light and fresh salad.\n\n  \n  Zucchini\n  White vinager\n  Extra virgin olive oil\n  Salt\n  Garlic\n  Fresh parsley\n\n\n\n  Process\n    \n      Cut the zucchini very thin using a potato peeler, to form thin strips. Add a little bit of salt.\n      Put the zucchini in a deep dish, cover in vinager and let it rest in the vinager overnight (8 hours).\n        \n          It’s best not to leave it for too long; if left for 24 hours, it tastes too much like vinager!\n        \n      \n      Take it out from the meat and drain properly.\n      Put the zucchini in layers in a plate and add the oil, chopped garlic and parsley.\n      Leave it to rest for at least an hour.\n      It’s done.\n    \n  \n\n",
         tags: ["zucchini","low-carb"],
-        id: 121
+        id: 123
     });
     
 
@@ -1112,7 +1130,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nUna salsa deliciosa, con sabores mejicanos. Facilísima de hacer y tan rica que me la como a cucharadas :D\n\n\n  400 g judías rojas hervidas\n  1 tbsp concentrado de tomate\n  1-2 tbsp zumo de limón\n  1/4 tsp pimienta negra molida\n  1/4 tsp canela\n  1/2 tbsp cebolla en polvo\n  1/4 tsp ajo en polvo\n  Sal, al gusto\n  Opcional: aceite de oliva virgen extra, al gusto.\n  Opcional: cilantro, para mezclar o para añadir al final.\n\n\n\n  Elaboración\n    \n      Escurrir las judías y enjuagarlas.\n      Batirlo todo bien.\n      Comer.\n    \n  \n\n",
         tags: ["vegano","vegetariano"],
-        id: 122
+        id: 124
     });
     
 
@@ -1121,7 +1139,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nA delicious, spicy dip, with mexican flavours. Incredibly easy to make and so tasty that I eat it by the spoonful :D\n\n\n  400 g boiled kidney beans\n  1 tbsp tomato paste\n  1-2 tbsp lemon juice\n  1/4 tsp ground black pepper\n  1/4 tsp cinnamon\n  1/2 tbsp onion powder\n  1/4 tsp garlic powder\n  Salt, to taste\n  Optional: extra virgin olive oil, to taste.\n  Optional: coriander, to mix in or to garnish.\n\n\n\n  Process\n    \n      Drain and rinse the beans.\n      Process everything.\n      Eat.\n    \n  \n\n",
         tags: ["vegan","vegetarian"],
-        id: 123
+        id: 125
     });
     
 
@@ -1130,7 +1148,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEl chicken Tikka Masala (que también se puede hacer con paneer o con tofu para mantenerlo vegetariano) es uno de los platos más típicos de los restaurantes indios. Tiene una salsa espesa de cebolla y tomate, picante y con un toque dulzón muy agradable, que gusta a todo el mundo.\n\nAdemás, es más fácil de hacer de lo que parece. No requiere muchos ingredientes, y es una receta infalible. El truco para una salsa suave es que los tomates los useis pelados; para ello, escáldalos antes: los pasas primero por agua que acaben de hervir y después por agua fría, para que se suelte la piel y sean más fáciles de pelar.\n\nPara quienes quieran hacer esta receta vegetariana o vegana, se puede emplear paneer tikka o tofu tikka en lugar de pollo, y el yogur puede sustituirse por leche de coco. En esos casos recomiendo usar solo 2/3 partes del jengibre.\n\n\n  700 g chicken tikka o bien 500 g paneer tikka \n  4 tomates pelados (450 g)\n  1 cebolla picada (110g)\n  3 dientes de ajo picados o 1 tsp garlic paste\n  2'5 cm jengibre picado o 1.5 tsp ginger paste\n  Estevia al gusto (equivalente a 2 cdas azucar moreno)\n  1 cucharada de pasta de tomate (o 1'5 de tomate frito, aunque no es lo mismo!)\n  2 tsp garam masala\n  1/4 tsp chili o al gusto\n  3 tbsp de aceite o de _ghee_\n  Opcional: 4 tbsp nata de montar (o yogur o leche de coco)\n\n\n\n  Elaboración\n    \n      Calentar el aceite y freir las cebollas unos 5 min.\n      Añadir el ajo y jengibre y cocinar 2 min.\n      Añadir las especias y remover, 30 seg.\n      Añadir el resto de ingredientes. Cubrir y cocinar lento 20 min.\n      Quitar del calor y batir la salsa ocn una batidora. Añadir la nata y el chicken tikka.\n      Dejar que hierva unos minutos y servir con arroz pilao.\n    \n  \n  Información nutricional, por 1/5 de la salsa (para información sobre el pollo/paneer/tofu tikka, visita la receta de tikka:\n    \n      148 kCal\n      5.1 g H de C netos, 1.6 g fibra, 6.7 g H de C totales**\n      1.4 g proteina\n      13 g grasa\n    \n  \n\n",
         tags: ["pollo","indio","currys"],
-        id: 124
+        id: 126
     });
     
 
@@ -1139,7 +1157,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nChicken Tikka Masala (that can also be made with paneer or tofu to keep it vegetarian) is one of the most typical dishes in indian restaurants. It has a thick onion and tomato sauce, spicy with a sweet touch, that is always a hit.\n\nOn top of that, it is easier to make than it seems. It doesn’t require many ingredients, and it always comes out great. Try it!\n\n\n  700 g chicken or paneer tikka \n  4 peeled tomatoes (450 g or 3 cups)\n  1 chopped medium onion (110g)\n  3 garlic cloves, chopped, or 1 tsp garlic paste\n  2'5 cm minced ginger or 1.5 tsp ginger paste (use 2/3 of the amount if making paneer or tofu tikka masala)\n  Stevia to taste (equivalent to 2 tbsp brown sugar)\n  1 tbsp tomato paste\n  2 tsp garam masala\n  1/4 tsp chili or to taste\n  2 tbsp oil or ghee\n  Optional: 4 tbsp heavy cream (or yoghurt). (You can substitute it for coconut milk if you want a vegan Tikka Masala.) \n\n\n\n  Process\n    \n      Heat up the oil and fry the onions for 5 min.\n      Add the garlic and ginger and cook for 2 min.\n      Add the spices and mix around, cooking it for 30 seg.\n      Add the rest of the ingredients, cover and cook on low heat for 20 min.\n      Take off the heat and process the sauce until smooth. Add the cream or yoghurt, and then the chicken or paneer tikka.\n      Let everything boil together for a few minutes and serve with pilao rice.\n    \n  \n  Nutritional info, for 1/5 of the sauce (for information on the chicken/paneer/tofu tikka, visit the tikka recipe:\n    \n      148 kCal\n      5.1 g net carbs, 1.6 g fiber, 6.7 g total carbs**\n      1.4 g protein\n      13 g fat\n    \n  \n\n",
         tags: ["chicken","indian","curry"],
-        id: 125
+        id: 127
     });
     
 
@@ -1148,7 +1166,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nEl chicken tikka, que se puede hacer también con paneer o con tofu, es un aperitivo fácil de hacer, muuy versátil para añadir a otros platos o para tomarlo tal cual.\n\nA mí me gusta hacerlo con trozos grandes de pimiento rojo y de cebolla, para que haya más color y diferentes sabores.\n\nEstá muy bueno tal cual, en ensalada o en sándwiches, pero además es la base para hacer el plato típico Chicken Tikka Masala, uno de los platos más populares de los restaurantes indios.\n\n\n  2 pechugas de pollo en trozos (600 g), o bien 500 g de paneer o tofu firme en cubos\n  150 g yogur natural (usar yogur vegano con tofu para que sea un plato vegano)\n  Opcional: 2 tbsp cilantro fresco picado\n  1/2 tsp chili o al gusto\n  1/4 tsp de pimentón\n  1 tsp sal\n  1 tbsp pasta de ajo, 1 tbsp pasta de jengibre\n  1/4 tsp curcuma\n  Zumo de medio limón\n  Opcional: 1/2 cebolla y 1/2 pimiento rojo en trozos grandes\n\n\n\n  Elaboración\n    \n      Poner todos los ingredientes en un bol y marinar al menos 2 horas.\n      Poner la carne, cebolla y pimiento en brochetas o en una bandeja de horno. (si se usan palillos de madera, remojarlos un par de horas y cubrir la parte descubierta con papel albal)\n        \n          Otra opción, en lugar de hacerlo al horno, es hacerlo sin brochetas, a fuego alto, en una sartén con aceite.\n        \n      \n      Meter bajo el grill del horno 20 min girandolo cada 5 y echando la salsa del marinado por encima si se seca.\n      Una vez empiece a quemarse un pelin en las esquinas esta hecho.\n      Usar en tikka masala, en pizza, en sandwich, en ensalada…\n    \n  \n  Información nutricional, por 1/5 de la receta, sin verduras\n    \n      Con pollo (1 pechuga por ración):\n        \n          162 kCal\n          1.7 g H de C netos, 0.1 g fibra\n          27.4 g proteina\n          4.4 g grasa\n        \n      \n      Con paneer (100 g paneer por ración):\n        \n          327 kCal\n          5 g H de C netos, 0.1 g fibra\n          22.3 g proteina\n          24.8 g grasa\n        \n      \n      Con tofu firme (100 g tofu por ración):\n        \n          173 kCal\n          3.7 g H de C netos, 2.4 g fibra\n          18.2 g proteina\n          10.1 g grasa\n        \n      \n    \n  \n\n",
         tags: ["pollo","indio"],
-        id: 126
+        id: 128
     });
     
 
@@ -1157,7 +1175,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nChicken tikka, that can also be made with paneer or tofu, is an easy to make appetizer, very versatile to add to other dishes, or to just eat it plain.\n\nI like to make it with big chunks of onion and red bell pepper, to have more color and different flavors.\n\nIt is good as it is, in salad or sandwiches, and it is also the base for the typical dish Chicken Tikka Masala, one of the most popular foods at indian restaurants.\n\n\n  2 big chicken breasts (600g), cubed, or 500 g paneer or firm tofu, cubed\n  1/2 cup (125g) greek-style yoghurt. Use vegan yoghurt and tofu for a vegan dish\n  Optional: 2 tbsp fresh coriander, chopped\n  1/2 tsp chili or to taste\n  1/4 tsp paprika\n  1 tsp salt\n  1 tbsp ginger paste, 1 tbsp garlic paste\n  1/4 tsp turmeric\n  Juice of half a lemon\n  Optional: 1/2 onion and 1/2 red bell pepper, in big chunks\n\n\n\n  Process\n    \n      Put all the ingredients in a bowl and marinate for at least 2 hours.\n      Put the meat, onion and pepper into skewers and on an oven tray. (if using wooden skewers, soak them in water for a couple of hours and then cover the part that doesn’t have meat with some aluminum foil).\n        \n          Another option, instead of making it in the oven, is to make it in a pan over high heat with some oil, without skewers.\n        \n      \n      Put under the grill for 20 min turning it every 5 and pouring some of the marination sauce on top if it dries out.\n      Once it starts getting slightly burnt in the corners, it is done.\n      Use for tikka masala, pizza, sandwiches, salad…\n    \n  \n  Nutritional info, per 1/5 recipe without vegetables\n    \n      With chicken (1 chicken breast per serving):\n        \n          162 kCal\n          1.7 g net carbs, 0.1 g fiber\n          27.4 g protein\n          4.4 g fat\n        \n      \n      With paneer (100 g paneer per serving):\n        \n          327 kCal\n          5 g net carbs, 0.1 g fiber\n          22.3 g protein\n          24.8 g fat\n        \n      \n      With firm tofu (100 g tofu per serving):\n        \n          173 kCal\n          3.7 g net carbs, 2.4 g fiber\n          18.2 g protein\n          10.1 g fat\n        \n      \n    \n  \n\n\n",
         tags: ["chicken","indian"],
-        id: 127
+        id: 129
     });
     
 
@@ -1166,7 +1184,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nLos falafel son una especie de albóndigas de garbanzos típicas de Oriente Medio. Tradicionalmente son veganos y se hacen friéndolos.\n\nYo no soy muy fan de freír las cosas (no sólo por la grasa, sino porque me da un poco de miedo!) así que llevo un tiempo intentando encontrar una buena receta de falafel que no requiera freirlos. Sin embargo, la mayoría de recetas utilizan huevo, o bien acaban empleando pan rallado o similar…\n\nAsí que se me ocurrió usar harina de garbanzo y el resultado es muy bueno. La primera vez las hice sin aceite en la masa; también quedaron buenas, pero quizá demasiado secas, así que os recomiendo echarlo.\n\nQuedan falafel crujientitos y un poco húmedos por fuera, perfectos para lo que queráis.\n\n\n  400 g de garbanzos cocidos y escurridos\n  1 cebolla pequeña\n  1 (o 2) diente de ajo\n  Un manojo de perejil, aprox 1/2 cup (se puede sustituir la mitad o todo por cilantro)\n  4 cucharadas de harina de garbanzo\n  2 tsp de cilantro en polvo \n  2 tsp de comino en polvo\n  1 tsp de sal\n  1/2 tsp de bicarbonato\n  3 cucharadas de aceite de oliva (se puede añadir un poco más si se quiere)\n\n\n\n  Elaboración\n    \n      Precalentar el horno a 180C\n      Batir todos los ingredientes. Debemos obtener una masa espesa.\n      Con las manos, formar los falafeles, en forma de bola o bien en forma de disco, y colocarlos sobre una bandeja de horno engrasada, sin que se toquen unos a otros.\n      Hornear aprox. media hora, o hasta que estén un poco dorados y crujientes por fuera.\n    \n  \n\n\nSírvelos con salsa de tahini, con salsa de yogur y menta, en pan de pita… Lo que prefieras.\n",
         tags: ["garbanzos","vegano","vegetariano"],
-        id: 128
+        id: 130
     });
     
 
@@ -1175,7 +1193,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nFalafel are a sort of “meatball” made of chickpeas, typical from the Middle East. they are traditionally vegan and deep-fried.\n\nI am not a bit fan of frying (not just because of the fat, but because I’m actually a bit scared!) so I’ve been trying to find a good no-fry falafel recipe. But most of the ones I found used eggs, or ended up adding a whole lot of breadcrumbs into the mixture, or something of the sort…\n\nSo I thought I should try with chickpeas + chickpea flour, and the result is very good. The first time they were completely oil-free; they were tasty but a little bit dry, so I would recommend you use it.\n\nYou will get crunchy falafel with a moist inside, perfect for any time.\n\n\n  400 g boiled chickpeas\n  1 small onion\n  1 (or 2) garlic cloves\n  A handful of parsley, aprox 1/2 cup (you can substitute half or everything for fresh coriander)\n  4 tbsp chickpea flour\n  2 tsp powdered coriander\n  2 tsp powdered cumin\n  1 tsp salt\n  1/2 tsp baking soda\n  3 tbsp of olive oil (you can add a bit more if you want to)\n\n\n  Process\n    \n      Preheat the oven to 180C\n      Process all of the ingerdients until you have a firm mixture.\n      With your hands, form your falafel as little balls or disks, and put them in a greased oven tray, without them touching one another.\n      Bake for about half an hour, or until they are slightly golden and crunchy on the outside.\n    \n  \n\n\nSerse with tahini dip, with yoghurt and mint sauce, in a pita bread sandwich… Whatever you like best.\n",
         tags: ["chickpeas","vegan","vegetarian"],
-        id: 129
+        id: 131
     });
     
 
@@ -1184,7 +1202,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\nUna buena forma de esconder un poco de verduras en forma de pizza… Apenas se nota que es una masa de pizza hecha de coliflor!\n\nY una forma estupenda de tener una cena con poquitos hidratos de carbono, pero mucha fibra!\n\nNo seáis escépticos y dadle una oportunidad. Está buenísima!\n\n\n  1 coliflor grande ó 5 tazas (600g) de arroz de coliflor\n  2 huevos\n  1/4-1/2 tsp de sal\n  1 tsp de orégano\n  3/4 cup de parmesano rallado (70g)\n\n\n  Elaboración\n    \n      Meter la coliflor en dos tandas durante 5 minutos en el microondas. Después, ponerla toda en un trapo, cerrarlo y usar el trapo para escurrir todo el agua que podáis de la coliflor. Si te empiezan a doler los brazos vas por buen camino. Hay que dedicarle 5 ó 10 minutos a esto, para que la masa final quede con buena textura.\n      Una vez escurrida la coliflor, mezclar con el resto de ingredientes y precalentar el horno a 180C\n      Poner la masa sobre un papel de horno en una bandeja de horno y darle forma con las manos.\n        \n          El grosor será al gusto, pero es importante que sea homogéneo. Se puede hacer una pizza con en torno a 0.3 cm de grosor, o bien hacer tortitas más finas que luego se pueden rellenar y enrollar.\n        \n      \n      Hornear hasta que se dore. Es buena idea ponerla para los últimos minutos en la parte baja del horno para asegurarse de que la base no queda húmeda.\n      Sacar del horno, ponerle los toppings que se quiera, meter un par de minutos más para que se derrita el queso, y… voilà!\n    \n  \n  Información nutricional, por media pizza (con la receta se hacen dos pizzas)\n    \n      137 kCal\n      5.2 g H de C netos, 3 g fibra, 8.2 g H de C totales\n      11.9 g proteína\n      7 g grasa\n    \n  \n\n\n",
         tags: ["coliflor","vegetariano","bajo en hidratos"],
-        id: 130
+        id: 132
     });
     
 
@@ -1193,7 +1211,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\nA good way of sneaking some vegetables inside of the pizza… It’s very hard to tell the crust is made of cauliflower!\n\nAnd it’s a great way of having a low-carb, high-fiber dinner.\n\nDon’t be skeptical and give it a try. It is delicious!\n\n\n  1 big cauliflower or 5 cups (600g) of cauliflower rice\n  2 eggs\n  1/4-1/2 tsp salt\n  1 tsp oregano\n  3/4 cup grated parmesan (70g)\n\n\n  Process\n    \n      Put the cauliflower rice in two batches in the microwave for 5 minutes. Afterwards, put all the cooked cauliflower into a clean teatowel, fold it and squeeze as much water as you can. If your arms are starting to hurt, you are doing it right. You should spend 5 or 10 minutes doing this, so the final result has good consistency.\n      Once squeezed properly, mix all the ingredients and preheat your oven to 180C\n      Poner la masa sobre un papel de horno en una bandeja de horno y darle forma con las manos.\n        \n          The thickness depends on your taste, but it should be even. For pizza I make it 0.3 cm thick, but you can also make tortillas making it very thin, and later on use them for wraps.\n        \n      \n      Bake until golden. It is a good idea to put it on the lower part of the oven for the last couple of minutes so that the base doesn’t end up soggy.\n      Take out of the oven, put the toppings you like, bake it for a couple more minutes so the cheese melts, and… voilà!\n    \n  \n  Nutritional information, for half a pizza (recipe makes two pizzas)\n    \n      137 kCal\n      5.2 g net carbs, 3 g fiber, 8.2 g total carbs\n      11.9 g protein\n      7 g fat\n    \n  \n\n",
         tags: ["cauliflower","vegetarian","low-carb"],
-        id: 131
+        id: 133
     });
     
 
@@ -1202,7 +1220,7 @@ var index = lunr(function () {
         category: ["salsa"],
         content: "\nYo no soy una gran fan de la mayonesa, pero de vez en cuando sí me apetece; pero tiene tantísima grasa que casi nunca la compro.\n\nHoy os traido una versión sana de la mayonesa, que a mí me gusta llamar “Tofunesa”. Esta sansa sin huevo tiene una textura sedosa, un sabor muy bueno, y no requiere habilidades especiales para hacerla (no hay riesgo de que se corte como la mayonesa!). Además, es MUY baja en grasa y alta en proteínas.\n\nEs evidente que no sabe exactamente igual que la original. Pero la textura y el sabor son muy buenos, y estoy segura de que no echaréis de menos la mayonesa si tenéis tofunesa en casa!\n\n\n  100 g tofu firme (yo uso el de mercadona)\n  40 g de yogur natural; utiliza yogur vegano para que tu tofunesa sea vegana\n  Pizca de sal\n  1/4 tsp mostaza de Dijon (yo utilizo 1/2 tsp, pero al final queda un sabor bastante fuerte)\n  1/2 tbsp aceite de oliva virgen extra\n  1/2 tbsp vinagre blanco\n  1/2 tbsp zumo de limón\n\n\n\n  Elaboración\n    \n      Batir hasta que esté bien suave. Probar por si necesitara más sal.\n      Comer.\n    \n  \n\n\n",
         tags: ["tofu","soja","vegano","vegetariano"],
-        id: 132
+        id: 134
     });
     
 
@@ -1211,7 +1229,7 @@ var index = lunr(function () {
         category: ["sauce"],
         content: "\nAlthough I am not a big fan of mayo, I do feel like eating it every now and then. But it is full of fat, so I rarely buy any.\n\nToday I bring you a healthier “mayonnaise”, that I like to call “Tofunnaise”. This eggless sauce is silky and delicious, doesnt require any special skills to make it (no risk of messing up, like with real mayo!), is VERY low fat and is high in protein.\n\nIt is obviously not exactly like the real deal. But it has a very nice flavor and texture, and I am positive you won’t miss the mayo if you have tofunnaise!\n\n\n  100 g of firm tofu\n  40 g of plain yoghurt, use vegan yoghurt for vegan tofunnaise\n  Pinch of salt\n  1/4 tsp of Dijon mustard (I  like to add 1/2 tsp, but it will have a strong taste)\n  1/2 tbsp extra virgin olive oil\n  1/2 tbsp white vinager\n  1/2 tbsp lemon juice\n\n\n  Process\n    \n      Process until smooth. Taste for salt.\n      Eat.\n    \n  \n\n",
         tags: ["tofu","soy","vegan","vegetarian"],
-        id: 133
+        id: 135
     });
     
 
@@ -1220,7 +1238,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\nEsta es mi receta favorita utilizando la espiralizadora.\n\nSe tarda literalmente 5 minutos en hacerla, es sana, sabrosa, completa… Podria comerla todos los dias!!\n\n\n  1 calabacin mediano, espiralizado\n  1/4 tsp de ajo en polvo\n  3 cucharadas de queso tipo Philadelphia (45g)\n  100 g atun al natural (de lata)\n  1+1/2 cucharada de aceite de oliva\n  1 tbsp vinagre de modena\n  Sal, pimienta\n\n\n\n  Elaboración\n    \n      En una sartén, poner una cucharadita de aceite a fuego medio. Cuando esté caliente, añadir el calabacin y cocinarlo con el ajo en polvo, sal y pimienta durante unos 2 minutos, el tiempo suficiente para que se reblandezca.\n        \n          Si se cocina en exceso, el calabacin soltara agua.\n        \n      \n      Añadir los quesitos al calabacin y remover todo bien para que se derritan y se forme una salsa.\n      Servir con atun por encima, aceite de oliva y vinagre.\n    \n  \n  Información nutricional, por toda la receta\n    \n      423 kCal\n      8.4 g H de C netos, 2.1 g fibra, 10.5 g H de C totales\n      25.1 g proteina\n      34.4 g grasa\n    \n  \n\n",
         tags: ["calabacín","espiralizado","pescado"],
-        id: 134
+        id: 136
     });
     
 
@@ -1229,7 +1247,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\nThis is, hands down, my favorite spiralized recipe.\n\nIt literally takes 5 minutes to put together, it’s healthy, flavourful, balanced… I could eat it every day!\n\n\n  1 medium sized zucchini, spiralized (200g)\n  1/4 tsp garlic powder\n  3 tbsp cream cheese (45g)\n  100g canned tuna, drained\n  1 and 1/2 tablespoon extra virgin olive oil\n  1tbsp Balsamic vinegar\n  Salt, pepper\n\n\n\n  Process\n    \n      In a pan, put a teaspoon of oil over medium heat. Once it’s hot, add the zoodles and cook with the garlic powder, salt and pepper for about 2 minutes, just enough time for them to start getting soft.\n        \n          If overcooked, the zoodles will release water.\n        \n      \n      Add the cheese and then mix everything, so the cheese melts and forms a sauce.\n      Serve with tuna, olive oil and vinager.\n    \n  \n  Nutritional information, for the whole recipe\n    \n      423 kCal\n      8.4 g net carbs, 2.1 g fiber, 10.5 g total carbs\n      25.1 g protein\n      34.4 g fat\n    \n  \n\n",
         tags: ["zucchini","spiralized","fish"],
-        id: 135
+        id: 137
     });
     
 
@@ -1238,7 +1256,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\nUna receta muy fácil, sana y sabrosa. Los diferentes sabores combinan muy bien, y con frecuencia le quito el jamon para hacer una versión vegana. Hacer la berenjena al vapor hace que su sabor sea muy “puro”, lo cual a mí me parece delicioso, pero si no eres muy “fan” de las berenjenas, esta receta no es para tí!\n\n\n  2 berenjenas\n  100 g de tofu en cubos\n  50-100 g de jamón cocido en trozos (lonchas o cubos) (opcional; se puede omitir para hacerlo vegano)\n  Para la salsa: 2 cucharadas de soja, 2 cucharadas de vino blanco (o bien 1 cucharada de vinagre y un poco de miel, al gusto), opcional: 1-2 dientes de ajo picados muy finos, opcional: 1/2 tsp pasta de jengibre, pimienta negra molida, sal (según cuánta sal tenga la salsa de soja), 1 cucharada de maizena (almidón de maíz)\n  Cilantro fresco, o bien perejil fresco para aquellos a quienes no les guste\n\n\n  Elaboración\n    \n      Preparar la olla donde se vaya a hacer la berenjena al vapor.\n      Cortar las berenjenas longitudinalmente y hacer unos cortes en la carne sin llegar al otro lado.\n      Colocar las berenjenas sobre la bandeja donde luego se hará al vapor.\n      Echar sobre la berenjena el tofu y el jamón, y luego echar la salsa por encima para que impregne la carne de la berenjena. Echar un poco de cilantro o de perejil por encima.\n        \n          Echa salsa sin que se salga de la berenjena; si sobra, guárdala y añádela un par de minutos antes de que acabe la cocción.\n        \n      \n      Cocinar al vapor unos 25 minutos o hasta que las berenjenas estén blandas por dentro. Poner algo más de cilantro o perejil por encima y servir.\n    \n  \n\n",
         tags: ["berenjena","soja","tofu","vegano","vegetariano"],
-        id: 136
+        id: 138
     });
     
 
@@ -1247,7 +1265,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\nA very easy to make, healthy and tasty recipe. The different flavours combine perfectly, and I often omit the ham for a vegan version. Steaming the eggplant makes the flavour stand out a lot, which I find lovely, but if you are not an eggplant fan, this is not for you!\n\n\n  2 eggplants\n  100 g cubed tofu\n  50-100 g cubed or sliced and chopped ham (optional; can be omitted for a vegan version)\n  For the sauce: 2 tbsp soy sauce, 2 tbsp white whine (or 1 tbsp vinager and a bit of honey, to taste), optional: 1-2 cloves of garlic finely chopped, optional: 1/2 tsp ginger paste, ground black pepper, salt (depending on how salty the soy sauce is), 1 tbsp corn starch\n  Fresh coriander, or fresh parsley for those who don't like coriander\n\n\n  Process\n    \n      Prepare a pan in which you will steam the eggplant.\n      Cut the eggplants lenghtwise and make some cuts into the flesh without going all the way through.\n      Put the eggplants on the recipient where you will steam them later..\n      Put the ham and tofu on top, and then pour the sauce over everything for it to impregnate the eggplant. Garnish with a little bit of coriander or parsley.\n        \n          Don’t spill the sauce; if there is too much, keep it and add it a couple of minutes before it is done cooking.\n        \n      \n      Steam for about 25 minutes until the eggplants are tender. Add some more coriander or parsley, then serve.\n    \n  \n\n",
         tags: ["eggplant","tofu","soy","vegan","vegetarian"],
-        id: 137
+        id: 139
     });
     
 
@@ -1256,7 +1274,7 @@ var index = lunr(function () {
         category: ["acompañante"],
         content: "\n\nEste curry nos encanta a mi chico y a mí. Él no es muy “fan” de comer verdura, pero cuando le hago esto, los champiñones desaparecen como por arte de magia! Y a mí me encanta no sólo por su sabor, sino también porque se tarda relativamente poco en hacer (lo que más trabajo lleva es picar los ingredientes!).\n\nEl resultado final es buenísimo, combinando genial con un poco de arroz basmati. Para quien quiera hacer una pequeña combinación, a mí me gusta añadirle trozos de paneer o de tofu un poco tostados (hechos a la plancha), para que la comida tenga un poco más de proteínas.\n\nUn curry muy fácil y rico, merece la pena probarlo!\n\n\n  250 g de champiñones, cortados en láminas\n  1 cebolla mediana (110g), picada finamente\n  1 tsp pasta de ajo (garlic paste)\n  1/2 tsp pasta de jengibre (ginger paste)\n  1 tomate mediano (140g)\n  1/2 tbsp concentrado de tomate\n  1/2 tsp garam masala\n  1/4 tsp cúrcuma\n  1/4 tsp canela\n  1/4 tsp comino\n  1/8 tsp de chili en polvo (o al gusto)\n  Sal, al gusto\n  Opcional: 1 tsp hojas secas de fenugreco (kasuri methi)\n  1 cucharada de zumo de limón o al gusto\n  Opcional: cilantro fresco para echar al final\n  2 cucharadas de aceite de coco\n\n\n\n  Elaboración\n    \n      En una sartén con una cucharada de aceite a fuego medio, echamos la cebolla con un poquito de sal y la doramos unos 5 minutos.\n      Añadimos el ajo y el jengibre y dejamos que se cocinen 1-2 minutos, para que pierdan el sabor a crudo.\n      Bajamos el fuego y echamos las especias en polvo y las cocinamos aprox. 1 minuto para que liberen un poco de aroma (si la sartén está muy seca y parece que se van a quemar, añadir un poco de agua).\n      Echar los champiñones picados con un poco de sal, remover bien, subir a fuego medio y cubrir con una tapa.\n      Cocinar removiendo frecuentemente unos 5-10 minutos hasta que los champiñones estén casi hechos.\n      Añadir el tomate y el concentrado de tomate. Cocinar un par de minutos hasta que el tomate se deshaga.\n      Parar el fuego, echar el fenugreco frotándolo un poco entre los dedos para machacarlo, echar un poco de limón y servir. A quien le guste, un poco de cilantro siempre le va bien!\n    \n  \n  Información nutricional,por un tercio de la receta\n    \n      125 kCal\n      6.2 g H de C netos, 2.2 g fibra, 8.4 g H de C totales\n      \n        \n          4 g proteina\n        \n      \n      9.5 g grasa\n    \n  \n\n",
         tags: ["vegano","vegetariano","indio","currys","bajo en hidratos"],
-        id: 138
+        id: 140
     });
     
 
@@ -1265,7 +1283,7 @@ var index = lunr(function () {
         category: ["side"],
         content: "\nThis is a dish that my bae and I love. He is usually not a big fan of vegetables, but when I make this, it disappears in no time! And I love it too not just because of the flavour, but because it takes very little time to make (the most annoying part is chopping the vegetables!).\n\nThe final result is very good, and combines wonderfully with some plain basmati rice. For those who want to, sometimes I like to add some pan-fried paneer or tofu to have some more protein in my meal.\n\nAn easy and  yummy curry, it’s worth trying!\n\n\n  250 g sliced mushrooms\n  1 medium brown onion (110g), finely chopped\n  1 tsp garlic paste\n  1/2 tsp ginger paste\n  1 medium-sized tomato (140g)\n  1/2 tbsp tomato paste\n  1/2 tsp garam masala\n  1/4 tsp turmeric\n  1/4 tsp cinnamon\n  1/4 tsp cumin\n  1/8 tsp powdered chili (or to taste)\n  Salt, to taste\n  Optional: 1 tsp dried fenugreek leaves (kasuri methi)\n  Lemon juice: 1 tbsp or to taste\n  Optional: fresh coriander to garnish\n  2 tbsp coconut oil\n\n\n  Process\n    \n      In a pan with a tablespoon of oil over medium heat, add the onion with a bit of salt and brown them for about 5 minutes.\n      Add the garlic and ginger and let them cook for 1-2 minutes, so they loose their “raw” flavour.\n      Turn down the heat and add the powdered spices and let them roast for about a minute to become more fragrant (if the pan is too dry and the spices might burn, add a bit of water).\n      Add the mushrooms with a bit of salt, mix, turn the heat to medium and cover.\n      Cook stirring frequently for about 5-10 minutes until the mushrooms are almost cooked.\n      Add the tomato and the tomato paste. Cook for a couple of minutes until the tomato is broken down.\n      Turn off the stove, add the fenugreek leaves crushing them between your fingers, add some lemon juice and serve. If you like, you can garnish with some coriander, too!\n    \n  \n  Nutritional information, for 1/3 of the recipe\n    \n      125 kCal\n      6.2 g net carbs, 2.2 g fiber, 8.4 g total carbs\n      \n        \n          4 g protein\n        \n      \n      9.5 g fat\n    \n  \n\n",
         tags: ["vegan","vegetarian","indian","curry","low-carb"],
-        id: 139
+        id: 141
     });
     
 
@@ -1274,7 +1292,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\nEstas bolitas de batata son de mis postres favoritos para navidad. La receta original la hacía con huevo y metiéndola al horno, pero esta es mucho más cómoda por no tener que hornearse!\nSon muy fáciles de hacer, sanas, y deliciosas!\n\n\n  250 g de puré de batata (la batata se hierve o se cocina en el microondas y después se aplasta con un tenedor)\n  150 g de azúcar o al gusto (se puede sustituir por estevia)\n  30 g de galletas en polvo, tipo vainilla, galletas de té o barquillo (yo uso galletas con sabor a vainilla)\n  1/4-1/2 tsp extracto de vainilla (si las galletas no tienen sabor)\n  150 g de coco rallado\n  Coco rallado extra, para rebozar\n\n\n\n  Elaboración\n    \n      Mezclamos todos los ingredientes hasta hacer una pasta. Si no queda suficientemente espeso para formar bolitas, añadir un poco más de galleta.\n      Formar las bolitas t rebozarlas en coco rallado.\n      Dejar enfriar en el frigorífico antes de servir para que estén un poco más duras.\n    \n  \n\n\n",
         tags: ["vegano","vegetariano","dulce"],
-        id: 140
+        id: 142
     });
     
 
@@ -1283,7 +1301,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nThese little coconut balls are one of my favourite things to serve during christmas. The original recipe called for egg and then required some baking, but I decided to substitute the egg to avoid the baking part!\n\nThey are incredibly easy to make, healthy, and so delicious!\n\n\n  250 g mashed sweet potato (baked, microwaved or boiled sweet potato, then mashed with a fork)\n  150 g sugar or to taste (can be substituted for stevia)\n  30 g powdered biscuits, tea-biscuit or wafer type (mine were low on sugar and vanilla flavour)\n  1/4-1/2 tsp vainilla extract (can be omitted if the biscuits are flavoured)\n  150 g shredded coconut\n  Some extra shredded coconut, to coat the balls\n\n\n  Process\n    \n      Mix all the ingredients to make a smooth mixture. If it is not thick enough to form the balls, add some more powdered biscuits.\n      Form some balls and then coat them with the shredded coconut.\n      Let it cold down a little bit in the fridge before serving it so they harden a little bit.\n    \n  \n\n\n",
         tags: ["vegan","vegetarian","sweet"],
-        id: 141
+        id: 143
     });
     
 
@@ -1292,7 +1310,7 @@ var index = lunr(function () {
         category: ["desayuno"],
         content: "\n\nEste es mi bizcocho de manzana favorito sin huevo, e incluso puede adaptarse para convertirla en vegana. Es súper húmeda y esponjosa y con muchísimo aroma a limón, y los trozos de manzana quedan perfectamente blanditos y horneados.\n\nLa receta usa aceite vegetal (yo uso de girasol), pero para hacerla más ligera sustituyo la mitad por yogur, y queda igual de esponjosa y de húmeda. Utiliza compota de manzana sin azúcar en vez de yogur para una versión vegana!\n\n\n  180g de harina (yo utilizo harina de trigo integral)\n  30g de maizena\n  16g de levadura química (un sobrecito)\n  150g de azúcar (Yo usé 100 g y luego añadí un poquito de estevia)\n  150g de leche (se puede usar leche de almendra si se quiere hacer un bizcocho vegano)\n  120g de de aceite vegetal (1/2 cup con 2 tbsp) o bien mitad aceite, mitad yogur natural o compota de manzana no azucarada\n  La ralladura de un limón\n  125-150 g de manzana golden en cubos (una manzana)\n\n\n  Elaboracion\n    \n      Precalentar el horno a 180 C\n      En un bol, mezclar la harina con la maizena y la levadura química. En otro bol, mezclar el aceite, la ralladura y el azúcar.\n      Coger una cucharada de la mezcla de harina y mezclarla con la manzana en cubos para que la manzana quede cubierta con un poco de harina. Reservar.\n      Echar la mezcla de aceite sobre los ingredientes secos y remover con una espátula, lo justo para que se mezcle pero sin mezclar en exceso (o quedará gomoso el bizcocho). Después, añadir las manzanas y mezclar.\n      Verterlo sobre un molde. Si se quiere, cubrir con unos trozos de manzana por encima para decorar.\n      Hornear 30-40 minutos, según el molde y según el horno, hasta que al pinchar en el centro, el pincho salga limpio.\n    \n  \n\n",
         tags: ["dulce","vegano","vegetariano"],
-        id: 142
+        id: 144
     });
     
 
@@ -1301,7 +1319,7 @@ var index = lunr(function () {
         category: ["breakfast"],
         content: "\n\nThis is my all-time favourite apple spongecake - eggless, and can be easily adapted into a vegan version. It is so moist and fluffy and lemony, and the pieces of baked apple are perfectly tender.\n\nThis can be made using exclusively vegetable oil (I usually use sunflower oil), but I like to lighten it up substituting half with yoghurt, and it turns out just as fluffy as the full-oil version. Use applesauce instead of yoghurt for a vegan version!\n\n\n  180 g flour (I used whole wheat flour)\n  30 g cornstarch\n  16 g baking powder\n  150 g sugar (I used 100 g and then added a bit of stevia)\n  150 g milk (you can use almond milk if you want to make a vegan cake)\n  120 g vegetable oil (1/2 cup plus 2 tbsp) or you can sub half with unsweetened yoghurt or with unsweetened applesauce\n  The lemon peel grind of one lemon\n  125-150 g of apple (I use one whole golden apple)\n\n\n\n  Process\n    \n      Preheat the oven to 180 C\n      In a bowl, mix the flour, cornstarch and the baking powder. In a different bowl, mix the oil, lemon peel grind and the sugar.\n      Take a spoonful of the flour mixture and mix it with the apple to coat the cubes. Leave on the side.\n      Pour the oil mixture over the flour mixture and mix, without overmixing it (or else the final result will be tough); then, add the apples and mix them in.\n      Pour in a greased mold. If desired, put some apple pieces on top to decorate.\n      Bake for 30-40 minutes, depending on the mold and the oven, until when inserting a knife in the middle, it comes out clean.\n    \n  \n\n",
         tags: ["sweet","vegetarian","vegan"],
-        id: 143
+        id: 145
     });
     
 
@@ -1310,7 +1328,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nOtra forma de usar el “arroz” de coliflor”: para hacer “arroz” tres delicias! Fue un éxito con mis invitados :)\n\n\n  3 tazas (360 g) de arroz de coliflor (más o menos media coliflor), tal y como veis aquí\n  180 g de gambas (Yo uso congeladas que descongelo antes)\n  Opcional: 1/2 taza (40 g) de guisantes cocidos (yo uso de lata)\n  3 huevos\n  3 cucharadas de aceite de coco (o 2 de coco y una de sésamo)\n  1/2 zanahoria picadas en cubitos (30g)\n  1 tbsp salsa soja\n  1/2 tsp jengibre fresco\n  1/2 tsp ajo fresco (1-2 dientes)\n  Sal, pimienta negra\n  Ajetes frescos para servir: 3 cucharadas o 20g\n\n\n\n  Elaboración\n    \n      En una sartén con el aceite, echar el ajo y jengibre. Tras cocinar durante un minuto, añadir la zanahoria con un poco de sal y pimienta.\n      Cocinar a fuego medio unos 5 minutos hasta que la zanahoria esté un poco blanda. Subir el fuego y añadir las gambas.\n      Cocinar las gambas un par de minutos y luego añadir los guisantes si se usan. Cocinar un minuto.\n      Echar la coliflor procesada, la salsa soja, remover bien y cocinar unos dos minutos hasta que la coliflor esté un poco blanda.\n      Despejar una pequeña parte de la sartén e ir echando y cocinando los huevos ahí como si fueran un revuelto, y después incorporándolos al “arroz”. Al final, comprobar la sal y la pimienta antes de servir.\n      Echar un poco de ajete fresco picado por encima.\n    \n  \n  Información nutricional\n    \n      Por la mitad de la receta\n        \n          403 kCal\n          10.2 g H de C netos, 4.2 g fibra, 12.5 g H de C totales\n          26.3 g proteínas\n          28.8 g grasa\n        \n      \n      Por la mitad de la receta, si se omite la zanahoria y los guisantes\n        \n          427 kCal\n          7.4 g H de C netos, 3.9 g fibra, 11.3 g H de C totales\n          26.1 g proteínas\n          28.8 g grasa\n        \n      \n    \n  \n\n",
         tags: ["arroz","coliflor","bajo en hidratos","pescado"],
-        id: 144
+        id: 146
     });
     
 
@@ -1319,7 +1337,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\nAnother great way to use the cauliflower “rice”: make chinese fried rice! It was a huge hit with my guests :)\n\n\n  1/2 cup processed cauliflower or 3 cups (360g) of cauliflower rice\n  180g g shrimp (I buy frozen raw shrimp and thaw)\n  40 g boiled green peas (mine were canned)\n  1/2 carrot, cubed (30g)\n  3 eggs\n  3 tbsp coconut oil (or 2 of coconut oil and 1 of sesame oil)\n  2-3 tbsp soy sauce\n  1/2 tsp ginger paste\n  1/2 tsp garlic paste (1-2 cloves)\n  Salt, black pepper\n  3 tbsp (20g) Spring onion to garnish\n\n\n\n  Process\n    \n      In a pan with a tablespoon of oil, add the garlic and ginger. After cooking for a minute, add the carrots with a bit of salt and pepper.\n      Cook on medium heat for about 5 minutes until the carrot is slightly soft. Turn up the heat and add the shrimp.\n      Cook the shrimp for a couple of minutes and then add the green peas. Cook for one minute.\n      Add the processed cauliflower, soy sauce, stir very well and cook for a couple of minutes until the cauliflower is soft.\n      Make a small space in the pan and crack the eggs on it; cook them mixing constantly, then incorporating them onto the rice. Check salt and pepper.\n      Garnish with spring onion.\n    \n  \n  Nutritional information\n    \n      For half the recipe\n        \n          403 kCal\n          10.2 g net carbs, 4.2 g fiber, 12.5 g total carbs\n          26.3 g protein\n          28.8 g fat\n        \n      \n      For half the recipe, without carrots and peas\n        \n          427 kCal\n          7.4 g net carbs, 3.9 g fiber, 11.3 g total carbs\n          26.1 g protein\n        \n      \n      28.8 g fat\n    \n  \n\n",
         tags: ["rice","cauliflower","low-carb","fish"],
-        id: 145
+        id: 147
     });
     
 
@@ -1328,7 +1346,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nLa sobrasada siempre ha sido una de mis debilidades. Asi que cuando vi que se podia hacer “sobrasada” vegana con tomates secos… me puse a ello!\n\nEsta es una de las dos recetas que utilizo, segun los ingredientes que tenga en casa. Espero que os guste!\n\nLa receta esta adaptada de chezDashita\n\n\n  50 g tomate seco sin aceite\n  20 g copos de avena (1/4 cup)\n  1 cc de pimenton de la vera, dulce o picante segun el gusto\n  1/2 cdita ajo en polvo o medio diente de ajo\n  Opcional: aceite de oliva virgen extra\n  1/4 tsp oregano\n  Un pellizco de sal y un poco de pimienta negra \n\n\n\n  \n    Elaboracion\n\n    \n      Hidratar durante 15 minutos los tomates junto a la avena con agua caliente (que no este hirviendo).\n      Escurrir bien.\n      Triturar todos los ingredientes y reposar en la nevera antes de servir.\n    \n  \n\n\nUntalo con pan, haz sandwiches con queso… lo que mas te apetezca!\n\n",
         tags: ["vegano","vegetariano","avena"],
-        id: 146
+        id: 148
     });
     
 
@@ -1337,7 +1355,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\n“Sobrasada” is a typical spanish spread made primarily of pork fat and paprika. Quite honestly, it has always been one of my soft points: I love it! So when I found out there were recipes for vegan “sobrasada” made with sundried tomatoes, I had to give it a go.\n\nI use two different recipes depending on what I have available at home, this one uses oats. It tastes like spicy paprika, and oregano, and olive oil… just try it already!\n\n\n  50 g sundried tomatoes (NOT the ones that come in oil)\n  20 g rolled oats (1/4 cup)\n  1 cc paprika, sweet or spicy depending on your taste\n  1/2 tsp garlic powder or half a garlic clove\n  Optional: extra virgin olive oil\n  1/4 tsp oregano\n  A pinch of salt and some black pepper\n\n\n\n  \n    Process\n\n    \n      Hydrate the tomatoes and oats in warm water (not boiling) for 15 minutes.\n      Drain very well.\n      Process all the ingredients and let it cool down in the fridge beefore serving.\n    \n  \n\n\nSpread it on bread, make sobrasada and cheese sandwiches… whatever you like most!\n\n",
         tags: ["vegan","vegetarian","oats"],
-        id: 147
+        id: 149
     });
     
 
@@ -1346,7 +1364,7 @@ var index = lunr(function () {
         category: null,
         content: "\n\nHay muchas salsas diferentes que se pueden utilizar para mojar los momos; la que me gusta mas a mi, que es la que tomaba mas en Nepal, era el achar de sesamo.\n\nEsta es la version que he encontrado que se acerca mas a la que recuerdo. Espero que os guste!\n\n\n  2 tbsp semillas de sesamo\n  1 cebolla\n  1/2 tbsp ginger paste (jengibre)\n  2 dientes de ajo\n  2 chilis rojos frescos, enteros o sin semillas, segun como os guste de picante\n  2 tomates\n  1/2 tsp azucar\n  Sal, pimienta negra\n  Opcional: 1 tsp concentrado de tomate\n  Opcional: 1/2 cup cilantro fresco\n\n\n\n\n\n  \n    Elaboracion\n\n    \n      \n        En una cacerola, calienta un poco de aceite con el sesamo. \n\n      \n      \n        Añade la cebolla, ajo, jengibre y chili y cocinalos unos 5 minutos. \n\n      \n      \n        Añade el resto de ingredientes excepto el cilantro, pon un poco de agua, deja que hierva y baja el fuego. No pongas mucha agua para evitar que el resultado final sea demasiado liquido.\n\n      \n      \n        Dejalo hervir hasta que las verduras esten bien cocidas. \n\n      \n      \n        Saca la piel del tomate y despues bate la mezcla junto al cilantro hasta que quede bien batido. Se puede pasar por un colador si se desea mas liso aun. \n\n      \n    \n  \n\n\nMoja tus momos favoritos y a comer!\n\n\n",
         tags: [],
-        id: 148
+        id: 150
     });
     
 
@@ -1355,7 +1373,7 @@ var index = lunr(function () {
         category: null,
         content: "\n\nThese are many different sauces to dip your momos in; however, the one I liked most is the sesame achar, that is the one I had more often in Nepal.\n\nThis is the version I have found to be closest to what I remembered. I do hope you enjoy it!\n\n\n  2 tbsp sesame seeds\n  1 onion\n  1/2 tbsp ginger paste\n  2 garlic cloves\n  2 red chillies, desseded or whole (depending on how spicy you want it)\n  2 tomatoes\n  1/2 tsp sugar\n  Salt, black pepper\n  Optional: 1 tsp tomato paste\n  Optional: 1/2 cup fresh coriander\n\n\n\n\n\n  \n    Process\n\n    \n      \n        In a casserole, warm up some oil with the sesame seeds. \n\n      \n      \n        Add the onions, garlic, ginger and chilli and brown for about 5 minutes.\n\n      \n      \n        Add the rest of ingredients except the coriander and some water to cover. Turn the heat down to low. Don’t add too much water or the final result will be too runny.\n\n      \n      \n        Simmer until the vegetables are broken down. \n\n      \n      \n        Take out the peel of the tomatoes and then process everything along with the coriander to get a smooth mixture. You can run it through a sieve it you want it to be smoother.\n\n      \n    \n  \n\n\nDip your favourite momo with your achar!\n\n\n",
         tags: [],
-        id: 149
+        id: 151
     });
     
 
@@ -1364,7 +1382,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nUna de mis comidas vegetarianas preferidas es Palak paneer, un curry de espinacas y paneer (un queso fresco indio). Sin embargo, tengo un pequeño problema con este curry; se trata de uno de sus dos ingredientes principales: El Paneer.\n\nNo me malinterpreteis. A mi me encanta. Pero parece que no hay forma de comprarlo hecho, los intentos de reemplazarlo acaban solo resultan en curries de aspecto mas que dudoso, y la posibilidad de hacer el paneer yo misma… bueno;  alguno ha intentado hacer paneer (que se hace de forma similar al requeson) en un dia normal entre semana?\nDigamos que… no resultaba muy practico.\n\nAsi que la manera definitiva (en mi opinion) para hacer palak paneer es no hacer palak paneer, sino hacer palak TOFU. Si, en efecto!! El tofu absorbe todo el sabor de las especias y mantiene perfectamente su textura; ademas, desde un punto de vista nutricional, me gusta mucho mas que el paneer.\n\nSe que suena un poco raro, pero confiad en mi: mi querido novio, que es hindu, lo disfruto mucho, y se quedo impresionado con que yo hubiera sacado tiempo para preparar el paneer… \nDespues de preparar el plato varias veces, acabe confesandole que no era paneer, sino tofu!\n\n\n  300 g paneer o tofu (si se usa tofu: congela y descongelalo para que pierda agua)\n  450 g espinacas cocinadas cortadas\n  2 cdas aceite de coco (3 si se usa tofu)\n  1/2 cebolla grande picada (75 g)\n  1 tsp garlic paste o 2 dientes de ajo\n  1 tsp ginger paste o 3 cm jengibre\n  Opcional: 1 chili verde, sin semillas y cortado a lo largo\n  1/2 tsp comino entero\n  2 hojas de laurel o una hoja grande de laurel indio\n  1/4 tsp de curcuma\n  1/2 tsp garam masala\n  1/2 tsp pimienta negra\n  Opcional: 1/4 tsp chili en polvo\n  2 cdas de nata (crema) para montar (35-40% materia grasa) (4 si se usa tofu)\n  Opcional: 1 tsp hojas secas de fenugreco (si no lo encontrais, yo pondria 1/2 tsp canela, asi como cilantro fresco al final, pero el sabor es distinto)\n  Sal\n\n\n\n  Elaboracion\n    \n      Cocina las espinacas segun las instrucciones del paquete (yo las hago al microondas).\n      En una sarten con algo de aceite (1/2-1 tbsp), poner el comino y laurel y el chili verde; una vez empiece a calentarse, echar el ajo, jengibre y cebolla con un poco de sal.\n      Pochar en la sarten unos 10 minutos; despues, echar las especias en polvo y cocinar un minuto.\n      Añade las espinacas con un poco de sal y de agua y cocina durante 5 minutos.\n      Echa el tofu y cocina todo junto unos minutos.\n      Deja que siga cocinando hasta que se evapore el agua, para obtener la consistencia que te guste.\n      Apagar el fuego, añade el yogur y las hojas de fenugreco, y sirvelo.\n    \n  \n\n\nNutritional information, per serving (serves 3)\n\n  488 kCal\n  8.5 g net carbs, 5.2 g fiber, 13.7 g total carbs\n  26.1 g protein\n  38.7 g fat\n\n",
         tags: ["vegetariano","vegano","bajo en hidratos","currys","indio"],
-        id: 150
+        id: 152
     });
     
 
@@ -1373,7 +1391,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nOne of my favourite vegetarian foods is palak paneer, a spinach and cheese curry. There is only one minor problem with it, and it is precisely one of its key ingredients: Paneer.\n\nDon’t get me wrong. I love it. But I cannot seem to be able to find it in stores, trying to replace it with other cheeses just leads to weird-looking attempts at the recipe, and making the paneer myself… well. has anyone tried to make paneer from scratch on a busy week?\nUm… not very practical.\n\nSo, the ultimate way to make palak paneer is to not make palak paneer at all, but to make palak TOFU. Yup, you read that right. Tofu actually has quite a neutral flavour that works very well with the spices of the dish, it holds its shape properly, gives nice texture and colour, and from a nutritional point of view, I quite prefer it to the paneer.\n\nI know this may sound strange, but seriously: my lovely indian boyfriend enjoyed it a lot, and he was so impressed that I had actually taken the time to make the paneer from scratch… it was only after several times of making it that I told him it was tofu!\n\n\n  300 g paneer or tofu (if using tofu: freeze and defreeze so it firms up)\n  450 g frozen chopped spinach\n  2 tbsp coconut oil (3 if using tofu)\n  1/2 big onion,  finely chopped (75 g)\n  1 tsp garlic paste or 2 garlic cloves\n  1 tsp ginger paste or 1 inch ginger\n  Optional: 1 green chili, desseded and sliced\n  1/2 tsp whole cumin seeds\n  2 bay leafs or 1 big indian bay leaf \n  1/4 tsp turmeric\n  1/2 tsp garam masala\n  1/2 tsp ground black pepper\n  Optional: 1/4 tsp red chili powder\n  2 tbsp heavy whipping cream (4 tbsp if using tofu)\n  Optional: 1 tsp dry fenugreek leaves (you can leave it out and maybe add 1&amp;2 tsp cinnamon and garnish with coriander, but the flavor will be very different)\n  Salt\n\n\n\n  Process\n    \n      Cook the spinach according to the package instructions (I cook mine in the microwave).\n      In a pan, put some oil (1/2-1 tbsp) with the whole spices and the chili. Once they start warming up, add the garlic, ginger and onion, with a pinch of salt.\n      Brown in the pan for about 10 minutes until the onion is tender. Then, add the powdered spices and cook for one minute.\n      Add the spinach with some water and salt. Let cook for 5 minutes.\n      Add the tofu and let cook together for a couple of minutes.\n      Let it cook until the water has evaporated to the consistency of the gravy you like.\n      Turn off the stove, add the yoghurt and the fenugreek leaves and serve.\n    \n  \n\n\nNutritional information, per serving (serves 3)\n\n  488 kCal\n  8.5 g net carbs, 5.2 g fiber, 13.7 g total carbs\n  26.1 g protein\n  38.7 g fat\n\n",
         tags: ["vegetarian","vegan","low-carb","curry","indian"],
-        id: 151
+        id: 153
     });
     
 
@@ -1382,7 +1400,7 @@ var index = lunr(function () {
         category: ["sopa"],
         content: "\n\nPho es una increíble sopa vietnamita llena de sabor y contraste. Yo hice esta versión utilizando raíz de apio espiralizada en lugar de noodles, y mi novio ni siquiera se enteró de que estaba comiendo verdura!\n\nRecomiendo utilizar caldo de buena calidad para esta receta. Si no quieres comprarlo, puedes usar la misma receta pero añadir unos huesos, y dejar que todo hierva unas dos horas junto a la cebolla, jengibre y especias para hacer tu propio caldo.\n\n\n  1/2 raiz de apio (125g)\n  1 cebolla pequeña, cortada en cuatro trozos\n  Un trozo de jengibre de unos 3 cm, cortado transversalmente\n  Especias: media rama de canela, 2 anis estrellados, 1 tsp semillas de cilantro, 3 clavos, 1 cardamomo negro (se puede omitir)\n  200 g de ternera (mejor solomillo), cortado muy fino en contra de la direccion de las fibras. Se puede usar crudo, incluso emplear restos, o usar pollo. (Para cortarlo fino, es buena idea congelarlo y cortarlo cuando este un poco congelado todavia.)\n  4 tazas de caldo de pollo o de ternera, de buena calidad\n  Pimienta negra molida\n  Para servir: salsa sriracha, cilantro fresco, menta fresca, chili rojo, trozos de lima, brotes de soja...\n\n\n\n  Elaboracion\n    \n      En una cacerola un poco engrasada a fuego medio-alto, pon la cebolla y el jengibre a tostar para que den un poco mas de sabor al caldo final.\n      Una vez esten bien tostadas, añade la carne si la usas cruda y cocinala un par de minutos.\n      Echa el caldo y las especias y deja que hierva unos 10 minutos para que las especias liberen su sabor.\n      Mientras tanto, espiraliza el apio.\n      Una vez haya hervido lo suficiente, añade los “noodles”, cocinalo durante unos 3 minutos (con cuidado de no sobrecocinarlo porque se pueden empezar a romper) y sacalo del fuego.\n      Servir con diferentes cosas (cilantro, menta, lima…) para que cada uno elija lo que quiera.\n    \n  \n  Información nutricional, por ración (3 raciones en total)\n    \n      225 kCal\n      7.1 g H de C netos, 0.9 g fibra, 8 g H de C totales\n      21 g proteina\n      12.2 g grasa\n    \n  \n\n",
         tags: ["ternera","espiralizado","bajo en hidratos"],
-        id: 152
+        id: 154
     });
     
 
@@ -1391,7 +1409,7 @@ var index = lunr(function () {
         category: ["soup"],
         content: "\n\nPho is an amazing vietnamese soup full of bright flavors. I made this version using spiralized celery root instead of noodles - and my boyfriend didn’t even realise he was eating vegetables!\n\nI recommend using good quality stock for this. If you don’t want to buy one, you can use the same recipe but add some good quality meat bones, and just let the broth simmer for a couple of hours with the spices, ginger and onion to make your own stock.\n\n  \n  1/2 celeriac (celery root) (125g)\n  1 small brown onion, in 4 big pieces\n  About 3 cm piece of ginger, sliced transversally\n  Whole spices: half a cinnamon stick, 2 star anise, 1 tsp coriander seeds, 3 cloves, 1 black cardamom (Can be omitted if necessary)\n  200 g beef (preferably sirloin), very finely cut across the grain. You could use raw meat, leftovers or chicken. (In order to do this, I cut it when it is slightly frozen.)\n  4 cups of good chicken or beef stock\n  Freshly ground black pepper\n  To garnish: low-carb sriracha sauce, fresh coriander, fresh mint, fresh red chillies, lime wedges, bean sprouts...\n\n\n\n  Process\n    \n      In a non stick skillet very lightly oiled, over medium high heat,  add the onion and ginger and toast to get some extra flavour into your stock.\n      Once they are properly roasted, add the oil and your meat if it is raw and cook.\n      Add in the stock and the spices and let it cook for about 10 minutes for the flavours to infuse.\n      Meanwhile, spiralise your celeriac!\n      Once it has been boiling long enough, fish out the onion and ginger, add your celeriac noodles, cook for about 3 minutes (if you overcook they might break and loose their noodle fun, so careful!) and take off the stove.\n      Serve with different choices of the garnishes so each person can choose their own!\n    \n  \n  Nutritional information, per serving (serves 3)\n    \n      225 kCal\n      7.1 g net carbs, 0.9 g fiber, 8 g total carbs\n      21 g protein\n      12.2 g fat\n    \n  \n\n",
         tags: ["beef","spiralized","low-carb"],
-        id: 153
+        id: 155
     });
     
 
@@ -1400,7 +1418,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\nUna receta muy facil y genial como aperitivo.\n\n\n  Jamon de york o fiambre de pollo o pavo (mejor si es de corte un poco grueso)\n  El queso que mas os guste: a mi me gusta mezclar queso crema con roquefort\n  Otros ingredientes al gusto: pasas, nueces, aceitunas...(No se le pueden poner cosas frescas como rucula, porque entonces no se podria congelar)\n\n\n  Elaboracion\n    \n      Untar el queso sobre el jamon. Echar por encima los ingredientes que se quiera.\n      Enrollar el jamon sobre si mismo como si fuera una alfombra, envolver en un papel de aluminio para que mantenga la forma y meter en el congelador al menos una hora.\n      Sacar del congelador y, mientras este congelado, cortar en rodajitas finitas.\n      Esperar unos 20 minutos a que las rodajas se terminen de descongelar y servir.\n    \n  \n\n\n",
         tags: ["bajo en hidratos"],
-        id: 154
+        id: 156
     });
     
 
@@ -1409,7 +1427,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nA very easy recipe and a great snack!\n\n\n  Sliced ham (you can use slices of chicken ham as well) (Its best that the slices are not too thin.\n  Whatever cheese you like best: I like mixing cream cheese with roquefort. \n  Other ingredients to taste: raisins, olives, walnuts... (You cannot use any fresh ingredients like arugula since you wouldn't be able to freeze it later.)\n\n\n  Process\n    \n      Spread the cheese on the ham, and then put the topping you want.\n      Roll over itself as if it were a rug, then cover in some aluminum foil to make sure it holds the shape; after that, freeze for at least one hour.\n      Take out of the freezer and, while it is still cold, cut in little thin wheels.\n      Wait for about 20 minutes until they defreeze all the way through and serve.\n    \n  \n\n\n",
         tags: ["low-carb"],
-        id: 155
+        id: 157
     });
     
 
@@ -1418,7 +1436,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nPollo tandoori con especias más faciles de encontrar, para que nadie se lo pierda!\n\n\n  4 trozos de contramuslo de pollo (o bien 800 g sin hueso)\n  2 yogures griegos, 10% grasa (250 g)\n  Jengibre (Ginger paste) - 2 tbsp\n  Ajo (Garlic paste) - 2 tbsp\n  4 tsp pimenton dulce\n  1/2 tsp chili\n  3 tsp cilantro en polvo\n  1.5 tsp comino\n  1 tsp canela\n  1 tsp ajo en polvo\n  1/2 tsp jengibre en polvo\n  2 tsp cebolla en polvo\n  3/4 tsp sal (poner un poco menos e ir probando)\n  2 tbsp zumo de limon\n\n\n  \n    Elaboracion\n\n    \n      Hacer cortes en la carne.\n      Mezclar el yogur, limon y especias. Probar para ajustar la sal.\n      Agregar el pollo y marinar en el frigorifico al menos 4 horas. Muy importante en este caso, puesto que al llevar menos especias que la receta que yo suelo utilizar, requiere marinar bien.\n      Precalentar el horno a 250 grados.\n      Poner el pollo sobre la rejilla con una bandeja debajo para recoger los jugos.\n      Cocinar hasta que quede seco y crujiente, al menos 30 minutos.\n      Dejar reposar un par de minutos antes de servir.\n    \n  \n\n\nInformación nutricional, por un trozo de pollo (200 g, sin hueso)\n\n  291 kcal\n  3.3 g H de C netos, 0.6 g fibra, 3.9 g H de C totales\n  39.7 g proteina\n  12.1 g grasa\n\n\n",
         tags: ["pollo","bajo en hidratos","indio"],
-        id: 156
+        id: 158
     });
     
 
@@ -1427,7 +1445,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\nTandoori chicken with easily available spices - you have no excuse not to make it now, Marta !\n\n\n  4 chicken thighs, with bone (if boneless, should be around 800 g)\n  1 cup yoghurt (10% fat)\n  Ginger paste - 2 tbsp\n  Garlic paste - 2 tbsp\n  4 tsp paprika \n  1/2 tsp chili\n  3 tsp coriander powder\n  1.5 tsp cumin\n  1 tsp cinnamon\n  1 tsp garlic powder\n  1/2 tsp ginger powder\n  2 tsp onion powder\n  3/4 tsp salt (start with less and add to taste)\n  2 tbsp lemon juice\n\n\n  \n    Process\n\n    \n      Make slits in the chicken.\n      Mix the yoghurt, lemon and spices. Try the mix to adjust salt.\n      Marinate the chicken and let sit in the fridge at least 4 hours. Very important to marinate properly in this case since we are using less spices; otherwise the chicken might be bland.\n      Preheat the oven to 250 degrees.\n      Put the chicken on the griddle and a baking sheet underneath to collect any juices.\n      Cook until dry and crunchy, at least 30 minutes.\n      Let rest a couple of minutes before serving.\n    \n  \n\n\nNutritional information, for 1 piece of chicken (200 g, boneless)\n\n  291 kcal\n  3.3 g net carbs, 0.6 g fiber, 3.9 g total carbs\n  39.7 g protein\n  12.1 g fat\n\n",
         tags: ["chicken","low-carb","indian"],
-        id: 157
+        id: 159
     });
     
 
@@ -1436,7 +1454,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEsta versión simplificada del Goi Ga, una ensalada vietnamita, es una combinación sorprendente de sabores. No os la perdáis.\n\nPodéis cambiar los ingredientes según vuestros macros (por ejemplo, añadiendo más pollo). Si sigues una dieta cetogénica, quizá quieras añadir más aceite a la receta.\n\n\n  Media col o repollo (600g) (Se puede sustituir por lechuga, pero la ensalada pierde un poco de vidilla\n  Opcional: 1/2 taza Brotes de soja\n  Menta o hierbabuena fresca (aprox. 1/2 taza) - imprescindible!\n  Carne de muslo de pollo cocinada, cortada en trozos (300 g en crudo)\n  Opcional: 1/4 taza cilantro fresco\n  Una zanahoria fresca en tiras finas (si la usas, el resultado final tendrá más hidratos)\n  3/4 taza (100g) de cacahuetes (o almendras) fritos tostados, picados en trozos pequeños\n  50 g de cebolla roja (1/2 mediana)\n  1 tbsp fish sauce\n  3 tbsp vinagre de arroz (o de manzana si no hubiera otro)\n  3 cucharadas de aceite de oliva o de coco\n  Estevia, o al gusto\n  4 tbsp zumo de lima o de limón\n  1-2 diente de ajo picado muy fino (o bien picado en trozos grandes, y dejarlo macerar para sacarlo luego)\n  Opcional: 3-4 ajetes verdes picados (45g)\n  Sal, pimienta negra, pizca de chili en polvo\n\n\n\n  Elaboración\n    \n      Picarlo todo. Es importante que el repollo esté cortado muy finito.\n      Preparar el aliño, mezclando el vinagre, estevia, zumo de limón, aceite, ajo, sal, pimienta y chili. Si no quieres que tenga mucho sabor a ajo, puedes echarlo en trozos, dejar que infusione unos 10 minutos, y luego quitarlos. Echa estevia al gusto para que quede un aliño dulzón pero con un poquito de ácido de fondo.\n      Echar todo en una ensaladera, aliñar y servir.\n    \n  \n  Información nutricional, por porción (receta para 4):\n    \n      392 kCal\n      10.3 g H de C netos, 7.1 g fibra, 17.4 g H de C totales\n      24.4 g proteina\n      26.9 g grasa\n    \n  \n\n",
         tags: ["repollo","pollo","bajo en hidratos"],
-        id: 158
+        id: 160
     });
     
 
@@ -1445,7 +1463,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis simplified version of Goi Ga, a vietnamese salad, is a unique combination of flavours. Don´t miss it!\n\nYou can change the ingredients slightly to fit your macros (for example, using more chicken). If you are doing keto, you might want to add some more oil to the recipe.\n\n\n  1/2 a head of cabbage  (600g) (Can be subbed for salad, but it won´t be the same)\n  Optional: 1/2 cup Bean sprouts\n  1/2 red onion (50g)\n  Fresh mint (aprox. 1/2 cup) (essential!)\n  Cubed cooked boneless chicken thighs (2 chicken thighs, 300 g when raw)\n  Optional: 1/4 cup fresh coriander\n  Optional: One carrot (if using, carb count will increase)\n  3/4 cup peanuts (100g) or almonds, fried or toasted, chopped\n  3 tbsp rice vinegar (or apple vinager if not available)\n  Stevia to taste\n  3 tbsp olive or coconut oil\n  1 tbsp fish sauce (optional)\n  4 tbsp lime or lemon juice\n  1-2 clove of garlic very finely chopped (or coarsely chopped, letting it infuse and then fishing it out)\n  Optional: 3-4 chopped spring onion (45 g)\n  Salt, black pepper, pinch of powdered chilli\n\n\n  Process\n    \n      Chop everything. It´s very important to slice the cabbage very finely.\n      Make the dressing with the olive, vinegar, lemon juice, fish sauce, garlic, salt, pepper and chili. Then add enough stevia to have a mostly sweet dressing but that still has some acidic hints to it.\n      Put everything in a salad bowl, dress it, mix and serve.\n    \n  \n  Nutritional facts, per serving (serves 4):\n    \n      392 kCal\n      10.3 g net carbs, 7.1 g fiber, 17.4 g total carbs\n      24.4 g protein\n      26.9 g fat\n    \n  \n\n",
         tags: ["cabbage","chicken","low-carb"],
-        id: 159
+        id: 161
     });
     
 
@@ -1454,7 +1472,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\n  1/3 cup + 1/4 harina (yo uso integral)\n  1/8 cup azucar (o mas, al gusto)\n  1/2 tsp azucar vainillado\n  1.5-2 tbsp mantequilla de cacahuete sin azucar\n  Pizca de sal\n  Una pizca de bicarbonato\n  2 cucharaditas de mermelada de fresa\n  1/2 tsp de maizena (almidon de maiz)\n  1-3 tbsp leche o agua\n\n\n\n  Elaboracion\n    \n      Mezclar primero la harina, bicarbonato y azucares.\n      Agregar la mantequilla y mezclar bien con una cuchara para que quede bien distribuido (debe quedar una mezcla un poco arenosa)\n      Agregar 1 tbsp leche o agua y comenzar a mezclar. Echar mas poco a pocosegun absorba la harina, para que quede una mezcla pegajosa y humeda, como en la foto.\n      En un bol, poner la mermelada y calentar 5-10 seg en el microondas para que quede algo mas liquida; luego, mezclar con la maizena.\n      Formar las galletas sobre un plato engrasado o un plato con papel vegetal.\n        \n          Para mas detalles sobre como formar las galletas, mirad el video a la derecha!\n        \n      \n      Cocinar en el microondas unos 90 segundos - el tiempo depende de cada microondas.\n      Sacar del microondas y echar un poquito de la mezcla de mermelada en cada agujero.\n      Volver a meter al microondas otros 20 segundos.\n        \n          Si se hacen en exceso, quedaran secas y duras!\n        \n      \n    \n  \n\n\nDejar reposar al menos 15 minutos (lo ideal son 30 o incluso una hora). Riquisimas :)\n",
         tags: ["vegano","vegetariano","dulce"],
-        id: 160
+        id: 162
     });
     
 
@@ -1463,7 +1481,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\n\n  1/3 cup + 1/4 flour (I use whole wheat)\n  1/8 cup sugar (or more to taste)\n  1/2 tsp vanilla sugar\n  1.5-2 tbsp unsweetened peanut butter\n  pinch of salt\n  A pinch of baking soda\n  2 tsp strawberry jam\n  1/2 tsp corn starch\n  1-3 tbsp milk or water\n  Optional: 1/2 tsp vanilla and/or 1/4 tsp cinnamon\n \n\n\n  Process\n    \n      In a bowl, mix the flour, baking soda, sugar and vanilla sugar.\n      Add the peanut butter and mix thoroughly.\n      Add 1 tbsp milk or water and mix. Add liquid a little at a time.\n      In a bowl, put the jam and heat it up in the microwave for 5-10 seconds. Once it’s runny, mix with the cornstarch.\n      Form the cookies and lay on parchment paper; it should form 10-12 cookies.\n        \n          Watch the video for specifics on how to give them the shape.\n        \n      \n      Cook in the microwave for about 90 (time depends on the microwave so be careful!)\n      Take out of the microwave and gently spoon a little bit of jam mixture into the central hole.\n      Microwave for further 20 seconds approximately.\n        \n          If overcooked, they get tough and dry!\n        \n      \n    \n  \n\n\nLet them rest at least 15 minutes (better 30 or 60) for best results.\n",
         tags: ["sweet","vegan","vegetarian"],
-        id: 161
+        id: 163
     });
     
 
@@ -1472,7 +1490,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\nEste es un entrante muy típico en India, que puede hacerse con pollo, paneer o incluso verdura como champiñones. A mí me gusta tomarlo como plato principal junto a una gran ensalada con mucho aceite, tomate, cebolla roja y cilantro.\n\nSi no tienes tandoori masala, puedes probar esta receta, donde uso especias más fáciles de encontrar.\n\n\n  4 trozos de contramuslo de pollo (o bien 800 g sin hueso)\n  2 yogures griegos, 10% grasa (250 g)\n  2 tbsp tandoori masala\n  Jengibre (Ginger paste) - 2 tbsp\n  Ajo (Garlic paste) - 2 tbsp\n  1 tsp pimenton\n  1/2 tsp chili\n  3/4 tsp sal (poner un poco menos e ir probando)\n  2 tsp cilantro en polvo\n  2 tbsp zumo de limon\n\n\n  \n    Elaboracion\n\n    \n      Hacer cortes en la carne.\n      Mezclar el yogur, limon y especias. Probar para ajustar la sal.\n      Agregar el pollo y marinar en el frigorifico al menos 4 horas.\n      Precalentar el horno a 250 grados.\n      Poner el pollo sobre la rejilla con una bandeja debajo para recoger los jugos.\n      Cocinar hasta que quede seco y crujiente, al menos 30 minutos.\n      Dejar reposar un par de minutos antes de servir.\n    \n  \n\n\nInformación nutricional, por un trozo de pollo (200 g, sin hueso)\n\n  291 kcal\n  3.3 g H de C netos, 0.6 g fibra, 3.9 g H de C totales\n  39.7 g proteina\n  12.1 g grasa\n\n",
         tags: ["pollo","bajo en hidratos","indio"],
-        id: 162
+        id: 164
     });
     
 
@@ -1481,7 +1499,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n&lt;/br&gt;\nThis is a very typical indian entrée, that can be made with chicken, paneer, or even vegetables like mushrooms. I like to have it as a main course with a big green salad with lots of olive oil, as well as some fresh tomato, red onions and coriander.\n\nIf you cannot find tandoori masala, you can use this recipe instead\n\n\n  4 chicken thighs, with bone (if boneless, should be around 800 g)\n  1 cup yoghurt (10% fat)\n  2 tbsp tandoori masala\n  Ginger paste - 2 tbsp\n  Garlic paste - 2 tbsp\n  1 tsp paprika\n  1/2 tsp chili\n  3/4 tsp salt (start with less and add to taste)\n  2 tsp coriander powder\n  2 tbsp lemon juice\n\n\nProcess\n\n  Make slits in the chicken.\n  Mix the yoghurt, lemon and spices. Try the mix to adjust salt.\n  Marinate the chicken and let sit in the fridge at least 4 hours.\n  Preheat the oven to 250 degrees.\n  Put the chicken on the griddle and a baking sheet underneath to collect any juices.\n  Cook until dry and crunchy, at least 30 minutes.\n  Let rest a couple of minutes before serving.\n\n\nNutritional information, for 1 piece of chicken (200 g, boneless)\n\n  291 kcal\n  3.3 g net carbs, 0.6 g fiber, 3.9 g total carbs\n  39.7 g protein\n  12.1 g fat\n\n",
         tags: ["chicken","low-carb","indian"],
-        id: 163
+        id: 165
     });
     
 
@@ -1490,7 +1508,7 @@ var index = lunr(function () {
         category: ["acompañamiento"],
         content: "\nBuenisimo. Con el sabor a chorizo, nadie podria decir que lo que en realidad se esconde detras es coliflor!\n\n\n  Media coliflor (300g), preparada tal y como podeis ver aqui\n  Un diente de ajo (variar segun el gusto)\n  60 g de chorizo picante picado en cubitos\n  1 cucharada de aceite de oliva\n  Sal, pimienta negra\n\n\n  Elaboracion\n    \n      En una sarten, poner el ajo y el chorizo a fuego medio.\n      Cuando el ajo haya empezado a dorarse gracias a la grasa del chorizo, agregar la coliflor junto a sal (segun gusto, pero suele hacer falta buena cantidad) y pimienta.\n      Cocinar removiendo unos 3-4 minutos hasta que la coliflor este bien hecha.\n      Servir.\n    \n  \n  Información nutricional, por la mitad de la receta\n    \n      246 kCal\n      6.4 g H de C netos**, 3.8 g fibra, 10.2 g H de C totales\n      10.8 g proteina\n      19 g grasa\n    \n  \n\n",
         tags: ["coliflor","bajo en hidratos"],
-        id: 164
+        id: 166
     });
     
 
@@ -1499,7 +1517,7 @@ var index = lunr(function () {
         category: ["side"],
         content: "\nVery tasty. With the chorizo flavor, noone will tell it has cauliflower as a base!\n\n\n  Half a cauliflower (300g), prepared like you can see here\n  One clove of garlic (or to taste)\n  60 g of spicy spanish style chorizo, diced\n  1 tbsp olive oil\n  Salt, black pepper\n\n* **Process**\n  1. In a pan, put the garlic and the chorizo over medium high heat.. \n  2. Once the garlic has browned on the chorizo's fat, add the cauliflower with salt to taste and pepper. \n  3. Coook about 3-4 minutes until the cauliflower is no longer raw. \n  4. Serve. \n\n* **Nutritional information**, for half of the recipe\n  - 246 kCal\n  - 6.4 g net carbs**, 3.8 g fiber, 10.2 g total carbs\n  - 10.8 g protein\n  - 19 g fat\n\n",
         tags: ["cauliflower","low-carb"],
-        id: 165
+        id: 167
     });
     
 
@@ -1508,7 +1526,7 @@ var index = lunr(function () {
         category: ["acompañante"],
         content: "\nEste “arroz de coliflor” se puede utilizar para sustituir arroz o couscous en muchas recetas. A mí me gusta o bien hacerlo al microondas con un poco de sal, o hacerlo en la sartén con aceite. Voy a ir subiendo aquellas que me gusta hacer a mi, pero me gustaria oir vuestras ideas!_\n\n\n  1 coliflor fresca, limpia, cortada en floretes y seca\n\n\nElaboracion\n\n  Para hacerlo con una procesadora: enjuagar bien los trozos de coliflor y, una vez esten secos, meterlos en tandas (2-3 tandas por coliflor) en la maquina y procesar hasta que se queden con textura de cuscus, aprox 30-60 segundos.\n  Para hacerlo con una batidora: enguagar la coliflor y despues meter en la batidora de pie (las que tienen las cuchillas en la base) una parte de la coliflor junto con agua, batir y, una vez se tenga la textura de cuscus, escurrir.\n  Para hacerlo con un rallador: enjuagar bien la coliflor entera y luego rallarla con mucha paciencia.\n\n\nInformación nutricional, por 150 g (1,5 cups)\n\n  37.5 kCal\n  4.5 g H de C netos, 3 g fibra, 7.5 g H de C totales\n  2.9 g proteina\n  0.4 g grasa\n\n\n",
         tags: ["vegano","vegetariano","bajo en hidratos","coliflor"],
-        id: 166
+        id: 168
     });
     
 
@@ -1517,7 +1535,7 @@ var index = lunr(function () {
         category: ["side"],
         content: "\n\nThis can be used to substitute couscous or rice as a sidedish, as well as in some recipes. I usually either make it in the microwave with some salt, or stir fry it with a bit of oil. I will post some of the things I like to make, but would love to hear your ideas!\n\n\n  1 cauliflower, fresh, cut into florets, clean and dry\n\n\n\n  If using a foodprocessor: rinse the cauliflower florets and, once dry, introduce in the processor (2-3 batches per cauliflower) and process until you get a rice or couscous consistency, abouy 30-60 seconds.\n  If using a mixer: rinse the cauliflower and introduce in batches in the standing mixer with some water and mix; once acquired the desired texture, drain.\n  \n    If using a grater: rince the cauliflower properly and grate patiently.\n  \n  Nutritional info, for 150 g (1,5 cups)\n    \n      37.5 kCal\n      4.5 g net carbs, 3 g fiber, 7.5 g total carbs\n      2.9 g protein\n      0.4 g fat\n    \n  \n\n\n",
         tags: ["cauliflower","vegan","vegetarian","low-carb"],
-        id: 167
+        id: 169
     });
     
 
@@ -1526,7 +1544,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\n  1 cup de dal seco (lentejas peladas); yo uso lentejas coral que se cocinan mas rapido\n  3 cebollas\n  Opcional: tomate, pimiento, o cualquier cosa que tengais por la nevera.\n  Opcional: chilis verdes frescos, al gusto (yo pongo 3)\n  1 tsp comino en grano\n  1 tsp garlic paste (aprox 2 dientes de ajo)\n  1 tsp ginger paste (jengibre)\n  1/2 tsp curcuma\n  1.5-2 tsp de garam masala (al gusto)\n  Sal, al gusto\n  Aceite\n  Opcional, para servir: limon, cilantro fresco.\n\n\n\n  Elaboracion\n    \n      En una cazuela, poner el dal con el doble de agua, sal y una pizca de curcuma. Cuando empiece a hervir, poner a fuego bajo y tapar.\n      Mientras tanto, en una sarten, poner el aceite y el comino.\n      Cuando el comino este dorado, agregar el chili, la cebolla (y otras verduras que tarden en cocinarse, si se emplean) y la sal.\n      Cocinar la cebolla a fuego medio hasta que este bien blanda.\n      Agregar el ajo y el jengibre. Cocinar removiendo un minuto.\n      Agregar el resto de especias.\n        \n          En este punto se podrian echar las verduras que tarden menos en cocinarse, como el tomate.\n        \n      \n      Cocinar unos 30 seg-1 minuto, sin que se quemen. Apagar el fuego.\n      Entre tanto, se deben haber estado cocinando las lentejas; el tiempo de coccion varia segun el gusto, entre 30 y 60 minutos.\n        \n          A mi no me importa que todavia quede algo de ‘textura’, pero se puede dejar hasta que se forme un pure, como veis en el video.\n          Si las lentejas han quedado demasiado liquidas, se puede dejar hervir unos minutos destapado a fuego alto; si ha quedado muy espesa, poner mas agua.\n        \n      \n      Agregar las verduras en la cazuela del dal y dejar hervir unos 5-10 minutos las dos cosas juntas.\n    \n  \n\n\nServir con un chorro de zumo de limon y, si os gusta, con cilantro fresco.\n\n",
         tags: ["vegano","vegetariano","indio","currys"],
-        id: 168
+        id: 170
     });
     
 
@@ -1535,7 +1553,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\nEste es un relleno genial para hacer wraps. Para envolverlo puedes usar lo que tengas - yo hice una especie de crepes, pero puedes utilizar tortillas de trigo, chapati o dosa para mantenerlo vegano.\n\n  1 cup harina de trigo (integral o blanca)\n  1/2 cup avena\n  1/4-1/2 tsp sal, 1 huevo, agua 1-1.5 cup\n  Tres tomates\n  Media cebolla o una chalota\n  Perejil o cilantro fresco\n  Un aguacate\n  Bote de 400 g (peso escurrido) de judias/frijoles rojos\n  1-2 cdas de pasta de tomate, al gusto. Si no disponible, se puede sustituir por tomate natural (y cocinar mas tiempo)\n  Sal, al gusto (1/2 tsp)\n  Especias, al gusto: 1 tsp comino molido, 1 tsp cilantro molido.\n  Opcional: 1/2 cebolla. \n  Chili, al gusto. Yo uso 3-4 chilis frescos sin semillas\n\n\n  Elaboracion\n    \n      Para formar la masa de los crepes, agregar el agua (1-1.5 tazas) poco a poco hasta tener una masa ligera. Dejar reposar 10-15 min. Cocinar los crepes a fuego medio-alto en una sarten antiadherente con muy poco aceite.\n      Preparar la mezcla de tomate, picando la cebolla y tomate finamente y mezclar con sal y perejil o cilantro, sin echar la sal hasta justo antes de servir (para que el tomate no suelte agua mientras reposa).\n        \n          Si el sabor de la cebolla es demasiado fuerte, se puede remojar 10-15 min en agua fria para que se vuelva mas suave.\n        \n      \n      Para preparar el aguacate: cortar en rodajas, agregar el limon, sal y pimienta y mezclar bien.\n      Para preparar el relleno:\n        \n          Sofreir la cebolla si se va a emplear; luego, agregar todos los ingredientes a la vez.\n          Yo pongo las judias junto al liquido del bote, pero quien no quiera usarlo puede escurrirlas y agregar agua.\n          Cocinar a fuego medio, removiendo, hasta tener una mezcla bastante espesa.\n        \n      \n      Rellenar los crepes con el tomate, aguacate y el relleno de judias, enrollar, y listo!\n    \n  \n\n\nUn plato perfecto para los dias sin carne!\n\n",
         tags: ["vegano","vegetariano"],
-        id: 169
+        id: 171
     });
     
 
@@ -1544,7 +1562,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\nThis is a great filling for a wrap. You can use a crepe-type wrap like I did, or other things like tortillas, chapati or dosa to keep it vegan.\n\n  1 cup flour (whole wheat or all-purpose flour)\n  1/2 cup oats\n  1/4-1/2 tsp salt\n  1 egg\n  Three tomatos\n  Half an onion or one shalot, fresh parsley or coriander, salt\n  One avocado\n  400 g of cooked red kidney beans.\n  1-2 tbsp tomato paste, to taste. If not available, can be substituted for fresh tomato (but will require longer cooking time).\n  Salt, to taste (1/2 tsp)\n  Spices, to taste: 1 tsp coriander, 1 tsp cumin\n  Optional: 1/2 onion.\n  Chili, to taste. I use 3-4 fresh chilies, taking the seeds out.\n\n\n  Process\n    \n      To form the crepe mixture, mix the dry ingredients, add the egg, mix and then add the water (1-1.5 cups), a little bit at a time, until you get a thin consistency. Let it sit for 10-15 min. Then cook in a very lightly greased nonstick pan on medium-high heat.\n      For the tomato mixture, chop the tomatoes, half an onion, parsley or coriander and salt and mix; do not add the salt until the very end to prevent the tomato from releasing water.\n        \n          If the raw onion flavour is too much, put the chopped onion in cold water for 10-15 min before using.\n        \n      \n      To prepare the avocado: slice it, add some lemon juice, salt and pepper and mix.\n      To prepare the filling:\n        \n          Fry the onion, if using; then, add all the ingredients at the same time.\n          I use the red kidney beans with the liquid from the jar too, but if you want to, you can substitute it for water.\n          Cook on medium heat, stirring, until the mixture is quite thick.\n        \n      \n      Fill the crepes with the tomato, avocado and beans, wrap it up and eat!\n    \n  \n\n\nA perfect recipe for meatless days!\n\n",
         tags: ["vegan","vegetarian"],
-        id: 170
+        id: 172
     });
     
 
@@ -1553,7 +1571,7 @@ var index = lunr(function () {
         category: ["pan"],
         content: "\n\n  200 g arroz cocido \n  50 g harina\n  50 g yogur\n  Sal, al gusto (1/4 tsp)\n\n\n  Elaboracion\n    \n      Poner todos los ingredientes en un recipiente.\n      Agregar un poco de agua (1/4 cup) y batir. Agregar mas agua poco a poco.\n      Batir hasta obtener una masa homogenea y ligera, como de crepe.\n      Dejar reposar unos 10 minutos.\n      En una sarten antiadherente a fuego medio-alto con una pizca de aceite, verter un poco de masa.\n      Voltear la sarten hacia los lados para que la masa se distribuya homogeneamente.\n      Dejar 1-2 minutos por ese lado y luego darle la vuelta con una espatula.\n        \n          Hay que hacerlo con cuidado porque se rompen facilmente.\n          Si se rompiera, echar un poquito de masa en la grieta para que cuaje y la selle.\n        \n      \n      Cocinar por el otro lado otros dos minutos y poner en un plato.\n    \n  \n\n\nServir con chutney o con un relleno.\n",
         tags: ["vegano","vegetariano","indio"],
-        id: 171
+        id: 173
     });
     
 
@@ -1562,7 +1580,7 @@ var index = lunr(function () {
         category: ["bread"],
         content: "\n\n  200 g cooked rice\n  50 g flour\n  50 g yogurt\n  Salt, to taste (1/4 tsp)\n\n\n  Process\n    \n      Put all the ingredients in a container.\n      Add about 1/4 cup of water and blend. Add more water a bit at a time.\n      Blend until you get a smooth consistency, like crepe batter.\n      Let it sit for 10 minutes.\n      In a nonstick pan on medium-high heat, slightly greased, pour a splash of the batter.\n      Tilt the pan to the sides so the batter distributes properly.\n      Leave 1-2 minutes on that side and then flip over with a espatula.\n        \n          Be careful in this step because dosas could break.\n          If it does break, pour a little bit of batter on the crack and let it set.\n        \n      \n      Cook on the other side for two more minutes and transfer into a plate.\n    \n  \n\n\nServe plain with chutney or stuff it!\n\n",
         tags: ["indian","vegan","vegetarian"],
-        id: 172
+        id: 174
     });
     
 
@@ -1571,7 +1589,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\n  1 cup dal (dry lentils); I like using red lentils, which cook fast\n  3 onions\n  Optional: tomato, peppers or any veggies lying around the kitchen\n  Optional: fresh green chillies to taste (I use 3)\n  1 tsp whole cumin seeds\n  1 tsp garlic paste (about 2 garlic cloves)\n  1 tsp ginger paste\n  1/2 tsp turmeric\n  1.5-2 tsp  garam masala (to taste)\n  Salt, to taste\n  Oil\n  Optional, to garnish: lemon, fresh coriander.\n\n\n\n  Process\n    \n      En a casserole, put water with a pinch of turmeric and the dal; once boiling, cover and simmer on low heat, stirring occasionally.\n      Meanwhile, in a pan, add some oil and the cumin seeds.\n      Once the cumin is golden, add the chili and onions (and any other vegetable you might use that takes long to cook).\n      Cook on medium heat until the onion is tender.\n      Add the garlic and the ginger paste and cook stirring for a minute.\n      Add the other spices.\n        \n          At this point you could add soft vegetables such as tomatoes and let them cook for a couple of minutes.\n        \n      \n      Cook about 30 sec-1 min, then turn off the heat.\n      During this time, the dal should’ve been cooking; the simmering time depends on the type of lentil and your taste (30-60min)\n        \n          I don’t mind if my dal stil has some texture to it, but if you leave it long enough, it will form a puree like in the video\n          If the dal is too liquid, turn up the heat and cook uncovered a couple of minutes; if it’s too dense, add a splash of water.\n        \n      \n      Mix in the vegetables with the dal and cook together for 5-10 minutes.\n    \n  \n\n\nServe with a splash of lemon juice and some fresh coriander.\n\n",
         tags: ["vegan","vegetarian","indian","curry"],
-        id: 173
+        id: 175
     });
     
 
@@ -1580,7 +1598,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\nHoy vamos a hacer un aperitivo tipico de Gujrat: un bizcocho salado de garbanzos.\n\n\n  1 cup chana dal / garbanzos - remojados toda la noche\n  3 tbsp yogur (mejor si yogur un poco ácido, que se haya quedado por la noche fuera del frigo)\n  2 tsp de zumo de limón\n  1 tbsp green chili-ginger paste o bien 2 tsp de ginger paste\n  3/4 tsp sal\n  1 cup agua (poner medio cup y luego ir añadiendo poco a poco)\n  Opcional: 1/8 tsp cúrcuma, a riesgo de que e dhokla acabe siendo rosa.\n  1'5 tsp de bicarbonato\n  Para el tadka: 1 tbsp aceite, 1/2 tsp mostaza, 1 tsp sésamo , Chili rojo al gusto, Opcional:asafétida, 2 tbsp agua, 1/2 tbsp azúcar, 1 tbsp zumo de lima o limón. , Opcional: 4 chilis verdes sin semillas cortados en tiras, hojas de curry\n  Para servir: 1 tbsp coco (mejor fresco), cilantro fresco.\n\n\n\n  Elaboración\n\n\n\n  Escurrir los garbanzos remojados, poner en una batidora y añadir media cup de agua y el yogur. Ir batiendo y añadiendo agua según sea necesario hasta que quede una masa espesa pero que fluya. Dejar la mezcla fermentar en un lugar templado unas 5-6 horas (saldrán burbujitas).\n  Añadir a la masa fermentada el limón, la sal, el jengibre y la cúrcuma. Remover.\n  Engrasar el molde que se va a usar (uno redondo grande o dos moldes cuadrados pequeños).\n  Añadir el bicarbonato a la mezcla (a partir de este momento empieza a reaccionar y hay que actuar rápido), mezclarlo MUY bien (para que quede uniformemente esponjoso) y verterlo en el molde. Si se van a usar dos moldes, mejor separar en dos la mezcla y añadir el bicarbonato a cada mitad justo antes de meterla.\n  Meter en el microondas unos 4 minutos (puede ser más si se usa un solo molde. NO meter dos moldes a la vez!) o hasta que al insertar un palillo en el centro salga más o menos limpio. Versión original: hacer al vapor unos 10-15 minutos\n  Mientras tanto, preparar el tadka: primero poner el aceite y las semillas de mostaza; cuando empiecen a saltar añadir el sésamo, quitar del fuego, añadir el asafétida, dejar que baje la temperatura, añadir el agua + azúcar y dejar que hierva unos segundos (aprox 30 seg). Quitarlo del fuego y añadir el limón.\n  Una vez haya cuajado, echar por encima el tadka con una cuchara para que se distribuya uniformemente.\n  Por ultimo, echar por encima el coco y el cilantro.\n\n\n\n  Servir cortado en cuadraditos, junto al chutney que prefirais (mint, tamarind o green chutney)\n\n\n",
         tags: ["indio","vegano","vegetariano"],
-        id: 174
+        id: 176
     });
     
 
@@ -1589,7 +1607,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\nThis is a very popular snack from Gujrat: a savory spongecake made with chickpeas.\n\n\n  1 cup chana dal / chickpeas - soaked overnight\n  3 tbsp yogurt (best if left overnight outside of the fridge so it is more sour)\n  2 tsp lemon juice\n  1 tbsp green chili-ginger paste or 2 tsp ginger paste\n  3/4 tsp salt\n  1 cup water _start with half, then add slowly\n  Optional: 1/8 tsp turmeric (but if you use too much, the dhokla might end up pink!)\n  1'5 tsp baking soda\n  For the tadka: 1 tbsp oil, 1/2 tsp mustard seeds, 1 tsp sesame seeds , red chili to taste, Opcional:asafoetida, 2 tbsp water, 1/2 tbsp sugar, 1 tbsp lemon or lime juice , Optional: 4 seedless green chillies cut lenghtwise, curry leaves\n  To serve: 1 tbsp coconut (better if fresh), fresh coriander.\n\n\n\n  Process\n\n\n\n  Drain the soaked chickpeas, put in a food processor, add half a cup of water and the yogurt and process until you have a thick but smooth batter. Add water (a little at a time) if necessary. Then, let the batter outside in a warm place for 5-6 hours (you should see some bubbles appear).\n  Add the lemon, salat, ginger and turmeric to the fermented mixture. Mix.\n  Grease the mold you will be using (one big round one or two small square ones).\n  Add the baking soda (from now on you have to be fast as the reaction has already started), mix VERY well and pour on a mold.\n  Microwave for 4 minutes (I used two different molds and microwaved them separately) until set, or until a toothpick inserted in the middle comes out clean. Original version: steam for about 10-15 minutes\n  Meanwhile, prepare the tadka: first fry the mustard seeds in the oil; when they start to pop add the sesame, take off the stove, add the asafoetida, let it cool down, then add the other ingredients.\n  Once it has set, pout the tadka over the top with a spoon so it is well distributed.\n  To finish, sprinkle the coconut and coriander over the top.\n\n\n\n  Serve in squares with your favorite chutney (mint, tamarind or green chutney)\n\n\n",
         tags: ["indian","vegan","vegetarian"],
-        id: 175
+        id: 177
     });
     
 
@@ -1598,7 +1616,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\n\n  1 tbsp jengibre rallado\n  2-3 chilis verdes (o pimientas de cayena)\n  Zumo de 1/2 limon (1 tbsp zumo de limon)\n  2 tsp pimienta negra\n  1 tsp comino en grano\n  Rama de canela (4-5 cm)\n  Opcional: 1 cardamomo negro\n  2 tsp comino tostado molido (tostar las semillas 5 minutos en una sarten y luego moler)\n  2-3 hojas de laurel\n  2-3 dientes de ajo picado\n  1/4 cup de hojas de cilantro picadas\n  1 1/4 cup de te negro (dejar infusionar 3 minutos en agua caliente)\n  2 tomates pequeños, picados\n  1/2 cebolla grande picada, y algunos trozos extra para poner al final\n  500-600 g de garbanzos cocidos\n  2-3 tbsp aceite vegetal\n  1 tsp garam masala\n\n\n  \n    Elaboracion\n\n    \n      En una sarten grande, calentar el aceite y añadir el cardamomo, canela, laurel, semillas de comino y la cayena si se utiliza.\n      Cocinar unos segundos hasta que empiece a oler bien.\n      Añadir el ajo, jengibre y chili verde. Saltear 30 segungos.\n      Añadir la cebolla y cocinar a fuego lento tapado varios minutos hasta que poche.\n      Agregar los tomates picados. Cocinar unos 5-10 minutos.\n      Añadir los garbanzos y el te negro. Echar sal al gusto (probarlo), pimienta, el comino tostado y garam masala.\n      Cocinar sin tapa unos 10 minutes, removiendo con frecuencia.\n      Añadir el zumo de limon, probar para ajustar la sal y especias.\n      Agregar las hojas de cilantro. Echar cebolla cruda por encima y servir con limon.\n    \n  \n\n\nLo ideal para la cebolla cruda es usar cebolla roja; si no disponeis, se puede dejar la cebolla picada unos 10 minutos en agua fria para que sea menos fuerte.\n\n",
         tags: ["vegano","vegetariano","indio","currys"],
-        id: 176
+        id: 178
     });
     
 
@@ -1607,7 +1625,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\n\n  1 tbsp grated ginger\n  2-3 green chillies / dried red chillies\n  1/2 a lemon, squeezed (1 tbsp lemon juice)\n  2 tsp black pepper\n  1 tsp cumin seeds\n  2 inch piece cinnamon\n  Optional: 1 black cardamom\n  2 tsp roasted cumin powder (dry roast in a pan for about 5 minutes, then powder)\n  2-3 bay leaves\n  2-3 cloves garlic\n  1/4 cup coriander leaves, finely chopped\n  1 1/4 cup black tea (let the tea bag in the hot water for 3 minutes)\n  2 roma tomatoes, finely chopped\n  1/4 cup onion, chopped (plus extra for garnishing)\n  2 cans canned chickpeas/ garbanzo beans, drained and washed - about 500-600 grams\n  2-3 tbsp vegetable oil\n  1 tsp garam masala\n\n\n  \n    Process\n\n    \n      In a big enough saucepan, heat the oil. Add in the cinnamon, bay leaves, black cardamom and cumin seeds (and dried red chillies if using any).\n      Cook for 30 seconds until the aroma develops.\n      Add the ginger, garlic and green chillies. Cook stirring for 30 seconds.\n      Add the onions and cook on medium heat, covered, until soft.\n      Add the chopped tomatoes and cook for 5-10 minutes.\n      Pour the tea and the chickpeas into the pan. Add salt to taste and the rest of spices.\n      Cook uncovered, stirring occasionally, for 10 minutes.\n      Add the lemon juice, test to adjust seasoning.\n      Mix the coriander leaves, garnish with raw onion and serve with lemon slices.\n    \n  \n\n\nThe best to use is red onion for the garnishing; if non available, I recommend leaving them in cold water for 10 minutes so their taste gets milder.\n\n",
         tags: ["vegan","vegetarian","indian","curry"],
-        id: 177
+        id: 179
     });
     
 
@@ -1616,7 +1634,7 @@ var index = lunr(function () {
         category: ["pan"],
         content: "\n\n\n  Para la masa: 1 cup harina integral (o blanca), 1/4 tsp sal, 1/3 cup agua (muy variable. Añadir poco a poco)\n  1/2 cup guisantes cocinados (de lata)\n  1/2 tsp comino en grano\n  1/2 tsp comino en polvo\n  Sal (a gusto)\n  1/4 tsp chili en polvo (a gusto)\n  1/8 tsp asafoetida\n  Opcional: pimienta negra molida\n  Opcional: 1 tbsp cilantro picado\n\n\n  \n    Elaboración\n\n    \n      Formar la masa de pan al igual que una masa de roti/chapati.\n      Para el relleno: aplastarlo todo con un tenedor y probar para ajustar las especias y la sal.\n      Dividir la masa en cuatro bolas.\n        \n          Con cada una formar un disco (mas grueso en el centro)\n          Poner en el centro un cuarto del relleno (una cucharada generosa)\n          Sellar los bordes\n          Extender con un rodillo, harina y mucho amor.\n        \n      \n      Cocinar en un tawa o en una sarten a fuego medio-alto.\n      Extender un poco de mantequilla al sacar de la sarten, cuando este aun caliente.\n    \n  \n\n\n",
         tags: ["indio","vegano","vegetariano"],
-        id: 178
+        id: 180
     });
     
 
@@ -1625,7 +1643,7 @@ var index = lunr(function () {
         category: ["bread"],
         content: "\n\n\n   Para the dough: 1 cup flour, 1/4 tsp salt, 1/3 cup water (depends on the flour, add little at a time)\n   1/2 cup cooked green peas\n   1/2 tsp whole cumin seeds\n   1/2 tsp cumin powder\n   Salt (to taste)\n   1/4 tsp chili (to taste)\n   1/8 tsp asafoetida\n   Optional: black pepper \n   Optional: 1 tbsp fresh coriander\n\n\n  \n    Process\n\n    \n      Make the dough in the same way as for roti/chapati.\n      To make the filling: mash everything together with a fork. Taste for salt.\n      Divide the dough into four balls.\n        \n          With each one, form a disk (slightly thicker in the center)\n          Put about a tbsp of the filling on top of the disk\n          Seal the edges on top\n          Form the paratha with a rolling pin, flour and lots of care.\n        \n      \n      Cook in a pan or tawa over medium-high heat.\n      Once cooked, spread some butter on top while it is still warm.\n    \n  \n\n\n",
         tags: ["vegan","vegetarian","indian"],
-        id: 179
+        id: 181
     });
     
 
@@ -1634,7 +1652,7 @@ var index = lunr(function () {
         category: ["aperitivo"],
         content: "\n\n\n 1/3 cup + 1/4 harina\n 1/4 cup azucar (o algo menos)\n 1/4 tsp sal\n 1/2 tsp bicarbonato\n 1/2-1 tbsp aceite vegetal o de coco\n 2 tbsp coco rallado\n 1-3 tbsp leche de coco\n Opcional: 1/2 tsp vainilla y/o 1/4 tsp canela\n\n\n\n  Elaboracion\n    \n      Mezclar primero todos los ingredientes secos (incluido el azucar).\n      Agregar el aceite y mezclar bien con una cuchara para que quede bien distribuido (debe quedar una mezcla un poco arenosa)\n      Agregar 1 tbsp leche de coco (y el extracto de vainilla si se utiliza) y comenzar a mezclar. Echar poco a poco mas leche de coco segun absorba la harina, para que quede una mezcla pegajosa y humeda, como en la foto.\n      Formar las galletas sobre un plato engrasado o un plato con papel vegetal (forma 10 galletitas o para 5 grandes).\n      Opcional, pero muy recomendable: chupetear todo el material utilizado. :relaxed:\n      Cocinar en el microondas - el tiempo depende de cada microondas. En mi caso fueron unos 2 minutos. Cuando estan hechas parecen un poquito crudas, pero despues de reposar estaran perfectas. Si se hacen en exceso, quedaran secas y duras!\n    \n  \n\n\nEl resultado: unas galletas con textura de bizcocho. Buenisimas!\n",
         tags: ["coco","dulce","vegano","vegetariano"],
-        id: 180
+        id: 182
     });
     
 
@@ -1643,7 +1661,7 @@ var index = lunr(function () {
         category: ["snack"],
         content: "\n\n\n  1/3 cup + 1/4 flour\n  1/4 cup sugar (or less to taste)\n  1/4 tsp salt\n  1/2 tsp baking soda\n  1/2-1 tbsp vegetal or coconut oil\n  2 tbsp dissecated coconut\n  1-3 tbsp coconut milk (or regular milk)\n  Optional: 1/2 tsp vanilla and/or 1/4 tsp cinnamon\n\n\n\n  Process\n    \n      In a bowl, mix the flour, salt, baking soda, sugar and coconur.\n      Add the oil and mix thoroughly with a spoon.\n      Add 1 tbsp coconut milk (and vanilla extract if using) and mix. Add milk a little at a time.\n      Form the biscuits and lay on parchment paper (makes 10 small or 5 big biscuits).\n      Optional, but should be done: eat everything left behind in the bowl and spoon! :)\n      Cook in the microwave for about 90-120 seconds (time depends on the microwave so be careful!)\n        \n          In the beggining the might look undercooked; let them sit for 10 minutes before eating.\n          If overcooked, they get tough and dry!\n        \n      \n    \n  \n\n\nThe result: spongy and sweet cookies. Delicious!\n\n",
         tags: ["coconut","sweet","vegetarian","vegan"],
-        id: 181
+        id: 183
     });
     
 
@@ -1652,7 +1670,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n \n 1 kg pollo, mejor muslos y contramuslos. Para marinar: 1/2 cup yogur (125g), 1/2 cucharadita de comino, 1/2 cdita cilantro molido, 1/4 cdita curcuma, 1/4 cdita chili molido (al gusto), sal, pimienta, 1/4 taza de cilantro fresco picado y 1/4 taza menta picada\n Arroz basmati, dos tazas (mejor si se enjuaga antes) - hervir en agua con sal\n Yogur: 1/2 taza (125 g)\n 2 cebollas medianas, fritas hasta que esten caramelizadas\n Verduras al gusto: 1 pimiento rojo, guisantes cocidos\n Ajo (Garlic paste): 2 cditas\n Jengibre (Ginger paste): 2 cditas\n Opcional: Chili verde al gusto.\n Masala inicial: Rama de canela, una hoja de laurel, 4 cardamomos verdes, 4 clavos. Opcional: 5-6 granos de pimienta negra, 1 cardamomo negro, 3 trozos de mace (se puede sustituir por un poco de nuez moscada)\n 1 cdita de comino negro (o comino normal)\n Especias en polvo: 1 cdita comino, 1 cdita cilantro, 1/4 cdita curcuma, 1/4 cdita chili (al gusto), sal al gusto (1/2 cdita). Opcional: 1/2 cdita garam masala.\n Menta fresca: 1/4 taza\n Cilantro fresco: 1/4 taza\n\n\n  Elaboración\n    \n      Freir lentamente la cebolla con un poco de sal hasta que caramelice.\n      Hervir el arroz unos 6 minutos hasta que quede hecho al 80%.\n      Freir en un poco de aceite el masala inicial. Una vez dore un poco, agregar el comino negro. Sofreir unos segundos y agregar el ajo,  jengibre y chili verde.\n      Freir un minuto.\n      Agregar el pollo y el resto de especias y verduras.\n      Cocinar unos 15-20 minutos; al pollo&lt;/br&gt; deben faltarle unos 10 minutos, debe estar un poco crudo.\n      En una olla con aceite, hacer las capas del biryani: arroz - pollo - verduras - arroz - verduras - cebolla.\n      Tapar la olla y dejar que se termine de cocinar todo junto durante unos 20 minutos, comprobando que el arroz y el pollo estan bien cocidos.\n    \n  \n\n\nServir con  una salsa de yogur y menta o con Raita de cilantro y menta.\n\n",
         tags: ["pollo","arroz","indio"],
-        id: 182
+        id: 184
     });
     
 
@@ -1661,7 +1679,7 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\n  1 kg chicken, better with bones. \n  For marinating: 1/2 cup yoghurt (125g),  1/2 tsp cumin, 1/2 tsp coriander, 1/4 turmeric, 1/4 chili, salt, 1/4 cup fresh coriander and 1/4 fresh mint\n  2 cups of basmati rice - to be cooked in salty water\n  Yoghurt: 1/2 cup (125 g)\n  2 medium onions, caramelized\n  Vegetables to taste: red pepper, cooked green peas\n  Garlic paste: 2 tsp\n  Ginger paste: 2 tsp\n  Optional: Green chili to taste.\n  Whole spices: cinnamon, bayleaf, 4 green cardamoms, 4 cloves. Others, optional: 5-6 black peppercorns, 1 black cardamom, 3 pieces of mace (can be subbed for a bit of nutmeg)\n  1 tsp black cumin _(or regular cumin)\n  Ground spices: 1 tsp cumin, 1 tsp coriander, 1/4 turmeric, 1/4 chili, 1/2 salt (to taste). \n  Optional: 1/2 tsp garam masala.\n  Fresh mint: 1/4 cup\n  Fresh coriander: 1/4 cup\n&lt;/ul&gt;\n* **Process**\n  1. Fry the onion on very slow heat with a pinch of salt until caramelized. \n  2. Boil the rice about 6 min, until 80% cooked through.\n  3. In vegetable oil, fry the whole spices for a few secons. \n  4. Add the black cumin and let crackle, being careful not to burn it.\n  5. Add the garlic, ginger and green chili. Fry for 1 minute. \n  6. Add the chicken, vegetables and the rest of the spices.\n  7. Cook for 15-20 minutes; the chicken must be slightly undercooked.\n  8. In a greased casserole, form the biryani layers: rice - chicken - rice - onion.\n  9. Cover and let everything cook slowly for about 20 minutes.\n  10. Check that the rice and chicken are properly cooked before serving.\n\n_Serve with yoghurt-mint sauce or with coriander-mint Raita._\n\n",
         tags: ["rice","chicken","indian"],
-        id: 183
+        id: 185
     });
     
 
@@ -1670,7 +1688,7 @@ var index = lunr(function () {
         category: ["principal"],
         content: "\n\n  500 g frijoles rojos\n  2 tbsp besan (harina de garbanzos) - se puede sustituir por harina de avena o por pan rallado\n  2 tsp comino\n  2 tsp paprika\n  1 tsp oregano\n  2 tsp cebolla deshidratada\n  1/2 tsp ajo en polvo\n  1/4-1/2 tsp sal (empezar con poco e ir probando)\n  1/2 tsp pimienta\n  1/4-1/2 tsp chili en polvo\n  Opcional: pizca de salsa Worcestershire\n  2 tbsp cilantro picado \n  Opcional: pan rallado con un poco de sal\n \n\n  Elaboracion\n    \n      Con un tenedor, aplastar los frijoles hasta tener una pasta con tropezones.\n      Agregar el resto de ingredientes. Poner la harina poco a poco hasta que quede una masa manejable.\n      Formar las “hamburguesas” con las manos.\n        \n          Opcional: pasarlas por un poco de pan rallado por fuera, para que sea mas facil formarlas.\n        \n      \n      Cocinar en una sarten con aceite a fuego medio-alto, no moviendolas los primeros minutos para que mantengan mejor su forma.\n    \n  \n\n\nServir con aguacate, salsa de chipotle, o con lo que mas te guste!\n",
         tags: ["vegano","vegetariano"],
-        id: 184
+        id: 186
     });
     
 
@@ -1679,12 +1697,28 @@ var index = lunr(function () {
         category: ["main"],
         content: "\n\n\n  500 g cooked red kidney beans\n  2 tbsp besan (chickpea flour) - can be subbed for oat flour or breadcrumbs\n  2 tsp cumin\n  2 tsp paprika\n  1 tsp oregano\n  2 tsp onion powder\n  1/2 tsp garlic powder\n  1/4-1/2 tsp salt (start with less and adjust to taste)\n  1/2 tsp black pepper\n  1/4-1/2 tsp chili\n  Optional: a bit of Worcestershire sauce\n  2 tbsp chopped fresh coriander \n  Optional: breadcrumbs with salt to coat the burguers\n\n\n  Process\n    \n      With a fork, mash the beans to get a paste that still has some texture.\n      Add the rest of ingredients.\n      Form the “burguers” using your wet hands.\n        \n          Optional: coat with breadcrubs, which makes the forming easier.\n        \n      \n      Cook in an oiled pan over medium-high heat, not moving it in the first few minutes.\n    \n  \n\n\nServe with avocado, chipotle sauce, or whatever you like!\n",
         tags: ["vegan","vegetarian"],
-        id: 185
+        id: 187
     });
     
 
 
 var store = [{
+    "title": "Paratha queso-brocoli",
+    "link": "/parathaBrocoli",
+    "image": null,
+    "date": "19 Mar, 2017",
+    "category": ["pan"],
+    "content": "<p><img src=\"https://farm3.staticflickr.com/2911/33142336950_46222c202f_o_d.jpg\" /></p>\n\n<p>Una receta simple con solo 5 ingredientes para preparar parathas de brocoli rellenos de queso de untar. Son deliciosos para desayunar con una salsa india (pickle), y si eres vegano puedes usar la misma receta empleando queso de untar de almendra en lugar de queso de leche.</p>\n\n<ul>\n  <li>1/2 manojo de brocoli (250 g)</li>\n  <li>3,5 tbsp polvo de psyllium (28 g)</li>\n  <li>Un buen pellizco de sal</li>\n  <li>8 tbsp (120g) de queso de untar (lo puedes sustituir por paneer si quieres)</li>\n  <li>4 cucharaditas de ghee</li>\n  <li>Especias al gusto (opcional)</li>\n</ul>\n\n<ul>\n  <li><strong>Elaboracion</strong>\n    <ol>\n      <li>Cocina el brocoli (hirviendolo o al vapor) hasta que se pueda pinchar con un tenedor, sin sobrecocinar para que no pierda el color.</li>\n      <li>Batelo con 2 cucharadas de agua.</li>\n      <li>Agrega el psyllium y sal al pure de brocoli, junto a las especias que quieras (ajo y cebolla en polvo irian genial) y mezcla hasta tener una masa.</li>\n      <li>Divide la masa en 8 partes iguales.</li>\n      <li>Utilizando un rodillo o un chakla (yo cubro la superficie con film transparente para que no se pegue, mojando un poco la superficie antes para que luego el film no se mueva), forma un disco de aproximadamente 1 mm de grosor con cada trozo de masa.</li>\n      <li>Coge un disco, extiende dos cucharadas de queso por encima, pon otro disco encima y cierra los bordes.</li>\n      <li>Derrite 1 cucharadita de ghee en una sarten antiadherente a fuego medio-alto. Cocina el paratha unos 3-4 minutos por el primer lado hasta que este dorado, luego cocina el otro lado otros 2-3 minutos.</li>\n      <li>Cocina los cuatro parathas de esta manera y sirvelos con una salsa baja en hidratos.</li>\n    </ol>\n  </li>\n  <li><strong>Informacion nutricional</strong>, por paratha (la receta es para 4 parathas)\n    <ul>\n      <li>144 kCal</li>\n      <li><strong>4.2 g H de C netos</strong>, 6.8 g fibra, 11.1 g H de C totales</li>\n      <li>13.7 g grasa</li>\n      <li>4.2 g proteina</li>\n    </ul>\n  </li>\n</ul>\n",
+    "excerpt": "Una receta simple con solo 5 ingredientes para preparar parathas de brocoli rellenos de queso de untar. Son deliciosos para..."
+},{
+    "title": "Broccoli Cheese Paratha",
+    "link": "/broccoliParatha",
+    "image": null,
+    "date": "19 Mar, 2017",
+    "category": ["bread"],
+    "content": "<p><img src=\"https://farm3.staticflickr.com/2911/33142336950_46222c202f_o_d.jpg\" /></p>\n\n<p>A simple, 5 ingredient recipe to make broccoli parathas stuffed with cream cheese. They are amazing with some pickle for breakfast! And if you are vegan, you can use some almond cream cheese instead of regular cream cheese.</p>\n\n<ul>\n  <li>1/2 bunch of broccoli (250 g)</li>\n  <li>3,5 tbsp psyllium husk powder (28 g)</li>\n  <li>A big pinch of salt</li>\n  <li>8 tbsp (120g) cream cheese (you can substitute for paneer if you want)</li>\n  <li>4 tsp ghee</li>\n  <li>Spices to taste (optional)</li>\n</ul>\n\n<ul>\n  <li><strong>Process</strong>\n    <ol>\n      <li>Cook the broccoli (boil or steam) until fork tender, without overcooking so it doesnt lose the green color.</li>\n      <li>Blend the broccoli with 2 tbsp water.</li>\n      <li>Add the psyllium husk and salt to the broccoli puree, along with other spices if you want (some garlic powder and onion powder could be great!) and mix until you have a dough.</li>\n      <li>Divide the dough into 8 equal parts.</li>\n      <li>Using a chakla or a rolling pin (i like to cover my surface with plastic wrap to avoid any stickiness - by putting a bit of water on the surface first, the plastic wrap won’t move when you roll), roll each part into a very thin disk of about 1 mm thickness.</li>\n      <li>Take a disk, spread 2 tbsp cheese on it, then put another disk on top. Pinch the edges to seal.</li>\n      <li>Melt 1 tsp of ghee on a non stick pan over medium high heat. Cook the paratha for 3-4 minutes on one side until it is brown, then filp and cook further 2-3 minutes.</li>\n      <li>Cook all four parathas this way and serve with a low carb pickle.</li>\n    </ol>\n  </li>\n  <li><strong>Nutritional information</strong>, per paratha (recipe makes 4)\n    <ul>\n      <li>144 kCal</li>\n      <li><strong>4.2 g net carbs</strong>, 6.8 g fiber, 11.1 g total carbs</li>\n      <li>13.7 g fat</li>\n      <li>4.2 g protein</li>\n    </ul>\n  </li>\n</ul>\n",
+    "excerpt": "A simple, 5 ingredient recipe to make broccoli parathas stuffed with cream cheese. They are amazing with some pickle for..."
+},{
     "title": "Pimientos rellenos",
     "link": "/pimientosRellenos",
     "image": null,
