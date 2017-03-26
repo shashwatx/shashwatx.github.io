@@ -1,6 +1,8 @@
 svg4everybody();
 
 jQuery(document).ready( function() {
+	
+	Dropdown.initialise();
 
 	/* Fires search results's custom scroll. */
 		jQuery(window).on('load', function(){
