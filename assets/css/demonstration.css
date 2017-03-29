@@ -82,7 +82,7 @@ color: #aaa;
 }
 
 .dropdown > li > ul > li:hover > a > span{
-  font-weight : 800;
+  /*font-weight : 800;*/
   color: #f00;
 }
 
