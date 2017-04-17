@@ -64,15 +64,22 @@ jQuery(document).ready( function() {
 
 	/* Make first unordered list in the post - recipe list. */
 		var getFirstUnList = jQuery('.post.single .post-content').find('ul:first-of-type:first');
-		getFirstUnList.addClass('recipe-ingredients').attr('id', 'recipe-ingredients').appendTo('.post-content');
+		getFirstUnList.addClass('recipe-ingredients').attr('id', 'recipe-ingredients');//.prependTo('.post-content');
+$(".post-content:first-child").after(getFirstUnList);
 		getFirstUnList.find('li').on('click', function() {
             jQuery(this).toggleClass('selected');
 		});
 	/**/
 	
 	/* Nutritional Info Box */ 
-		var nutriBox = jQuery('.post-content').find('ul:first').children(':first-child').next();
+		//var nutriBox = jQuery('.post-content').find('ul:first').children(':first-child').next();
+		var nutriBox = jQuery('.post-content').find('ul:eq(1)').children().eq(1);
 		nutriBox.addClass('nutri-box').attr('id', 'nutri-box');
+	/**/
+	
+	/* Steps Box */ 
+		var stepsBox = jQuery('.post-content').find('ul:eq(1)').children().eq(0);
+		stepsBox.addClass('step-box').attr('id', 'step-box');
 	/**/
 
 	/* Hides search results box. */
