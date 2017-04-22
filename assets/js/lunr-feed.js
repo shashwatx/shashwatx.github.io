@@ -47,9 +47,9 @@ var index = lunr(function () {
 
     index.add({
         title: "Keto Strawberry Smoothie",
-        category: ["sweet"],
+        category: ["breakfast"],
         content: "\n\nMy new favorite breakfast when I am running short of time. This smoothie is seriously amazing!\n\nFor the protein powder, you can either use a neutral flavor one (and add some stevia and vanilla extract to the smoothie) or use half vanilla flavor, half neutral flavor.\n\n\n  1/2 cup strawberries (75 g)\n  1 scoop of protein powder\n  1 tbsp chia seeds\n  1 tbsp MCT oil\n  1/2 cup coconut milk\n  A few mint leaves\n  1/2 cup ice cubes\n\n\n\n\n\n  Process\n    \n      Blend everything until very nice, smooth and pink.\n      Drink up!\n    \n  \n  Nutritional information, for the whole recipe\n    \n      488 kCal\n      8.6 g net carbs, 4.3 g fiber, 13 g total carbs\n      24.1 g protein\n      40.5 g fat\n    \n  \n\n",
-        tags: ["low-carb","vegetarian","vegan","breakfast","sweet"],
+        tags: ["low-carb","vegetarian","vegan","sweet"],
         id: 4
     });
     
@@ -2108,7 +2108,7 @@ var store = [{
     "link": "/strawberrySmoothie",
     "image": null,
     "date": "18 Apr, 2017",
-    "category": ["sweet"],
+    "category": ["breakfast"],
     "content": "<p><img src=\"https://farm3.staticflickr.com/2857/33728040910_93f845f10e_o_d.jpg\" /></p>\n\n<p>My new favorite breakfast when I am running short of time. This smoothie is seriously amazing!</p>\n\n<p>For the protein powder, you can either use a neutral flavor one (and add some stevia and vanilla extract to the smoothie) or use half vanilla flavor, half neutral flavor.</p>\n\n<ul>\n  <li>1/2 cup strawberries (75 g)</li>\n  <li>1 scoop of protein powder</li>\n  <li>1 tbsp chia seeds</li>\n  <li>1 tbsp MCT oil</li>\n  <li>1/2 cup coconut milk</li>\n  <li>A few mint leaves</li>\n  <li>1/2 cup ice cubes</li>\n</ul>\n\n<!-- -->\n\n<ul>\n  <li><strong>Process</strong>\n    <ol>\n      <li>Blend everything until very nice, smooth and pink.</li>\n      <li>Drink up!</li>\n    </ol>\n  </li>\n  <li><strong>Nutritional information</strong>, <em>for the whole recipe</em>\n    <ul>\n      <li>488 kCal</li>\n      <li><strong>8.6 g net carbs</strong>, 4.3 g fiber, 13 g total carbs</li>\n      <li><strong>24.1 g protein</strong></li>\n      <li>40.5 g fat</li>\n    </ul>\n  </li>\n</ul>\n",
     "excerpt": "My new favorite breakfast when I am running short of time. This smoothie is seriously amazing! For the protein powder,..."
 },{
