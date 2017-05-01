@@ -173,7 +173,7 @@ var index = lunr(function () {
 
     index.add({
         title: "Recipe Recommender Side Dishes",
-        category: ["side"],
+        category: ["blog"],
         content: "If you are using our Recipe Recommender, you might wonder about the recipes for the side dishes:\n\nFlax roti: use one serving of my Flax Roti.\n\nCoconut roti: use one serving of my Coconut Roti.\n\nCauli-Rice: use one cup of Cauliflower Rice cooked with 1 tbsp oil.\n\nSimple salad: use one serving of my Simple Salad.\n",
         tags: [],
         id: 18
@@ -2364,8 +2364,8 @@ var store = [{
     "link": "/sideDishes",
     "image": null,
     "date": "18 Apr, 2017",
-    "category": ["side"],
-    "content": "<p>If you are using our <a href=\"http://recommender.maria.recipes\">Recipe Recommender</a>, you might wonder about the recipes for the side dishes:</p>\n\n<p><strong>Flax roti</strong>: use one serving of my <a href=\"http://maria.recipes/flaxRoti\">Flax Roti</a>.</p>\n\n<p><strong>Coconut roti</strong>: use one serving of my <a href=\"http://maria.recipes/coconutRoti\">Coconut Roti</a>.</p>\n\n<p><strong>Cauli-Rice</strong>: use one cup of <a href=\"http://maria.recipes/cauliflowerRice\">Cauliflower Rice</a> cooked with 1 tbsp oil.</p>\n\n<p><strong>Simple salad</strong>: use one serving of my <a href=\"http://maria.recipes/simpleSalad\">Simple Salad</a>.</p>\n",
+    "category": ["blog"],
+    "content": "<p>If you are using our Recipe Recommender, you might wonder about the recipes for the side dishes:</p>\n\n<p><strong>Flax roti</strong>: use one serving of my <a href=\"http://maria.recipes/flaxRoti\">Flax Roti</a>.</p>\n\n<p><strong>Coconut roti</strong>: use one serving of my <a href=\"http://maria.recipes/coconutRoti\">Coconut Roti</a>.</p>\n\n<p><strong>Cauli-Rice</strong>: use one cup of <a href=\"http://maria.recipes/cauliflowerRice\">Cauliflower Rice</a> cooked with 1 tbsp oil.</p>\n\n<p><strong>Simple salad</strong>: use one serving of my <a href=\"http://maria.recipes/simpleSalad\">Simple Salad</a>.</p>\n",
     "excerpt": "If you are using our Recipe Recommender, you might wonder about the recipes for the side dishes: Flax roti: use..."
 },{
     "title": "Saag Gosht (Curry de cordero y espinacas)",
