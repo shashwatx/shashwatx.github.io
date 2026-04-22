@@ -1,0 +1,1 @@
+function e(e){if(!e.gameDate)return!1;const t=new Date(e.gameDate),a=new Date;return t.setHours(0,0,0,0),a.setHours(0,0,0,0),t>=a}function t(e){return!(!e.members||!e.capacity)&&e.members.length<e.capacity}function a(e){return[...e].sort((e,t)=>new Date(e.gameDate)-new Date(t.gameDate))}export{t as hasAvailableCapacity,e as isUpcomingLobby,a as sortByGameDate};
